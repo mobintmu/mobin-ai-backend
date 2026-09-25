@@ -1,0 +1,30 @@
+name: backend
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_DB: mobin
+          POSTGRES_USER: mobin
+          POSTGRES_PASSWORD: mobin
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U mobin -d mobin"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      APP_ENV: test
+      DATABASE_URL: postgresql+asyncpg://mobin:mobin@127.0.0.1:5432/mobin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - run: uv run alembic upgrade head
+      - run: uv run ruff check app scripts alembic tests
+      - run: uv run mypy app
+      - run: uv run pytest -q
+      - run: make contract && git diff --exit-code contracts/openapi.json
+      - uses: gitleaks/gitleaks-action@v2
+      - run: docker build -f deploy/Dockerfile .

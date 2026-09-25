@@ -1,0 +1,83 @@
+name: mobin-ai
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: mobin
+      POSTGRES_USER: mobin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mobin -d mobin"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks: [internal]
+    restart: unless-stopped
+  migrate:
+    image: ${API_IMAGE:-mobin-ai-backend:local}
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mobin:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@db:5432/mobin
+    volumes:
+      - ../knowledge/releases:/app/knowledge/releases:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["alembic", "upgrade", "head"]
+    networks: [internal]
+    restart: "no"
+  db-init:
+    image: pgvector/pgvector:pg17
+    env_file: ../.env
+    environment:
+      PGPASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - ./init-role.sh:/init-role.sh:ro
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    command: ["sh", "/init-role.sh"]
+    networks: [internal]
+    restart: "no"
+  api:
+    image: ${API_IMAGE:-mobin-ai-backend:local}
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mobin_app:${APP_DB_PASSWORD:?set APP_DB_PASSWORD}@db:5432/mobin
+    volumes:
+      - ../knowledge/releases:/app/knowledge/releases:ro
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+    networks: [internal]
+    restart: unless-stopped
+    stop_grace_period: 40s
+  proxy:
+    image: caddy:2.10.2
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [api]
+    networks:
+      internal:
+        ipv4_address: 172.30.80.10
+    restart: unless-stopped
+networks:
+  internal:
+    ipam:
+      config:
+        - subnet: 172.30.80.0/24
+volumes:
+  pgdata: {}
+  caddy_data: {}
+  caddy_config: {}

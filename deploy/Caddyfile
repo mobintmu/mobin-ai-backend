@@ -1,0 +1,19 @@
+api.mobinshaterian.com {
+    request_body {
+        max_size 64KB
+    }
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "no-referrer"
+    }
+    @metrics path /metrics
+    respond @metrics 404
+    reverse_proxy api:8000 {
+        header_up X-Forwarded-For {remote_host}
+        flush_interval -1
+        transport http {
+            read_timeout 90s
+        }
+    }
+}
