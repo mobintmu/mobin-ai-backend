@@ -1,0 +1,5 @@
+# PostgreSQL Foreign Data Wrappers and `postgres_fdw`
+
+**Type:** YouTube Video
+
+The provided sources describe Foreign Data Wrappers (FDW) within the context of PostgreSQL, which implement the SQL/MED standard for accessing external data stores as if they were local tables. The first source functions as a PostgreSQL wiki page, offering a broad, categorized list of various FDWs available for connecting to diverse data types, including other SQL databases, NoSQL databases, files, and web services, while cautioning that most are not officially supported. The second source specifically details the postgres_fdw module, which is an officially supplied extension for accessing data in external PostgreSQL servers, outlining its setup, configuration options for performance and connectivity, transaction management, and query optimization methods like pushing down WHERE clauses for remote execution. Together, the texts establish the concept of FDWs in PostgreSQL and provide a comprehensive overview of the ecosystem and the functionality of one essential wrapper for connecting to other PostgreSQL instances.

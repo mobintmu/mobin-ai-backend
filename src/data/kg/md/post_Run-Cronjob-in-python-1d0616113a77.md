@@ -1,0 +1,6 @@
+# Run Cronjob in python
+
+**Type:** Article
+**Tags:** Python
+
+[{'type': 'heading', 'level': 2, 'text': 'Run Cronjob in\xa0python'}, {'type': 'paragraph', 'html': 'In this article I am going to explain, how can run script on scheduled time. be careful, this script is not proper for run on kubernetis and server side program.'}, {'type': 'image', 'src': 'https://cdn-images-1.medium.com/max/800/1*pW6wsCa45-86UvdOx1xIRQ.jpeg', 'alt': 'Run Cronjob in python', 'caption': '', 'width': 640, 'height': 832}, {'type': 'code', 'lang': 'bash', 'code': 'sudo pip install schedule'}, {'type': 'code', 'lang': 'python', 'code': 'import schedule\nimport time'}, {'type': 'code', 'lang': 'python', 'code': 'def job():\n    now = datetime.datetime.now()\n    print("The current time is:", now)schedule.every(10).minutes.do(job)while 1:\n    schedule.run_pending()\n    time.sleep(1)'}, {'type': 'paragraph', 'html': 'Python job scheduling for humans. Run Python functions (or any other callable) periodically using a friendly syntax.'}, {'type': 'list', 'ordered': False, 'items': ['A simple to use API for scheduling jobs, made for humans.', 'In-process scheduler for periodic jobs. No extra processes needed!', 'Very lightweight and no external dependencies.', 'Excellent test coverage.', 'Tested on Python 3.7, 3.8, 3.9, 3.10 and 3.11']}]

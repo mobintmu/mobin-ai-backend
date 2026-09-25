@@ -1,0 +1,4910 @@
+[
+  {
+    "source": "project_project_1_0_mobinshaterian_com",
+    "target": "post_index_when_using_php_for_handle_lot_s_of_user__238",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 1.0,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+    "target": "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_addperson",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_retrieve",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_addperson",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_store",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_retrieve",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_store",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_running_multi_port_forward_with_tmux_ed5a23bc063a_kubectl",
+    "target": "post_running_multi_port_forward_with_tmux_ed5a23bc063a_tmux",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_gomock",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_integration_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_gomock",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_performance_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_gomock",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_unit_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_integration_testing",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_performance_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_integration_testing",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_unit_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_performance_testing",
+    "target": "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_unit_testing",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_createtable",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbytgid",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_createtable",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbyuserid",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_createtable",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbytgid",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbyuserid",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbytgid",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbyuserid",
+    "target": "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_go",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_viper",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_distributed_coordination",
+    "target": "post_a_microservice_that_teaches_everything_not_to_do_in_memory_lookup",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_jwtstrategy",
+    "target": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_usersrepository",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_jwtstrategy",
+    "target": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_usersrepository",
+    "target": "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_customer_behavior_data",
+    "target": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_ethical_compliance",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_customer_behavior_data",
+    "target": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_supply_demand_monitoring",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_ethical_compliance",
+    "target": "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_supply_demand_monitoring",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_getuser",
+    "target": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_transformerinterceptor",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_getuser",
+    "target": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_user_task_ownership",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_transformerinterceptor",
+    "target": "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_user_task_ownership",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_payment_pod",
+    "target": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_laravel",
+    "target": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_shetabit_payment",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_laravel",
+    "target": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_zarinpal",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_shetabit_payment",
+    "target": "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_zarinpal",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cap_theorem",
+    "target": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cassandra",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cap_theorem",
+    "target": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_redis",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cassandra",
+    "target": "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_redis",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Topic_Modeling_with_TF_IDF_and_k_means_a_157",
+    "target": "post_index_Topic_Modeling_with_Word2vec_and_k_means_156",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_product_repository",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7_productservice",
+    "target": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7_protocol_buffers",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_build_a_rag_with_llama_a24e88e1a399_llama",
+    "target": "post_build_a_rag_with_llama_a24e88e1a399",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatch",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_run",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_eliminating_code_duplication_in_go_with_go_generate_a_practical_guide_13d40dfa6df1_fieldmapping",
+    "target": "post_eliminating_code_duplication_in_go_with_go_generate_a_practical_guide_13d40dfa6df1_gogenerate",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_buildconfig",
+    "target": "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_validateconfig",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gqlgen",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_viper",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_meilisearch",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mongodb",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_golang_gin_middleware_and_health_controller_fe53ce9d9754_healthhandler",
+    "target": "post_golang_gin_middleware_and_health_controller_fe53ce9d9754_slowhandler",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_we_rebuilt_a_telecom_kpi_platform_to_handle_billions_of_records_from_json_blobs_to_flat_1a4eb6b27574_airflow_kpi_dags",
+    "target": "post_how_we_rebuilt_a_telecom_kpi_platform_to_handle_billions_of_records_from_json_blobs_to_flat_1a4eb6b27574_flat_columnar_architecture",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_microservice_that_teaches_everything_n_16_article",
+    "target": "post_using_tmux_to_startup_command_run_when_development_software_e63a5f106805_article",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_sendrequestconfirm",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_sendrequestinitial",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mastering_the_manual_a_guide_to_manually_installing_postgresql_jdbc_drivers_in_dbeaver_ac5c1507c94b_dbeaver_driver_manager",
+    "target": "post_mastering_the_manual_a_guide_to_manually_installing_postgresql_jdbc_drivers_in_dbeaver_ac5c1507c94b_postgresql_jdbc_driver",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_neo4j_knowledge_graph_a4a11a46f7b8_neo4j",
+    "target": "post_neo4j_knowledge_graph_a4a11a46f7b8_titles_and_skills_dataset",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_poll",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_start",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_opentransaction",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_verifytransaction",
+    "score": 1.0,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_the_scalable_go_worker_12",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_add_sonarqube_to_the_golang_project_74",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.9,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.9,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.9,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.9,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "score": 0.9,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_clean",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_discover",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_clean",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_list",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_clean",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_processbatches",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_clean",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_service",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_discover",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_list",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_discover",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_processbatches",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_discover",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_service",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_list",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_processbatches",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_list",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_service",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_processbatches",
+    "target": "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_service",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+    "target": "youtube_video_mysql_to_mongodb_building_high_performa_3",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "score": 0.81,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "project_project_1_0_go_graphql",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "target": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "target": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "score": 0.7714,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "project_project_1_0_go_simple",
+    "score": 0.675,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "project_project_1_0_go_wordpress",
+    "target": "project_project_1_0_go_worker",
+    "score": 0.675,
+    "shared_concepts_count": 5
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_addperson",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_retrieve",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial",
+    "target": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_store",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "target": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "score": 0.675,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_cleanup",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_fetchdescriptions",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_cleanup",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_listproducts",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_fetchdescriptions",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_listproducts",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_gin",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_go",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_gin",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_viper",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_go",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_jwt",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_jwt",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_viper",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_json_each_row",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_parameterized_queries",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_ssr",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_parameterized_queries",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_waf",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_parameterized_queries",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_article",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_ssr",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_waf",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_ssr",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_article",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_waf",
+    "target": "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_article",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_galleries",
+    "target": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_article",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_unmarshaljson",
+    "target": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_article",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_server_side_ssl_configuration",
+    "target": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_article",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_buf_cli",
+    "target": "post_introducing_buf_for_protobuf_06ebc98710c6_connect",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_finite_state_machine",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_vending_machine",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_e2e_flow",
+    "target": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_state_store",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_state_store",
+    "target": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_testbackdoorcontroller",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gqlgen",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_viper",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_etl_microservice",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_postgresql_warehouse",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+    "score": 0.675,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "score": 0.675,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_kafka",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_article",
+    "score": 0.6667,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423",
+    "score": 0.6667,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "project_project_1_0_go_simple",
+    "score": 0.6,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "project_project_1_0_go_wordpress",
+    "score": 0.6,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "project_project_1_0_go_wordpress",
+    "score": 0.54,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "target": "post_real_time_data_ingestion_connecting_distributed_kafka_to_clickhouse_in_docker",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_cleanup",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_crawler_run",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_fetchdescriptions",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_crawler_run",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_listproducts",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_crawler_run",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_finite_state_machine",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_state_pattern",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_state_pattern",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_vending_machine",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_rebuilding_the_time_machine_designing_a_dual_purpose_data_versioning_system_for_modern_backends",
+    "target": "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_rebuilding_the_time_machine_designing_a_dual_purpose_data_versioning_system_for_modern_backends",
+    "target": "youtube_video_mysql_to_mongodb_building_high_performa_3",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.54,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_order_state_workflow",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_finite_state_machine",
+    "score": 0.5,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_order_state_workflow",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_vending_machine",
+    "score": 0.5,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83",
+    "score": 0.5,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_ssis_ssas_ssrs_pipeline",
+    "target": "post_connecting_kafka_to_clickhouse_with_ssl_a_complete_integration_guide_e5a0a5957de3",
+    "score": 0.5,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+    "target": "post_connecting_kafka_to_clickhouse_with_ssl_a_complete_integration_guide_e5a0a5957de3",
+    "score": 0.5,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_database_per_service",
+    "target": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_order_service",
+    "score": 0.5,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3",
+    "target": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_order_service",
+    "score": 0.5,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller",
+    "score": 0.5,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "project_project_1_0_go_wordpress",
+    "score": 0.4909,
+    "shared_concepts_count": 4
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "project_project_1_0_go_worker",
+    "score": 0.45,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_add_sonarqube_to_the_golang_project_74",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_add_sonarqube_to_the_golang_project_74",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_although_all_the_points_that_are_mention_100",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_making_docker_for_llama3_rag_system_a3943f972711_ollama",
+    "target": "post_making_docker_for_llama3_rag_system_a3943f972711_rag_system",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+    "target": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_cleanup",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_testbadomjip",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_fetchdescriptions",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_testbadomjip",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_listproducts",
+    "target": "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_testbadomjip",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_gin",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_jwt",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_galleries",
+    "target": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_unmarshaljson",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_building_a_better_scraper_10",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_finite_state_machine",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_vending_machine",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_cqrs",
+    "target": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_payment_pod",
+    "target": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "target": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_e2e_flow",
+    "target": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_testbackdoorcontroller",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_add_sonarqube_to_the_golang_project_sonarscanner",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_swagger_to_a_golang_gin_project_gin",
+    "target": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249_sqlc_graphql_integration",
+    "target": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_b_tree_indexing",
+    "target": "post_lsm_tree_indexing",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_b_tree_indexing",
+    "target": "post_database_deep_dive_exploring_storage_engines_and_indexing_strategies_lsm_trees_vs_b_trees_268ac1d24056",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_lsm_tree_indexing",
+    "target": "post_database_deep_dive_exploring_storage_engines_and_indexing_strategies_lsm_trees_vs_b_trees_268ac1d24056",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_database_migration_mismatch_the_hash_client_secret_error_in_django_oauth_db8fc9a511c7",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadlifecycle_service",
+    "target": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadservice",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadlifecycle_service",
+    "target": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_projectservice",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadservice",
+    "target": "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_projectservice",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_gqlgen",
+    "target": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_graphql_vertical_slice",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_gqlgen",
+    "target": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_sqlc",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_graphql_vertical_slice",
+    "target": "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_sqlc",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_checkavailability",
+    "target": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_processorder",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_checkavailability",
+    "target": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_pessimistic_locking",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_processorder",
+    "target": "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_pessimistic_locking",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_rebuilding_the_time_machine_designing_a_dual_purpose_data_versioning_system_for_modern_backends",
+    "target": "youtube_video_hybrid_stateful_polling_16",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_ssis_ssas_ssrs_pipeline",
+    "target": "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "score": 0.45,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_database_per_service",
+    "target": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_mongodb_mongoose",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_zarinpal",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_mongodb_mongoose",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.45,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "project_project_1_0_go_worker",
+    "score": 0.405,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_order_state_workflow",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_state_pattern",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_cqrs",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller",
+    "score": 0.4,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.3857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "youtube_video_the_go_wordpress_blueprint_9",
+    "score": 0.3857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "score": 0.3857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "score": 0.3857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "target": "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+    "score": 0.3857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "project_project_1_0_go_worker",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.3682,
+    "shared_concepts_count": 3
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.3375,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_wordpress",
+    "target": "youtube_video_the_scalable_go_worker_12",
+    "score": 0.3375,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_worker",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.3375,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_classic_east_west_traffic_blind_spot___65",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_a_comprehensive_guide_for_backend_develo_88",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_although_all_the_points_that_are_mention_100",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_blockchain_for_beginner_182",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_build_a_rag_with_llama_140",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_category__config___product_ma_21",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_blockchain_for_beginner_182",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_breaking_free_from_the__i_m_good__you_re_111",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_bridging_networks__using_nginx_as_a_reve_23",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_build_a_rag_with_llama_140",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_making_docker_for_llama3_rag_system_a3943f972711_ollama",
+    "target": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+    "target": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+    "target": "post_open_ai_tutorial",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+    "target": "post_rag_retrieval_augmented_generation",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "target": "post_making_docker_for_llama3_rag_system_a3943f972711_rag_system",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "target": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+    "target": "post_open_ai_tutorial",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+    "target": "post_rag_retrieval_augmented_generation",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_ory_kratos_hello_world",
+    "target": "post_ory_oathkeeper_hello_world",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_simplestorage",
+    "target": "bitcoin_whitepaper",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_tracking_system_request_with_open_telemetry_sentry_and_go_in_golang_language_b77c9cc4fb5a_article",
+    "target": "post_using_open_telemetry_in_golang_ef282c236e77_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_galleries",
+    "target": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_mydata",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_mydata",
+    "target": "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_unmarshaljson",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_clickhouse",
+    "target": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_kafka",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_buf_schema_registry",
+    "target": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_e2e_flow",
+    "target": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_getlastotp",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_getlastotp",
+    "target": "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_testbackdoorcontroller",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "target": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_start",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_register",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_etl_microservice",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_postgresql_warehouse",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+    "target": "youtube_video_hybrid_stateful_polling_16",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_hybrid_stateful_polling_16",
+    "target": "youtube_video_mysql_to_mongodb_building_high_performa_3",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_opentransaction",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_verifytransaction",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_soap",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.3375,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_order_state_workflow",
+    "target": "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_product_repository",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_article",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_product_repository",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_article",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_connecting_kafka_to_clickhouse_with_ssl_a_complete_integration_guide_e5a0a5957de3",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_design_specifications_for_a_click_based_application_resembling_a_hamster_themed_for_10_million_111775da0a5e",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker",
+    "score": 0.3333,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_meilisearch",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mongodb",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_projectionservice",
+    "score": 0.3333,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_meilisearch",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mongodb",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_projectionservice",
+    "score": 0.3333,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_meilisearch",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mongodb",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql",
+    "target": "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_projectionservice",
+    "score": 0.3333,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_poll",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_start",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_connecting_kafka_to_clickhouse_with_ssl_a_complete_integration_guide_e5a0a5957de3",
+    "target": "post_redis_async_database_updates",
+    "score": 0.3333,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_wordpress",
+    "target": "youtube_video_معماری_poller_dispatcher_worker_13",
+    "score": 0.3,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_cqrs",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "score": 0.2857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_cqrs",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "score": 0.2857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.2857,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "youtube_video_building_a_better_scraper_10",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "youtube_video_از_اسکریپت_تا_سرویس_طرح_اولیه_golang_14",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_swagger_to_a_golang_gin_project_76",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_architectural_optimization_of_shared_san_9",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+    "target": "post_real_time_data_ingestion_connecting_distributed_kafka_to_clickhouse_in_docker",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_adding_zap_logger_to_your_go_project__a__63",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_best_practices_for_developing__deploying_129",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_best_practices_for_developing__deploying_129",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_category__config___product_ma_21",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+    "target": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+    "target": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "target": "post_index_Neo4j_Knowledge_Graph_87",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Neo4j_Knowledge_Graph_87",
+    "target": "post_index_RAG_retrieval_augmented_generation_158",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "target": "post_open_ai_tutorial",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "target": "post_rag_retrieval_augmented_generation",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_open_ai_tutorial",
+    "target": "post_rag_retrieval_augmented_generation",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_open_ai_tutorial",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_rag_retrieval_augmented_generation",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_preventing_race_conditions_in_kubernetes_applications_with_redis_locks",
+    "target": "post_running_multi_port_forward_with_tmux_ed5a23bc063a",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_gin",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_jwt",
+    "target": "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249_sqlc_graphql_integration",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_postgresql_concurrency_locking_and_isolation_levels",
+    "target": "post_postgresql_foreign_data_wrappers_for_data_federation",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_zarinpal",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.27,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_article",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_etl_microservice",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_article",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_postgresql_warehouse",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_how_do_you_process_10_billion_records_pe_7",
+    "target": "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "youtube_video_how_do_you_process_10_billion_records_pe_7",
+    "target": "youtube_video_mysql_to_mongodb_building_high_performa_3",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_connect",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_payment_pod",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_payment_pod",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d",
+    "target": "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_add_swagger_to_a_golang_gin_project_article",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_article",
+    "target": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_ssis_ssas_ssrs_pipeline",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_complete_technical_migration_strategy_migrating_legacy_django_auth_to_keycloak_openfga_via_etl_bbf22fd59cf2",
+    "target": "post_redis_async_database_updates",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_handlejob",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_handlejob",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_simpleworker",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_simpleworker",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_newbackoffpoller",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_ssis_ssas_ssrs_pipeline",
+    "target": "post_redis_async_database_updates",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+    "target": "post_redis_async_database_updates",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_database_per_service",
+    "target": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_kafka",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3",
+    "target": "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_kafka",
+    "score": 0.25,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "score": 0.2455,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "score": 0.2455,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_building_a_better_scraper_10",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_how_do_you_process_10_billion_records_pe_7",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_از_اسکریپت_تا_سرویس_طرح_اولیه_golang_14",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "youtube_video_the_scalable_go_worker_12",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_graphql",
+    "target": "youtube_video_the_go_wordpress_blueprint_9",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_add_sonarqube_to_the_golang_project_74",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_architectural_optimization_of_shared_san_9",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_authentication_and_authorization_in_nest_131",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_authentication_and_authorization_in_nest_131",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "target": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_go_microservice_to_crawl_wooc_31",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "target": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "target": "post_real_time_data_ingestion_connecting_distributed_kafka_to_clickhouse_in_docker",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+    "target": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+    "target": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+    "target": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+    "target": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "target": "post_index_Neo4j_Knowledge_Graph_87",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.225,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.2222,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_index_building_a_redis_backed_cache_layer_in_g_59",
+    "target": "post_preventing_race_conditions_in_kubernetes_applications_with_redis_locks",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_kafka",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_etl_microservice",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_kafka",
+    "target": "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_postgresql_warehouse",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_buf_cli",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_article",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_clickhouse_storage_module",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_swagger_to_a_golang_gin_project_article",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_clickhouse_storage_module",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.2,
+    "shared_concepts_count": 2
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_redis_async_database_updates",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_handlejob",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+    "target": "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_simpleworker",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_kafka_clickhouse_ingestion_pipeline",
+    "target": "post_design_specifications_for_a_click_based_application_resembling_a_hamster_themed_for_10_million_111775da0a5e",
+    "score": 0.2,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_the_scalable_go_worker_12",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_the_go_wordpress_blueprint_9",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "youtube_video_building_a_better_scraper_10",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_worker",
+    "target": "youtube_video_building_a_better_scraper_10",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_worker",
+    "target": "youtube_video_از_اسکریپت_تا_سرویس_طرح_اولیه_golang_14",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "target": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_clean__secure__and_scalable_g_75",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_complete_kafka___clickhouse_s_41",
+    "target": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_building_a_graphql_api_in_go_with_custom_35",
+    "target": "post_index_building_a_high_throughput_kpi_pipeline__12",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_RAG_retrieval_augmented_generation_158",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "score": 0.1929,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_simple",
+    "target": "youtube_video_the_scalable_go_worker_12",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_wordpress",
+    "target": "youtube_video_از_اسکریپت_تا_سرویس_طرح_اولیه_golang_14",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_worker",
+    "target": "youtube_video_the_scalable_go_worker_12",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Implementation_Experience__Retrieval_Aug_132",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_RAG_System___Knowledge_Graph__the_system_135",
+    "target": "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_a_microservice_that_teaches_everything_not_to_do_article",
+    "target": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "target": "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.1688,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_connect",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_sonarqube_to_the_golang_project_sonarqube",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_clickhouse_storage_module",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_add_swagger_to_a_golang_gin_project_swagger",
+    "target": "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_clickhouse_storage_module",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_complete_technical_migration_strategy_migrating_legacy_django_auth_to_keycloak_openfga_via_etl_bbf22fd59cf2",
+    "target": "post_kafka_clickhouse_ingestion_pipeline",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_mongodb_mongoose",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_soap",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_ssis_ssas_ssrs_pipeline",
+    "target": "post_kafka_clickhouse_ingestion_pipeline",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+    "target": "post_kafka_clickhouse_ingestion_pipeline",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.1667,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_wordpress",
+    "target": "youtube_video_the_go_wordpress_blueprint_9",
+    "score": 0.15,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.15,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_buf_cli",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_concepts",
+    "target": "post_kafka_clickhouse_ingestion_pipeline",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_kafka_clickhouse_ingestion_pipeline",
+    "target": "post_redis_async_database_updates",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.1429,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gqlgen",
+    "score": 0.135,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_viper",
+    "score": 0.135,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+    "target": "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249_sqlc_graphql_integration",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_zarinpal",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+    "score": 0.125,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+    "score": 0.1227,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+    "score": 0.1227,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "project_project_1_0_go_clickhouse",
+    "target": "youtube_video_mysql_to_mongodb_building_high_performa_3",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+    "target": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+    "score": 0.1111,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+    "target": "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+    "score": 0.1038,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+    "target": "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+    "score": 0.1,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_keycloak",
+    "score": 0.1,
+    "shared_concepts_count": 1
+  },
+  {
+    "source": "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+    "target": "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_openfga",
+    "score": 0.0909,
+    "shared_concepts_count": 1
+  }
+]

@@ -1,0 +1,374 @@
+# Project 1
+
+**Type:** Project
+
+{
+  "generatedAt": "2026-08-09T13:36:55.527Z",
+  "profile": {
+    "login": "mobintmu",
+    "name": "Mobin Shaterian",
+    "bio": "Back-end developer\r\n\r\n",
+    "avatar": "https://avatars.githubusercontent.com/u/3162870?v=4",
+    "url": "https://github.com/mobintmu",
+    "publicRepos": 30,
+    "followers": 13,
+    "following": 21,
+    "createdAt": "2013-01-01T10:13:25Z"
+  },
+  "projects": [
+    {
+      "name": "go-simple",
+      "kind": "Backend blueprint",
+      "tagline": "A production-ready Go service blueprint.",
+      "summary": "A clean, modular reference service for maintainable Go backends, with HTTP and gRPC boundaries, type-safe persistence, caching, authentication, and an observable application lifecycle.",
+      "features": [
+        "Domain-centered Clean Architecture",
+        "Gin HTTP API and gRPC service",
+        "SQLC-backed PostgreSQL repositories",
+        "Redis caching and JWT middleware",
+        "Uber FX lifecycle and dependency injection",
+        "Migrations, Swagger, tests, and Docker"
+      ],
+      "stack": [
+        "Go",
+        "Gin",
+        "gRPC",
+        "PostgreSQL",
+        "SQLC",
+        "Redis",
+        "Uber FX",
+        "Zap",
+        "Docker"
+      ],
+      "quickStart": [
+        "docker compose up -d",
+        "go run cmd/server/main.go"
+      ],
+      "description": "go-simple",
+      "githubUrl": "https://github.com/mobintmu/go-simple",
+      "readmeUrl": "https://github.com/mobintmu/go-simple/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/go-simple/issues",
+      "homepage": null,
+      "stars": 6,
+      "forks": 1,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": null,
+      "defaultBranch": "main",
+      "createdAt": "2025-08-09T16:49:40Z",
+      "updatedAt": "2026-04-13T08:21:55Z",
+      "pushedAt": "2025-12-01T08:29:04Z",
+      "topics": [],
+      "readmeExcerpt": "go simple The Go Simple project is a dynamic, open source Golang 💻 repository that serves as a modern blueprint for building scalable, clean, and production ready web services 🚀. It showcases best practices in architecture by strictly adhering to Clean Architecture 🏗️ and domain centric modularity , organizing code into distinct layers (controllers, servi",
+      "languages": [
+        {
+          "name": "Go",
+          "bytes": 66947,
+          "percentage": 99.4
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 424,
+          "percentage": 0.6
+        }
+      ],
+      "readme": "# go-simple\n\nThe **Go-Simple** project is a dynamic, open-source **Golang** 💻 repository that serves as a modern **blueprint** for building **scalable, clean, and production-ready web services** 🚀. It showcases best practices in architecture by strictly adhering to **Clean Architecture** 🏗️ and **domain-centric modularity**, organizing code into distinct layers (controllers, services, and repositories) to ensure the application is highly **maintainable** ✅ and easily **testable** 🧪 as it grows.\n\n---\n\n### ✨ Key Architectural Features\n\n* **Dependency Management:** Uses **Uber FX** ✨ for robust dependency injection and graceful application lifecycle management.\n* **Web Framework:** Leverages the **Gin** framework 🌐 for a high-performance HTTP layer.\n* **Data Access:** Utilizes **SQLC** 💾 for type-safe interaction with the database.\n* **Performance:** Integrates a **Redis-backed cache layer** 🧠 for speed and efficiency.\n* **Communication:** Includes a **gRPC server** ⚡ to demonstrate high-performance microservice communication.\n* **Core Module:** Features a fully functional **Product Management Module** 📦 with complete **CRUD** (Create, Read, Update, Delete) functionality.\n\n---\n\n### 📚 Documentation & Learning\n\nThis repository is an **evolving guide** to advanced Go development. All architectural decisions and feature implementations are thoroughly documented through a series of dedicated articles on Medium. By following this project, you can learn essential **advanced Go idioms**, master the use of **DTOs** (Data Transfer Objects) 💼, and implement professional-grade backend systems 💡.\n\n[medium.com/list/gosimple-b350f5c3bdb6](https://mobinshaterian.medium.com/list/gosimple-b350f5c3bdb6)\n\n## Run project\n\ngo run cmd/server/main.go\n\n## Swagger address\n\nhttp://127.0.0.1:4000/swagger/index.html#/\n\n## Generate Swagger Documentation\n\nswag init --parseDependency --parseInternal -g cmd/server/main.go\n\n\n## Run docker compose\n\ndocker compose up -d\n\n## SQLC Generator\n\n```\nsqlc generate\n```\n\n## Run tests\n\n```\ngo test ./test/server_test.go\n\n```\n\n## Run Sonar\n\n```\ndocker run --name sonarqube \\\n  -p 9000:9000 \\\n  sonarqube:latest\n\n\ngo test -coverpkg=./... -coverprofile=coverage.out ./test\n\ngo test ./... -json > report.json\n\ngo tool cover -func=coverage.out\n```\n\n\n\n## Add sonar test\n\n```\nsonar-scanner \\\n  -Dsonar.projectKey=go-simple \\\n  -Dsonar.sources=. \\\n  -Dsonar.host.url=http://127.0.0.1:9000 \\\n  -Dsonar.token=sqp_XXXX\n```\n\n```\nexport SONAR_HOST_URL=http://your-sonarqube-server.com\nexport SONAR_TOKEN=your-sonar-token-here\n```\n\n\n\n## Run project\n\n```\ndocker compose up\ngo run cmd/server/main.go\n```\n\n\n## Generate Proto\n\n```\nprotoc -I.   --go_out=. --go_opt=paths=source_relative   --go-grpc_out=. --go-grpc_opt=paths=source_relative   --grpc-gateway_out=. --grpc-gateway_opt=paths=source_relative   api/proto/product/v1/product.proto\n```\n\n\n## Install GRPC-Gateway\n\n```\ngo get google.golang.org/grpc\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2\ngo get -tool google.golang.org/protobuf/cmd/protoc-gen-go\ngo get -tool google.golang.org/grpc/cmd/protoc-gen-go-grpc\n```\n\n\n## deploy on Liara\n\n```\nnpm install -g @liara/cli\nliara login\nliara deploy\n```\n\n\n## Build docker file\n\n```\ndocker build -t go-simple:latest .\ndocker run -p 4000:4000 go-simple:latest\n\ndocker run -p 4000:4000 --env-file .env go-simple:latest\n\n```"
+    },
+    {
+      "name": "go-clickhouse",
+      "kind": "Data backend",
+      "tagline": "A dual-store Go backend with ClickHouse analytics.",
+      "summary": "A clean Go service that combines transactional PostgreSQL storage with a ClickHouse analytics repository while preserving the HTTP, gRPC, caching, and lifecycle patterns of a production backend.",
+      "features": [
+        "ClickHouse product repository and MergeTree examples",
+        "PostgreSQL persistence generated with SQLC",
+        "REST and gRPC service boundaries",
+        "Redis-backed caching",
+        "Clean, dependency-injected modules with Uber FX",
+        "Docker environment, migrations, and tests"
+      ],
+      "stack": [
+        "Go",
+        "ClickHouse",
+        "PostgreSQL",
+        "SQLC",
+        "Gin",
+        "gRPC",
+        "Redis",
+        "Uber FX",
+        "Docker"
+      ],
+      "quickStart": [
+        "docker compose up -d",
+        "go run cmd/server/main.go"
+      ],
+      "description": "go-clickhouse",
+      "githubUrl": "https://github.com/mobintmu/go-clickhouse",
+      "readmeUrl": "https://github.com/mobintmu/go-clickhouse/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/go-clickhouse/issues",
+      "homepage": null,
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": "GPL-3.0",
+      "defaultBranch": "main",
+      "createdAt": "2025-12-13T10:30:40Z",
+      "updatedAt": "2025-12-14T07:44:45Z",
+      "pushedAt": "2025-12-14T07:44:41Z",
+      "topics": [],
+      "readmeExcerpt": "go clickhouse The Go CLICKHOUSE project is a dynamic, open source Golang 💻 repository that serves as a modern blueprint for building scalable, clean, and production ready web services 🚀. It showcases best practices in architecture by strictly adhering to Clean Architecture 🏗️ and domain centric modularity , organizing code into distinct layers (controller",
+      "languages": [
+        {
+          "name": "Go",
+          "bytes": 72740,
+          "percentage": 99.1
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 662,
+          "percentage": 0.9
+        }
+      ],
+      "readme": "# go-clickhouse\n\nThe **Go-CLICKHOUSE** project is a dynamic, open-source **Golang** 💻 repository that serves as a modern **blueprint** for building **scalable, clean, and production-ready web services** 🚀. It showcases best practices in architecture by strictly adhering to **Clean Architecture** 🏗️ and **domain-centric modularity**, organizing code into distinct layers (controllers, services, and repositories) to ensure the application is highly **maintainable** ✅ and easily **testable** 🧪 as it grows.\n\n---\n\n### ✨ Key Architectural Features\n\n* **Dependency Management:** Uses **Uber FX** ✨ for robust dependency injection and graceful application lifecycle management.\n* **Web Framework:** Leverages the **Gin** framework 🌐 for a high-performance HTTP layer.\n* **Data Access:** Utilizes **SQLC** 💾 for type-safe interaction with the database.\n* **Performance:** Integrates a **Redis-backed cache layer** 🧠 for speed and efficiency.\n* **Communication:** Includes a **gRPC server** ⚡ to demonstrate high-performance microservice communication.\n* **Core Module:** Features a fully functional **Product Management Module** 📦 with complete **CRUD** (Create, Read, Update, Delete) functionality.\n\n---\n\n### 📚 Documentation & Learning\n\nThis repository is an **evolving guide** to advanced Go development. All architectural decisions and feature implementations are thoroughly documented through a series of dedicated articles on Medium. By following this project, you can learn essential **advanced Go idioms**, master the use of **DTOs** (Data Transfer Objects) 💼, and implement professional-grade backend systems 💡.\n\n[medium.com/list/gosimple-b350f5c3bdb6](https://mobinshaterian.medium.com/list/gosimple-b350f5c3bdb6)\n\n## Run project\n\ngo run cmd/server/main.go\n\n## Swagger address\n\nhttp://127.0.0.1:4000/swagger/index.html#/\n\n## Generate Swagger Documentation\n\nswag init --parseDependency --parseInternal -g cmd/server/main.go\n\n\n## Run docker compose\n\ndocker compose up -d\n\n## SQLC Generator\n\n```\nsqlc generate\n```\n\n## Run tests\n\n```\ngo test ./test/server_test.go\n\n```\n\n## Run Sonar\n\n```\ndocker run --name sonarqube \\\n  -p 9000:9000 \\\n  sonarqube:latest\n\n\ngo test -coverpkg=./... -coverprofile=coverage.out ./test\ngo test -v ./test | grep FAIL\ngo test ./... -json > report.json\n\ngo tool cover -func=coverage.out\n```\n\n\n\n## Add sonar test\n\n```\nsonar-scanner \\\n  -Dsonar.projectKey=go-clickhouse \\\n  -Dsonar.sources=. \\\n  -Dsonar.host.url=http://127.0.0.1:9000 \\\n  -Dsonar.token=sqp_XXXX\n```\n\n```\nexport SONAR_HOST_URL=http://your-sonarqube-server.com\nexport SONAR_TOKEN=your-sonar-token-here\n```\n\n\nchmod o+x ./data\nchmod o+x ./data/flags\n\n\n## Run project\n\n```\ndocker compose up\ngo run cmd/server/main.go\n```\n\n\n## Generate Proto\n\n```\nprotoc -I.   --go_out=. --go_opt=paths=source_relative   --go-grpc_out=. --go-grpc_opt=paths=source_relative   --grpc-gateway_out=. --grpc-gateway_opt=paths=source_relative   api/proto/product/v1/product.proto\n```\n\n\n## Install GRPC-Gateway\n\n```\ngo get google.golang.org/grpc\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2\ngo get -tool google.golang.org/protobuf/cmd/protoc-gen-go\ngo get -tool google.golang.org/grpc/cmd/protoc-gen-go-grpc\n```\n\n\n\n## Build docker file\n\n```\ndocker build -t go-clickhouse:latest .\ndocker run -p 4000:4000 go-clickhouse:latest\ndocker run -p 4000:4000 --env-file .env go-clickhouse:latest\n\n```\n\n\n## clickhouse\n\n```\ncurl -X POST \"http://localhost:8123\" \\\n     -u default:pass \\\n     --data-binary \"CREATE TABLE IF NOT EXISTS products (\n        id Int32,\n        name String,\n        description String,\n        price Int64\n     ) ENGINE = MergeTree()\n     ORDER BY (id)\"\n\ncurl -X POST \"http://localhost:8123\" \\\n     -u default:pass \\\n     --data-binary \"INSERT INTO products FORMAT Values\n     (1, 'Laptop', 'High‑performance laptop', 129900),\n     (2, 'Mouse', 'Wireless optical mouse', 2999),\n     (3, 'Keyboard', 'Mechanical keyboard', 8999)\"\n\n\ncurl -X POST \"http://localhost:8123\" \\\n     -u default:pass \\\n     --data-binary \"DROP TABLE IF EXISTS products\"\n\n```"
+    },
+    {
+      "name": "go-graphql",
+      "kind": "GraphQL service",
+      "tagline": "Type-safe GraphQL APIs on a clean Go core.",
+      "summary": "A gqlgen-powered GraphQL service built around explicit domain, service, and repository layers, with product queries, filters, pagination, PostgreSQL persistence, and Redis caching.",
+      "features": [
+        "Schema-first GraphQL with gqlgen",
+        "Generated types plus focused resolvers",
+        "Filtering and pagination examples",
+        "SQLC-backed PostgreSQL repositories",
+        "Redis caching around the service layer",
+        "Uber FX lifecycle, configuration, and logging"
+      ],
+      "stack": [
+        "Go",
+        "GraphQL",
+        "gqlgen",
+        "PostgreSQL",
+        "SQLC",
+        "Gin",
+        "Redis",
+        "Uber FX"
+      ],
+      "quickStart": [
+        "docker compose up -d",
+        "go run github.com/99designs/gqlgen generate",
+        "go run cmd/server/main.go"
+      ],
+      "description": "go-simple with GraphQL",
+      "githubUrl": "https://github.com/mobintmu/go-graphql",
+      "readmeUrl": "https://github.com/mobintmu/go-graphql/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/go-graphql/issues",
+      "homepage": null,
+      "stars": 2,
+      "forks": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": null,
+      "defaultBranch": "main",
+      "createdAt": "2025-11-29T06:59:43Z",
+      "updatedAt": "2025-12-27T06:29:33Z",
+      "pushedAt": "2025-11-30T14:36:02Z",
+      "topics": [],
+      "readmeExcerpt": "go graphql The go graphql project is a dynamic, open source Golang 💻 repository that serves as a modern blueprint for building scalable, clean, and production ready web services 🚀. It showcases best practices in architecture by strictly adhering to Clean Architecture 🏗️ and domain centric modularity , organizing code into distinct layers (controllers, ser",
+      "languages": [
+        {
+          "name": "Go",
+          "bytes": 57471,
+          "percentage": 100
+        }
+      ],
+      "readme": "# go-graphql\n\nThe **go-graphql** project is a dynamic, open-source **Golang** 💻 repository that serves as a modern **blueprint** for building **scalable, clean, and production-ready web services** 🚀. It showcases best practices in architecture by strictly adhering to **Clean Architecture** 🏗️ and **domain-centric modularity**, organizing code into distinct layers (controllers, services, and repositories) to ensure the application is highly **maintainable** ✅ and easily **testable** 🧪 as it grows.\n\n---\n\n### ✨ Key Architectural Features\n\n* **Dependency Management:** Uses **Uber FX** ✨ for robust dependency injection and graceful application lifecycle management.\n* **Web Framework:** Leverages the **Gin** framework 🌐 for a high-performance HTTP layer.\n* **Data Access:** Utilizes **SQLC** 💾 for type-safe interaction with the database.\n* **Performance:** Integrates a **Redis-backed cache layer** 🧠 for speed and efficiency.\n* **Communication:** Includes a **gRPC server** ⚡ to demonstrate high-performance microservice communication.\n* **Core Module:** Features a fully functional **Product Management Module** 📦 with complete **CRUD** (Create, Read, Update, Delete) functionality.\n\n---\n\n### 📚 Documentation & Learning\n\nThis repository is an **evolving guide** to advanced Go development. All architectural decisions and feature implementations are thoroughly documented through a series of dedicated articles on Medium. By following this project, you can learn essential **advanced Go idioms**, master the use of **DTOs** (Data Transfer Objects) 💼, and implement professional-grade backend systems 💡.\n\n[medium.com/list/gosimple-b350f5c3bdb6](https://mobinshaterian.medium.com/list/gosimple-b350f5c3bdb6)\n\n## Run project\n\ngo run cmd/server/main.go\n\n## Swagger address\n\nhttp://127.0.0.1:4000/swagger/index.html#/\n\n## Generate Swagger Documentation\n\nswag init --parseDependency --parseInternal -g cmd/server/main.go\n\n\n## Run docker compose\n\ndocker compose up -d\n\n## SQLC Generator\ngo install github.com/sqlc-dev/sqlc/cmd/sqlc@latest\n\n```\nsqlc generate\n```\n\n## Run tests\n\n```\ngo test ./test/server_test.go\n\n```\n\n## Run Sonar\n\n```\ndocker run --name sonarqube \\\n  -p 9000:9000 \\\n  sonarqube:latest\n\n\ngo test -coverpkg=./... -coverprofile=coverage.out ./test\ngo test -v ./test | grep FAIL\ngo test ./... -json > report.json\n\ngo tool cover -func=coverage.out\n```\n\n\n\n## Add sonar test\n\n```\nsonar-scanner \\\n  -Dsonar.projectKey=go-graphql \\\n  -Dsonar.sources=. \\\n  -Dsonar.host.url=http://127.0.0.1:9000 \\\n  -Dsonar.token=sqp_XXXX\n```\n\n```\nexport SONAR_HOST_URL=http://your-sonarqube-server.com\nexport SONAR_TOKEN=your-sonar-token-here\n```\n\n\n\n## Run project\n\n```\ndocker compose up\ngo run cmd/server/main.go\n```\n\n\n## GraphQL\n\n```\ngo install github.com/99designs/gqlgen@latest\ngqlgen init\ngqlgen generate\n```\n\n\n## build new query\n\n```\ngqlgen generate\nadd sql in sqlc\nsqlc generate\n```\n\n\n```sql\n-- name: ListProductsWithFilters :many\nSELECT id, product_name, product_description, price, is_active, created_at\nFROM products\nWHERE\n  (sqlc.narg('id')::int IS NULL OR id = sqlc.narg('id'))\n  AND (sqlc.narg('product_name')::text IS NULL OR product_name ILIKE '%' || sqlc.narg('product_name') || '%')\n  AND (sqlc.narg('min_price')::bigint IS NULL OR price >= sqlc.narg('min_price'))\n  AND (sqlc.narg('max_price')::bigint IS NULL OR price <= sqlc.narg('max_price'))\n  AND (sqlc.narg('is_active')::bool IS NULL OR is_active = sqlc.narg('is_active'))\n  AND (sqlc.narg('product_description')::text IS NULL OR product_description ILIKE '%' || sqlc.narg('product_description') || '%')\nORDER BY id\nLIMIT sqlc.narg('limit')\nOFFSET sqlc.narg('offset');\n```\n\n\n\n```\nquery {\n  products(filter: { id: 32 }) {\n    products {\n      id\n      name\n      description\n      price\n      isActive\n    }\n    total\n  }\n}\n```"
+    },
+    {
+      "name": "go-worker",
+      "kind": "Worker system",
+      "tagline": "A tested Poller–Dispatcher–Worker architecture in Go.",
+      "summary": "A concurrency-focused Go reference that separates job polling, dispatch, and execution into testable components, then wires them into a complete backend service lifecycle.",
+      "features": [
+        "Dedicated poller, dispatcher, job, and worker packages",
+        "Explicit job fan-out and execution boundaries",
+        "Unit tests for polling, dispatch, and workers",
+        "Service lifecycle managed through Uber FX",
+        "PostgreSQL and Redis integration patterns",
+        "Containerized local development environment"
+      ],
+      "stack": [
+        "Go",
+        "Concurrency",
+        "Uber FX",
+        "PostgreSQL",
+        "Redis",
+        "gRPC",
+        "Docker"
+      ],
+      "quickStart": [
+        "docker compose up -d",
+        "go run cmd/server/main.go",
+        "go test ./..."
+      ],
+      "description": null,
+      "githubUrl": "https://github.com/mobintmu/go-worker",
+      "readmeUrl": "https://github.com/mobintmu/go-worker/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/go-worker/issues",
+      "homepage": null,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": null,
+      "defaultBranch": "main",
+      "createdAt": "2025-12-26T18:50:56Z",
+      "updatedAt": "2025-12-30T09:30:25Z",
+      "pushedAt": "2025-12-30T09:30:21Z",
+      "topics": [],
+      "readmeExcerpt": "go worker The go worker project is a dynamic, open source Golang 💻 repository that serves as a modern blueprint for building scalable, clean, and production ready web services 🚀. It showcases best practices in architecture by strictly adhering to Clean Architecture 🏗️ and domain centric modularity , organizing code into distinct layers (controllers, servi",
+      "languages": [
+        {
+          "name": "Go",
+          "bytes": 80685,
+          "percentage": 99.1
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 697,
+          "percentage": 0.9
+        }
+      ],
+      "readme": "# go-worker\n\nThe **go-worker** project is a dynamic, open-source **Golang** 💻 repository that serves as a modern **blueprint** for building **scalable, clean, and production-ready web services** 🚀. It showcases best practices in architecture by strictly adhering to **Clean Architecture** 🏗️ and **domain-centric modularity**, organizing code into distinct layers (controllers, services, and repositories) to ensure the application is highly **maintainable** ✅ and easily **testable** 🧪 as it grows.\n\n---\n\n### ✨ Key Architectural Features\n\n* **Dependency Management:** Uses **Uber FX** ✨ for robust dependency injection and graceful application lifecycle management.\n* **Web Framework:** Leverages the **Gin** framework 🌐 for a high-performance HTTP layer.\n* **Data Access:** Utilizes **SQLC** 💾 for type-safe interaction with the database.\n* **Performance:** Integrates a **Redis-backed cache layer** 🧠 for speed and efficiency.\n* **Communication:** Includes a **gRPC server** ⚡ to demonstrate high-performance microservice communication.\n* **Core Module:** Features a fully functional **Product Management Module** 📦 with complete **CRUD** (Create, Read, Update, Delete) functionality.\n\n---\n\n### 📚 Documentation & Learning\n\nThis repository is an **evolving guide** to advanced Go development. All architectural decisions and feature implementations are thoroughly documented through a series of dedicated articles on Medium. By following this project, you can learn essential **advanced Go idioms**, master the use of **DTOs** (Data Transfer Objects) 💼, and implement professional-grade backend systems 💡.\n\n[medium.com/list/gosimple-b350f5c3bdb6](https://mobinshaterian.medium.com/list/gosimple-b350f5c3bdb6)\n\n## Run project\n\ngo run cmd/server/main.go\n\n## Swagger address\n\nhttp://127.0.0.1:4000/swagger/index.html#/\n\n## Generate Swagger Documentation\n\nswag init --parseDependency --parseInternal -g cmd/server/main.go\n\n\n## Run docker compose\n\ndocker compose up -d\n\n## SQLC Generator\n\n```\nsqlc generate\n```\n\n## Run tests\n\n```\ngo test ./test/server_test.go\n\n```\n\n## Run Sonar\n\n```\ndocker run --name sonarqube \\\n  -p 9000:9000 \\\n  sonarqube:latest\n\n\ngo test -coverpkg=./... -coverprofile=coverage.out ./test\ngo test -v ./test | grep FAIL\ngo test ./... -json > report.json\ngo tool cover -func=coverage.out\n```\n\n\n\n## Add sonar test\n\n```\nsonar-scanner \\\n  -Dsonar.projectKey=go-worker \\\n  -Dsonar.sources=. \\\n  -Dsonar.host.url=http://127.0.0.1:9000 \\\n  -Dsonar.token=sqp_XXXX\n```\n\n```\nexport SONAR_HOST_URL=http://your-sonarqube-server.com\nexport SONAR_TOKEN=your-sonar-token-here\n```\n\n\n\n## Run project\n\n```\ndocker compose up\ngo run cmd/server/main.go\n```\n\n\n## Generate Proto\n\n```\nprotoc -I.   --go_out=. --go_opt=paths=source_relative   --go-grpc_out=. --go-grpc_opt=paths=source_relative   --grpc-gateway_out=. --grpc-gateway_opt=paths=source_relative   api/proto/product/v1/product.proto\n```\n\n\n## Install GRPC-Gateway\n\n```\ngo get google.golang.org/grpc\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2\ngo get -tool google.golang.org/protobuf/cmd/protoc-gen-go\ngo get -tool google.golang.org/grpc/cmd/protoc-gen-go-grpc\n```\n\n\n## deploy on Liara\n\n```\nnpm install -g @liara/cli\nliara login\nliara deploy\n```\n\n\n## Build docker file\n\n```\ndocker build -t go-worker:latest .\ndocker run -p 4000:4000 go-worker:latest\n\ndocker run -p 4000:4000 --env-file .env go-worker:latest\n\n```"
+    },
+    {
+      "name": "go-wordpress",
+      "kind": "Crawler platform",
+      "tagline": "A configurable WordPress product crawler in Go.",
+      "summary": "A production-oriented crawler platform using Colly and per-site JSON configuration to discover, clean, persist, and refresh product data through a modular worker pipeline.",
+      "features": [
+        "Colly-based, configuration-driven crawling",
+        "Product, category, website, and config modules",
+        "Poller–Dispatcher–Worker orchestration",
+        "Content cleanup and description extraction",
+        "SQLC migrations and idempotent seed data",
+        "REST, gRPC, caching, and Docker support"
+      ],
+      "stack": [
+        "Go",
+        "Colly",
+        "PostgreSQL",
+        "SQLC",
+        "Redis",
+        "Gin",
+        "gRPC",
+        "Uber FX",
+        "Docker"
+      ],
+      "quickStart": [
+        "docker compose up -d",
+        "go run cmd/server/main.go"
+      ],
+      "description": null,
+      "githubUrl": "https://github.com/mobintmu/go-wordpress",
+      "readmeUrl": "https://github.com/mobintmu/go-wordpress/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/go-wordpress/issues",
+      "homepage": null,
+      "stars": 1,
+      "forks": 1,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": "GPL-3.0",
+      "defaultBranch": "main",
+      "createdAt": "2026-01-06T11:19:09Z",
+      "updatedAt": "2026-02-23T12:01:26Z",
+      "pushedAt": "2026-02-23T12:01:07Z",
+      "topics": [],
+      "readmeExcerpt": "go wordpress The go wordpress project is a dynamic, open source Golang 💻 repository that serves as a modern blueprint for building scalable, clean, and production ready web services 🚀. It showcases best practices in architecture by strictly adhering to Clean Architecture 🏗️ and domain centric modularity , organizing code into distinct layers (controllers,",
+      "languages": [
+        {
+          "name": "Go",
+          "bytes": 154808,
+          "percentage": 99.6
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 697,
+          "percentage": 0.4
+        }
+      ],
+      "readme": "# go-wordpress\n\nThe **go-wordpress** project is a dynamic, open-source **Golang** 💻 repository that serves as a modern **blueprint** for building **scalable, clean, and production-ready web services** 🚀. It showcases best practices in architecture by strictly adhering to **Clean Architecture** 🏗️ and **domain-centric modularity**, organizing code into distinct layers (controllers, services, and repositories) to ensure the application is highly **maintainable** ✅ and easily **testable** 🧪 as it grows.\n\n---\n\n### ✨ Key Architectural Features\n\n* **Dependency Management:** Uses **Uber FX** ✨ for robust dependency injection and graceful application lifecycle management.\n* **Web Framework:** Leverages the **Gin** framework 🌐 for a high-performance HTTP layer.\n* **Data Access:** Utilizes **SQLC** 💾 for type-safe interaction with the database.\n* **Performance:** Integrates a **Redis-backed cache layer** 🧠 for speed and efficiency.\n* **Communication:** Includes a **gRPC server** ⚡ to demonstrate high-performance microservice communication.\n* **Core Module:** Features a fully functional **Product Management Module** 📦 with complete **CRUD** (Create, Read, Update, Delete) functionality.\n\n## Colly\n\nhttps://go-colly.org/\n\n## Run project\n\ngo run cmd/server/main.go\n\n## Swagger address\n\nhttp://127.0.0.1:4000/swagger/index.html#/\n\n## Generate Swagger Documentation\n\nswag init --parseDependency --parseInternal -g cmd/server/main.go\n\n\n## Run docker compose\n\ndocker compose up -d\n\n## SQLC Generator\n\n```\nsqlc generate\n```\n\n## Run tests\n\n```\ngo test ./test/server_test.go\n\n```\n\n## Run Sonar\n\n```\ndocker run --name sonarqube \\\n  -p 9000:9000 \\\n  sonarqube:latest\n\n\ngo test -coverpkg=./... -coverprofile=coverage.out ./test\ngo test -v ./test | grep FAIL\ngo test ./... -json > report.json\ngo tool cover -func=coverage.out\n```\n\n\n\n## Add sonar test\n\n```\nsonar-scanner \\\n  -Dsonar.projectKey=go-wordpress \\\n  -Dsonar.sources=. \\\n  -Dsonar.host.url=http://127.0.0.1:9000 \\\n  -Dsonar.token=sqp_XXXX\n```\n\n```\nexport SONAR_HOST_URL=http://your-sonarqube-server.com\nexport SONAR_TOKEN=your-sonar-token-here\n```\n\n\n\n## Run project\n\n```\ndocker compose up\ngo run cmd/server/main.go\n```\n\n\n## Generate Proto\n\n```\nprotoc -I.   --go_out=. --go_opt=paths=source_relative   --go-grpc_out=. --go-grpc_opt=paths=source_relative   --grpc-gateway_out=. --grpc-gateway_opt=paths=source_relative   api/proto/product/v1/product.proto\n```\n\n\n## Install GRPC-Gateway\n\n```\ngo get google.golang.org/grpc\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\ngo get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2\ngo get -tool google.golang.org/protobuf/cmd/protoc-gen-go\ngo get -tool google.golang.org/grpc/cmd/protoc-gen-go-grpc\n```\n\n\n## Build docker file\n\n```\ndocker build -t go-wordpress:latest .\ndocker run -p 4000:4000 go-wordpress:latest\n\ndocker run -p 4000:4000 --env-file .env go-wordpress:latest\n\n```"
+    },
+    {
+      "name": "mobinshaterian.com",
+      "kind": "Portfolio platform",
+      "tagline": "This portfolio, blog, and publishing system.",
+      "summary": "A fast, searchable personal publishing platform that brings together a professional profile, 200+ imported articles, video channels, structured data, and static-first SEO.",
+      "features": [
+        "More than 200 imported engineering articles",
+        "Full-text search, tags, and content discovery",
+        "Server rendering and route prerendering",
+        "Structured data, RSS, sitemap, and social metadata",
+        "Repeatable import pipelines for external publishing channels",
+        "GitHub Pages-compatible static delivery"
+      ],
+      "stack": [
+        "TypeScript",
+        "React",
+        "TanStack Start",
+        "Tailwind CSS",
+        "MiniSearch",
+        "Vite",
+        "Nitro",
+        "Bun"
+      ],
+      "quickStart": [
+        "bun install",
+        "bun run dev",
+        "bun run build"
+      ],
+      "description": "This is my personal website, It has deployed on mobinshaterian.com domain.",
+      "githubUrl": "https://github.com/mobintmu/mobinshaterian.com",
+      "readmeUrl": "https://github.com/mobintmu/mobinshaterian.com/blob/main/README.md",
+      "issuesUrl": "https://github.com/mobintmu/mobinshaterian.com/issues",
+      "homepage": "https://mobinshaterian.com/",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "license": null,
+      "defaultBranch": "main",
+      "createdAt": "2026-07-14T09:56:44Z",
+      "updatedAt": "2026-08-09T13:17:49Z",
+      "pushedAt": "2026-08-09T13:17:24Z",
+      "topics": [
+        "personal-website"
+      ],
+      "readmeExcerpt": "mobinshaterian.com Personal portfolio and technical blog for Mobin Shaterian. The site presents a resume style home page and a searchable archive of 200+ articles imported from Medium. The application is built with React and TanStack Start, then pre rendered to static HTML for deployment to GitHub Pages. Blog content is stored as JSON in the repository, so t",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 268049,
+          "percentage": 68.5
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 119028,
+          "percentage": 30.4
+        },
+        {
+          "name": "CSS",
+          "bytes": 3872,
+          "percentage": 1
+        },
+        {
+          "name": "HTML",
+          "bytes": 547,
+          "percentage": 0.1
+        }
+      ],
+      "readme": "# mobinshaterian.com\n\nPersonal portfolio and technical blog for Mobin Shaterian. The site presents a resume-style home page and a searchable archive of 200+ articles imported from Medium.\n\nThe application is built with React and TanStack Start, then pre rendered to static HTML for deployment to GitHub Pages. Blog content is stored as JSON in the repository, so the site does not need a database, CMS, or production API.\n\n## What the site contains\n\n- `/` — portfolio page with profile, experience, skills, education, recent writing, and contact details\n- `/blogs` — full blog archive with tag filters and client-side full-text search\n- `/blog/:slug` — an individual article rendered from local JSON\n- `/data/posts-index.json` — public, machine-readable post metadata\n- `/data/posts/:slug.json` — public JSON representation of an article\n- Custom application and article 404 pages\n- SEO metadata, Open Graph fields, canonical Medium links, and article JSON-LD\n\n## Technology stack\n\n### Application framework\n\n| Technology                                            | Purpose in this project                                                                                                                                      |\n| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| [React 19](https://react.dev/)                        | Builds the user interface from components.                                                                                                                   |\n| [TypeScript](https://www.typescriptlang.org/)         | Adds static types to the React and server code. Strict mode is enabled.                                                                                      |\n| [TanStack Start](https://tanstack.com/start/latest)   | Full-stack React framework responsible for server rendering, application startup, and prerendering.                                                          |\n| [TanStack Router](https://tanstack.com/router/latest) | Type-safe, file-based routing, route loaders, URL search parameters, metadata, 404 handling, and scroll restoration.                                         |\n| [TanStack Query](https://tanstack.com/query/latest)   | Provides the application-level `QueryClient`. It is ready for cached asynchronous data, although the current pages mainly use local JSON.                    |\n| [Vite](https://vite.dev/)                             | Development server, hot module replacement, and production build pipeline.                                                                                   |\n| [Nitro](https://nitro.build/)                         | Server/build engine used by TanStack Start. The configured `node-server` preset produces the `.output` build, including `.output/public` for static hosting. |\n\n### Styling and UI\n\n| Technology                                           | Purpose in this project                                                                                                                                             |\n| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| [Tailwind CSS 4](https://tailwindcss.com/)           | Utility-first styling, loaded through the Vite plugin and `src/styles.css`.                                                                                         |\n| [shadcn/ui](https://ui.shadcn.com/)                  | Project convention and configuration for reusable UI components. Components are copied into `src/components/ui`, rather than installed as a single runtime package. |\n| [Radix UI](https://www.radix-ui.com/)                | Accessible primitives underlying the shadcn components.                                                                                                             |\n| [Lucide React](https://lucide.dev/)                  | Icons used throughout the portfolio and blog pages.                                                                                                                 |\n| `class-variance-authority`, `clsx`, `tailwind-merge` | Class composition, component variants, and conflict-safe Tailwind class merging.                                                                                    |\n| Inter and JetBrains Mono                             | Web fonts used for the main text and terminal-inspired interface.                                                                                                   |\n| `tw-animate-css`                                     | Reusable Tailwind animation utilities.                                                                                                                              |\n\nThe repository also includes shadcn components backed by libraries such as Sonner, Vaul, Recharts, Embla Carousel, React Hook Form, Zod, and React Day Picker. Many are available for future UI work and are not currently used by the three main pages.\n\n### Content and search\n\n| Technology                                          | Purpose in this project                                                                                     |\n| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |\n| JSON files                                          | Store profile details, post metadata, full post content, and the search corpus.                             |\n| [MiniSearch](https://lucaong.github.io/minisearch/) | Runs full-text blog search entirely in the browser. The search index is fetched lazily when search is used. |\n| [Zod](https://zod.dev/) and `@tanstack/zod-adapter` | Validate the `/blogs` URL parameters (`q` and `tag`).                                                       |\n| [Cheerio](https://cheerio.js.org/)                  | Parses exported Medium HTML in the import script. It is a development dependency, not browser code.         |\n| `slugify`                                           | Installed slug-generation utility; it is not currently referenced by the application or import scripts.     |\n\n### Tooling and delivery\n\n| Technology             | Purpose in this project                                                                                                  |\n| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |\n| [Bun](https://bun.sh/) | Package manager and command runner. `bun.lock` makes installs reproducible.                                              |\n| ESLint 9               | Lints TypeScript, React hooks, and refresh-compatible exports.                                                           |\n| Prettier               | Formats source and configuration files; formatting violations are surfaced through ESLint too.                           |\n| GitHub Actions         | Builds the site on every push to `main` and deploys `.output/public` to GitHub Pages.                                    |\n| GitHub Pages           | Static production host. `CNAME` and `public/CNAME` configure the custom domain.                                          |\n| Lovable                | The project is connected to Lovable and uses its TanStack/Vite configuration package and browser error-reporting bridge. |\n\n## How the application works\n\n### Routing and rendering\n\nRoutes live in `src/routes` and follow TanStack Router's file-based conventions:\n\n| Source file                 | Route                                                                 |\n| --------------------------- | --------------------------------------------------------------------- |\n| `src/routes/__root.tsx`     | Root document, global metadata, providers, error boundary, and 404 UI |\n| `src/routes/index.tsx`      | `/`                                                                   |\n| `src/routes/blogs.tsx`      | `/blogs`                                                              |\n| `src/routes/blog.$slug.tsx` | `/blog/:slug`                                                         |\n\n`src/routeTree.gen.ts` is generated from these files. Do not edit it manually.\n\nAt build time, `vite.config.ts` reads every slug from `src/data/posts-index.json` and adds the home page, archive, and all article URLs to the prerender list. TanStack Start and Nitro render those routes ahead of time. The resulting static site is written to `.output/public` and can be hosted without a running Node server.\n\nThe custom server entry in `src/server.ts` is still used by the build/server-rendering pipeline. Together with `src/start.ts` and the error helpers in `src/lib`, it converts catastrophic SSR failures into a user-friendly HTML error page and reports client-side route errors to Lovable when that bridge is available.\n\n### Blog data flow\n\nThe content pipeline intentionally writes two copies of some data:\n\n```text\nMedium HTML export\n        |\n        v\nscripts/import-medium.mjs\n        |\n        +-- src/data/posts/*.json --------> bundled by article route loaders\n        +-- src/data/posts-index.json ----> home page, archive, prerender route list\n        +-- src/data/search-index.json ---> source copy of the search corpus\n        |\n        +-- public/data/posts/*.json ------> public /data/posts/:slug.json files\n        +-- public/data/posts-index.json --> public metadata endpoint\n        +-- public/data/search-index.json -> browser full-text search\n```\n\nThe copies under `src/data` are application source inputs. The copies under `public/data` are copied unchanged into the public build and can be fetched directly by browsers or other tools.\n\nAn article JSON file contains metadata plus an ordered `content` array. `PostContent.tsx` renders supported block types: headings, paragraphs, code, images, quotes, lists, embeds, and horizontal rules. Code blocks include a copy button; YouTube embeds render inline, while other embeds become external links.\n\nOn `/blogs`, titles and post cards come from the small metadata index. The larger search index is downloaded only after a visitor focuses the search field or supplies a query. MiniSearch gives titles and tags more weight than article body text and supports prefixes and fuzzy matches. The selected query and tag stay in the URL, so filtered views are shareable.\n\n### GitHub Pages routing\n\nStatic hosts cannot normally resolve an unknown nested client-side URL. `public/404.html` stores the requested location in `sessionStorage` and redirects to `/`; the root React component then restores that path through TanStack Router. Pre rendered known routes load directly, while unknown routes reach the application's 404 UI.\n\n## Project structure\n\n```text\n.\n├── .github/workflows/deploy.yml  # GitHub Pages build and deployment\n├── public/\n│   ├── 404.html                  # GitHub Pages SPA fallback\n│   ├── data/                     # Public post, metadata, and search JSON\n│   ├── CNAME                     # Custom domain copied into the build\n│   └── robots.txt, favicons...\n├── scripts/\n│   ├── import-medium.mjs         # Convert a Medium export to site JSON\n│   ├── fix-images.mjs            # Replace broken local image paths with Medium CDN URLs\n│   └── retag-ml.mjs              # Recalculate the Machine Learning tag\n├── src/\n│   ├── components/\n│   │   ├── PostContent.tsx       # Article block renderer\n│   │   └── ui/                   # shadcn/Radix UI components\n│   ├── data/\n│   │   ├── profile.json          # Portfolio content and contact links\n│   │   ├── posts/                # Full article JSON used by route loaders\n│   │   ├── posts-index.json      # Compact post metadata\n│   │   └── search-index.json     # Full-text search source data\n│   ├── lib/                      # Utilities and error handling\n│   ├── routes/                   # File-based pages\n│   ├── router.tsx                # Router and QueryClient context\n│   ├── server.ts                 # Custom TanStack Start server entry\n│   ├── start.ts                  # Request middleware\n│   └── styles.css                # Tailwind theme and global styles\n├── components.json              # shadcn/ui configuration\n├── eslint.config.js              # Lint and formatting rules\n├── package.json                  # Dependencies and commands\n├── tsconfig.json                 # TypeScript configuration and @/* alias\n└── vite.config.ts                # TanStack Start, Nitro, and prerender config\n```\n\n## Local development\n\n### Requirements\n\n- Bun (the repository uses a Bun lockfile)\n- A current Node-compatible environment; CI installs the latest Bun release\n\nInstall and start the development server:\n\n```bash\ncurl -fsSL https://bun.sh/install | bash  # skip if Bun is installed\nbun install\nbun run dev\n```\n\nVite prints the local URL, normally `http://localhost:3000`.\n\nNo environment variables, external database, or API credentials are required for the current site.\n\n## Available commands\n\n| Command             | Description                                           |\n| ------------------- | ----------------------------------------------------- |\n| `bun run dev`       | Start the Vite development server with hot reload.    |\n| `bun run build`     | Create the production/pre rendered build in `.output`. |\n| `bun run build:dev` | Build using Vite's development mode.                  |\n| `bun run preview`   | Preview the production build locally.                 |\n| `bun run lint`      | Run ESLint and Prettier checks.                       |\n| `bun run format`    | Rewrite supported files with Prettier.                |\n\nThere is currently no automated test command.\n\n## Editing site content\n\nPortfolio content is data-driven. Update `src/data/profile.json` to change the name, summary, contact details, skills, work history, or education. The home page reads that file directly.\n\nGlobal colors, fonts, terminal effects, and reusable CSS utilities are in `src/styles.css`. The theme uses CSS variables with OKLCH colors and Tailwind's `@theme` mapping.\n\nTo add a route, create a file under `src/routes` using the conventions documented in `src/routes/README.md`. The route tree will be regenerated by the TanStack Router tooling.\n\n## Importing articles from Medium\n\nMedium articles are generated from the `posts` directory inside an unzipped Medium export:\n\n```bash\nbun scripts/import-medium.mjs /absolute/path/to/medium-export/posts\n```\n\nBy default, the importer attempts to download article images into `public/blog-assets`. To retain the remote Medium image URLs instead:\n\n```bash\nDOWNLOAD_IMAGES=0 bun scripts/import-medium.mjs /absolute/path/to/medium-export/posts\n```\n\nThe importer:\n\n1. Ignores draft HTML files.\n2. Extracts article metadata and canonical URLs.\n3. Converts supported HTML elements into typed content blocks.\n4. Estimates reading time at roughly 220 words per minute.\n5. Preserves existing tags from `src/data/posts.json` when slugs match.\n6. Writes matching source and public post collections and indexes.\n\nAfter importing, run the normal validation commands and inspect the changed JSON before committing:\n\n```bash\nbun run lint\nbun run build\n```\n\nTwo one-off maintenance scripts are also included:\n\n- `bun scripts/fix-images.mjs` maps missing `/blog-assets/...` references back to original Medium CDN images. It currently expects exported HTML at `/tmp/medium-ext/posts`.\n- `bun scripts/retag-ml.mjs` scans article text and consistently adds or removes the `Machine Learning` tag across both source and public indexes.\n\nBoth maintenance scripts rewrite many generated JSON files, so review their diff before committing.\n\n## Production deployment\n\nPushing to `main` triggers `.github/workflows/deploy.yml`. The workflow:\n\n1. Checks out the repository.\n2. Installs Bun.\n3. Runs `bun install --frozen-lockfile`.\n4. Runs `bun run build`.\n5. Uploads `.output/public` as the GitHub Pages artifact.\n6. Deploys that artifact to the `github-pages` environment.\n\nFor a manual deployment, run the workflow from the GitHub Actions interface. GitHub Pages must be configured to use GitHub Actions as its source.\n\n## Important maintenance notes\n\n- Keep `src/data` and `public/data` synchronized; the import and maintenance scripts already update both.\n- Add new article slugs to `src/data/posts-index.json` through the importer so `vite.config.ts` pre renders them.\n- Do not edit `src/routeTree.gen.ts` by hand.\n- Do not commit `.output`, `dist`, `.vinxi`, or `node_modules`.\n- This repository is connected to Lovable. Do not force-push, rebase, amend, or squash commits that have already been pushed, because rewriting published history can break Lovable's project history.\n\n\n# Technology\n- **React** – the actual UI library, same as what you know.\n- **TanStack Start** – a full-stack React framework (like Next.js, but from the TanStack team — makers of React Query, TanStack Router). It adds file-based routing, server-side rendering, and API routes on top of plain React.\n- **Vite** – the build tool/dev server. Fast hot-reload, bundles everything for production.\n- **Nitro** – the server engine TanStack Start uses under the hood to actually run/deploy the server (handles the `node-server` preset in your `vite.config.ts`, and produces the static output in `.output/public`).\n- **TypeScript** – your code is `.ts`/`.tsx`, typed React.\n- **shadcn/ui** (implied by `components.json`) – a component library built on Radix UI + Tailwind CSS, pretty common in Lovable.dev-generated projects.\n- **Pre rendering** – your `vite.config.ts` has `prerender.enabled: true` with a list of static pages (home, blogs, each blog post) — so at build time it crawls your routes and outputs static HTML, which is why this can deploy to GitHub Pages (a static host) instead of needing a live Node server.\n- **bun** – package manager/runtime, replacing npm.\n- **Lovable.dev plugins** (`@lovable.dev/vite-plugin-*`) – dev-time tooling from the platform this was originally built in (hot-reload bridges, etc.) — not something you'll need to touch for normal editing."
+    }
+  ]
+}

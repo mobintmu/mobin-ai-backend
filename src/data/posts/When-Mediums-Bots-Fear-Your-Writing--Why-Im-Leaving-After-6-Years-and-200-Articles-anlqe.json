@@ -1,0 +1,140 @@
+{
+  "slug": "When-Mediums-Bots-Fear-Your-Writing--Why-Im-Leaving-After-6-Years-and-200-Articles-anlqe",
+  "title": "When Medium's Bots Fear Your Writing: Why I'm Leaving After 6 Years and 200 Articles",
+  "subtitle": "Six years. Two hundred articles.",
+  "excerpt": "Six years. Two hundred articles. Technical writing about software architecture, data pipelines, and the tools I work with every day.",
+  "date": "2026-06-25",
+  "tags": [
+    "Career"
+  ],
+  "readingTime": "3 min",
+  "url": "https://www.linkedin.com/pulse/when-mediums-bots-fear-your-writing-why-im-leaving-after-shaterian-anlqe",
+  "hero": "https://media.licdn.com/dms/image/v2/D4E12AQHysiKgvK3J_Q/article-cover_image-shrink_720_1280/B4EZ79xBqHIwAY-/0/1782373952054?e=2147483647&v=beta&t=WY--dhIAmJ49HPqu2lrgzK2tIpKXY542HUzQQV8Aywk",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "Six years. Two hundred articles. Technical writing about software architecture, data pipelines, and the tools I work with every day. Not a single dollar earned from the Medium Partner Program — because I wasn't there to sell subscriptions. I was there to write."
+    },
+    {
+      "type": "paragraph",
+      "html": "Then one day, without any prior warning, my account was suspended."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What Happened"
+    },
+    {
+      "type": "paragraph",
+      "html": "Medium's automated systems scanned my content and concluded it was probably AI-generated. Account suspended. No explanation. No opportunity to appeal before the fact."
+    },
+    {
+      "type": "paragraph",
+      "html": "After contacting support, I received an email reinstating my account — accompanied by this warning:"
+    },
+    {
+      "type": "quote",
+      "html": "If you are using AI writing to generate your stories, you have a much higher likelihood of triggering the filter."
+    },
+    {
+      "type": "paragraph",
+      "html": "The problem: I hadn't used AI to generate the content."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The Technical Reality: Why Human Writing Gets Flagged Too"
+    },
+    {
+      "type": "paragraph",
+      "html": "Automated AI-detection systems rely primarily on two metrics: <strong>perplexity</strong> (how statistically predictable a text is) and <strong>burstiness</strong> (the variation in sentence length and structure)."
+    },
+    {
+      "type": "paragraph",
+      "html": "Technical writing — especially when covering software architecture or data pipelines — is naturally structured, uses repeated domain terminology, and follows consistent patterns. These are precisely the characteristics that detection algorithms interpret as \"synthetic.\""
+    },
+    {
+      "type": "paragraph",
+      "html": "OpenAI itself retired its AI Classifier in 2023 due to unacceptably high error rates. Research shows these tools falsely flag up to 50% of human-written content, disproportionately penalizing non-native English speakers and technical writers whose prose is formal by necessity."
+    },
+    {
+      "type": "paragraph",
+      "html": "I fall into both categories."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The Core Contradiction"
+    },
+    {
+      "type": "paragraph",
+      "html": "Medium charges its readers a subscription fee to access content written by people like me. My articles were published across six publications. <a href=\"https://clickhouse.com\" target=\"_blank\" rel=\"noreferrer noopener\">ClickHouse.com</a> referenced one of them. Real audiences were reading."
+    },
+    {
+      "type": "paragraph",
+      "html": "Yet Medium's algorithm — with no human review at the first stage — decided this content didn't belong on the platform."
+    },
+    {
+      "type": "paragraph",
+      "html": "At the same time, Medium's content policy states that \"human authenticity\" is the most important criterion for quality. But the tool they use to measure it cannot reliably make that distinction."
+    },
+    {
+      "type": "paragraph",
+      "html": "This is a structural contradiction, not a one-off mistake."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What Medium's Recovery Email Actually Said"
+    },
+    {
+      "type": "paragraph",
+      "html": "In the reinstatement email, Medium pointed me toward their Staff Picks list and held up essays like Nikolaus Correll's work as the standard to aspire to — writing that integrates \"lived experience,\" \"authentic perspective,\" and \"human storytelling.\""
+    },
+    {
+      "type": "paragraph",
+      "html": "Six years of writing about the tools I use in production every day. Real problems I debugged at 2 am. Architectural decisions I had to justify to stakeholders. If that doesn't qualify as lived experience, the problem isn't with my writing."
+    },
+    {
+      "type": "image",
+      "src": "https://media.licdn.com/dms/image/v2/D4E12AQHef7LBb62AAw/article-inline_image-shrink_1500_2232/B4EZ79xhtaIcAU-/0/1782374079550?e=2147483647&v=beta&t=c1LamLr1Cks2SGFhYOthQwc2Btf_CpF6aENjCJ5-mck",
+      "alt": "Medium account recovery email"
+    },
+    {
+      "type": "paragraph",
+      "html": "The algorithm simply cannot tell the difference. And Medium is comfortable with that."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Why a Personal Site Is the Right Move"
+    },
+    {
+      "type": "paragraph",
+      "html": "After this experience, I realized that publishing on someone else's platform means accepting terms like these:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your content can be removed without warning",
+        "Algorithms you don't understand make decisions about your work",
+        "Your audience has to pay a subscription fee to read what you wrote for free",
+        "You have no control over distribution, structure, or format"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "A personal site means:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Open access</strong> — anyone can read, no subscription required",
+        "<strong>Full independence</strong> — no algorithm standing between your writing and your reader",
+        "<strong>Real ownership</strong> — your work belongs to you, not the platform"
+      ]
+    }
+  ]
+}

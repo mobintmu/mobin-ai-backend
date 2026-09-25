@@ -1,0 +1,73 @@
+{
+  "slug": "I-have-seen-the-various-personalities-of-developers--based-on-the-DISC-personality-Test-288dfec6b3fa",
+  "title": "I have seen the various personalities of developers, based on the DISC personality Test",
+  "subtitle": "In this article, I will explain the typical of programmers’s personality based on my experiences.",
+  "excerpt": "In this article, I will explain the typical of programmers’s personality based on my experiences.",
+  "date": "2023-05-08",
+  "tags": [],
+  "readingTime": "2 min",
+  "url": "https://medium.com/@mobinshaterian/i-have-seen-the-various-personalities-of-developers-based-on-the-disc-personality-test-288dfec6b3fa",
+  "hero": "https://cdn-images-1.medium.com/max/800/1*jFYpSedzYlhTwH-Vfztpsg.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "One of my students asked me why the developers were depressed when I was a teacher, and I answered him this wasn’t true, it depends on their personality. Or another recruiter had criticized the programmer and said that the backend developer never spoke to her."
+    },
+    {
+      "type": "paragraph",
+      "html": "In this essay, I want to share my experience with common developers' personalities. I have studied artificial intelligence, but in my master's thesis, I combined psychology with machine learning to measure the depression of patients in the hospital."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is the DISC Personality Test?"
+    },
+    {
+      "type": "paragraph",
+      "html": "DISC is one of the best and easy tools that can determine the personality of people. If you want to be a good human resource or CTO, you have to know about the personality of your employees. Recognizing type of people’s character treated is strange, but it is helpful to understand other people."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*jFYpSedzYlhTwH-Vfztpsg.png",
+      "alt": "https://www.test-guide.com/disc-personality-test.html",
+      "caption": "https://www.test-guide.com/disc-personality-test.html",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "type": "paragraph",
+      "html": "You can check your personality and your team with the below link or google the questionnaire on the Internet."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Programmers’ personalities"
+    },
+    {
+      "type": "paragraph",
+      "html": "I have seen different programmers’ personalities in many IT companies. In the below list, I will explain the pros and cons of each group."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CD or DC (conscientious and dominant)"
+    },
+    {
+      "type": "paragraph",
+      "html": "The common personality in programming is CD or DC. They are neither introverts nor extroverts, yet they will speak when required. Also, they have aggressive characteristics, but before they think about the cost of being aggressive. On the other hand, they have devised plans for every situation. Furthermore, they can’t change their jobs easily. Also they are outstanding employees in the company. If you have a business team and can listen to them, the company will grow."
+    },
+    {
+      "type": "paragraph",
+      "html": "One of the biggest disadvantages of this group is they are super traditional and if the code works they never change it. Sometimes they are so narcissistic they don’t listen to other people and obey their traditional way."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "HD (dominant)"
+    },
+    {
+      "type": "paragraph",
+      "html": "They are powerful, strong, and silent people. they don’t like to be touched, they don’t like to be hugged. They love their power and believe themselves. If the bug is released, they believe other teams make problems and do their job in the best ways. They are in love with certificates."
+    }
+  ]
+}

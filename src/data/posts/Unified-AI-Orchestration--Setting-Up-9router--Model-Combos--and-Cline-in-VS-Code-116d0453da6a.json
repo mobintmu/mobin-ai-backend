@@ -1,0 +1,305 @@
+{
+  "slug": "Unified-AI-Orchestration--Setting-Up-9router--Model-Combos--and-Cline-in-VS-Code-116d0453da6a",
+  "title": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+  "subtitle": "When working with autonomous coding agents like Cline, managing multiple upstream AI providers — such as Google AI Studio, OpenRouter, and premium OAuth subscriptions — quickly becomes a maintenance bottleneck. Rate limits (HTTP 429), quota exhaustion, and fragmented API keys disrupt agentic loops mid-refactor.",
+  "excerpt": "When working with autonomous coding agents like Cline, managing multiple upstream AI providers — such as Google AI Studio, OpenRouter, and premium OAuth subscriptions — quickly becomes a maintenance bottleneck. Rate…",
+  "date": "2026-08-14",
+  "tags": [
+    "AI",
+    "DevOps",
+    "Integration"
+  ],
+  "readingTime": "4 min",
+  "url": "https://mobinshaterian.medium.com/unified-ai-orchestration-setting-up-9router-model-combos-and-cline-in-vs-code-116d0453da6a",
+  "hero": "https://cdn-images-1.medium.com/max/1024/1*-uAU9N6zuLzsRX3EjucJcg.jpeg",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "When working with autonomous coding agents like <strong>Cline</strong>, managing multiple upstream AI providers — such as Google AI Studio, OpenRouter, and premium OAuth subscriptions — quickly becomes a maintenance bottleneck. Rate limits (HTTP <code>429</code>), quota exhaustion, and fragmented API keys disrupt agentic loops mid-refactor."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>9router</strong> solves this by acting as a lightweight, local reverse proxy and API gateway. It normalizes distinct upstream protocols into a single OpenAI-compatible endpoint (<code>http://localhost:20128/v1</code>), aggregates token balances, and implements automatic failover (<strong>Combos</strong>) across your providers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Architecture Overview"
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:700/1*-uAU9N6zuLzsRX3EjucJcg.jpeg",
+      "alt": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 1: Install and Launch 9router"
+    },
+    {
+      "type": "paragraph",
+      "html": "9router requires <strong>Node.js (v18+)</strong> and npm installed on your machine."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Install 9router globally:</strong>"
+    },
+    {
+      "type": "code",
+      "lang": "bash",
+      "code": "npm install -g 9router"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Run</strong>"
+    },
+    {
+      "type": "code",
+      "lang": "bash",
+      "code": "9router"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Open the Web UI:</strong>"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Navigate to <code>http://localhost:20128</code> in your browser."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Default Password:</strong><code>123456</code><em>(can be modified in Settings)</em>."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 2: Configure Gemini, Antigravity, and OpenRouter"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Google Gemini via Google AI Studio"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Navigate to <a href=\"https://aistudio.google.com/?authuser=1\" target=\"_blank\" rel=\"noreferrer noopener\">Google AI Studio</a> and sign in.",
+        "Click <strong>Get API key</strong>&gt;<strong>Create API key in new project</strong>, and copy your key.",
+        "In the 9router dashboard, go to the <strong>Providers</strong> tab and find <strong>Gemini</strong>.",
+        "Click <strong>Add Connection</strong>, paste your API key, name it (e.g., <code>gemini-main</code>), and click <strong>Test</strong>&amp;<strong>Save</strong>.",
+        "Add your desired model IDs (such as <code>gemini-2.5-pro</code> or <code>gemini-2.5-flash</code>)."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:700/1*gKX3o5JH-BP1fowyW_GWoA.png",
+      "alt": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Antigravity (Google Gemini Pro OAuth)"
+    },
+    {
+      "type": "paragraph",
+      "html": "If you have an active Gemini Pro / Google Workspace subscription:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "In the <strong>Providers</strong> tab, locate <strong>Antigravity</strong>.",
+        "Click <strong>Add Connection</strong> / <strong>Build Authentication</strong>.",
+        "Complete the OAuth sign-in flow in your browser to link your account.",
+        "Verify that models like <code>gemini-pro-agent</code> appear under your active models list.",
+        "⚠️ Risk Notice: This provider uses a subscription/OAuth session not officially licensed for proxy/router use. Your account may be restricted or banned. Use at your own risk."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:700/1*fbuJrkLqiu3U6ciapwR0cg.png",
+      "alt": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. OpenRouter"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Go to <a href=\"https://openrouter.ai/\" target=\"_blank\" rel=\"noreferrer noopener\">OpenRouter.ai</a> and create an account.",
+        "Navigate to <strong>Keys</strong>, create a new API key, and copy it.",
+        "In 9router, locate the <strong>OpenRouter</strong> provider card, click <strong>Add Connection</strong>, and enter the key.",
+        "Go to OpenRouter’s model catalog, copy specific model identifiers (for example, free or paid models like <code>deepseek/deepseek-r1</code> or <code>nvidia/nemotron-3-ultra-550b-a55b:free</code>), and add them to 9router."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 3: Create a Resilient Model Combo"
+    },
+    {
+      "type": "paragraph",
+      "html": "A <strong>Combo</strong> is a virtual model identifier that groups several models together under a single alias with automatic routing policies:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "In 9router, navigate to the <strong>Combos</strong> tab and click <strong>Create Combo</strong>.",
+        "Name the combo (e.g., <code>code-agent</code>).",
+        "Add your configured models to the pool:"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<code>gemini/gemini-2.5-pro</code>",
+        "<code>antigravity/gemini-pro-agent</code>",
+        "<code>openrouter/deepseek-r1</code>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Set the <strong>Routing Strategy</strong>:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Fallback (Recommended for Coding):</strong> Routes requests to the primary model first. If it encounters a rate limit (<code>429</code>) or failure, it automatically cascades down to the next model in the queue without interrupting your task.",
+        "<strong>Round-Robin:</strong> Distributes requests evenly across all providers to balance token quotas.",
+        "Click <strong>Save</strong>."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:440/1*eyH2REY5xD9zPzz31dCIMw.png",
+      "alt": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 4: Generate a 9router Master API Key"
+    },
+    {
+      "type": "paragraph",
+      "html": "To authenticate downstream clients (like Cline or Chatbox) against your local 9router instance:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "In 9router, navigate to the <strong>Endpoints / Keys</strong> section.",
+        "Click <strong>Create Key</strong>.",
+        "Enter a label (e.g., <code>vscode-cline</code>) and click <strong>Create</strong>.",
+        "Copy the generated master key (<code>sk-...</code>).",
+        "Note your local endpoint URL:",
+        "Plaintext"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<code>http://localhost:20128/v1</code>"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 5: Install and Configure Cline in VS Code"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>1.1. Install the Cline Extension:</strong> Search the extension marketplace."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Open VS Code and open Extensions (<code>Ctrl+Shift+X</code> on Windows/Linux or <code>Cmd+Shift+X</code> on macOS).",
+        "Search for <strong>Cline</strong> (by Saoud Rizwan) and click <strong>Install</strong>.",
+        "Open the Cline panel via the robot icon on the Activity Bar."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>2.2. Configure API Settings:</strong> Connect Cline to your local 9router gateway."
+    },
+    {
+      "type": "paragraph",
+      "html": "Click the <strong>Gear icon (⚙️ / Settings)</strong> in the top right of the Cline panel:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>API Provider:</strong> Select <code>OpenAI Compatible</code>.",
+        "<strong>Base URL:</strong> Enter <code>http://localhost:20128/v1</code><a href=\"http://localhost:20128/v1.\" target=\"_blank\" rel=\"noreferrer noopener\">.</a>",
+        "<strong>API Key:</strong> Paste your 9router master key generated in Step 4.",
+        "<strong>Model ID:</strong> Enter your Combo name (e.g., <code>code-agent</code>).",
+        "Click <strong>Done</strong> to save the configuration."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>3.3. Test the Setup:</strong> Verify execution loop and automatic failover."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "In the Cline chat window, switch the mode selector to <strong>Act Mode</strong>.",
+        "Enter a test prompt:"
+      ]
+    },
+    {
+      "type": "code",
+      "lang": "text",
+      "code": "Inspect @package.json and write a simple health check test."
+    },
+    {
+      "type": "paragraph",
+      "html": "Cline will route the request to 9router, which queries your primary Gemini model. If Gemini hits a rate limit, 9router seamlessly fails over to OpenRouter without breaking Cline’s execution loop."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:352/1*75NzLPkw6UkNeMdvmeIZCw.png",
+      "alt": "Unified AI Orchestration: Setting Up 9router, Model Combos, and Cline in VS Code",
+      "caption": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "html": "With this architecture:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>VS Code &amp; Cline</strong> only ever need to know about one endpoint (<code>http://localhost:20128/v1</code>) and one local key.",
+        "<strong>9router</strong> handles authentication multiplexing, protocol normalization, and real-time usage logging.",
+        "<strong>Combos</strong> ensure high availability, letting you maximize free tiers and premium quotas across Gemini, Antigravity, and OpenRouter without manual key rotation."
+      ]
+    }
+  ]
+}

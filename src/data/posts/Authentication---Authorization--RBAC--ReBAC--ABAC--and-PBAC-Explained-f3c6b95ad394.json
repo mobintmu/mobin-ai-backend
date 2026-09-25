@@ -1,0 +1,715 @@
+{
+  "slug": "Authentication---Authorization--RBAC--ReBAC--ABAC--and-PBAC-Explained-f3c6b95ad394",
+  "title": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+  "subtitle": "From “who are you?” to “what can you do?” — a complete guide to modern access control models, with real examples using CASL, Keycloak, and OpenFGA.",
+  "excerpt": "From “who are you?” to “what can you do?” — a complete guide to modern access control models, with real examples using CASL, Keycloak, and…",
+  "date": "2026-07-22",
+  "tags": [
+    "Security",
+    "Architecture",
+    "Node.js"
+  ],
+  "readingTime": "15 min",
+  "url": "https://blog.stackademic.com/authentication-authorization-rbac-rebac-abac-and-pbac-explained-f3c6b95ad394",
+  "hero": "https://miro.medium.com/v2/resize:fit:1200/1*27PayjIuCx-qVI6LQ6sWrQ.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "From “who are you?” to “what can you do?” — a complete guide to modern access control models, with real examples using CASL, Keycloak, and OpenFGA."
+    },
+    {
+      "type": "paragraph",
+      "html": "Most developers learn authentication and authorization at the same time, from the same tutorial, and end up treating them as two halves of the same thing. They are not. They solve different problems, at different layers of your system, with different tools — and confusing them leads to security holes that are surprisingly hard to find."
+    },
+    {
+      "type": "paragraph",
+      "html": "This article walks through both concepts from first principles, then covers the four major authorization models — <strong>RBAC</strong>, <strong>ReBAC</strong>, <strong>ABAC</strong>, and <strong>PBAC</strong> — with concrete examples drawn from a real construction project management platform. Along the way, we compare how each model is implemented in <strong>CASL</strong>, <strong>Keycloak</strong>, and <strong>OpenFGA</strong>, and examine how the right approach changes depending on whether you’re building a monolith or microservices."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*27PayjIuCx-qVI6LQ6sWrQ.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 700,
+      "height": 391
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authentication vs. Authorization"
+    },
+    {
+      "type": "paragraph",
+      "html": "Before any access control model can work, two questions must be answered in sequence. The first is handled by authentication. The second is handled by authorization. They are not interchangeable."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authentication — Who are you?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Authentication <strong>(AuthN)</strong> is the process of <strong>verifying identity</strong>. It happens at the boundary of your system, before anything else. A user presents credentials — a password, a token, a biometric — and the system either confirms or rejects their claimed identity."
+    },
+    {
+      "type": "paragraph",
+      "html": "Authentication relies on one or more of three factors: something you <strong>know</strong> (a password or PIN), something you <strong>have</strong> (a phone receiving an OTP, a hardware key), or something you <strong>are</strong> (a fingerprint or face scan). Multi-Factor Authentication combines two or more."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1352/format:webp/1*22dccx2dDucjrtul2fASzQ.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 676,
+      "height": 397
+    },
+    {
+      "type": "paragraph",
+      "html": "Notice: at this point, none of these users have <em>done</em> anything yet. Authentication only establishes identity. What they can actually access — that comes next."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authorization — What can you do?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Authorization (AuthZ) is the process of <strong>enforcing permissions</strong>. It happens after authentication — you cannot authorize someone whose identity you have not verified. A successful login is not permission to do anything; it is only the precondition for asking what you are permitted to do."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1352/format:webp/1*gRweQaF-RmwwTk6CLtmGsQ.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 676,
+      "height": 397
+    },
+    {
+      "type": "quote",
+      "html": "A<!-- -->uthentication is binary — you are either verified or not. <br>Authorization is granular — the same user can be permitted for some actions and denied for others, depending on role, resource ownership, plan tier, and context."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*f4uIULL4h6iMPFDfL5qGYg.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 700,
+      "height": 490
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Four Authorization Models"
+    },
+    {
+      "type": "paragraph",
+      "html": "Authorization is not one-size-fits-all. As systems grow in complexity, different models emerged to handle different kinds of permission logic. Each solves a specific problem — and most real production systems end up using more than one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Role-Based Access Control (RBac)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Definition:</strong> Permissions are assigned to roles, and users are assigned to roles. A user inherits all permissions of their role."
+    },
+    {
+      "type": "paragraph",
+      "html": "This is the oldest and most widely understood model. Instead of assigning permissions to individual users — which becomes unmanageable at scale — you define roles that represent job functions, and assign those roles the permissions appropriate for those functions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Core concepts"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Role:</strong> A named job function — “Architect”, “Admin”, “Viewer”, “Finance Manager”.",
+        "<strong>Permission:</strong> An action on a resource type — “create bidding”, “delete contract”, “view report”.",
+        "<strong>Assignment:</strong> A user is given one or more roles and inherits all their permissions.",
+        "<strong>Role hierarchy:</strong> “Senior Architect” can inherit all “Architect” permissions plus additional ones."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*zhyHHzatBsgNg6EgEA0lQg.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 700,
+      "height": 398
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Where RBAC works well — and where it breaks"
+    },
+    {
+      "type": "paragraph",
+      "html": "RBAC is excellent when permission needs are stable and tied to job functions. An “Admin” always has full access. A “Viewer” always reads, never writes. The rules are easy to audit and explain to non-technical stakeholders."
+    },
+    {
+      "type": "paragraph",
+      "html": "It breaks down the moment the same user needs <strong>different permissions on different resource instances</strong>. If Alice is an architect on Project A but a viewer on Project B, pure RBAC cannot express this without creating separate roles like “Project-A-Architect” and “Project-B-Viewer” — leading to role explosion."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "RBAC with the three tools"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CASL (NestJS)"
+    },
+    {
+      "type": "paragraph",
+      "html": "The <code>AbilityFactory</code> uses a switch on the user's global role to define permitted actions. No database queries about individual resources — the role alone determines the rules. A <code>PoliciesGuard</code> decorator checks each endpoint at the type level: <code>ability.can('delete', 'Contract')</code>."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Keycloak"
+    },
+    {
+      "type": "paragraph",
+      "html": "Roles are defined in the Keycloak admin console as Realm Roles, assigned to users, and embedded into the JWT at login under <code>realm_access.roles</code>. Your NestJS guard reads the JWT, extracts the role, and makes the decision. No policy engine needed — the JWT is the source of truth for global roles."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "OpenFGA"
+    },
+    {
+      "type": "paragraph",
+      "html": "Roles are modeled as object types with <code>member</code> relations. Assignments are stored as tuples: <code>user:alice → member → role:architect</code>. Permission derivation is expressed in the model: <code>can_edit_bidding: architect or admin</code>. Checks traverse the graph automatically."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Relation-Based Access Control (ReBac)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Definition:</strong> Permissions are determined by the relationship between a user and a <em>specific resource instance</em>. Access depends on whether a meaningful relation exists between the requesting user and that exact object."
+    },
+    {
+      "type": "paragraph",
+      "html": "ReBAC solves the core limitation of RBAC: it is <strong>object-aware</strong>. It doesn’t just ask “does this user hold a role that can perform this action?” — it asks “does this user have the right relationship <em>to this specific thing</em>?”"
+    },
+    {
+      "type": "paragraph",
+      "html": "This model was popularized by Google’s Zanzibar paper (2019), which described how Google manages access across Drive, Docs, Gmail, and YouTube — all of which require object-level access control at global scale. OpenFGA is a direct implementation of those ideas."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Core concepts"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Relation:</strong> A named link between a user and a resource — “owner”, “editor”, “viewer”, “member”, “admin-of”.",
+        "<strong>Resource instance:</strong> A specific object, not a type. Not “Project” in general, but <code>project:123</code>.",
+        "<strong>Inheritance:</strong> Relations can flow through a hierarchy. A member of an organisation may inherit viewer access to all projects in that organisation.",
+        "<strong>Derived permissions:</strong> “Can edit” is derived from “is editor or owner” — permissions are not assigned directly."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1372/format:webp/1*Fq6OzglhkwI9wGVb0FNopg.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 686,
+      "height": 381
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*EowvtV3UqyUA8puEOIlFuA.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 700,
+      "height": 349
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Relation inheritance"
+    },
+    {
+      "type": "paragraph",
+      "html": "Relations can cascade through object hierarchies, eliminating the need to explicitly grant access at every level. Alice is admin of <code>org:acme</code>. The org contains <code>project:A</code>, <code>project:B</code>, and <code>project:C</code>. Alice automatically inherits admin access to all three — no explicit tuple needed for each project."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ReBAC with the three tools"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CASL (NestJS)"
+    },
+    {
+      "type": "paragraph",
+      "html": "CASL uses <strong>conditions</strong> on rules to scope permissions to specific instances. The factory loads all of the user’s project memberships from the database and creates one rule per membership with a condition: <code>can('read', 'Project', { id: membership.projectId })</code>. Critically, checks must pass the real entity — <code>ability.can('read', subject('Project', projectEntity))</code> — not just the type string."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Keycloak"
+    },
+    {
+      "type": "paragraph",
+      "html": "Keycloak has <strong>no native ReBAC support</strong>. Groups-per-resource approximations (one group per project per role) do not scale — 500 projects means 1,500+ groups. Keycloak Authorization Services (UMA) can technically model resource-level access, but the configuration complexity is extremely high. ReBAC logic belongs in CASL or OpenFGA, not Keycloak."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "OpenFGA"
+    },
+    {
+      "type": "paragraph",
+      "html": "OpenFGA is <strong>purpose-built for ReBAC</strong>. Tuples are written when a user joins a project: <code>user:bob → engineer → project:A</code>. Checks traverse the graph automatically. Inheritance works natively — no code traversal needed. The reverse lookup <code>listObjects(user:bob, \"can_view\", \"project\")</code> returns all accessible projects instantly — impossible in CASL without a manual DB query."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Attribute-Based Access Control (ABac)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Definition:</strong> Permissions are determined by evaluating attributes of the user, the resource, and the environment at the time of the request. No static role or relation assignment is needed — the decision is computed dynamically from facts."
+    },
+    {
+      "type": "paragraph",
+      "html": "ABAC is the most expressive model. Instead of asking “what role does this user hold?” or “what is their relation to this object?”, it asks — <em>given everything we know about this user, this resource, and this context right now — should this be allowed?</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The three attribute sources"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>User attributes:</strong> Subscription plan, department, seniority level, verified email, geographic region, account status.",
+        "<strong>Resource attributes:</strong> Classification level (public / confidential), owner, creation date, project phase, tier required.",
+        "<strong>Environment / context:</strong> Current time, IP address, device type, whether the session is MFA-verified, request rate."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*rYOcm6iCHorsGyzxtT-mKQ.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 700,
+      "height": 381
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "🏗 Three ABAC scenarios"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Scenario 1 — Feature gate:</strong> Alice (Professional) and Bob (Free) are both architects. Alice clicks “Export PDF” — allowed. Bob clicks the same button — denied. Role is irrelevant. Only the subscription attribute matters."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Scenario 2 — Count-based quota:</strong> Dave tries to invite a 21st team member on a Professional plan (limit: 20). The same invite action that worked for his first 20 invites now fails because a computed attribute has crossed a threshold."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Scenario 3 — Environment attribute:</strong> Carol accesses confidential financial data from an unrecognized device without MFA. Her role and subscription are fine — the environmental context blocks her."
+    },
+    {
+      "type": "quote",
+      "html": "⚠ Important LimitationABAC can express extremely rich policies, but it cannot enforce count-based quotas purely through a policy expression — the policy engine doesn’t query your database. “User has 4 of their 5 project limit” must be checked in your service layer, after the policy-level check confirms the action is allowed in principle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ABAC with the three tools"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CASL (NestJS)"
+    },
+    {
+      "type": "paragraph",
+      "html": "Subscription attributes are loaded in the ability factory alongside role and membership data. Free plan: <code>cannot('use', 'feature:pdf_export')</code> — overrides any role-level grant. Expired subscription: <code>cannot('manage', 'all')</code>, leaving only the billing page accessible. <code>cannot()</code> always wins over <code>can()</code> in CASL, making layered gates safe and predictable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Keycloak"
+    },
+    {
+      "type": "paragraph",
+      "html": "Keycloak can embed user attributes in the JWT via custom claims: <code>\"subscription_plan\": \"professional\"</code>. Your NestJS guard reads the claim and makes the decision. <strong>Critical limitation:</strong> Keycloak embeds attributes at <em>token issuance time</em>. If a user upgrades their subscription, the old token still reflects the old plan until it expires. Keycloak is only suitable for slow-changing, user-level attributes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "OpenFGA"
+    },
+    {
+      "type": "paragraph",
+      "html": "Subscription state is stored as tuples: <code>user_subscription:alice → plan_pro → ...</code>. When Alice upgrades, write the tuple. When she downgrades, delete it. Effect is <strong>immediate</strong> — no token expiry wait, no cache to invalidate. OpenFGA 1.4+ also supports conditions on relations for richer attribute expressions, evaluated at check time via contextual tuples."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Policy-Based Access Control (PBac)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Definition:</strong> A unified authorization framework that combines RBAC, ReBAC, and ABAC into a single coherent policy engine. Each layer handles the type of question it is best suited to answer, and the layers are evaluated together to reach a final allow/deny decision."
+    },
+    {
+      "type": "paragraph",
+      "html": "PBAC is not a replacement for the other models — it is what <strong>emerges when a system’s requirements outgrow any single model</strong>. Most production systems of moderate complexity implement PBAC, whether they use that label or not."
+    },
+    {
+      "type": "quote",
+      "html": "RBAC breaks when the same user needs different permissions on different instances. ReBAC cannot express attribute-based gates. ABAC alone becomes unwieldy at scale. PBAC assigns each concern to the right layer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Five layers in practice"
+    },
+    {
+      "type": "paragraph",
+      "html": "Our construction platform has all five layers working simultaneously:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Global RBAC"
+    },
+    {
+      "type": "paragraph",
+      "html": "Architect can view and edit bidding by default — across the entire platform. Baseline permissions for all users of each role."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ReBAC — Project Membership"
+    },
+    {
+      "type": "paragraph",
+      "html": "Users can only access projects they are a member of. Bob’s engineer role is valid globally, but he can’t touch Project B because no membership relation exists."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dynamic RBAC — Per-Project Overrides"
+    },
+    {
+      "type": "paragraph",
+      "html": "Project admins can override default role permissions within their project. In Project A, architect = view only. In Project B, architect = view + edit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "User ABAC — Personal Subscription"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each user’s subscription plan controls their personal feature access. Alice (Pro) can export PDF. Bob (Free) cannot — regardless of his project role."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Project ABAC — Project Subscription"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each project’s subscription plan unlocks project-wide features. Project A (Business plan) enables advanced bidding tools for all its members."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A single request traced through all five layers"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Request: “Can Bob update a bid item in Project A using the advanced bidding tool?”</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Layer 1 — Global RBAC:</strong> Bob’s global role is “engineer”. Engineers cannot edit bidding by default. Denied at this layer — but a project override may change that."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Layer 2 — ReBAC:</strong> Is Bob a member of Project A? Yes, the membership relation exists. Membership confirmed."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Layer 3 — Dynamic RBAC:</strong> Project A’s admin has granted engineers edit access in this project. The override exists. Permission granted for this project specifically."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Layer 4 — User ABAC:</strong> Bob’s personal subscription is Free. The advanced bidding tool is a Pro feature. This specific feature denied for Bob personally."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Layer 5 — Project ABAC:</strong> Project A has a Business plan that includes advanced bidding. Feature enabled at the project level."
+    },
+    {
+      "type": "quote",
+      "html": "Final ResultBob <strong>can</strong> update the bid item (layers 1–3 resolve to allowed). He <strong>cannot</strong> use the advanced bidding tool (layer 4 denies him personally, regardless of the project plan). Two different answers from the same request, at different granularity levels."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Monolith vs. Microservices"
+    },
+    {
+      "type": "paragraph",
+      "html": "The architecture of your system profoundly affects how authentication and authorization are implemented, where they live, and who is responsible for enforcing them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "In a Monolith"
+    },
+    {
+      "type": "paragraph",
+      "html": "A monolith is a single deployable unit. All modules run in the same process and share the same database connection. This makes both authentication and authorization relatively straightforward."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authentication"
+    },
+    {
+      "type": "paragraph",
+      "html": "One entry point, one auth flow. A single Auth Guard sits at the application boundary. Every request passes through it. The JWT is verified once, the user identity is attached to the request context, and it flows through to every module. A single Keycloak realm handles all users and roles."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authorization"
+    },
+    {
+      "type": "paragraph",
+      "html": "Authorization logic is <strong>co-located with the data it protects</strong>. This is the key advantage. Your CASL ability factory queries the same database that holds user memberships, subscription records, and role overrides. No network hops, no consistency delays, no risk of stale permissions."
+    },
+    {
+      "type": "paragraph",
+      "html": "A Redis cache stores the serialized ability per user, invalidated precisely when memberships or subscriptions change. The invalidation logic is deterministic: subscription change → invalidate that user. Project membership change → invalidate that user. Role override change → invalidate all members of that project with that role."
+    },
+    {
+      "type": "quote",
+      "html": "Monolith AdvantageAuthorization logic is co-located with the data it depends on. There is no risk of stale permissions, no network latency for auth decisions, and CASL is a near-perfect fit. The full 5-layer PBAC factory runs in-process with sub-millisecond latency."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "In Microservices"
+    },
+    {
+      "type": "paragraph",
+      "html": "A microservices architecture splits the application into independently deployable services. Each service owns its own data and communicates over the network. This introduces fundamental new challenges for both authentication and authorization."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authentication — every service is an entry point"
+    },
+    {
+      "type": "paragraph",
+      "html": "Any service can receive an external request (via an API gateway) or an internal request from another service. Both must be authenticated."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>External auth:</strong> All external traffic passes through an API Gateway that verifies the Keycloak JWT. The gateway forwards the verified identity to downstream services, which trust the gateway and do not re-verify.",
+        "<strong>Service-to-service auth:</strong> Keycloak issues machine-to-machine (M2M) tokens via the Client Credentials grant for service accounts. Service A requests a token using its client ID and secret, then attaches it to calls to Service B.",
+        "<strong>Token propagation:</strong> The original user token should be propagated to downstream services when the call is <em>on behalf of</em> a user. Some architectures use token exchange — Service A exchanges the user token for a short-lived scoped token that Service B accepts."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authorization — the distributed state problem"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each service needs to make authorization decisions, but authorization depends on data (memberships, subscriptions, role overrides) that may be owned by a <em>different</em> service. This is the fundamental problem that CASL alone cannot solve."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Approach 1 — Each service owns its own authorization"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each microservice has its own copy of CASL. Permission logic is duplicated. When rules change, every service must be updated and redeployed. Works for small teams with very few services."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Approach 2 — API Gateway enforces coarse-grained rules"
+    },
+    {
+      "type": "paragraph",
+      "html": "The gateway handles global role checks. Services handle fine-grained checks. Authorization logic is split between two layers with no single source of truth."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Approach 3 — Centralized authorization service (OpenFGA)"
+    },
+    {
+      "type": "paragraph",
+      "html": "A dedicated authorization service stores all permission tuples and evaluates all checks. Every microservice calls OpenFGA before processing any sensitive action. Permission changes are written once and immediately visible everywhere. The trade-off: OpenFGA adds ~5–20ms of network latency per check and becomes a critical dependency."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Microservices authorization flow with OpenFGA"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>User makes request</strong> → API Gateway verifies Keycloak JWT → forwards with user identity header."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Bidding Service receives request</strong> → extracts user ID from header."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Bidding Service calls OpenFGA:</strong> <code>\"can user:bob edit bidding:456?\"</code>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>OpenFGA evaluates</strong> → traverses tuples: bob → engineer-member → project:A → project:A contains bidding:456 → engineer override grants edit → allowed."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Bidding Service checks project subscription</strong> → second OpenFGA call: “does project:A have advanced_bidding feature?”"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Bidding Service proceeds</strong> → processes request → returns response."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1302/format:webp/1*L5funuyRQjanLLmp_QIHTw.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 651,
+      "height": 762
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tool Comparison: CASL, Keycloak, and OpenFGA"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each tool has a specific role to play. They are complementary, not competing — most production systems use two or three of them together."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Keycloak — Identity and Authentication"
+    },
+    {
+      "type": "paragraph",
+      "html": "Keycloak is an open-source Identity Provider (IdP) built for enterprise-grade authentication. It does not make fine-grained authorization decisions — its role is to confirm who you are and issue a token proving it."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Login UI and flows:</strong> Username/password, social login, LDAP federation — all without code.",
+        "<strong>MFA:</strong> TOTP, WebAuthn, SMS — configurable per user or realm policy.",
+        "<strong>OAuth2 / OIDC:</strong> Standards-based token issuance, refresh, revocation, and introspection.",
+        "<strong>SSO:</strong> One login across multiple applications in the same realm.",
+        "<strong>Global RBAC in JWT:</strong> Realm roles embedded in the token — perfect for coarse-grained role checks without external lookup."
+      ]
+    },
+    {
+      "type": "quote",
+      "html": "Where Keycloak should not own authorizationKeycloak makes authorization decisions at <strong>token issuance time</strong>, not at request time. Subscription upgrades, new project memberships, and role overrides do not take effect until the old token expires. Fine-grained per-endpoint permissions in Keycloak Authorization Services are technically possible but notoriously hard to configure and debug correctly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CASL — In-Process Authorization for Node.js"
+    },
+    {
+      "type": "paragraph",
+      "html": "CASL (pronounced “castle”) is a JavaScript/TypeScript library that brings expressive authorization logic to your application code. It runs in the same process — no network calls, no external service."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>All three models:</strong> RBAC, ReBAC (conditions), and ABAC (attribute checks in the factory) work natively.",
+        "<strong>Composability:</strong> Rules are composed in the factory. <code>cannot()</code> always wins, making layering safe and predictable.",
+        "<strong>Isomorphic:</strong> The same ability object can be used in both NestJS and React — hide UI elements the user cannot use.",
+        "<strong>Zero latency:</strong> All checks are in-process.",
+        "<strong>No reverse lookup:</strong> You cannot ask “list all projects user:bob can view” — you must write a manual DB query.",
+        "<strong>No built-in audit log:</strong> Permission changes are code or DB changes.",
+        "<strong>Cache complexity:</strong> The ability must be cached and carefully invalidated when memberships or subscriptions change."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "OpenFGA — Centralized Graph-Based Authorization"
+    },
+    {
+      "type": "paragraph",
+      "html": "OpenFGA is an open-source authorization service based on Google’s Zanzibar paper. It externalizes all authorization logic into a dedicated service that any part of your system can query."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>ReBAC natively:</strong> Relation tuples are OpenFGA’s first-class citizen. Relations are stored, traversed, and evaluated automatically.",
+        "<strong>Instant permission updates:</strong> Writing a new tuple takes effect immediately. No cache to invalidate.",
+        "<strong>Reverse lookups:</strong> <code>listObjects</code> and <code>listUsers</code> answer questions that require graph traversal — impossible in CASL without manual queries.",
+        "<strong>Built-in audit log:</strong> Every tuple write and delete is logged via the <code>readChanges</code> API.",
+        "<strong>Multi-service:</strong> A single OpenFGA instance serves all your microservices."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1282/format:webp/1*QldzIJfJOGD6Aj_O4lCf5w.png",
+      "alt": "Authentication & Authorization: RBAC, ReBAC, ABAC, and PBAC Explained",
+      "caption": "",
+      "width": 641,
+      "height": 539
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "html": "Authentication and authorization are distinct problems that require distinct tools. Conflating them — or forcing a single tool to solve both — leads to either under-engineered access control or over-engineered identity management."
+    },
+    {
+      "type": "paragraph",
+      "html": "Start with <strong>Keycloak for AuthN</strong> and <strong>CASL for AuthZ</strong>. Add ReBAC conditions when project membership appears. Layer ABAC when subscriptions enter the picture. Recognize that your system has become PBAC — and treat each layer deliberately. Migrate to OpenFGA when you split into microservices or need audit logs and reverse lookups."
+    },
+    {
+      "type": "quote",
+      "html": "The complexity of your authorization model should match the complexity of your domain. Authorization is infrastructure — build it incrementally, not all at once."
+    }
+  ]
+}

@@ -1,0 +1,3073 @@
+[
+  {
+    "slug": "when-mediums-bots-fear-your-writing-why-im-leaving-after-6-years-and-200-articles-anlqe",
+    "title": "When Medium's Bots Fear Your Writing: Why I'm Leaving After 6 Years and 200 Articles",
+    "excerpt": "Six years. Two hundred articles. Technical writing about software architecture, data pipelines, and the tools I work with every day.",
+    "date": "2026-06-25",
+    "tags": [
+      "Career"
+    ],
+    "readingTime": "3 min",
+    "url": "https://www.linkedin.com/pulse/when-mediums-bots-fear-your-writing-why-im-leaving-after-shaterian-anlqe"
+  },
+  {
+    "slug": "what-happens-when-you-hire-a-junior-who-vibe-codes-as-a-senior-engineer-a047146d9ae9",
+    "title": "What Happens When You Hire a Junior Who Vibe Codes as a Senior Engineer",
+    "excerpt": "On the difference between generating solutions and understanding problems",
+    "date": "2026-06-24",
+    "tags": [
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/what-happens-when-you-hire-a-junior-who-vibe-codes-as-a-senior-engineer-a047146d9ae9"
+  },
+  {
+    "slug": "rebuilding-the-time-machine-designing-a-dual-purpose-data-versioning-system-for-modern-backends-c00ddf54bf53",
+    "title": "Rebuilding the Time Machine: Designing a Dual-Purpose Data Versioning System for Modern Backends…",
+    "excerpt": "In traditional software engineering, databases are treated as state machines. When a user updates their profile, a transaction executes an…",
+    "date": "2026-06-23",
+    "tags": [
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/rebuilding-the-time-machine-designing-a-dual-purpose-data-versioning-system-for-modern-backends-c00ddf54bf53"
+  },
+  {
+    "slug": "the-new-generation-of-e2e-test-automation-capturing-traffic-and-bypassing-auth-with-postman-and-16f167e37950",
+    "title": "The New Generation of E2E Test Automation: Capturing Traffic and Bypassing Auth with Postman and…",
+    "excerpt": "End-to-End (E2E) testing ensures that your systems work cohesively, from the user interface down to the backend database. However, as…",
+    "date": "2026-06-22",
+    "tags": [
+      "Security",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/the-new-generation-of-e2e-test-automation-capturing-traffic-and-bypassing-auth-with-postman-and-16f167e37950"
+  },
+  {
+    "slug": "serving-an-offline-graphql-playground-in-go-avoiding-the-gin-static-file-pitfalls-dd907b2ab087",
+    "title": "Serving an Offline GraphQL Playground in Go: Avoiding the Gin Static File Pitfalls",
+    "excerpt": "When building a GraphQL API in Go using gqlgen and Gin, the built-in playground.Handler is the standard way to serve the GraphiQL UI. Out…",
+    "date": "2026-06-09",
+    "tags": [
+      "Go",
+      "API",
+      "GraphQL",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/serving-an-offline-graphql-playground-in-go-avoiding-the-gin-static-file-pitfalls-dd907b2ab087"
+  },
+  {
+    "slug": "tunneling-tcp-connections-over-ssh-using-socat-and-nc-fb142a2d6034",
+    "title": "Tunneling TCP Connections Over SSH Using socat and nc",
+    "excerpt": "Tunnel TCP traffic through an SSH jump host using socat and netcat, without a VPN or extra firewall rules.",
+    "date": "2026-06-08",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/tunneling-tcp-connections-over-ssh-using-socat-and-nc-fb142a2d6034"
+  },
+  {
+    "slug": "real-time-data-ingestion-connecting-distributed-kafka-to-clickhouse-in-docker-1e29e0b0f665",
+    "title": "Real-Time Data Ingestion: Connecting Distributed Kafka to ClickHouse in Docker",
+    "excerpt": "Building a high-throughput analytics pipeline requires a database that can ingest millions of rows per second and a message broker that can…",
+    "date": "2026-06-01",
+    "tags": [
+      "Kafka",
+      "ClickHouse",
+      "Docker",
+      "Performance"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/real-time-data-ingestion-connecting-distributed-kafka-to-clickhouse-in-docker-1e29e0b0f665"
+  },
+  {
+    "slug": "clickhouse-tiered-storage-volumes-storage-policies-and-ttl-from-scratch-to-production-8758d8f3f066",
+    "title": "ClickHouse Tiered Storage: Volumes, Storage Policies, and TTL from Scratch to Production",
+    "excerpt": "Most ClickHouse deployments start simple: one server, one disk, one table. That works fine until the day you realise you are paying NVMe…",
+    "date": "2026-05-30",
+    "tags": [
+      "ClickHouse",
+      "Machine Learning"
+    ],
+    "readingTime": "16 min",
+    "url": "https://medium.com/@mobinshaterian/clickhouse-tiered-storage-volumes-storage-policies-and-ttl-from-scratch-to-production-8758d8f3f066"
+  },
+  {
+    "slug": "integrating-kafka-with-clickhouse-using-ssl-sasl-a-technical-retrospective-be9d75864340",
+    "title": "Integrating Kafka with ClickHouse using SSL/SASL: A Technical Retrospective",
+    "excerpt": "Integrating ClickHouse with a secured Kafka cluster often presents a challenge because of the strict separation between SQL-level settings…",
+    "date": "2026-05-30",
+    "tags": [
+      "Kafka",
+      "ClickHouse",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/integrating-kafka-with-clickhouse-using-ssl-sasl-a-technical-retrospective-be9d75864340"
+  },
+  {
+    "slug": "architectural-optimization-of-shared-sandbox-deployments-in-gitlab-ci-cd-47ccce21fa9d",
+    "title": "Architectural Optimization of Shared Sandbox Deployments in GitLab CI/CD",
+    "excerpt": "The shared sandbox deployment strategy provides high feedback velocity at a low cost by using a centralized development environment, yet it…",
+    "date": "2026-05-26",
+    "tags": [
+      "DevOps",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/architectural-optimization-of-shared-sandbox-deployments-in-gitlab-ci-cd-47ccce21fa9d"
+  },
+  {
+    "slug": "how-we-rebuilt-a-telecom-kpi-platform-to-handle-billions-of-records-from-json-blobs-to-flat-1a4eb6b27574",
+    "title": "How We Rebuilt a Telecom KPI Platform to Handle Billions of Records: From JSON Blobs to Flat…",
+    "excerpt": "Background",
+    "date": "2026-05-26",
+    "tags": [
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/how-we-rebuilt-a-telecom-kpi-platform-to-handle-billions-of-records-from-json-blobs-to-flat-1a4eb6b27574"
+  },
+  {
+    "slug": "the-test-backdoor-pattern-safe-e2e-automation-for-hard-to-test-flows-8e5e234dc859",
+    "title": "The Test-Backdoor Pattern: Safe E2E Automation for Hard-to-Test Flows",
+    "excerpt": "End-to-End (E2E) testing ensures that systems work cohesively from the user interface down to the database. However, modern security…",
+    "date": "2026-05-26",
+    "tags": [
+      "Security",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/the-test-backdoor-pattern-safe-e2e-automation-for-hard-to-test-flows-8e5e234dc859"
+  },
+  {
+    "slug": "building-a-high-throughput-kpi-pipeline-on-clickhouse-partitioning-idempotent-recalculation-and-3302a12ddf83",
+    "title": "Building a High-Throughput KPI Pipeline on ClickHouse: Partitioning, Idempotent Recalculation, and…",
+    "excerpt": "Every hour, 15 million rows of raw network measurement data land in our ClickHouse cluster. From that data we calculate per-cell…",
+    "date": "2026-05-25",
+    "tags": [
+      "ClickHouse",
+      "Performance",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-high-throughput-kpi-pipeline-on-clickhouse-partitioning-idempotent-recalculation-and-3302a12ddf83"
+  },
+  {
+    "slug": "solving-the-nan-deadlock-streaming-kafka-to-clickhouse-with-data-sanitization-530ff573762f",
+    "title": "Solving the “NaN” Deadlock: Streaming Kafka to ClickHouse with Data Sanitization",
+    "excerpt": "Integrating high-velocity streaming data into ClickHouse often feels like a “set it and forget it” task — until it isn’t. Recently, we…",
+    "date": "2026-05-19",
+    "tags": [
+      "Kafka",
+      "ClickHouse",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/solving-the-nan-deadlock-streaming-kafka-to-clickhouse-with-data-sanitization-530ff573762f"
+  },
+  {
+    "slug": "thank-you-for-the-thorough-and-highly-actionable-review-11477a9b1c1b",
+    "title": "Thank you for the thorough and highly actionable review.",
+    "excerpt": "Thank you for the thorough and highly actionable review. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2026-05-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thank-you-for-the-thorough-and-highly-actionable-review-11477a9b1c1b"
+  },
+  {
+    "slug": "mastering-the-manual-a-guide-to-manually-installing-postgresql-jdbc-drivers-in-dbeaver-ac5c1507c94b",
+    "title": "Mastering the Manual: A Guide to Manually Installing PostgreSQL JDBC Drivers in DBeaver",
+    "excerpt": "In the world of database management, DBeaver is widely regarded as the “Swiss Army Knife” for developers and DBAs. While its automated…",
+    "date": "2026-05-04",
+    "tags": [
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/mastering-the-manual-a-guide-to-manually-installing-postgresql-jdbc-drivers-in-dbeaver-ac5c1507c94b"
+  },
+  {
+    "slug": "a-microservice-that-teaches-everything-not-to-do-e055f7480424",
+    "title": "A Microservice That Teaches Everything Not to Do",
+    "excerpt": "Every engineer eventually encounters a system that becomes a living catalog of anti-patterns. Recently, I reviewed a microservice…",
+    "date": "2026-05-03",
+    "tags": [
+      "Microservices",
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/a-microservice-that-teaches-everything-not-to-do-e055f7480424"
+  },
+  {
+    "slug": "connecting-kafka-to-clickhouse-with-ssl-a-complete-integration-guide-e5a0a5957de3",
+    "title": "Connecting Kafka to ClickHouse with SSL: A Complete Integration Guide",
+    "excerpt": "Setting up a production-ready data pipeline requires balancing high performance with rigorous security. When integrating ClickHouse with a…",
+    "date": "2026-04-23",
+    "tags": [
+      "Kafka",
+      "ClickHouse",
+      "Performance",
+      "Security"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/connecting-kafka-to-clickhouse-with-ssl-a-complete-integration-guide-e5a0a5957de3"
+  },
+  {
+    "slug": "the-clear-as-you-go-pattern-solving-memory-spikes-in-high-volume-go-data-pipelines-b40b3f7ce2d2",
+    "title": "The “Clear-as-you-go” Pattern: Solving Memory Spikes in High-Volume Go Data Pipelines",
+    "excerpt": "In the world of data engineering with Go, the OOMKilled (Exit Code 137) error is a common ghost in the machine. It often haunts developers…",
+    "date": "2026-04-20",
+    "tags": [
+      "Go",
+      "Machine Learning",
+      "Data Engineering",
+      "Career"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/the-clear-as-you-go-pattern-solving-memory-spikes-in-high-volume-go-data-pipelines-b40b3f7ce2d2"
+  },
+  {
+    "slug": "thanks-for-the-analysis-i-will-apply-your-hints-f0366981e474",
+    "title": "Thanks for the analysis, I will apply your hints.",
+    "excerpt": "Thanks for the analysis, I will apply your hints. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2…",
+    "date": "2026-03-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-for-the-analysis-i-will-apply-your-hints-f0366981e474"
+  },
+  {
+    "slug": "database-seeder-implementation-in-the-go-wordpress-project-b09ce0a4728d",
+    "title": "Database Seeder Implementation in the Go-Wordpress project",
+    "excerpt": "Overview",
+    "date": "2026-02-23",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/database-seeder-implementation-in-the-go-wordpress-project-b09ce0a4728d"
+  },
+  {
+    "slug": "building-a-category-config-product-management-system-in-go-a-deep-dive-5100ef95f814",
+    "title": "Building a Category, Config & Product Management System in Go: A Deep Dive",
+    "excerpt": "Overview",
+    "date": "2026-02-22",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-category-config-product-management-system-in-go-a-deep-dive-5100ef95f814"
+  },
+  {
+    "slug": "go-wordpress-a-robust-web-scraping-architecture-for-product-aggregation-e99de3f91bd5",
+    "title": "Go-WordPress: A Robust Web Scraping Architecture for Product Aggregation",
+    "excerpt": "Introduction",
+    "date": "2026-02-14",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/go-wordpress-a-robust-web-scraping-architecture-for-product-aggregation-e99de3f91bd5"
+  },
+  {
+    "slug": "bridging-networks-using-nginx-as-a-reverse-proxy-for-port-redirection-b8e1f515b549",
+    "title": "Bridging Networks: Using Nginx as a Reverse Proxy for Port Redirection",
+    "excerpt": "When managing distributed systems or local development environments, you often encounter a common networking hurdle: needing to access a…",
+    "date": "2026-02-09",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/bridging-networks-using-nginx-as-a-reverse-proxy-for-port-redirection-b8e1f515b549"
+  },
+  {
+    "slug": "the-phantom-403-solving-django-csrf-failures-in-golang-clients-83906f4770e8",
+    "title": "The “Phantom” 403: Solving Django CSRF Failures in Golang Clients",
+    "excerpt": "In the world of backend development, few things are as frustrating as an API that works the first time perfectly but fails mysteriously on…",
+    "date": "2026-02-09",
+    "tags": [
+      "Go",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/the-phantom-403-solving-django-csrf-failures-in-golang-clients-83906f4770e8"
+  },
+  {
+    "slug": "go-wordpress-crawler-advanced-structural-improvements-ec460d05c4f0",
+    "title": "Go WordPress Crawler: Advanced Structural Improvements",
+    "excerpt": "A Deep Dive into Enhanced Web Scraping Architecture and Configuration",
+    "date": "2026-02-02",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "18 min",
+    "url": "https://medium.com/@mobinshaterian/go-wordpress-crawler-advanced-structural-improvements-ec460d05c4f0"
+  },
+  {
+    "slug": "how-to-port-forward-traffic-to-a-remote-ip-using-iptables-c3a8c10a6228",
+    "title": "How to Port Forward Traffic to a Remote IP Using Iptables",
+    "excerpt": "In the world of networking, you often find yourself in a situation where a vital service — like a Swagger API dashboard — is hosted on a…",
+    "date": "2026-02-02",
+    "tags": [
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/how-to-port-forward-traffic-to-a-remote-ip-using-iptables-c3a8c10a6228"
+  },
+  {
+    "slug": "when-authentication-grows-without-a-plan-a-hidden-security-risk-in-legacy-django-and-spa-systems-eeb172bc92a8",
+    "title": "When Authentication Grows Without a Plan: A Hidden Security Risk in Legacy Django and SPA Systems",
+    "excerpt": "Modern web applications rarely start complex. A typical backend begins with session-based authentication, a frontend renders server-side…",
+    "date": "2026-01-24",
+    "tags": [
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/when-authentication-grows-without-a-plan-a-hidden-security-risk-in-legacy-django-and-spa-systems-eeb172bc92a8"
+  },
+  {
+    "slug": "exactly-this-is-only-simple-step-for-crawling-system-i-will-do-it-on-my-future-work-c3a7c638f436",
+    "title": "Exactly, this is only simple step for crawling system.‌ I will do it on my future work.",
+    "excerpt": "Exactly, this is only simple step for crawling system.‌ I will do it on my future work. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px;…",
+    "date": "2026-01-21",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/exactly-this-is-only-simple-step-for-crawling-system-i-will-do-it-on-my-future-work-c3a7c638f436"
+  },
+  {
+    "slug": "thank-you-so-much-64cff2eb9213",
+    "title": "Thank you so much",
+    "excerpt": "Thank you so much * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px; line-height:…",
+    "date": "2026-01-20",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thank-you-so-much-64cff2eb9213"
+  },
+  {
+    "slug": "building-a-safe-parallel-woocommerce-crawler-in-go-with-colly-8786353b4b16",
+    "title": "Building a Safe, Parallel WooCommerce Crawler in Go with Colly",
+    "excerpt": "Web crawling often starts simple: fetch a listing page, extract some fields, and move on. The complexity appears when you need to enrich…",
+    "date": "2026-01-07",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-safe-parallel-woocommerce-crawler-in-go-with-colly-8786353b4b16"
+  },
+  {
+    "slug": "building-a-go-microservice-to-crawl-woocommerce-products-3910d3b99f1d",
+    "title": "Building a Go Microservice to Crawl WooCommerce Products",
+    "excerpt": "In this project, we explored how to design and implement a Go‑based microservice that crawls products from a WooCommerce WordPress site.",
+    "date": "2026-01-06",
+    "tags": [
+      "Go",
+      "Microservices",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-go-microservice-to-crawl-woocommerce-products-3910d3b99f1d"
+  },
+  {
+    "slug": "designing-a-scalable-poller-dispatcher-worker-architecture-in-go-eb5576116190",
+    "title": "Designing a Scalable Poller–Dispatcher–Worker Architecture in Go",
+    "excerpt": "This architecture establishes a production-grade job processing system in Go by decoupling logic into a Poller (decision-maker), Dispatcher",
+    "date": "2025-12-30",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/designing-a-scalable-poller-dispatcher-worker-architecture-in-go-eb5576116190"
+  },
+  {
+    "slug": "integrating-sqlc-and-graphql-in-go-a-practical-example-with-product-filtering-4722e0a53179",
+    "title": "Integrating SQLC and GraphQL in Go: A Practical Example with Product Filtering",
+    "excerpt": "GraphQL provides a powerful query language for clients, while SQLC generates type‑safe Go code directly from SQL queries",
+    "date": "2025-12-30",
+    "tags": [
+      "Go",
+      "GraphQL",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/integrating-sqlc-and-graphql-in-go-a-practical-example-with-product-filtering-4722e0a53179"
+  },
+  {
+    "slug": "combining-sqlc-and-graphql-in-go-for-type-safe-apis-0b77c1ae0249",
+    "title": "Combining SQLC and GraphQL in Go for Type‑Safe APIs",
+    "excerpt": "Modern backend development often requires balancing flexibility for clients with performance and safety in the data layer. Two powerful…",
+    "date": "2025-12-29",
+    "tags": [
+      "Go",
+      "GraphQL",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/combining-sqlc-and-graphql-in-go-for-type-safe-apis-0b77c1ae0249"
+  },
+  {
+    "slug": "building-a-graphql-api-in-go-with-custom-scalars-0b1a1b3e52f9",
+    "title": "Building a GraphQL API in Go with Custom Scalars",
+    "excerpt": "GraphQL has become a powerful alternative to REST APIs, offering clients the ability to request exactly the data they need. In Go, the…",
+    "date": "2025-12-26",
+    "tags": [
+      "Go",
+      "API",
+      "GraphQL",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-graphql-api-in-go-with-custom-scalars-0b1a1b3e52f9"
+  },
+  {
+    "slug": "database-migration-mismatch-the-hash-client-secret-error-in-django-oauth-db8fc9a511c7",
+    "title": "Database Migration Mismatch: The “Hash Client Secret” Error in Django OAuth🚨",
+    "excerpt": "The error message django.db.utils.ProgrammingError: column oauth2_provider_application.hash_client_secret does not exist is a classic…",
+    "date": "2025-12-26",
+    "tags": [
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/database-migration-mismatch-the-hash-client-secret-error-in-django-oauth-db8fc9a511c7"
+  },
+  {
+    "slug": "i-agree-with-your-perspective-bf717bd0a270",
+    "title": "I agree with your perspective.",
+    "excerpt": "However, in practice, many monoliths evolve into tangled, unstructured \"spaghetti code\" over time. In such cases, breaking the system into…",
+    "date": "2025-12-25",
+    "tags": [
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/i-agree-with-your-perspective-bf717bd0a270"
+  },
+  {
+    "slug": "successfully-migrating-from-a-monolith-to-microservices-with-a-technical-debt-approach-aa08d713deec",
+    "title": "Successfully Migrating from a Monolith to Microservices with a Technical-Debt Approach",
+    "excerpt": "Deciding to migrate from a large, aging monolithic system to a microservices architecture is often a reactive response to…",
+    "date": "2025-12-23",
+    "tags": [
+      "Microservices",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/successfully-migrating-from-a-monolith-to-microservices-with-a-technical-debt-approach-aa08d713deec"
+  },
+  {
+    "slug": "adding-clickhouse-to-a-go-project-a-practical-guide-inspired-by-go-simple-5a4cfef93e41",
+    "title": "Adding ClickHouse to a Go Project: A Practical Guide Inspired by go-simple",
+    "excerpt": "ClickHouse has become a favorite for developers who need fast analytical queries, real‑time inserts, and effortless scalability. But…",
+    "date": "2025-12-14",
+    "tags": [
+      "Go",
+      "ClickHouse",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/adding-clickhouse-to-a-go-project-a-practical-guide-inspired-by-go-simple-5a4cfef93e41"
+  },
+  {
+    "slug": "complete-guide-migrating-from-rest-grpc-to-graphql-in-go-96c53025d9dc",
+    "title": "Complete Guide: Migrating from REST & gRPC to GraphQL in Go",
+    "excerpt": "we’ll walk through the complete process of migrating a Go application from a REST API with gRPC to a modern GraphQL Go base",
+    "date": "2025-12-14",
+    "tags": [
+      "Go",
+      "API",
+      "gRPC",
+      "GraphQL"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/complete-guide-migrating-from-rest-grpc-to-graphql-in-go-96c53025d9dc"
+  },
+  {
+    "slug": "building-a-complete-kafka-clickhouse-streaming-stack-with-docker-compose-98cbfc4bbf0c",
+    "title": "Building a Complete Kafka + ClickHouse Streaming Stack with Docker Compose",
+    "excerpt": "The article demonstrates building a complete, reproducible real-time data streaming and analytics stack using Kafka and ClickHouse.",
+    "date": "2025-12-07",
+    "tags": [
+      "Kafka",
+      "ClickHouse",
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-complete-kafka-clickhouse-streaming-stack-with-docker-compose-98cbfc4bbf0c"
+  },
+  {
+    "slug": "preventing-race-conditions-in-kubernetes-applications-with-redis-locks-7da00ec8c8dd",
+    "title": "Preventing Race Conditions in Kubernetes Applications with Redis Locks",
+    "excerpt": "Redis provides a distributed lock for Kubernetes to manage concurrency and prevent race conditions in scheduled tasks.",
+    "date": "2025-12-03",
+    "tags": [
+      "Redis",
+      "Kubernetes",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/preventing-race-conditions-in-kubernetes-applications-with-redis-locks-7da00ec8c8dd"
+  },
+  {
+    "slug": "rsync-from-one-origin-to-multiple-destinations-strategies-and-solutions-30fb79b4164d",
+    "title": "Rsync from One Origin to Multiple Destinations: Strategies and Solutions 🔄",
+    "excerpt": "Scale one-to-many rsync using a concurrent fan-out script or a staged mirroring hierarchy to ensure speed and consistency.",
+    "date": "2025-12-03",
+    "tags": [
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/rsync-from-one-origin-to-multiple-destinations-strategies-and-solutions-30fb79b4164d"
+  },
+  {
+    "slug": "absolutely-and-youre-spot-on-go-generate-is-most-valuable-when-structural-repetition-is-high-1f6b094de34d",
+    "title": "Absolutely — and you’re spot on: go generate is most valuable when structural repetition is high…",
+    "excerpt": "The biggest pitfalls I’ve seen are stale outputs and tooling gaps—not running go generate consistently can lead to silent mismatches…",
+    "date": "2025-12-02",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/absolutely-and-youre-spot-on-go-generate-is-most-valuable-when-structural-repetition-is-high-1f6b094de34d"
+  },
+  {
+    "slug": "eliminating-code-duplication-in-go-with-go-generate-a-practical-guide-13d40dfa6df1",
+    "title": "Eliminating Code Duplication in Go with go:generate: A Practical Guide",
+    "excerpt": "When building data-intensive applications in Go, you often find yourself writing repetitive boilerplate code.",
+    "date": "2025-12-02",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/eliminating-code-duplication-in-go-with-go-generate-a-practical-guide-13d40dfa6df1"
+  },
+  {
+    "slug": "youre-absolutely-welcome-45b27d2ea29f",
+    "title": "You're absolutely welcome!",
+    "excerpt": "For smaller projects, keeping things simple (like using redis.NewClient with default pooling) is totally reasonable , Go-Redis already…",
+    "date": "2025-12-02",
+    "tags": [
+      "Go",
+      "Redis",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/youre-absolutely-welcome-45b27d2ea29f"
+  },
+  {
+    "slug": "getting-started-with-docker-files-a-complete-guide-d1d5b2d44d1b",
+    "title": "Getting Started with Docker files: A Complete Guide",
+    "excerpt": "Docker has revolutionized how developers build, ship, and run applications",
+    "date": "2025-12-01",
+    "tags": [
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/getting-started-with-docker-files-a-complete-guide-d1d5b2d44d1b"
+  },
+  {
+    "slug": "atomic-deployment-of-go-binaries-on-ubuntu-with-cron-dd7cf94cd8ab",
+    "title": "Atomic Deployment of Go Binaries on Ubuntu with Cron",
+    "excerpt": "This article presents a production-ready deployment strategy for Go applications on Ubuntu servers using GitLab CI/CD and cron scheduling.",
+    "date": "2025-11-26",
+    "tags": [
+      "Go",
+      "Linux",
+      "DevOps",
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/atomic-deployment-of-go-binaries-on-ubuntu-with-cron-dd7cf94cd8ab"
+  },
+  {
+    "slug": "postgresql-foreign-data-wrappers-for-data-federation-7043c561f218",
+    "title": "PostgreSQL Foreign Data Wrappers for Data Federation",
+    "excerpt": "Foreign Data Wrappers (FDWs) are a powerful feature in PostgreSQL that enables the database to act as a federated data hub ,…",
+    "date": "2025-11-22",
+    "tags": [
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/postgresql-foreign-data-wrappers-for-data-federation-7043c561f218"
+  },
+  {
+    "slug": "integrating-multiple-databases-inmon-vs-kimball-and-a-microservice-etl-solution-5e78abb77e28",
+    "title": "Integrating Multiple Databases: Inmon vs. Kimball and a Microservice ETL Solution",
+    "excerpt": "Modern enterprises often face the challenge of integrating data from many heterogeneous databases into a consolidated data warehouse for…",
+    "date": "2025-11-10",
+    "tags": [
+      "Microservices",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/integrating-multiple-databases-inmon-vs-kimball-and-a-microservice-etl-solution-5e78abb77e28"
+  },
+  {
+    "slug": "youre-right-that-shared-databases-aren-t-inherently-an-anti-pattern-and-with-proper-governance-e-g-54bddfc44333",
+    "title": "You're right that shared databases aren't inherently an anti-pattern—and with proper governance (e.g",
+    "excerpt": "That said, the organizational challenges are often harder to solve than the technical ones. In practice, when multiple teams or domains…",
+    "date": "2025-11-10",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/youre-right-that-shared-databases-aren-t-inherently-an-anti-pattern-and-with-proper-governance-e-g-54bddfc44333"
+  },
+  {
+    "slug": "the-hidden-costs-of-shared-databases-in-microservices-architecture-bbdaecceacb3",
+    "title": "The Hidden Costs of Shared Databases in Microservices Architecture",
+    "excerpt": "Shared databases create tight coupling; use database-per-service with event-driven communication instead.Retry",
+    "date": "2025-11-09",
+    "tags": [
+      "Microservices",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/the-hidden-costs-of-shared-databases-in-microservices-architecture-bbdaecceacb3"
+  },
+  {
+    "slug": "comprehensive-overview-of-microsoft-sql-server-business-intelligence-bi-stack-62383118c5f8",
+    "title": "Comprehensive Overview of Microsoft SQL Server Business Intelligence (BI) Stack",
+    "excerpt": "The Microsoft SQL Server Business Intelligence (BI) stack is an integrated platform designed for data transformation, analytical modeling,",
+    "date": "2025-11-04",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/comprehensive-overview-of-microsoft-sql-server-business-intelligence-bi-stack-62383118c5f8"
+  },
+  {
+    "slug": "connect-to-a-remote-oracle-database-with-ubuntu-22-04-b1e2d803d6ec",
+    "title": "Connect to a remote Oracle Database with Ubuntu 22.04",
+    "excerpt": "This article provides a structured, step-by-step guide for connecting to a remote Oracle Database on Ubuntu 22.04",
+    "date": "2025-11-04",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/connect-to-a-remote-oracle-database-with-ubuntu-22-04-b1e2d803d6ec"
+  },
+  {
+    "slug": "environment-configuration-in-go-managing-dev-test-production-environments-9b333c6d1868",
+    "title": "Environment Configuration in Go: Managing Dev, Test & Production Environments",
+    "excerpt": "One of the most critical aspects of building professional Go applications is proper environment configuration management.",
+    "date": "2025-10-30",
+    "tags": [
+      "Go",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/environment-configuration-in-go-managing-dev-test-production-environments-9b333c6d1868"
+  },
+  {
+    "slug": "fixing-blocked-subdomain-dns-with-dnsmasq-on-ubuntu-b25cc19e9877",
+    "title": "Fixing Blocked Subdomain DNS with Dnsmasq on Ubuntu 🧠",
+    "excerpt": "When dealing with corporate networks, restrictive firewalls, or filtered DNS resolvers, sometimes a specific subdomain gets blocked",
+    "date": "2025-10-27",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/fixing-blocked-subdomain-dns-with-dnsmasq-on-ubuntu-b25cc19e9877"
+  },
+  {
+    "slug": "essential-vs-code-extensions-for-go-developers-my-daily-toolkit-5604c0bbaf85",
+    "title": "Essential VS Code Extensions for Go Developers: My Daily Toolkit",
+    "excerpt": "As a Go developer, having the right set of Visual Studio Code extensions can dramatically boost your productivity, code quality.",
+    "date": "2025-10-25",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "15 min",
+    "url": "https://medium.com/@mobinshaterian/essential-vs-code-extensions-for-go-developers-my-daily-toolkit-5604c0bbaf85"
+  },
+  {
+    "slug": "introduction-to-ubuntu-22-04-system-setup-and-environment-configuration-for-a-golang-developer-c0979cb9e68d",
+    "title": "Introduction to Ubuntu 22.04 System Setup and Environment Configuration for a Golang developer",
+    "excerpt": "This comprehensive guide provides a step-by-step walkthrough for setting up a fully functional Ubuntu development environment from scratch…",
+    "date": "2025-10-25",
+    "tags": [
+      "Go",
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/introduction-to-ubuntu-22-04-system-setup-and-environment-configuration-for-a-golang-developer-c0979cb9e68d"
+  },
+  {
+    "slug": "building-a-redis-backed-cache-layer-in-go-with-uber-fx-c10052c9b9ca",
+    "title": "Building a Redis-Backed Cache Layer in Go with Uber FX 🧠",
+    "excerpt": "Redis is a powerful tool for caching, session management, and ephemeral storage. But integrating it cleanly into a Go project — especially…",
+    "date": "2025-10-17",
+    "tags": [
+      "Go",
+      "Redis",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-redis-backed-cache-layer-in-go-with-uber-fx-c10052c9b9ca"
+  },
+  {
+    "slug": "the-best-design-pattern-for-query-based-change-data-capture-hybrid-stateful-polling-with-offset-95856947ef99",
+    "title": "The Best Design Pattern for Query-Based Change Data Capture: Hybrid Stateful Polling with Offset…",
+    "excerpt": "In today’s data-driven architectures, keeping downstream systems synchronized with source databases in near real time is no longer optional…",
+    "date": "2025-10-16",
+    "tags": [
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "24 min",
+    "url": "https://medium.com/@mobinshaterian/the-best-design-pattern-for-query-based-change-data-capture-hybrid-stateful-polling-with-offset-95856947ef99"
+  },
+  {
+    "slug": "securing-the-admin-layer-in-go-with-jwt-a-step-by-step-integration-guide-cf5bcced97e3",
+    "title": "Securing the Admin Layer in Go with JWT: A Step-by-Step Integration Guide 🔐",
+    "excerpt": "In modern web applications, securing administrative endpoints is essential. In this article, we’ll walk through how to integrate JWT",
+    "date": "2025-10-13",
+    "tags": [
+      "Go",
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/securing-the-admin-layer-in-go-with-jwt-a-step-by-step-integration-guide-cf5bcced97e3"
+  },
+  {
+    "slug": "step-by-step-guide-to-adding-grpc-to-go-simple-628bc37143b7",
+    "title": "Step-by-Step Guide to Adding gRPC to go-simple 🚀",
+    "excerpt": "Define the gRPC API with Protocol Buffers",
+    "date": "2025-10-11",
+    "tags": [
+      "Go",
+      "API",
+      "gRPC",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/step-by-step-guide-to-adding-grpc-to-go-simple-628bc37143b7"
+  },
+  {
+    "slug": "adding-zap-logger-to-your-go-project-a-practical-guide-%EF%B8%8F-52091fc2db7d",
+    "title": "Adding Zap Logger to Your Go Project: A Practical Guide⚡ ️",
+    "excerpt": "Logging is the backbone of observability in any production-grade system. If you’re building scalable, maintainable Go applications, Uber’s…",
+    "date": "2025-10-06",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/adding-zap-logger-to-your-go-project-a-practical-guide-%EF%B8%8F-52091fc2db7d"
+  },
+  {
+    "slug": "how-to-write-effective-test-files-in-go-for-rest-apis-577e01cdfe36",
+    "title": "How to Write Effective Test Files in Go for REST APIs🧪",
+    "excerpt": "Testing is the backbone of reliable software. In Go, writing test files not only ensures correctness but also improves developer…",
+    "date": "2025-10-06",
+    "tags": [
+      "Go",
+      "API",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/how-to-write-effective-test-files-in-go-for-rest-apis-577e01cdfe36"
+  },
+  {
+    "slug": "a-classic-east-west-traffic-blind-spot-sql-injection-through-trusted-internal-flows-38049dfe4127",
+    "title": "A classic east-west traffic blind spot: SQL Injection Through Trusted Internal Flows",
+    "excerpt": "You’ve deployed a Web Application Firewall (WAF). It blocks SQL injection attempts. Logs show malicious payloads ' OR 1=1-- being dropped…",
+    "date": "2025-10-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/a-classic-east-west-traffic-blind-spot-sql-injection-through-trusted-internal-flows-38049dfe4127"
+  },
+  {
+    "slug": "code-refactoring-eliminating-duplication-with-function-injection-in-go-0de231011296",
+    "title": "Code Refactoring: Eliminating Duplication with Function Injection in Go",
+    "excerpt": "In modern backend systems, it’s common to support multiple entry points for similar business logic, such as searching hotels by city…",
+    "date": "2025-10-05",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/code-refactoring-eliminating-duplication-with-function-injection-in-go-0de231011296"
+  },
+  {
+    "slug": "the-future-of-hospitality-how-hotels-can-transform-with-web3-and-erc-20-tokens-796bde294021",
+    "title": "The Future of Hospitality: How Hotels Can Transform with Web3 and ERC-20 Tokens",
+    "excerpt": "In an era where digital innovation reshapes every industry, the hospitality sector stands on the brink of a revolution. Blockchain…",
+    "date": "2025-10-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/the-future-of-hospitality-how-hotels-can-transform-with-web3-and-erc-20-tokens-796bde294021"
+  },
+  {
+    "slug": "building-modular-product-management-in-go-with-sqlc-uber-fx-and-gin-bfb6dfaada6b",
+    "title": "🧱 Building Modular Product Management in Go with SQLC, Uber FX, and Gin",
+    "excerpt": "In a recent commit to go-simple, a robust and idiomatic product management module that exemplifies clean architecture, modularity, and…",
+    "date": "2025-09-28",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/building-modular-product-management-in-go-with-sqlc-uber-fx-and-gin-bfb6dfaada6b"
+  },
+  {
+    "slug": "%EF%B8%8F-building-modular-go-services-with-uber-fx-and-sqlc-b8feb4b37721",
+    "title": "🛠️ Building Modular Go Services with Uber FX and SQLC",
+    "excerpt": "In the journey toward scalable, maintainable Go applications, few things matter more than clean architecture, lifecycle clarity, and…",
+    "date": "2025-09-27",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/%EF%B8%8F-building-modular-go-services-with-uber-fx-and-sqlc-b8feb4b37721"
+  },
+  {
+    "slug": "refactoring-a-go-web-service-with-uber-fx-from-monolith-to-modular-elegance-2789a9ac8ec5",
+    "title": "🧠 Refactoring a Go Web Service with Uber FX: From Monolith to Modular Elegance",
+    "excerpt": "This article walks through how we refactored a simple Gin-based web service into a modular, testable, and idiomatic Uber FX application.",
+    "date": "2025-09-26",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/refactoring-a-go-web-service-with-uber-fx-from-monolith-to-modular-elegance-2789a9ac8ec5"
+  },
+  {
+    "slug": "how-to-fix-cannot-connect-to-docker-daemon-error-on-ubuntu-linux-a2f25a79d786",
+    "title": "How to Fix “Cannot Connect to Docker Daemon” Error on Ubuntu Linux",
+    "excerpt": "If you’re seeing this error when running docker ps:",
+    "date": "2025-09-26",
+    "tags": [
+      "Docker",
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/how-to-fix-cannot-connect-to-docker-daemon-error-on-ubuntu-linux-a2f25a79d786"
+  },
+  {
+    "slug": "ai-powered-paraphrasing-for-seo-optimizing-product-descriptions-with-avalai-api-26caab0f1a23",
+    "title": "AI-Powered Paraphrasing for SEO: Optimizing Product Descriptions with AvalAI API",
+    "excerpt": "Have you ever retrieved product descriptions and worried that they might trigger negative SEO consequences from Google, such as duplicate…",
+    "date": "2025-09-25",
+    "tags": [
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/ai-powered-paraphrasing-for-seo-optimizing-product-descriptions-with-avalai-api-26caab0f1a23"
+  },
+  {
+    "slug": "the-problem-how-elasticsearchs-stop-word-filtering-broke-our-product-search-ff2973455d45",
+    "title": "“The” Problem: How Elasticsearch’s Stop Word Filtering Broke Our Product Search🤔",
+    "excerpt": "Have you ever needed to search for the term “the” in Elasticsearch, only to find it filtered out due to stopword removal? We encountered…",
+    "date": "2025-09-19",
+    "tags": [
+      "Elasticsearch",
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/the-problem-how-elasticsearchs-stop-word-filtering-broke-our-product-search-ff2973455d45"
+  },
+  {
+    "slug": "add-sonarqube-to-the-golang-project-28da80b3ee95",
+    "title": "Add SonarQube to the Golang project",
+    "excerpt": "In modern software development, maintaining high code quality, identifying security vulnerabilities, and ensuring efficient code practices…",
+    "date": "2025-09-12",
+    "tags": [
+      "Go",
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/add-sonarqube-to-the-golang-project-28da80b3ee95"
+  },
+  {
+    "slug": "building-a-clean-secure-and-scalable-go-web-api-a-layered-architecture-guide-ee3afe4aa58d",
+    "title": "Building a Clean, Secure, and Scalable Go Web API: A Layered Architecture Guide",
+    "excerpt": "In the previous post, a Swagger file was created to provide clearer documentation. At this stage, the focus is on designing a product…",
+    "date": "2025-08-23",
+    "tags": [
+      "Go",
+      "Architecture",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/building-a-clean-secure-and-scalable-go-web-api-a-layered-architecture-guide-ee3afe4aa58d"
+  },
+  {
+    "slug": "add-swagger-to-a-golang-gin-project-0cad93295e0e",
+    "title": "Add Swagger to a Golang Gin Project",
+    "excerpt": "In the earlier stage of the project, we implemented middleware components and a health monitoring controller. In this tutorial, I will…",
+    "date": "2025-08-15",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/add-swagger-to-a-golang-gin-project-0cad93295e0e"
+  },
+  {
+    "slug": "implementing-a-custom-json-unmarshaller-in-go-to-prevent-nil-exceptions-87c414fbf835",
+    "title": "Implementing a Custom JSON Unmarshaller in Go to Prevent Nil Exceptions",
+    "excerpt": "Consider a situation where a third-party endpoint returns two different data structures at the same time. One possible solution to this…",
+    "date": "2025-08-15",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/implementing-a-custom-json-unmarshaller-in-go-to-prevent-nil-exceptions-87c414fbf835"
+  },
+  {
+    "slug": "golang-gin-middleware-and-health-controller-fe53ce9d9754",
+    "title": "Golang Gin Middleware and Health Controller",
+    "excerpt": "In the previous article, a simple Golang project was demonstrated. In our current work, it is necessary to add a Gin middleware to handle…",
+    "date": "2025-08-10",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/golang-gin-middleware-and-health-controller-fe53ce9d9754"
+  },
+  {
+    "slug": "simple-golang-http-server-fe7a88ef221e",
+    "title": "Simple Golang HTTP server",
+    "excerpt": "In this article, I guide you through the process of building a simple HTTP server in Golang using a structured three-layer architecture…",
+    "date": "2025-08-09",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/simple-golang-http-server-fe7a88ef221e"
+  },
+  {
+    "slug": "the-devil-is-in-the-details-meaning-in-software-development-9349cd490122",
+    "title": "The devil is in the details, meaning in software development",
+    "excerpt": "The emergence of generative AI has led many businesses to anticipate that developers could eventually be replaced by intelligent machines…",
+    "date": "2025-08-08",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/the-devil-is-in-the-details-meaning-in-software-development-9349cd490122"
+  },
+  {
+    "slug": "resolving-sql-scan-error-when-handling-null-strings-in-go-and-postgresql-762bdf5a66b2",
+    "title": "🐞 Resolving sql: Scan error When Handling NULL Strings in Go and PostgreSQL",
+    "excerpt": "In Go applications using PostgreSQL, it’s common to map query results into struct fields using the Scan method. However, when database…",
+    "date": "2025-08-06",
+    "tags": [
+      "Go",
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/resolving-sql-scan-error-when-handling-null-strings-in-go-and-postgresql-762bdf5a66b2"
+  },
+  {
+    "slug": "mastering-state-patterns-in-golang-overcoming-conditional-statement-limitations-ffc32b9b71ee",
+    "title": "Mastering State Patterns in Golang: Overcoming Conditional Statement Limitations",
+    "excerpt": "State is a behavioral design pattern that allows an object to change its behavior when its internal state changes. The State Pattern is a…",
+    "date": "2025-07-28",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/mastering-state-patterns-in-golang-overcoming-conditional-statement-limitations-ffc32b9b71ee"
+  },
+  {
+    "slug": "common-bug-in-calculate-understanding-omitempty-and-integer-division-in-go-d8c5b8da86a1",
+    "title": "🧩 Common Bug in Calculate: Understanding omitempty and Integer Division in Go",
+    "excerpt": "When building APIs in Go, developers often use the omitempty tag to produce clean JSON outputs. However, fields sometimes mysteriously…",
+    "date": "2025-07-25",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/common-bug-in-calculate-understanding-omitempty-and-integer-division-in-go-d8c5b8da86a1"
+  },
+  {
+    "slug": "common-bug-closure-captures-a-variable-from-the-outer-scope-a5ab7bed750b",
+    "title": "🐞 Common Bug: Closure Captures a Variable from the Outer Scope",
+    "excerpt": "Avoid closure bugs in Go goroutines by passing loop or shared variables as function parameters to ensure safe, race-free execution.",
+    "date": "2025-07-19",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/common-bug-closure-captures-a-variable-from-the-outer-scope-a5ab7bed750b"
+  },
+  {
+    "slug": "how-to-increase-the-size-of-the-swap-in-ubuntu-6fdeeef9851b",
+    "title": "How to increase the size of the swap in Ubuntu",
+    "excerpt": "To increase the swap size in Ubuntu, you begin by disabling the current swap with sudo swapoff -a, optionally, removing the existing swap…",
+    "date": "2025-07-19",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/how-to-increase-the-size-of-the-swap-in-ubuntu-6fdeeef9851b"
+  },
+  {
+    "slug": "impelient-bank-mellat-payment-gateway-in-nestjs-71f67308fa3a",
+    "title": "Impelient Bank Mellat Payment Gateway in Nestjs",
+    "excerpt": "Simple Code of node js",
+    "date": "2025-07-15",
+    "tags": [
+      "Node.js",
+      "Machine Learning",
+      "Payments"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/impelient-bank-mellat-payment-gateway-in-nestjs-71f67308fa3a"
+  },
+  {
+    "slug": "neo4j-knowledge-graph-a4a11a46f7b8",
+    "title": "Neo4j Knowledge Graph",
+    "excerpt": "cypher structure",
+    "date": "2025-07-15",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/neo4j-knowledge-graph-a4a11a46f7b8"
+  },
+  {
+    "slug": "a-comprehensive-guide-for-backend-developers-aiming-to-build-secure-applications-7f8ebff2cb9c",
+    "title": "A comprehensive guide for backend developers aiming to build secure applications",
+    "excerpt": "In this article, I am going to share tips related to creating a secure application. As you know, I have a back-end developer background…",
+    "date": "2025-07-04",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/a-comprehensive-guide-for-backend-developers-aiming-to-build-secure-applications-7f8ebff2cb9c"
+  },
+  {
+    "slug": "my-motivation-for-becoming-a-developer-568e6a7774ab",
+    "title": "My Motivation for Becoming a Developer",
+    "excerpt": "To many, learning programming is about chasing a higher salary, landing a prestigious job, leading teams, or even shaping society. And…",
+    "date": "2025-06-08",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/my-motivation-for-becoming-a-developer-568e6a7774ab"
+  },
+  {
+    "slug": "breaking-the-cycle-of-workplace-overwhelm-strategies-for-healthier-more-productive-teams-5a00f94922ee",
+    "title": "Breaking the Cycle of Workplace Overwhelm: Strategies for Healthier, More Productive Teams",
+    "excerpt": "In today’s fast-paced work environments, many individuals and teams grapple with a pervasive sense of overwhelm stemming from ill-defined…",
+    "date": "2025-06-04",
+    "tags": [
+      "Workplace Culture",
+      "Productivity",
+      "Team Management"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/breaking-the-cycle-of-workplace-overwhelm-strategies-for-healthier-more-productive-teams-5a00f94922ee"
+  },
+  {
+    "slug": "convenience-apps-a-double-edged-sword-for-humanity-1a81bd3e988e",
+    "title": "Convenience Apps: A Double-Edged Sword for Humanity",
+    "excerpt": "In an era where everything from pizza to prescriptions can be ordered with a few taps on a smartphone, convenience culture has redefined…",
+    "date": "2025-05-24",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/convenience-apps-a-double-edged-sword-for-humanity-1a81bd3e988e"
+  },
+  {
+    "slug": "the-role-of-ige-in-allergic-and-chronic-sinusitis-mechanisms-treatments-and-impact-on-5578822607ff",
+    "title": "The Role of IgE in Allergic and Chronic Sinusitis: Mechanisms, Treatments, and Impact on…",
+    "excerpt": "An allergy occurs when the immune system overreacts to harmless substances (allergens), driven by Immunoglobulin E (IgE). IgE triggers…",
+    "date": "2025-05-23",
+    "tags": [
+      "Health"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/the-role-of-ige-in-allergic-and-chronic-sinusitis-mechanisms-treatments-and-impact-on-5578822607ff"
+  },
+  {
+    "slug": "i-have-used-ai-for-mo-details-which-part-is-avoiding-you-40e4ec6bb685",
+    "title": "I have used AI for mo details, which part is avoiding you?",
+    "excerpt": "I have used AI for mo details, which part is avoiding you? * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2025-05-03",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-have-used-ai-for-mo-details-which-part-is-avoiding-you-40e4ec6bb685"
+  },
+  {
+    "slug": "how-to-design-a-high-tps-inventory-handle-10k-requests-per-second-92e3c765226d",
+    "title": "How to design a high TPS Inventory? Handle 10K requests per second",
+    "excerpt": "One of the IT ecosystem’s common design system problems is related to designing Inventory systems for high TPS investors. The definition of…",
+    "date": "2025-04-28",
+    "tags": [
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "11 min",
+    "url": "https://medium.com/@mobinshaterian/how-to-design-a-high-tps-inventory-handle-10k-requests-per-second-92e3c765226d"
+  },
+  {
+    "slug": "harnessing-ai-agents-to-revolutionize-pricing-strategies-through-customer-behavior-and-8ba2b1eb1520",
+    "title": "Harnessing AI Agents to Revolutionize Pricing Strategies Through Customer Behavior and…",
+    "excerpt": "In today’s fast-paced digital marketplace, businesses are increasingly turning to artificial intelligence (AI) to optimize pricing…",
+    "date": "2025-04-22",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/harnessing-ai-agents-to-revolutionize-pricing-strategies-through-customer-behavior-and-8ba2b1eb1520"
+  },
+  {
+    "slug": "workplace-consumerism-culture-a-deep-dive-into-causes-consequences-and-solutions-e549d309a403",
+    "title": "Workplace Consumerism Culture: A Deep Dive into Causes, Consequences, and Solutions",
+    "excerpt": "Consumerism — a culture that prioritizes quantity over quality and appearance over substance — is not limited to societal shopping habits.",
+    "date": "2025-04-18",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/workplace-consumerism-culture-a-deep-dive-into-causes-consequences-and-solutions-e549d309a403"
+  },
+  {
+    "slug": "thanks-for-summarize-article-3684a5498fe8",
+    "title": "Thanks for summarize article.",
+    "excerpt": "Thanks for summarize article. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px;…",
+    "date": "2025-04-07",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-for-summarize-article-3684a5498fe8"
+  },
+  {
+    "slug": "handling-high-tps-applications-will-affect-the-database-it-is-also-mandatory-to-use-the-best-194d74a589e4",
+    "title": "Handling high TPS applications will affect the database, It is also mandatory to use the best…",
+    "excerpt": "Handling high TPS applications will affect the database, It is also mandatory to use the best… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size:…",
+    "date": "2025-03-19",
+    "tags": [
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/handling-high-tps-applications-will-affect-the-database-it-is-also-mandatory-to-use-the-best-194d74a589e4"
+  },
+  {
+    "slug": "the-high-cost-of-toxicity-why-insults-humiliation-and-blame-are-killing-your-workplace-culture-e3fe8e3645f7",
+    "title": "The High Cost of Toxicity: Why Insults, Humiliation, and Blame Are Killing Your Workplace Culture",
+    "excerpt": "In any workplace, the way people interact with one another can make or break the environment. A healthy workplace thrives on respect…",
+    "date": "2025-02-07",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/the-high-cost-of-toxicity-why-insults-humiliation-and-blame-are-killing-your-workplace-culture-e3fe8e3645f7"
+  },
+  {
+    "slug": "although-all-the-points-that-are-mentioned-in-your-critique-are-important-deciding-to-choose-the-358ad38be2ae",
+    "title": "Although all the points that are mentioned in your critique are important, deciding to choose the…",
+    "excerpt": "Although all the points that are mentioned in your critique are important, deciding to choose the… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 {…",
+    "date": "2025-02-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/although-all-the-points-that-are-mentioned-in-your-critique-are-important-deciding-to-choose-the-358ad38be2ae"
+  },
+  {
+    "slug": "title-setting-boundaries-with-clients-a-guide-to-professional-and-effective-communication-040db339cd83",
+    "title": "Title: Setting Boundaries with Clients: A Guide to Professional and Effective Communication",
+    "excerpt": "In the world of technical support and client management, maintaining professionalism while setting boundaries is crucial. Whether dealing…",
+    "date": "2025-01-30",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/title-setting-boundaries-with-clients-a-guide-to-professional-and-effective-communication-040db339cd83"
+  },
+  {
+    "slug": "system-design-a-comprehensive-exploration-based-on-practical-discussion-c55a288eda31",
+    "title": "System Design: A Comprehensive Exploration Based on Practical Discussion",
+    "excerpt": "System design plays a pivotal role in the architecture and performance of modern applications.",
+    "date": "2025-01-28",
+    "tags": [
+      "Architecture",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/system-design-a-comprehensive-exploration-based-on-practical-discussion-c55a288eda31"
+  },
+  {
+    "slug": "navigating-the-complexities-of-system-design-a-deep-dive-into-scalability-microservices-and-ef3c948873eb",
+    "title": "Navigating the Complexities of System Design: A Deep Dive into Scalability, Microservices, and…",
+    "excerpt": "System design is a critical challenge in modern software development, where applications must serve millions of users.",
+    "date": "2025-01-18",
+    "tags": [
+      "Microservices",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/navigating-the-complexities-of-system-design-a-deep-dive-into-scalability-microservices-and-ef3c948873eb"
+  },
+  {
+    "slug": "my-experience-after-four-years-of-migration-from-php-to-golang-language-554643db5b8e",
+    "title": "My Experience After Four Years of Migration from PHP to Golang Language",
+    "excerpt": "My journey from PHP to Golang has been one of growth, adaptation, and continuous learning. While PHP and Laravel served me well in the…",
+    "date": "2025-01-14",
+    "tags": [
+      "Go",
+      "PHP",
+      "Laravel",
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/my-experience-after-four-years-of-migration-from-php-to-golang-language-554643db5b8e"
+  },
+  {
+    "slug": "database-deep-dive-exploring-storage-engines-and-indexing-strategies-lsm-trees-vs-b-trees-268ac1d24056",
+    "title": "Database Deep Dive: Exploring Storage Engines and Indexing Strategies,LSM-Trees vs. B-Trees",
+    "excerpt": "Modern databases rely on two foundational components: storage engines and indexing strategies",
+    "date": "2025-01-13",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "15 min",
+    "url": "https://medium.com/@mobinshaterian/database-deep-dive-exploring-storage-engines-and-indexing-strategies-lsm-trees-vs-b-trees-268ac1d24056"
+  },
+  {
+    "slug": "the-human-side-of-bug-fixing-in-software-development-tell-me-youre-good-enough-so-i-can-fix-the-d9510fb6dfce",
+    "title": "The Human Side of Bug Fixing in Software Development: “Tell me you’re good enough so I can fix the…",
+    "excerpt": "In the complex world of software development, technical challenges often take center stage. However, a more nuanced challenge lies beneath…",
+    "date": "2025-01-10",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/the-human-side-of-bug-fixing-in-software-development-tell-me-youre-good-enough-so-i-can-fix-the-d9510fb6dfce"
+  },
+  {
+    "slug": "improving-team-morale-and-efficiency-in-software-development-projects-d5f3da0b2137",
+    "title": "Improving Team Morale and Efficiency in Software Development Projects",
+    "excerpt": "In today’s rapidly evolving software development landscape, teams face numerous challenges that can significantly impact their…",
+    "date": "2025-01-01",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/improving-team-morale-and-efficiency-in-software-development-projects-d5f3da0b2137"
+  },
+  {
+    "slug": "the-art-and-science-of-technical-hiring-a-comprehensive-guide-158ca954f2c7",
+    "title": "The Art and Science of Technical Hiring: A Comprehensive Guide",
+    "excerpt": "Successful tech hiring balances rigorous skill assessment with diversity, efficient processes, and long-term growth.",
+    "date": "2024-12-29",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/the-art-and-science-of-technical-hiring-a-comprehensive-guide-158ca954f2c7"
+  },
+  {
+    "slug": "refactoring-if-strategies-transforming-legacy-code-for-modern-e-commerce-platforms-3be0717570b4",
+    "title": "Refactoring if-Strategies: Transforming Legacy Code for Modern E-Commerce Platforms",
+    "excerpt": "The Challenge of Legacy Sorting Methods",
+    "date": "2024-12-11",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/refactoring-if-strategies-transforming-legacy-code-for-modern-e-commerce-platforms-3be0717570b4"
+  },
+  {
+    "slug": "thanks-for-your-information-0e2550646876",
+    "title": "Thanks for your information.",
+    "excerpt": "Thanks for your information. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px;…",
+    "date": "2024-12-09",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-for-your-information-0e2550646876"
+  },
+  {
+    "slug": "breaking-free-from-the-im-good-you-re-bad-mindset-transforming-competitive-culture-into-cc5a64a3bfc6",
+    "title": "Breaking Free from the “I’m Good, You’re Bad” Mindset: Transforming Competitive Culture into…",
+    "excerpt": "In many organizations, a deeply ingrained culture of competition and individualism creates an environment where success is measured by…",
+    "date": "2024-11-15",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/breaking-free-from-the-im-good-you-re-bad-mindset-transforming-competitive-culture-into-cc5a64a3bfc6"
+  },
+  {
+    "slug": "the-hidden-challenges-of-system-teams-in-software-companies-balancing-people-process-and-cfc16a6e1790",
+    "title": "The Hidden Challenges of System Teams in Software Companies: Balancing People, Process, and…",
+    "excerpt": "In today’s complex organizations, system teams face a myriad of challenges that go far beyond technical implementation. These challenges…",
+    "date": "2024-11-07",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/the-hidden-challenges-of-system-teams-in-software-companies-balancing-people-process-and-cfc16a6e1790"
+  },
+  {
+    "slug": "what-will-happen-if-a-big-tech-based-company-hires-a-senior-software-developer-using-llm-and-ai-in-0e10e42d0229",
+    "title": "What will happen if a big tech-based company hires a senior software developer using LLM and AI in…",
+    "excerpt": "The main Idea of this article concerns adding senior software developers to the business and customer support teams to reduce pressure on…",
+    "date": "2024-10-14",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/what-will-happen-if-a-big-tech-based-company-hires-a-senior-software-developer-using-llm-and-ai-in-0e10e42d0229"
+  },
+  {
+    "slug": "running-multi-port-forward-with-tmux-ed5a23bc063a",
+    "title": "Running multi Port-forward with tmux",
+    "excerpt": "This guide demonstrates how to set up and use tmux for multi-port forwarding in Kubernetes environments. Tmux is a terminal multiplexer…",
+    "date": "2024-10-10",
+    "tags": [
+      "Kubernetes",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/running-multi-port-forward-with-tmux-ed5a23bc063a"
+  },
+  {
+    "slug": "installing-application-for-golang-developer-after-installing-ubuntu-24-04-lts-0444c87d7f9d",
+    "title": "Installing Application for Golang developer After installing Ubuntu 24.04 LTS",
+    "excerpt": "This document outlines a comprehensive setup guide for Golang developers working on Ubuntu 22.04 LTS. It covers a wide range of essential…",
+    "date": "2024-09-23",
+    "tags": [
+      "Go",
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/installing-application-for-golang-developer-after-installing-ubuntu-24-04-lts-0444c87d7f9d"
+  },
+  {
+    "slug": "postgresql-concurrency-locking-and-isolation-levels-9fde2d582668",
+    "title": "PostgreSQL Concurrency, Locking, and Isolation Levels",
+    "excerpt": "1. Optimistic vs. Pessimistic Locking: — Pessimistic: Assumes worst-case scenario — Optimistic: Assumes best-case scenario",
+    "date": "2024-08-28",
+    "tags": [
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/postgresql-concurrency-locking-and-isolation-levels-9fde2d582668"
+  },
+  {
+    "slug": "introduction-to-the-parsian-bank-gateway-implementation-in-nestjs-9077a5441b5a",
+    "title": "Introduction to the Parsian Bank Gateway Implementation in NestJS",
+    "excerpt": "پیاده سازی درگاه پارسیان در نست جی اس",
+    "date": "2024-08-22",
+    "tags": [
+      "Node.js",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/introduction-to-the-parsian-bank-gateway-implementation-in-nestjs-9077a5441b5a"
+  },
+  {
+    "slug": "it-works-for-i-found-all-the-solution-from-web-and-write-it-in-one-article-4d90b623f0ae",
+    "title": "It works for. I found all the solution from web and write it in one article.",
+    "excerpt": "Run below command:",
+    "date": "2024-08-19",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/it-works-for-i-found-all-the-solution-from-web-and-write-it-in-one-article-4d90b623f0ae"
+  },
+  {
+    "slug": "i-have-using-this-package-f8c2c670cd3c",
+    "title": "I have using this package",
+    "excerpt": "github.com/aws/aws-sdk-go/aws",
+    "date": "2024-08-15",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-have-using-this-package-f8c2c670cd3c"
+  },
+  {
+    "slug": "introduction-to-aws-dynamodb-for-golang-developers-4425a02f318f",
+    "title": "Introduction to AWS DynamoDB for Golang Developers",
+    "excerpt": "Amazon DynamoDB is a powerful, serverless NoSQL database service designed for scalability and high performance. It’s an excellent choice…",
+    "date": "2024-08-14",
+    "tags": [
+      "Go",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/introduction-to-aws-dynamodb-for-golang-developers-4425a02f318f"
+  },
+  {
+    "slug": "incredible-futures-of-buf-to-generate-protobuf-github-action-871f0d4f2339",
+    "title": "Incredible futures of buf to generate Protobuf, GitHub action",
+    "excerpt": "Explore how Buf and GitHub Actions streamline Protobuf generation, format checking, and breaking change detection for smoother API…",
+    "date": "2024-08-13",
+    "tags": [
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/incredible-futures-of-buf-to-generate-protobuf-github-action-871f0d4f2339"
+  },
+  {
+    "slug": "buf-protobuf-06ebc98710c6",
+    "title": "Introducing Buf for Protobuf",
+    "excerpt": "Buf is an innovative tool that revolutionizes API development by promoting a schema-driven approach using Protocol Buffers (Protobuf). As…",
+    "date": "2024-08-12",
+    "tags": [
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/buf-protobuf-06ebc98710c6"
+  },
+  {
+    "slug": "design-specifications-for-a-click-based-application-resembling-a-hamster-themed-for-10-million-111775da0a5e",
+    "title": "Design specifications for a click-based application resembling a hamster-themed for 10 million…",
+    "excerpt": "Design specs for 10M-user app: tackles 100K clicks/sec with Redis, WebSockets, load balancing, and NoSQL. Focuses on scalability and…",
+    "date": "2024-08-10",
+    "tags": [
+      "Redis",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/design-specifications-for-a-click-based-application-resembling-a-hamster-themed-for-10-million-111775da0a5e"
+  },
+  {
+    "slug": "factory-design-patterns-and-solid-principles-in-golang-6aa6a60cc543",
+    "title": "Factory Design Patterns and SOLID Principles in Golang",
+    "excerpt": "Design patterns and SOLID principles are fundamental concepts in software engineering that can greatly enhance the quality…",
+    "date": "2024-08-06",
+    "tags": [
+      "Go",
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "11 min",
+    "url": "https://medium.com/@mobinshaterian/factory-design-patterns-and-solid-principles-in-golang-6aa6a60cc543"
+  },
+  {
+    "slug": "integrating-zarinpal-payment-gateway-in-nestjs-12017908490d",
+    "title": "Integrating Zarinpal Payment Gateway in NestJS",
+    "excerpt": "A guide on how to integrate Zarinpal Payment Gateway in NestJS.",
+    "date": "2024-08-01",
+    "tags": [
+      "Node.js",
+      "Machine Learning",
+      "Payments"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/integrating-zarinpal-payment-gateway-in-nestjs-12017908490d"
+  },
+  {
+    "slug": "docker-compose-setup-for-mongodb-redis-and-minio-f364e79162ea",
+    "title": "Docker Compose Setup for MongoDB, Redis, and Minio",
+    "excerpt": "This Docker Compose file sets up a development environment with MongoDB, Redis, and Minio and their respective management interfaces. The…",
+    "date": "2024-07-29",
+    "tags": [
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/docker-compose-setup-for-mongodb-redis-and-minio-f364e79162ea"
+  },
+  {
+    "slug": "mongodb-and-graphql-in-the-nestjs-08b0f6ff5c41",
+    "title": "MongoDB and GraphQL in the Nestjs",
+    "excerpt": "The document discusses implementing MongoDB with GraphQL in a NestJS project. It covers:",
+    "date": "2024-07-27",
+    "tags": [
+      "Node.js",
+      "MongoDB",
+      "GraphQL",
+      "Machine Learning"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/mongodb-and-graphql-in-the-nestjs-08b0f6ff5c41"
+  },
+  {
+    "slug": "how-do-you-write-tests-in-nestjs-03149ebeb372",
+    "title": "How do you write tests in Nestjs?",
+    "excerpt": "Writing Tests in NestJS",
+    "date": "2024-07-18",
+    "tags": [
+      "Node.js",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/how-do-you-write-tests-in-nestjs-03149ebeb372"
+  },
+  {
+    "slug": "best-practices-for-developing-deploying-and-managing-nestjs-applications-cef0edc4681f",
+    "title": "Best Practices for Developing, Deploying, and Managing NestJS Applications",
+    "excerpt": "The document covers several important aspects of developing, deploying, and managing a NestJS application:",
+    "date": "2024-07-12",
+    "tags": [
+      "Node.js",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/best-practices-for-developing-deploying-and-managing-nestjs-applications-cef0edc4681f"
+  },
+  {
+    "slug": "implementing-ownership-and-authentication-in-nestjs-a-comprehensive-approach-9d027f58faf2",
+    "title": "Implementing Ownership and Authentication in NestJS: A Comprehensive Approach",
+    "excerpt": "The document discusses implementing ownership and authentication in NestJS, focusing on many-to-one/one-to-many relationships, custom…",
+    "date": "2024-07-03",
+    "tags": [
+      "Node.js",
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "12 min",
+    "url": "https://medium.com/@mobinshaterian/implementing-ownership-and-authentication-in-nestjs-a-comprehensive-approach-9d027f58faf2"
+  },
+  {
+    "slug": "authentication-and-authorization-in-nestjs-a-comprehensive-overview-66495810c5b4",
+    "title": "Authentication and Authorization in NestJS : A Comprehensive Overview",
+    "excerpt": "NestJS, a progressive Node.js framework, offers robust capabilities for implementing authentication and authorization in web applications…",
+    "date": "2024-07-01",
+    "tags": [
+      "Node.js",
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "11 min",
+    "url": "https://medium.com/@mobinshaterian/authentication-and-authorization-in-nestjs-a-comprehensive-overview-66495810c5b4"
+  },
+  {
+    "slug": "implementation-experience-retrieval-augmented-generation-rag-system-for-ai-powered-customer-1268ac4b4f8b",
+    "title": "Implementation Experience: Retrieval-Augmented Generation (RAG) System for AI-powered Customer…",
+    "excerpt": "In the rapidly evolving customer support landscape, integrating Artificial Intelligence (AI) has become increasingly pivotal. This essay…",
+    "date": "2024-06-28",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/implementation-experience-retrieval-augmented-generation-rag-system-for-ai-powered-customer-1268ac4b4f8b"
+  },
+  {
+    "slug": "nestjs-postgresql-database-with-docker-compose-and-liquibase-faec0b09d944",
+    "title": "Nestjs : PostgreSQL database with docker-compose and Liquibase",
+    "excerpt": "Building a CRUD API with NestJS, PostgreSQL, and Liquibase",
+    "date": "2024-06-27",
+    "tags": [
+      "Node.js",
+      "Postgres",
+      "Docker",
+      "API"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/nestjs-postgresql-database-with-docker-compose-and-liquibase-faec0b09d944"
+  },
+  {
+    "slug": "nestjs-data-validation-and-transformation-ce99115c760d",
+    "title": "NestJS: Data Validation and Transformation",
+    "excerpt": "This report summarizes data validation and transformation techniques in NestJS, a framework for building Node.js server-side applications.",
+    "date": "2024-06-26",
+    "tags": [
+      "Node.js",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/nestjs-data-validation-and-transformation-ce99115c760d"
+  },
+  {
+    "slug": "rag-system-knowledge-graph-the-system-for-finding-the-best-answer-in-the-tickets-management-e2ae2692c7c6",
+    "title": "RAG System + Knowledge Graph, the system for finding the best answer in the tickets management…",
+    "excerpt": "Improving Customer Service Chatbot with Retrieval-Augmented Generation and Knowledge Graphs",
+    "date": "2024-06-25",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/rag-system-knowledge-graph-the-system-for-finding-the-best-answer-in-the-tickets-management-e2ae2692c7c6"
+  },
+  {
+    "slug": "make-simple-crud-requests-with-nestjs-366f6cbfff6d",
+    "title": "Make simple CRUD requests with NestJS",
+    "excerpt": "This article details the steps involved in creating a basic CRUD (Create, Read, Update, Delete) API using NestJS, a popular framework for…",
+    "date": "2024-06-19",
+    "tags": [
+      "Node.js",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/make-simple-crud-requests-with-nestjs-366f6cbfff6d"
+  },
+  {
+    "slug": "e-appears-instead-of-suggestions-with-ctrl-in-gnome-editor-ubutnu-4f1eeb11e94e",
+    "title": "“e” appears instead of suggestions with Ctrl+. in Gnome editor(Ubutnu)",
+    "excerpt": "In Gnome editor on Ubuntu (and potentially other editors affected by IBus), the Ctrl+. shortcut intended for showing suggestions might…",
+    "date": "2024-06-13",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/e-appears-instead-of-suggestions-with-ctrl-in-gnome-editor-ubutnu-4f1eeb11e94e"
+  },
+  {
+    "slug": "how-making-python-telegram-bot-for-conversational-ai-370d8e2c82bf",
+    "title": "How to Make Python Telegram Bot for Conversational AI",
+    "excerpt": "This report outlines the steps involved in creating a conversational AI Telegram bot using Python.",
+    "date": "2024-06-10",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/how-making-python-telegram-bot-for-conversational-ai-370d8e2c82bf"
+  },
+  {
+    "slug": "making-docker-for-llama3-rag-system-a3943f972711",
+    "title": "Making docker for llama3 RAG system",
+    "excerpt": "This document describes how to set up a Docker container for a Retrieval-Augmented Generation (RAG) system using Llama 3 and Ollama.",
+    "date": "2024-06-07",
+    "tags": [
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/making-docker-for-llama3-rag-system-a3943f972711"
+  },
+  {
+    "slug": "build-a-rag-with-llama-a24e88e1a399",
+    "title": "Build a RAG with llama",
+    "excerpt": "The article describes Retrieval-Augmented Generation (RAG) which helps large language models answer questions based on unseen documents…",
+    "date": "2024-06-06",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/build-a-rag-with-llama-a24e88e1a399"
+  },
+  {
+    "slug": "design-daily-faq-maker-with-ai-25db05f8881e",
+    "title": "Design daily FAQ maker with AI.",
+    "excerpt": "In this tutorial, the daily FAQ with ranking will be explained.",
+    "date": "2024-05-21",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/design-daily-faq-maker-with-ai-25db05f8881e"
+  },
+  {
+    "slug": "this-question-is-a-very-fundamental-one-e2dd41e8e4d3",
+    "title": "This question is a very fundamental one.",
+    "excerpt": "This question is a very fundamental one. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 {…",
+    "date": "2024-05-15",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/this-question-is-a-very-fundamental-one-e2dd41e8e4d3"
+  },
+  {
+    "slug": "leveraging-rag-for-continuously-updated-faq-datasets-to-enhance-client-support-1d4dd8c9460a",
+    "title": "Leveraging RAG for Continuously Updated FAQ Datasets to Enhance Client Support",
+    "excerpt": "One of the biggest challenges for every business is related to client answers. Angry clients can ruin the business and need a quick…",
+    "date": "2024-05-13",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/leveraging-rag-for-continuously-updated-faq-datasets-to-enhance-client-support-1d4dd8c9460a"
+  },
+  {
+    "slug": "find-a-list-of-tickets-for-the-customers-in-freshdesk-f4bf843c55ff",
+    "title": "Find a list of tickets for the customers in FreshDesk",
+    "excerpt": "In this tutorial, I want to write a Python code for the extraction of a customer tickets list with FreshDesk API.",
+    "date": "2024-05-08",
+    "tags": [
+      "Python",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/find-a-list-of-tickets-for-the-customers-in-freshdesk-f4bf843c55ff"
+  },
+  {
+    "slug": "my-experience-in-using-rag-and-fine-tuning-in-chatgpt-3-5-3b9e584059ba",
+    "title": "My Experience in Using RAG and Fine-Tuning in ChatGPT 3.5",
+    "excerpt": "In every company, a group of agents is responsible for answering the client’s questions. My idea is related to ChatGPT automatically…",
+    "date": "2024-05-07",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/my-experience-in-using-rag-and-fine-tuning-in-chatgpt-3-5-3b9e584059ba"
+  },
+  {
+    "slug": "data-driven-approach-to-building-an-effective-knowledge-base-based-on-artificial-intelligence-ef3ef169f138",
+    "title": "Data-Driven Approach to Building an Effective Knowledge Base based on Artificial Intelligence",
+    "excerpt": "Building a Knowledge Base is usually hard work for the company, and developers are always scared of writing documents. I found an effective…",
+    "date": "2024-04-11",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/data-driven-approach-to-building-an-effective-knowledge-base-based-on-artificial-intelligence-ef3ef169f138"
+  },
+  {
+    "slug": "hugo-static-website-builder-4e28457adc49",
+    "title": "Hugo Static website builder",
+    "excerpt": "making static website with golang and hugo",
+    "date": "2024-04-09",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/hugo-static-website-builder-4e28457adc49"
+  },
+  {
+    "slug": "thanks-for-your-feedback-5272d23d3b50",
+    "title": "Thanks for your feedback.",
+    "excerpt": "Thanks for your feedback. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px;…",
+    "date": "2024-04-08",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-for-your-feedback-5272d23d3b50"
+  },
+  {
+    "slug": "use-gpu-in-tensorflow-on-ubuntu-22-04-f033e59cf5cb",
+    "title": "Use GPU in Tensorflow on Ubuntu 22.04",
+    "excerpt": "This document provides a guide on installing TensorFlow with GPU support on Ubuntu 22.04. It details the necessary steps to install the…",
+    "date": "2024-03-30",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/use-gpu-in-tensorflow-on-ubuntu-22-04-f033e59cf5cb"
+  },
+  {
+    "slug": "tensorflow-tutorial-basic-operations-on-tensors-fca6c839ca08",
+    "title": "Tensorflow tutorial, Basic operations on tensors",
+    "excerpt": "In this tutorial, I am going to learn the fundamentals of tensors.",
+    "date": "2024-03-29",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/tensorflow-tutorial-basic-operations-on-tensors-fca6c839ca08"
+  },
+  {
+    "slug": "fine-tune-chatgpt-gpt-305606a02605",
+    "title": "How to Fine-tune ChatGPT",
+    "excerpt": "Train ChatGPT with your own data.",
+    "date": "2024-03-12",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/fine-tune-chatgpt-gpt-305606a02605"
+  },
+  {
+    "slug": "run-cronjob-in-python-1d0616113a77",
+    "title": "Run Cronjob in python",
+    "excerpt": "In this article I am going to explain, how can run script on scheduled time. be careful, this script is not proper for run on kubernetis…",
+    "date": "2024-03-01",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/run-cronjob-in-python-1d0616113a77"
+  },
+  {
+    "slug": "get-data-from-fresh-desk-with-api-key-and-write-note-with-open-ai-5eee50365cbb",
+    "title": "Get Data from Fresh Desk with API Key and Write Notes with Open AI",
+    "excerpt": "In this article I want to get data from Fresh Desk via API key. and write note base on RAG open AI system.",
+    "date": "2024-02-28",
+    "tags": [
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/get-data-from-fresh-desk-with-api-key-and-write-note-with-open-ai-5eee50365cbb"
+  },
+  {
+    "slug": "get-data-from-medium-and-make-an-ai-model-e2eda73f62cb",
+    "title": "Get Data from medium and make an AI model",
+    "excerpt": "In this tutorial I am going to get data from medium a make my version AI bot.",
+    "date": "2024-02-23",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/get-data-from-medium-and-make-an-ai-model-e2eda73f62cb"
+  },
+  {
+    "slug": "crawler-youtube-subtitle-for-making-an-auto-response-ai-bot-59ea68f3fdbb",
+    "title": "Crawler YouTube subtitle For making an auto-response AI bot",
+    "excerpt": "In this tutorial, code for downloading YouTube with Python, getting subtitles, and getting to the RAG system.",
+    "date": "2024-02-20",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/crawler-youtube-subtitle-for-making-an-auto-response-ai-bot-59ea68f3fdbb"
+  },
+  {
+    "slug": "topic-modeling-with-word2vec-and-k-means-and-chatgpt-3-5-a1214d9d08d0",
+    "title": "Topic Modeling with Word2vec and k-means and ChatGPT 3.5",
+    "excerpt": "In this article I am going to convert texts into vectors. And find best topics for them based on ChatGPT.",
+    "date": "2024-02-15",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/topic-modeling-with-word2vec-and-k-means-and-chatgpt-3-5-a1214d9d08d0"
+  },
+  {
+    "slug": "topic-modeling-with-tf-idf-and-k-means-and-chat-gpt-3-5-4d03fc92a8aa",
+    "title": "Topic Modeling with TF-IDF and k-means and Chat GPT 3.5",
+    "excerpt": "In this article, I want to pre-process texts of questions and use the TF-IDF to change them into vector clusters with K-means and then find…",
+    "date": "2024-02-08",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/topic-modeling-with-tf-idf-and-k-means-and-chat-gpt-3-5-4d03fc92a8aa"
+  },
+  {
+    "slug": "rag-retrieval-augmented-generation-a93e1a3bf531",
+    "title": "RAG retrieval-augmented generation",
+    "excerpt": "retrieval-augmented generation",
+    "date": "2024-01-31",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/rag-retrieval-augmented-generation-a93e1a3bf531"
+  },
+  {
+    "slug": "python-selenium-for-crawler-data-from-website-4e45d3cc517b",
+    "title": "Python selenium for crawler data from website",
+    "excerpt": "Pre-requisites to run Selenium Python",
+    "date": "2024-01-26",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/python-selenium-for-crawler-data-from-website-4e45d3cc517b"
+  },
+  {
+    "slug": "nlp-tutorial-cf3f48ed14fb",
+    "title": "NLP tutorial",
+    "excerpt": "Sentiment Analysis",
+    "date": "2024-01-25",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/nlp-tutorial-cf3f48ed14fb"
+  },
+  {
+    "slug": "read-data-from-json-and-normalize-then-write-into-excel-cb7c29d1268b",
+    "title": "Read data from JSON and normalize then write into excel",
+    "excerpt": "read data from json and write in CSV",
+    "date": "2024-01-23",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/read-data-from-json-and-normalize-then-write-into-excel-cb7c29d1268b"
+  },
+  {
+    "slug": "open-ai-tutorial-bbd89b9bd242",
+    "title": "Open AI tutorial",
+    "excerpt": "https://platform.openai.com/api-keys",
+    "date": "2024-01-22",
+    "tags": [
+      "API",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/open-ai-tutorial-bbd89b9bd242"
+  },
+  {
+    "slug": "solidity-principle-06faaeb07b57",
+    "title": "Solidity principle",
+    "excerpt": "You can connect the Remix into your Ganache in your local machine:",
+    "date": "2024-01-09",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "22 min",
+    "url": "https://medium.com/@mobinshaterian/solidity-principle-06faaeb07b57"
+  },
+  {
+    "slug": "can-you-say-what-is-the-usual-size-of-docker-image-in-php-8-985cd13d5f8f",
+    "title": "Can you say what is the usual size of docker image in PHP 8 ?",
+    "excerpt": "Can you say what is the usual size of docker image in PHP 8 ? * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2023-12-27",
+    "tags": [
+      "PHP",
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/can-you-say-what-is-the-usual-size-of-docker-image-in-php-8-985cd13d5f8f"
+  },
+  {
+    "slug": "i-dont-expect-these-reactions-but-i-am-going-to-write-more-about-my-experience-3303f313e13f",
+    "title": "I don't expect these reactions, but I am going to write more about my experience.",
+    "excerpt": "I don't expect these reactions, but I am going to write more about my experience. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px;…",
+    "date": "2023-12-27",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-dont-expect-these-reactions-but-i-am-going-to-write-more-about-my-experience-3303f313e13f"
+  },
+  {
+    "slug": "make-crowdfunding-smart-contract-using-solidity-and-golang-language-bd5dc7c8f84f",
+    "title": "Make Crowdfunding Smart Contract using Solidity and Golang Language",
+    "excerpt": "We want to make smart contracts to solve a real problem in the real world. Imagine a group of people who want to contribute their money to…",
+    "date": "2023-12-27",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "14 min",
+    "url": "https://medium.com/@mobinshaterian/make-crowdfunding-smart-contract-using-solidity-and-golang-language-bd5dc7c8f84f"
+  },
+  {
+    "slug": "just-i-want-to-know-c558a73498ef",
+    "title": "just I want to know",
+    "excerpt": "just I want to know * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px;…",
+    "date": "2023-12-27",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/just-i-want-to-know-c558a73498ef"
+  },
+  {
+    "slug": "i-am-not-rich-but-when-i-switched-from-php-to-go-my-salary-increased-809325888b96",
+    "title": "I am not rich, but when I switched from PHP to GO, my salary increased.",
+    "excerpt": "I am not rich, but when I switched from PHP to GO, my salary increased. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom:…",
+    "date": "2023-12-25",
+    "tags": [
+      "Go",
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-am-not-rich-but-when-i-switched-from-php-to-go-my-salary-increased-809325888b96"
+  },
+  {
+    "slug": "i-dont-want-to-convince-you-to-migrate-from-php-to-golang-743e1981a646",
+    "title": "I don't want to convince you to migrate from PHP to Golang.",
+    "excerpt": "I don't want to convince you to migrate from PHP to Golang. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2023-12-25",
+    "tags": [
+      "Go",
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-dont-want-to-convince-you-to-migrate-from-php-to-golang-743e1981a646"
+  },
+  {
+    "slug": "my-experience-after-three-years-of-migration-from-php-to-golang-language-df3fb8f466ee",
+    "title": "My Experience After Three Years of Migration from PHP to Golang Language ​",
+    "excerpt": "3 years ago I decided to be a Golang developer. At that moment I was a senior PHP developer and changed my stack to Golang. And become a…",
+    "date": "2023-12-21",
+    "tags": [
+      "Go",
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/my-experience-after-three-years-of-migration-from-php-to-golang-language-df3fb8f466ee"
+  },
+  {
+    "slug": "deploy-smart-contract-and-connect-with-go-ethereum-935f4290249f",
+    "title": "Deploy smart contract and connect with go Ethereum",
+    "excerpt": "In this article, I am going to deploy a smart contract to go and go-Ethereum on the local block chain.",
+    "date": "2023-12-19",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "13 min",
+    "url": "https://medium.com/@mobinshaterian/deploy-smart-contract-and-connect-with-go-ethereum-935f4290249f"
+  },
+  {
+    "slug": "small-example-of-solidity-project-41cb5f9f801d",
+    "title": "Small Example of Solidity Project",
+    "excerpt": "I want to review all the techniques used in this small solidity project in this article.",
+    "date": "2023-12-14",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "17 min",
+    "url": "https://medium.com/@mobinshaterian/small-example-of-solidity-project-41cb5f9f801d"
+  },
+  {
+    "slug": "nodejs-with-smart-contract-for-beginner-version-0-4-17-59ee1d46aced",
+    "title": "Nodejs with Smart contract for beginner version 0.4.17",
+    "excerpt": "Install Nodejs on ubuntu",
+    "date": "2023-12-12",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "11 min",
+    "url": "https://medium.com/@mobinshaterian/nodejs-with-smart-contract-for-beginner-version-0-4-17-59ee1d46aced"
+  },
+  {
+    "slug": "ethereum-for-beginner-aa9bd2e85ee6",
+    "title": "Ethereum for beginner",
+    "excerpt": "White paper of Ethereum",
+    "date": "2023-12-11",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/ethereum-for-beginner-aa9bd2e85ee6"
+  },
+  {
+    "slug": "solve-problem-to-install-nodejs20-on-ubuntu-22-04-feacc6684a5b",
+    "title": "Solve problem to Install Nodejs20 on Ubuntu 22.04",
+    "excerpt": "How install nodejs 20 on ubuntu",
+    "date": "2023-12-11",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/solve-problem-to-install-nodejs20-on-ubuntu-22-04-feacc6684a5b"
+  },
+  {
+    "slug": "notes-for-solidity-blockchain-and-smart-contract-course-beginner-to-expert-python-tutorial-f39a7fda9e82",
+    "title": "Notes for Solidity, Blockchain, and Smart Contract Course — Beginner to Expert Python Tutorial…",
+    "excerpt": "Solidity, Blockchain, and Smart Contract Course — Beginner to Expert Python Tutorial by patrick collins",
+    "date": "2023-12-06",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/notes-for-solidity-blockchain-and-smart-contract-course-beginner-to-expert-python-tutorial-f39a7fda9e82"
+  },
+  {
+    "slug": "exclude-endpoints-with-sample-rate-in-open-telemetry-in-the-golang-language-969da599af82",
+    "title": "Exclude Endpoints with Sample Rate in OpenTelemetry in the Golang Language",
+    "excerpt": "Open telemetry is one of the best systems for tracing system requests in Golang. Our DevOps team (Mohsen Mottaghi) gathers all requests…",
+    "date": "2023-11-28",
+    "tags": [
+      "Go",
+      "DevOps",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/exclude-endpoints-with-sample-rate-in-open-telemetry-in-the-golang-language-969da599af82"
+  },
+  {
+    "slug": "we-can-use-ai-tools-like-the-copilot-to-write-select-items-we-need-b37888457a7a",
+    "title": "we can use AI tools like the Copilot to write Select items we need.",
+    "excerpt": "we can use AI tools like the Copilot to write Select items we need. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px;…",
+    "date": "2023-11-21",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/we-can-use-ai-tools-like-the-copilot-to-write-select-items-we-need-b37888457a7a"
+  },
+  {
+    "slug": "using-open-telemetry-in-golang-ef282c236e77",
+    "title": "Using open telemetry in Golang",
+    "excerpt": "In such a way that traces and metrics are emitted to the console.",
+    "date": "2023-11-15",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/using-open-telemetry-in-golang-ef282c236e77"
+  },
+  {
+    "slug": "toxic-mistake-to-use-the-function-option-pattern-instead-of-the-builder-pattern-5b363508ad73",
+    "title": "Toxic mistake to use the Function option pattern instead of the Builder pattern",
+    "excerpt": "Both the function option pattern and builder pattern are super operative design patterns. But as a software engineer, it is so important to use this pattern in the right conditions.",
+    "date": "2023-11-09",
+    "tags": [
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "3 min",
+    "url": "https://www.linkedin.com/pulse/toxic-mistake-use-function-option-pattern-instead-mobin-shaterian-zoydf"
+  },
+  {
+    "slug": "gin-framework-in-golang-c453436c8c07",
+    "title": "Gin framework in Golang",
+    "excerpt": "https://gin-gonic.com/",
+    "date": "2023-11-07",
+    "tags": [
+      "Go",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/gin-framework-in-golang-c453436c8c07"
+  },
+  {
+    "slug": "blockchain-for-beginner-6d55bb535ef0",
+    "title": "Blockchain for beginner",
+    "excerpt": "Write data in blockchain is immutable.",
+    "date": "2023-10-05",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/blockchain-for-beginner-6d55bb535ef0"
+  },
+  {
+    "slug": "connect-to-google-cloud-object-storage-with-golang-language-a30a24e84601",
+    "title": "Connect to google cloud object storage with Golang Language",
+    "excerpt": "Google Cloud Object Storage is the one big and best device for storing sequences of bytes of files. It can handle it easily and store data…",
+    "date": "2023-09-14",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/connect-to-google-cloud-object-storage-with-golang-language-a30a24e84601"
+  },
+  {
+    "slug": "transform-database-bottleneck-in-software-into-the-cpu-problem-21859f9cafa0",
+    "title": "Transform database bottleneck in software into the CPU problem",
+    "excerpt": "We have an application with Microservice architecture. In normal situations the application transfers 10k requests per second. We have a…",
+    "date": "2023-08-28",
+    "tags": [
+      "Microservices",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/transform-database-bottleneck-in-software-into-the-cpu-problem-21859f9cafa0"
+  },
+  {
+    "slug": "how-make-multiply-ssh-key-in-ubuntu-e224a5156752",
+    "title": "How to make several ssh keys in Ubuntu for manage different repositories in GitHub",
+    "excerpt": "In this tutorial, I will explain how to make a ssh key for different repositories.",
+    "date": "2023-07-31",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/how-make-multiply-ssh-key-in-ubuntu-e224a5156752"
+  },
+  {
+    "slug": "make-swagger-from-your-http-rest-full-in-golang-4dc9088f5292",
+    "title": "Make swagger from your HTTP Rest full in Golang",
+    "excerpt": "One of the best tools for document Backend API is Swagger. And also can send data at the endpoint easily with no other tools. In this…",
+    "date": "2023-07-12",
+    "tags": [
+      "Go",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/make-swagger-from-your-http-rest-full-in-golang-4dc9088f5292"
+  },
+  {
+    "slug": "macd-or-moving-average-convergence-divergence-traditional-way-for-trading-d671108e3e9a",
+    "title": "MACD or Moving average convergence divergence traditional way for trading",
+    "excerpt": "Moving average convergence divergence (MACD)",
+    "date": "2023-07-07",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/macd-or-moving-average-convergence-divergence-traditional-way-for-trading-d671108e3e9a"
+  },
+  {
+    "slug": "configuration-prometheus-for-golang-language-with-go-micro-framework-in-micro-service-architecture-f4c128ad836",
+    "title": "Configuration Prometheus for Golang language with Go-micro framework in micro-service architecture.",
+    "excerpt": "Generally monitoring micro-service is so essential. When the error occurred, we can’t easily find the issue in the whole system. Sometimes…",
+    "date": "2023-07-05",
+    "tags": [
+      "Go",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/configuration-prometheus-for-golang-language-with-go-micro-framework-in-micro-service-architecture-f4c128ad836"
+  },
+  {
+    "slug": "hello-world-in-go-micro-as-the-base-of-golang-in-a-microservice-architecture-5f6fa75af724",
+    "title": "Hello world in go-micro as the base of GoLang in a microservice architecture",
+    "excerpt": "What is Go Micro?",
+    "date": "2023-05-24",
+    "tags": [
+      "Go",
+      "Microservices",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/hello-world-in-go-micro-as-the-base-of-golang-in-a-microservice-architecture-5f6fa75af724"
+  },
+  {
+    "slug": "why-does-every-developer-need-to-have-knowledge-about-workers-in-cloudflare-9f8728a6e243",
+    "title": "Why does every developer need to have knowledge about Workers in Cloudflare?",
+    "excerpt": "Cloudflare is not only the biggest CDN in the world but it has very interesting facilities about infrastructure. One of these technologies…",
+    "date": "2023-05-10",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/why-does-every-developer-need-to-have-knowledge-about-workers-in-cloudflare-9f8728a6e243"
+  },
+  {
+    "slug": "i-have-seen-the-various-personalities-of-developers-based-on-the-disc-personality-test-288dfec6b3fa",
+    "title": "I have seen the various personalities of developers, based on the DISC personality Test",
+    "excerpt": "In this article, I will explain the typical of programmers’s personality based on my experiences.",
+    "date": "2023-05-08",
+    "tags": [
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/i-have-seen-the-various-personalities-of-developers-based-on-the-disc-personality-test-288dfec6b3fa"
+  },
+  {
+    "slug": "effect-of-inflation-on-it-company-culture-in-iran-dd1a5ade1605",
+    "title": "Effect of Inflation on IT company culture in Iran",
+    "excerpt": "How inflation changes the environment of high-tech technologies in Iran?",
+    "date": "2023-05-01",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/effect-of-inflation-on-it-company-culture-in-iran-dd1a5ade1605"
+  },
+  {
+    "slug": "tracking-system-request-with-open-telemetry-sentry-and-go-in-golang-language-b77c9cc4fb5a",
+    "title": "Tracking system request with Open telemetry, sentry and Go-in Golang language",
+    "excerpt": "Use Open Telemetry Tracing system in sentry to understand what’s going on in the backend.",
+    "date": "2023-04-13",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/tracking-system-request-with-open-telemetry-sentry-and-go-in-golang-language-b77c9cc4fb5a"
+  },
+  {
+    "slug": "how-write-a-unit-test-integration-test-and-performance-test-for-the-golang-language-a25ccef115f4",
+    "title": "How write a Unit test, Integration test, and Performance test for the Golang language?",
+    "excerpt": "Explain way of testing golang application.",
+    "date": "2023-03-01",
+    "tags": [
+      "Go",
+      "Performance",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "23 min",
+    "url": "https://medium.com/@mobinshaterian/how-write-a-unit-test-integration-test-and-performance-test-for-the-golang-language-a25ccef115f4"
+  },
+  {
+    "slug": "my-experience-to-build-a-cqrs-system-with-microservices-architecture-in-a-financial-system-to-1deeead8db9d",
+    "title": "My experience to build a CQRS system with microservices architecture in a financial system to…",
+    "excerpt": "In the last 6 months, I made enormous system for online payment and settlement with bank for handle 10k TPS. In this article I will explain…",
+    "date": "2023-02-23",
+    "tags": [
+      "Microservices",
+      "Architecture",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "6 min",
+    "url": "https://medium.com/@mobinshaterian/my-experience-to-build-a-cqrs-system-with-microservices-architecture-in-a-financial-system-to-1deeead8db9d"
+  },
+  {
+    "slug": "liquibase-hello-world-1d792968962f",
+    "title": "Liquibase Hello world",
+    "excerpt": "Getting start with Liquibase for write migration in Postgres database",
+    "date": "2023-02-16",
+    "tags": [
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/liquibase-hello-world-1d792968962f"
+  },
+  {
+    "slug": "ory-kratos-hello-world-807d55e9e489",
+    "title": "Ory Kratos Hello world",
+    "excerpt": "how design Role based access control in authorization systems?",
+    "date": "2023-02-09",
+    "tags": [
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/ory-kratos-hello-world-807d55e9e489"
+  },
+  {
+    "slug": "ory-oathkeeper-hello-world-8069a1e48d3e",
+    "title": "Ory Oathkeeper Hello world",
+    "excerpt": "delegate authentication to the API Gateway level using Kratos and Oathkeeper",
+    "date": "2023-02-06",
+    "tags": [
+      "API",
+      "Security",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/ory-oathkeeper-hello-world-8069a1e48d3e"
+  },
+  {
+    "slug": "ory-hydra-hello-world-581ee5c1f023",
+    "title": "Ory Hydra Hello world",
+    "excerpt": "Run ORY HYDRA service",
+    "date": "2023-02-03",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/ory-hydra-hello-world-581ee5c1f023"
+  },
+  {
+    "slug": "run-test-case-in-golnag-with-env-file-520616cbb54a",
+    "title": "Run test case in Golnag with .env file",
+    "excerpt": "You can add following snippets to VSCode settings.json to specify environment variables just for go test runs:",
+    "date": "2023-01-16",
+    "tags": [
+      "Go",
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/run-test-case-in-golnag-with-env-file-520616cbb54a"
+  },
+  {
+    "slug": "redirect-port-from-one-server-to-port-of-another-server-via-iptables-7d77f37d7fa0",
+    "title": "Redirect port from one server to port of another server via Iptables",
+    "excerpt": "In this article, I want to redirect traffic from one server to another server. The main reason is I want to fetch data from a newspaper in…",
+    "date": "2023-01-15",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/redirect-port-from-one-server-to-port-of-another-server-via-iptables-7d77f37d7fa0"
+  },
+  {
+    "slug": "debug-golang-with-vscode-e749e9c0c94e",
+    "title": "Debug Golang with vscode",
+    "excerpt": "Make .vscode directory in your project.",
+    "date": "2023-01-10",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/debug-golang-with-vscode-e749e9c0c94e"
+  },
+  {
+    "slug": "you-can-add-it-cf3e9f98f6c5",
+    "title": "You can add It :)",
+    "excerpt": "https://github.com/vscode-neovim/vscode-neovim",
+    "date": "2023-01-07",
+    "tags": [
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/you-can-add-it-cf3e9f98f6c5"
+  },
+  {
+    "slug": "nats-jet-strem-hello-world-d909099c88e4",
+    "title": "Nats Jet Strem, Hello World",
+    "excerpt": "Run simple Nats Jet Stream example",
+    "date": "2022-12-28",
+    "tags": [
+      "NATS",
+      "Machine Learning"
+    ],
+    "readingTime": "10 min",
+    "url": "https://medium.com/@mobinshaterian/nats-jet-strem-hello-world-d909099c88e4"
+  },
+  {
+    "slug": "install-cakephp-application-on-server-with-the-traditional-way-on-ubuntu-22-0-server-3228ae49c3c1",
+    "title": "Install CakePHP application on server with the traditional way on Ubuntu 22.0 server",
+    "excerpt": "In this article, I want to make a Monolithic Server to run the Cakephp application. I know that Microservices and central systems are…",
+    "date": "2022-12-04",
+    "tags": [
+      "Linux",
+      "Microservices",
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/install-cakephp-application-on-server-with-the-traditional-way-on-ubuntu-22-0-server-3228ae49c3c1"
+  },
+  {
+    "slug": "i-want-to-know-what-is-your-solution-when-is-kafka-down-and-the-database-has-no-problem-e14ea90460a2",
+    "title": "I want to know, what is your solution? When Kafka is down, and the database has no problem.",
+    "excerpt": "I want to know, what is your solution? When Kafka is down, and the database has no problem. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size:…",
+    "date": "2022-09-19",
+    "tags": [
+      "Kafka",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-want-to-know-what-is-your-solution-when-is-kafka-down-and-the-database-has-no-problem-e14ea90460a2"
+  },
+  {
+    "slug": "in-the-previous-version-if-we-had-problems-like-this-our-db-team-found-these-contradictions-by-cb0cfd733506",
+    "title": "In the previous version, If we had problems like this, Our DB team found these contradictions by…",
+    "excerpt": "In the previous version, If we had problems like this, Our DB team found these contradictions by… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 {…",
+    "date": "2022-09-18",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/in-the-previous-version-if-we-had-problems-like-this-our-db-team-found-these-contradictions-by-cb0cfd733506"
+  },
+  {
+    "slug": "if-my-service-or-database-is-down-the-client-receives-500-errors-based-on-our-contract-with-the-1675d6ee0c2c",
+    "title": "If my service or database is down, the client receives 500 errors based on our contract with the…",
+    "excerpt": "I know Kafka is a highly resilient message broker, but in rare situations, for instance, our DevOps team probably clears the Kafka…",
+    "date": "2022-09-17",
+    "tags": [
+      "Kafka",
+      "DevOps",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/if-my-service-or-database-is-down-the-client-receives-500-errors-based-on-our-contract-with-the-1675d6ee0c2c"
+  },
+  {
+    "slug": "my-solution-for-designing-a-resilient-system-in-an-event-driven-pipeline-d1396711d423",
+    "title": "My solution for designing a resilient system in an event-driven pipeline",
+    "excerpt": "I designed event-driven architecture for our fintech software. It consisted of three parts. Part one had a sync process, and Parts two and…",
+    "date": "2022-09-12",
+    "tags": [
+      "Architecture",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/my-solution-for-designing-a-resilient-system-in-an-event-driven-pipeline-d1396711d423"
+  },
+  {
+    "slug": "best-list-of-vscode-plugin-as-golang-developer-in-backend-position-4c3c945a903c",
+    "title": "Best List of Vscode Plugin as Golang developer in Backend position",
+    "excerpt": "When I was a child, I decided to use only open-source tools. It was a hard decision at the time because many open-source tools weren’t…",
+    "date": "2022-09-08",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/best-list-of-vscode-plugin-as-golang-developer-in-backend-position-4c3c945a903c"
+  },
+  {
+    "slug": "how-does-a-software-engineer-avoid-a-lousy-lifestyle-and-a-bad-diet-37742278fbb5",
+    "title": "How does a software Engineer avoid a lousy lifestyle and a bad diet?",
+    "excerpt": "As Software Engineer, I sit for about 12 hours a day, and sometime if we have a deadline, it will become worst, and sometimes I sit on a…",
+    "date": "2022-08-26",
+    "tags": [
+      "Machine Learning",
+      "Career"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/how-does-a-software-engineer-avoid-a-lousy-lifestyle-and-a-bad-diet-37742278fbb5"
+  },
+  {
+    "slug": "in-the-previous-version-we-used-only-pg-9793692de7df",
+    "title": "In the previous version, we used only PG.",
+    "excerpt": "In the previous version, we used only PG. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 {…",
+    "date": "2022-08-26",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/in-the-previous-version-we-used-only-pg-9793692de7df"
+  },
+  {
+    "slug": "redis-helps-db-in-many-cases-365bc3b0e0d4",
+    "title": "Redis helps DB in many cases.",
+    "excerpt": "Redis helps DB in many cases. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size: 24px;…",
+    "date": "2022-08-25",
+    "tags": [
+      "Redis",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/redis-helps-db-in-many-cases-365bc3b0e0d4"
+  },
+  {
+    "slug": "thanks-6fb0e016aa87",
+    "title": "Thanks.",
+    "excerpt": "After investigating an existing solution, I discovered a possible solution is partitioning PG which you mention. I will partition our DB…",
+    "date": "2022-08-25",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-6fb0e016aa87"
+  },
+  {
+    "slug": "i-want-to-test-cqrd-i-will-write-my-results-d48292ca2ea2",
+    "title": "I want to test CQRD. I will write my results.",
+    "excerpt": "I want to test CQRD. I will write my results. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 {…",
+    "date": "2022-08-22",
+    "tags": [
+      "Machine Learning",
+      "Testing"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-want-to-test-cqrd-i-will-write-my-results-d48292ca2ea2"
+  },
+  {
+    "slug": "i-use-kafka-insert-data-and-i-use-redis-for-read-data-from-database-ed50ed56a3a0",
+    "title": "I use Kafka insert data, and I use Redis for read data from database.",
+    "excerpt": "I use Kafka insert data, and I use Redis for read data from database. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom:…",
+    "date": "2022-08-21",
+    "tags": [
+      "Redis",
+      "Kafka",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/i-use-kafka-insert-data-and-i-use-redis-for-read-data-from-database-ed50ed56a3a0"
+  },
+  {
+    "slug": "hello-kamath-i-know-cassandras-request-and-response-are-much-better-than-postgres-s-but-the-5129af5e39b2",
+    "title": "Hello Kamath, I know Cassandra's request and response are much better than Postgres's, but the…",
+    "excerpt": "Hello Kamath, I know Cassandra's request and response are much better than Postgres's, but the… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size:…",
+    "date": "2022-08-20",
+    "tags": [
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/hello-kamath-i-know-cassandras-request-and-response-are-much-better-than-postgres-s-but-the-5129af5e39b2"
+  },
+  {
+    "slug": "thanks-bill-such-a-beautiful-solution-i-will-check-rof-d15d832b659d",
+    "title": "Thanks, Bill. Such a beautiful solution. I will check ROF.",
+    "excerpt": "Thanks, Bill. Such a beautiful solution. I will check ROF. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2022-08-19",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-bill-such-a-beautiful-solution-i-will-check-rof-d15d832b659d"
+  },
+  {
+    "slug": "thanks-i-have-never-used-questdb-io-2f6fabccb",
+    "title": "Thanks, I have never used QuestDB.io",
+    "excerpt": "Thanks, I have never used QuestDB.io * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size:…",
+    "date": "2022-08-16",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/thanks-i-have-never-used-questdb-io-2f6fabccb"
+  },
+  {
+    "slug": "i-struggle-to-read-and-write-100k-requests-in-postgres-db-with-my-aggressive-solution-with-redis-91461a8316a1",
+    "title": "I struggle to read and write 100K requests in Postgres DB, and my aggressive solution with Redis.",
+    "excerpt": "I faced 100K requests in a short period in our application. In that situation, Postgres Database has a lot of delays in response requests…",
+    "date": "2022-08-15",
+    "tags": [
+      "Redis",
+      "Postgres",
+      "Machine Learning"
+    ],
+    "readingTime": "5 min",
+    "url": "https://medium.com/@mobinshaterian/i-struggle-to-read-and-write-100k-requests-in-postgres-db-with-my-aggressive-solution-with-redis-91461a8316a1"
+  },
+  {
+    "slug": "pretty-print-array-in-golang-4c184f4517f6",
+    "title": "Pretty print array in Golang.",
+    "excerpt": "The simplest way to print an array or even interface in Golang is to write the below function.",
+    "date": "2022-08-13",
+    "tags": [
+      "Go",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/pretty-print-array-in-golang-4c184f4517f6"
+  },
+  {
+    "slug": "struggle-with-export-and-import-in-mongodb-via-mongo-express-c64c0154937",
+    "title": "Struggle with export and import in MongoDB via mongo-express",
+    "excerpt": "In a previous article, I mentioned that I have to use mongo-express to import and export data from my local server, which causes some…",
+    "date": "2022-08-09",
+    "tags": [
+      "Node.js",
+      "MongoDB",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/struggle-with-export-and-import-in-mongodb-via-mongo-express-c64c0154937"
+  },
+  {
+    "slug": "problem-with-installing-mongodb-on-ubuntu-22-04-and-mongo-express-is-an-immediate-solution-9b070ba244e",
+    "title": "Problem with installing MongoDB on Ubuntu 22.04, and Mongo-express is an immediate solution.",
+    "excerpt": "At this time, MongoDB is not supported by Ubuntu 22.04 on their official site.",
+    "date": "2022-08-06",
+    "tags": [
+      "Node.js",
+      "MongoDB",
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/problem-with-installing-mongodb-on-ubuntu-22-04-and-mongo-express-is-an-immediate-solution-9b070ba244e"
+  },
+  {
+    "slug": "using-tmux-to-startup-command-run-when-development-software-e63a5f106805",
+    "title": "Using Tmux to startup command run when development software",
+    "excerpt": "Nowadays, Microservices are very popular, and many companies and developers switched to this kind of technology. One of the problems ا have…",
+    "date": "2022-08-03",
+    "tags": [
+      "Microservices",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/using-tmux-to-startup-command-run-when-development-software-e63a5f106805"
+  },
+  {
+    "slug": "installing-application-for-golang-developer-after-installing-ubuntu-22-04-lts-5d5570a78340",
+    "title": "Installing Application for Golang developer After installing Ubuntu 22.04 LTS",
+    "excerpt": "In this article, I will explain which package is necessary after installing Ubuntu 22.04 LTS as a Golang developer.",
+    "date": "2022-06-11",
+    "tags": [
+      "Go",
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "9 min",
+    "url": "https://medium.com/@mobinshaterian/installing-application-for-golang-developer-after-installing-ubuntu-22-04-lts-5d5570a78340"
+  },
+  {
+    "slug": "im-adding-your-example-in-my-artile-c6b6bcbb59a0",
+    "title": "I'm adding your example in my artile.",
+    "excerpt": "As example Ferraris vs. Jeeps both types are good and useful, in different situations. not using Ferraris for off-road usage.",
+    "date": "2021-04-11",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/im-adding-your-example-in-my-artile-c6b6bcbb59a0"
+  },
+  {
+    "slug": "im-using-php-go-python-vuejs-in-one-project-f0a62b2d680c",
+    "title": "I'm using PHP+GO+Python+Vuejs in one project.",
+    "excerpt": "I'm using PHP+GO+Python+Vuejs in one project. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 {…",
+    "date": "2021-04-11",
+    "tags": [
+      "Go",
+      "Python",
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/im-using-php-go-python-vuejs-in-one-project-f0a62b2d680c"
+  },
+  {
+    "slug": "tips-i-changing-the-title-of-an-article-from-php-fpm-b39bfca0f213",
+    "title": "TIPS: I changing the title of an article from \"PHP-fpm !",
+    "excerpt": "TIPS: I changing the title of an article from \"PHP-fpm ! * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2021-04-11",
+    "tags": [
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/tips-i-changing-the-title-of-an-article-from-php-fpm-b39bfca0f213"
+  },
+  {
+    "slug": "the-name-of-the-article-is-php-fpm-906594b34940",
+    "title": "The name of the article is \"PHP-fpm !",
+    "excerpt": "exactly, we are in the same boat. I'm just saying that \"Dear Employer, please stop build everything with PHP + Mysql.\" . some guys want to…",
+    "date": "2021-04-11",
+    "tags": [
+      "PHP",
+      "MySQL",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/the-name-of-the-article-is-php-fpm-906594b34940"
+  },
+  {
+    "slug": "using-php-for-handling-admin-panel-131dca4a3f57",
+    "title": "using PHP for handling admin panel",
+    "excerpt": "using PHP for handling admin panel * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 { font-size:…",
+    "date": "2021-04-11",
+    "tags": [
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/using-php-for-handling-admin-panel-131dca4a3f57"
+  },
+  {
+    "slug": "im-just-writing-my-experience-and-i-believe-that-php-is-not-a-good-language-for-data-engineers-431b8d9afb9b",
+    "title": "I'm just writing my experience, and I believe that PHP is not a good language for data engineers…",
+    "excerpt": "I'm just writing my experience, and I believe that PHP is not a good language for data engineers… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 {…",
+    "date": "2021-04-04",
+    "tags": [
+      "PHP",
+      "Machine Learning",
+      "Data Engineering",
+      "Career"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/im-just-writing-my-experience-and-i-believe-that-php-is-not-a-good-language-for-data-engineers-431b8d9afb9b"
+  },
+  {
+    "slug": "caching-machine-learning-engine-is-not-easy-as-you-thinking-about-ebb5522e6946",
+    "title": "caching machine learning engine is not easy as you thinking about.",
+    "excerpt": "https://mobinshaterian.medium.com/improve-speed-of-machine-learning-api-engine-from-3-requests-per-second-to-10000-requests-per-4d649d246a99…",
+    "date": "2021-04-02",
+    "tags": [
+      "API",
+      "Performance",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/caching-machine-learning-engine-is-not-easy-as-you-thinking-about-ebb5522e6946"
+  },
+  {
+    "slug": "improve-speed-of-machine-learning-api-engine-from-3-requests-per-second-to-10000-requests-per-4d649d246a99",
+    "title": "Improve speed of Machine Learning API (Engine) from 3 requests per second to 10000 requests per…",
+    "excerpt": "as a data Engineer, the data scientist team gave me API Machine Learning called Engine.",
+    "date": "2021-03-23",
+    "tags": [
+      "API",
+      "Performance",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/improve-speed-of-machine-learning-api-engine-from-3-requests-per-second-to-10000-requests-per-4d649d246a99"
+  },
+  {
+    "slug": "using-redis-and-nginx-cache-are-very-good-tools-for-decrease-pressure-on-server-but-cant-easy-425cfe60576a",
+    "title": "using redis and nginx cache are very good tools for decrease pressure on server but can't easy…",
+    "excerpt": "using redis and nginx cache are very good tools for decrease pressure on server but can't easy… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size:…",
+    "date": "2021-03-14",
+    "tags": [
+      "Redis",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/using-redis-and-nginx-cache-are-very-good-tools-for-decrease-pressure-on-server-but-cant-easy-425cfe60576a"
+  },
+  {
+    "slug": "after-discussion-about-this-article-i-am-edit-title-to-effect-of-index-column-on-mysql-performance-a79c20c6f53f",
+    "title": "after discussion about this article i am edit title to Effect of index column on Mysql performance.",
+    "excerpt": "at this time i'm using golang and php next to each other in one project.",
+    "date": "2021-02-23",
+    "tags": [
+      "Go",
+      "PHP",
+      "MySQL",
+      "Performance"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/after-discussion-about-this-article-i-am-edit-title-to-effect-of-index-column-on-mysql-performance-a79c20c6f53f"
+  },
+  {
+    "slug": "-3892d9c06612",
+    "title": ":)))))))))))",
+    "excerpt": "no, but some guys guarding to changing PHP language",
+    "date": "2021-02-09",
+    "tags": [
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/-3892d9c06612"
+  },
+  {
+    "slug": "my-first-application-development-with-golang-as-a-php-developer-9c31e37903b8",
+    "title": "My first application development with Golang as a PHP developer.",
+    "excerpt": "after I’m facing CPU usage in PHP and Laravael framework I decided to implement my data engineer system by Go language.",
+    "date": "2021-02-07",
+    "tags": [
+      "Go",
+      "PHP",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/my-first-application-development-with-golang-as-a-php-developer-9c31e37903b8"
+  },
+  {
+    "slug": "when-using-php-for-handle-lots-of-user-per-second-or-using-php-for-making-pipeline-for-machine-aff6ed07b190",
+    "title": "when using php for handle lot's of user per second or using php for making pipeline for machine…",
+    "excerpt": "when using php for handle lot's of user per second or using php for making pipeline for machine… * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 {…",
+    "date": "2021-02-07",
+    "tags": [
+      "PHP",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/when-using-php-for-handle-lots-of-user-per-second-or-using-php-for-making-pipeline-for-machine-aff6ed07b190"
+  },
+  {
+    "slug": "dear-silvio-the-problem-is-solved-by-adding-index-in-mysql-2ebda119add8",
+    "title": "Dear Silvio, the problem is solved by adding index in mysql.",
+    "excerpt": "Dear Silvio, the problem is solved by adding index in mysql. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2021-01-16",
+    "tags": [
+      "MySQL",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/dear-silvio-the-problem-is-solved-by-adding-index-in-mysql-2ebda119add8"
+  },
+  {
+    "slug": "you-are-right-i-change-the-title-of-article-35175edbc6a8",
+    "title": "You are right. I change the title of article",
+    "excerpt": "You are right. I change the title of article * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color: #333; } h2 {…",
+    "date": "2021-01-14",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/you-are-right-i-change-the-title-of-article-35175edbc6a8"
+  },
+  {
+    "slug": "actully-in-our-plan-changeing-architecture-of-webservice-2f5988716dd7",
+    "title": "actully in our plan changeing architecture of webservice.",
+    "excerpt": "actully in our plan changeing architecture of webservice. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2021-01-14",
+    "tags": [
+      "Architecture",
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/actully-in-our-plan-changeing-architecture-of-webservice-2f5988716dd7"
+  },
+  {
+    "slug": "im-fixing-this-problem-with-added-index-to-most-used-table-77bd61387525",
+    "title": "i'm fixing this problem with added index to most used table.",
+    "excerpt": "i'm fixing this problem with added index to most used table. * { font-family: Georgia, Cambria, \"Times New Roman\", Times, serif; } html, body { margin: 0; padding: 0; } h1 { font-size: 50px; margin-bottom: 17px; color:…",
+    "date": "2021-01-14",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "1 min",
+    "url": "https://medium.com/@mobinshaterian/im-fixing-this-problem-with-added-index-to-most-used-table-77bd61387525"
+  },
+  {
+    "slug": "php-fpm-i-hate-you-1d17bb8a577b",
+    "title": "PHP-fpm ! I hate you",
+    "excerpt": "I have been a PHP developer for many years. Employers want to build every platform with PHP!",
+    "date": "2021-01-11",
+    "tags": [
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/php-fpm-i-hate-you-1d17bb8a577b"
+  },
+  {
+    "slug": "reading-matlab-mat-format-dataset-in-python-f19c024bdb83",
+    "title": "Reading Matlab .mat format Dataset in Python",
+    "excerpt": "Cuff-Less Blood Pressure Estimation Data Set has a Matlab Dataset and I won’t use it in python code.",
+    "date": "2020-12-21",
+    "tags": [
+      "Python",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/reading-matlab-mat-format-dataset-in-python-f19c024bdb83"
+  },
+  {
+    "slug": "images-seo-optimization-when-the-quality-of-images-is-very-important-for-customers-or-designers-c1165d184e30",
+    "title": "Images SEO Optimization when the quality of images is very important for customers or designers",
+    "excerpt": "One of the big challenges in SEO optimization occurs when the quality of images is very important for customers. for example when customer…",
+    "date": "2020-12-19",
+    "tags": [
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/images-seo-optimization-when-the-quality-of-images-is-very-important-for-customers-or-designers-c1165d184e30"
+  },
+  {
+    "slug": "using-restfull-api-of-farsava-deep-learning-automatic-speech-recognition-to-convert-persian-speech-1ba75d232212",
+    "title": "Using Restfull API of Farsava Deep learning Automatic Speech Recognition to convert Persian Speech…",
+    "excerpt": "In this article,I want to use API Restfull of Farsava ASR in Laravel to convert speech to text.",
+    "date": "2020-09-29",
+    "tags": [
+      "Laravel",
+      "API",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/using-restfull-api-of-farsava-deep-learning-automatic-speech-recognition-to-convert-persian-speech-1ba75d232212"
+  },
+  {
+    "slug": "running-zarinpal-gateway-on-laravel-framework-ac9d84674ec6",
+    "title": "Running Zarinpal Gateway on Laravel framework",
+    "excerpt": "one of the most common things using in a web developer is a gateway for making money from customers.",
+    "date": "2020-09-23",
+    "tags": [
+      "Laravel",
+      "Machine Learning",
+      "Payments"
+    ],
+    "readingTime": "8 min",
+    "url": "https://medium.com/@mobinshaterian/running-zarinpal-gateway-on-laravel-framework-ac9d84674ec6"
+  },
+  {
+    "slug": "installing-application-for-web-developer-after-installing-ubuntu-20-04-lts-e8114c21044c",
+    "title": "Installing Application for web developer After installing Ubuntu 20.04 LTS",
+    "excerpt": "one of the nightmare for the developer is changing OS. Always we have a lot of tasks Todo that never finishes! When a new version of the…",
+    "date": "2020-09-21",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "7 min",
+    "url": "https://medium.com/@mobinshaterian/installing-application-for-web-developer-after-installing-ubuntu-20-04-lts-e8114c21044c"
+  },
+  {
+    "slug": "make-pdf-in-cakephp-with-utf-8-for-print-in-label-printer-f6d172423eff",
+    "title": "Make Pdf in Cakephp with UTF-8 for print in label printer",
+    "excerpt": "Cakephp is one of the PHP frameworks that famous for agile. in this article demonstrate step by step make Pdf file with Tcpdf library in…",
+    "date": "2020-09-17",
+    "tags": [
+      "PHP",
+      "Machine Learning"
+    ],
+    "readingTime": "3 min",
+    "url": "https://medium.com/@mobinshaterian/make-pdf-in-cakephp-with-utf-8-for-print-in-label-printer-f6d172423eff"
+  },
+  {
+    "slug": "troubles-update-composer-in-laravel-when-develop-in-docker-17e3abeef50d",
+    "title": "Troubles update composer in Laravel when develop in docker",
+    "excerpt": "develop laravel on docker some times make many troubles . in this article reviews troubles of laravel when want composer update.",
+    "date": "2020-09-14",
+    "tags": [
+      "Laravel",
+      "Docker",
+      "Machine Learning"
+    ],
+    "readingTime": "2 min",
+    "url": "https://medium.com/@mobinshaterian/troubles-update-composer-in-laravel-when-develop-in-docker-17e3abeef50d"
+  },
+  {
+    "slug": "increase-hard-disk-of-linux-os-stressful-working-d2dfcc1f208b",
+    "title": "Increase hard disk of linux os , stressful working",
+    "excerpt": "when customer increase in website suddenly face of limitation of hard disk , in this time increasing hard drive is very stressful …",
+    "date": "2020-09-13",
+    "tags": [
+      "Linux",
+      "Machine Learning"
+    ],
+    "readingTime": "4 min",
+    "url": "https://medium.com/@mobinshaterian/increase-hard-disk-of-linux-os-stressful-working-d2dfcc1f208b"
+  }
+]

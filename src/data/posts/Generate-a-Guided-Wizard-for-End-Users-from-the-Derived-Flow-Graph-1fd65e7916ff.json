@@ -1,0 +1,279 @@
+{
+  "slug": "Generate-a-Guided-Wizard-for-End-Users-from-the-Derived-Flow-Graph-1fd65e7916ff",
+  "title": "Generate a Guided Wizard for End Users from the Derived Flow Graph",
+  "subtitle": "Turning your backend, frontend, e2e tests, and Swagger spec into a queryable knowledge graph — and using it to build a smarter, AI-assisted wizard",
+  "excerpt": "Turning your backend, frontend, e2e tests, and Swagger spec into a queryable knowledge graph — and using it to build a smarter, AI-assisted…",
+  "date": "2026-08-30",
+  "tags": [
+    "AI",
+    "GraphRAG",
+    "Software Architecture",
+    "User Experience"
+  ],
+  "readingTime": "12 min",
+  "url": "https://blog.stackademic.com/generate-a-guided-wizard-for-end-users-from-the-derived-flow-graph-1fd65e7916ff",
+  "hero": "https://miro.medium.com/v2/resize:fit:1200/1*xSIaOGGe5GSrvfLuEVXK-g.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "Turning your backend, frontend, e2e tests, and Swagger spec into a queryable knowledge graph — and using it to build a smarter, AI-assisted wizard"
+    },
+    {
+      "type": "paragraph",
+      "html": "Every product with any real complexity ends up with the same quiet problem: the <em>true</em> shape of how a user gets something done doesn’t live in any single place. It’s scattered across frontend routes, backend endpoints, e2e test files, and an OpenAPI spec — each one holding a different slice of the truth, none of them holding the whole picture."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:1400/1*xSIaOGGe5GSrvfLuEVXK-g.png",
+      "alt": "Generate a Guided Wizard for End Users from the Derived Flow Graph",
+      "caption": "",
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "type": "paragraph",
+      "html": "I kept running into this from the engineering side: e2e tests that encode real, working sequences through the system; a Swagger spec that knows the shape of every endpoint but nothing about the order they’re meant to be called in; frontend routes that define what screens exist but not which one logically follows another. Three sources of truth, no single map."
+    },
+    {
+      "type": "paragraph",
+      "html": "The idea I want to walk through here: extract a <strong>knowledge graph</strong> of the actual user flow from all three sources, load it into a graph database, and use that graph to drive a <strong>guided wizard</strong> — one that gets the ordering and field requirements right because they come from the graph, not from someone’s memory of how the flow is <em>supposed</em> to work. AI has a role here too, but it’s a supporting one, not the foundation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why this is worth doing"
+    },
+    {
+      "type": "paragraph",
+      "html": "E2E tests already encode <em>actual working sequences</em> through your system — not aspirational documentation, not a diagram someone drew two years ago and never updated. They’re ground truth. Swagger, meanwhile, gives you the static shape of every endpoint: inputs, outputs, required fields, auth. Neither one alone is a flow. Together, correlated properly, they are."
+    },
+    {
+      "type": "paragraph",
+      "html": "And a graph is the right shape for a flow. User journeys are naturally state → action → state, and a graph database lets you ask questions a document never could: What are all the paths from signup to first payment? What’s the shortest legal path to X? Which steps are dead ends? Which screens does the spec say exist but no test ever reaches?"
+    },
+    {
+      "type": "paragraph",
+      "html": "That queryability is what makes the wizard idea work. Most “generate a form from OpenAPI” tools only look at the API shape in isolation — they don’t know that step 7 only makes sense after step 4 succeeds. A graph built from <em>real</em> e2e sequences knows that, because that ordering is exactly what it’s made of."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The honest weaknesses first"
+    },
+    {
+      "type": "paragraph",
+      "html": "This isn’t a free lunch, and it’s worth being upfront about where it gets hard before getting into how to build it."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>E2E tests describe the paths that got tested, not the full space of what’s possible.</strong> A test suite validates that <em>a</em> sequence works — usually the happy path, sometimes a couple of edge cases. It typically doesn’t encode every branch, every optional step, or every recovery path a real user might take. You have to decide up front whether your graph represents “what the tests exercise” (accurate but thin) or “what’s actually possible” (richer, but requires pulling in frontend routes and navigation code too, not just tests)."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Extraction is the unglamorous, expensive part.</strong> Parsing test code into structured “step N: endpoint + payload + preconditions” nodes is doable but fiddly — shared fixtures, helper functions, and setup/teardown all get in the way of a clean mapping between test code and flow steps. This is where most of the actual engineering time goes. Not the graph database. Not the wizard UI. The parsing."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Swagger under-specifies flow by design.</strong> OpenAPI describes endpoints in isolation — it doesn’t say “call B only after A succeeds.” It enriches nodes with schema detail; it doesn’t contribute ordering. The ordering has to come from the tests (or from frontend navigation code)."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>“AI helps them do it faster” is a separate project, not a feature you bolt on day one.</strong> The graph and the wizard skeleton are valuable on their own, without any AI involved. Design the AI layer <em>after</em> you can see what’s actually missing once the deterministic version exists — not speculatively before you’ve built anything."
+    },
+    {
+      "type": "paragraph",
+      "html": "With that on the table, here’s the actual path."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 1 — Designing the graph"
+    },
+    {
+      "type": "paragraph",
+      "html": "Before writing a single parser, define the schema on paper. A workable model:"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Node types:</strong>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<code>Screen</code> — a frontend route or page (e.g. <code>/projects/:id/create</code>)",
+        "<code>Action</code> — a user-triggered event: a click, a form submit",
+        "<code>Endpoint</code> — a backend API call, method + path, enriched from Swagger",
+        "<code>State</code> — an entity or data condition (e.g. <code>Project.status = DRAFT</code>)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Edge types:</strong>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<code>(Screen)-[:TRIGGERS]-&gt;(Action)</code>",
+        "<code>(Action)-[:CALLS]-&gt;(Endpoint)</code>",
+        "<code>(Endpoint)-[:PRODUCES]-&gt;(State)</code>",
+        "<code>(State)-[:ENABLES]-&gt;(Screen)</code> — the next screen unlocked by this state",
+        "<code>(Action)-[:NAVIGATES_TO]-&gt;(Screen)</code> — pure frontend transitions with no API call involved"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "This lets you ask Cypher questions like “show me every screen reachable after this endpoint succeeds” — which is exactly what a wizard generator needs in order to walk the graph correctly."
+    },
+    {
+      "type": "paragraph",
+      "html": "Validate the schema by hand before automating anything: pick one real flow you know well, build its graph manually in Neo4j, and see what’s genuinely missing (branch points, usually) before you write a parser to do it for you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 2 — Extracting from each source"
+    },
+    {
+      "type": "paragraph",
+      "html": "You’re not writing one clever parser. You’re building several independent extractors that each output the same intermediate shape, ordered from easiest to hardest."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Swagger/OpenAPI (do first).</strong> Pure JSON parsing — no AST needed. This gives you one <code>Endpoint</code> node per path+method, with request/response schema, required fields, and auth requirements as properties. It defines the <em>universe</em> of possible endpoints, which you&#39;ll use to enrich whatever the other extractors find."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Frontend routes (do second).</strong> Parse your router config — React Router’s route tree, a Next.js pages/app directory, whatever you’re using — to get the canonical <code>Screen</code> node list. Optionally, grep component code for navigation calls (<code>navigate()</code>, <code>router.push()</code>) to catch transitions that no test happens to cover. This is how you move beyond &quot;only what&#39;s tested&quot; toward the fuller flow graph."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>E2E tests (do last — this is the hard one).</strong> If your tests are browser-driven (Playwright/Cypress), AST-parse each spec file and walk the test body top to bottom, extracting navigation calls, clicks, and form submits in order — this gives you real <code>Screen → Action → Screen</code> ordering directly, which is the most valuable data you&#39;ll get anywhere in this pipeline. If your tests are API-only (Supertest-style), you get <code>Endpoint → Endpoint</code> ordering instead, and you&#39;ll need to stitch the frontend screen layer onto that sequence separately."
+    },
+    {
+      "type": "paragraph",
+      "html": "The real risk here is test helper functions and shared fixtures hiding steps outside the visible test body. You’ll need to decide upfront whether to inline-resolve those helpers (better graph, harder parser) or treat them as an opaque single “setup” step (simpler, but you lose fidelity on a chunk of the real flow)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 3 — When the backend itself is massive"
+    },
+    {
+      "type": "paragraph",
+      "html": "Extracting flow from e2e tests is one problem. Extracting <em>structure</em> from a large backend codebase — what depends on what, what calls what — is a related but different one, and it needs different tooling once the codebase gets big. Hand-rolled AST parsing doesn’t scale to “massive”; you lean on existing static-analysis infrastructure instead."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Exploit the framework’s own structure first.</strong> If you’re on NestJS (or any decorator/DI-driven framework), a huge amount of the graph is discoverable almost for free. <code>@Controller()</code> and <code>@Get()/@Post()</code> decorators give you <code>Endpoint</code> nodes directly from decorator metadata. Constructor injection with <code>@Injectable()</code> gives you the service dependency graph — which service depends on which — practically for free. Module boundaries (<code>@Module({ imports, providers, exports })</code>) give you a high-level architecture graph before you&#39;ve looked inside a single function body. This skeleton alone is often 60–70% of what people mean by &quot;codebase knowledge graph.&quot;"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Use real call-graph tooling for the rest, don’t reimplement symbol resolution.</strong> The TypeScript Language Service API (the same engine VS Code runs on) gives you “find all references” programmatically. CodeQL is the industrial-strength option for genuinely large codebases — write queries like “find all functions that call <code>ProjectService.create</code>&quot; and it handles cross-file resolution, inheritance, and DI patterns for you. Lighter tools like <code>dependency-cruiser</code> or <code>madge</code> give you a coarse module-level dependency graph as a fast first orientation pass."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Reserve deep call-graph resolution for what your flow graph actually needs.</strong> Resolving every function call in a massive codebase is expensive and mostly wasted effort. Scope it to the specific cross-cutting relationships that matter — e.g., “does this endpoint’s handler internally trigger logic shared with another endpoint.”"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Use an LLM for meaning, not for structure.</strong> Static analysis gives you topology — it can’t tell you that a service method encodes the business rule “a project can’t be archived while bids are pending.” For that, chunk modules and have an LLM summarize each into structured JSON describing the domain concept and preconditions. Keep the boundary strict: static analysis produces the skeleton — nodes and hard edges — and the LLM only annotates or enriches, batched rather than per-function to keep cost sane. Don’t let it invent edges."
+    },
+    {
+      "type": "paragraph",
+      "html": "There’s existing prior art worth studying here rather than building from zero. <strong>graph-code</strong> parses TypeScript codebases with the TS Compiler API directly into Neo4j, with natural-language querying layered on top. <strong>Strazh</strong> frames the whole process explicitly as ETL — extract codebase models, transform into RDF triples, load into a graph database — using Roslyn for .NET, but the framing transfers directly. One production case study parsed over a million lines across 1,000+ files into 10,000+ function nodes in Neo4j, with each function call becoming a <code>CALLS</code> relationship, then exposed the whole thing through an MCP server so AI agents could query it directly — including a genuinely useful side effect: dead-code detection by finding functions with zero callers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 4 — Merging and loading"
+    },
+    {
+      "type": "paragraph",
+      "html": "Every extractor above should emit the same shape: an ordered list of typed steps per flow, with each step referencing a node by stable ID (<code>endpoint:POST /projects</code>, <code>screen:/projects/:id/create</code>)."
+    },
+    {
+      "type": "paragraph",
+      "html": "Run a normalization pass before loading anything: match endpoint references from e2e tests against the Swagger-derived nodes by method+path; match screen references against the frontend route list. Anything referenced in a test but not found in Swagger or the route list is a red flag worth logging, not silently dropping — it usually means a stale test, a dynamically generated route your parser missed, or a bug in the extractor itself."
+    },
+    {
+      "type": "paragraph",
+      "html": "For loading, walk each flow’s ordered step list and <code>MERGE</code> — not <code>CREATE</code> — both nodes and edges into Neo4j, tagging each edge with the source test file or flow name. <code>MERGE</code> is what makes multiple test files sharing the same steps converge into one coherent graph instead of duplicate node soup. That convergence is also where your branch points emerge naturally: two tests that diverge after a shared screen show up as two outgoing edges from that node."
+    },
+    {
+      "type": "paragraph",
+      "html": "Before trusting any of it, validate with Cypher — not by eyeballing. Look for orphan nodes (extraction gaps), unexpected fan-out (your real decision points, worth a manual look), and endpoints or screens with zero incoming edges (things your spec and routes know about that no test ever reaches — a nice incidental coverage-gap report)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 5 — From graph to wizard"
+    },
+    {
+      "type": "paragraph",
+      "html": "This is the payoff. With a validated graph in place, a wizard is a thin layer that walks a path through it: render a form per node using that node’s Swagger schema, call the real endpoint, follow the <code>leads-to</code> edge on success. No AI required yet — this alone already beats a static, hand-built wizard, because both the step ordering and the field requirements come straight from the graph instead of from someone&#39;s mental model of the flow."
+    },
+    {
+      "type": "paragraph",
+      "html": "Branching comes next. Where a node has multiple outgoing edges — a genuine user choice, or conditional logic — that’s where the graph’s typed edges start earning their keep, letting the wizard present real options instead of forcing a single linear path."
+    },
+    {
+      "type": "paragraph",
+      "html": "One idea worth borrowing from the model-based-testing world: once the graph exists, you can weight edges using real usage analytics rather than treating every legal path as equally likely. That turns your generated wizard into something that follows the path real users actually take most often, not merely <em>a</em> path that happens to be valid."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part 6 — Where AI actually fits"
+    },
+    {
+      "type": "paragraph",
+      "html": "Only once the deterministic graph and wizard skeleton exist does it make sense to add an AI layer — and by that point you’ll have concrete evidence for where it actually helps, rather than a speculative list."
+    },
+    {
+      "type": "paragraph",
+      "html": "The realistic candidates: field autofill or suggestion based on the user’s prior answers in the flow; next-step recommendation when a node has multiple legal outgoing edges; a natural-language front door — “I want to add a subcontractor” — that maps free text onto the correct node in the graph."
+    },
+    {
+      "type": "paragraph",
+      "html": "That mapping step is where it’s worth being precise about what AI is and isn’t doing. A wizard needs correctness: after creating a project, the next legal step is a specific one, not something merely semantically similar to it. A RAG-style system — embeddings, similarity search over documents — can’t promise that; it can only surface text that’s <em>probably</em> relevant, and a model sitting on top of it can still confidently pick the wrong node. Your graph is not a RAG store and shouldn’t be treated as one. It’s a queryable, typed structure where correctness comes from exact traversal, not from approximate matching. The complementary move is to let an LLM handle the natural-language front door and narration — “you’re here, this is why this field is required” — while the graph alone decides what’s structurally valid. The graph is the source of truth; the LLM is a translator standing in front of it, not a replacement for it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What’s actually novel here"
+    },
+    {
+      "type": "paragraph",
+      "html": "None of the existing tools combine all four inputs — frontend, backend, e2e tests, and Swagger — into one unified flow graph aimed specifically at generating an end-user wizard. The codebase-knowledge-graph tools (graph-code, Strazh, CodeGraph) are aimed at code structure for AI-assisted development. The model-based-testing approaches generate <em>tests</em> from a graph, not <em>guided wizards</em> for end users. The overlap between “extract a real, validated flow” and “hand that flow to a non-technical user as a guided form” appears to be open ground."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A sane build order"
+    },
+    {
+      "type": "paragraph",
+      "html": "Resist starting with the wizard UI or the AI layer — the entire value proposition depends on the graph being accurate, and that’s the part with the least glamour and the highest risk of quiet corner-cutting if you skip ahead."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Define the node/edge schema against one flow you know by heart, on paper, before writing any code.",
+        "Build that one flow’s graph by hand in Neo4j to validate the schema against real data.",
+        "Build the Swagger extractor and the frontend-route extractor — mechanical, low-risk, fast wins.",
+        "Build the e2e-test extractor last — it’s the fiddliest part, with fixtures and helpers to handle.",
+        "Land everything in Neo4j with a <code>MERGE</code>-based loader, and validate with Cypher before trusting the output.",
+        "Build the wizard skeleton directly off the graph — no AI yet.",
+        "Add branching for nodes with multiple legal next steps.",
+        "Only now, layer in AI — for narration, autofill suggestions, and natural-language flow entry — on top of a graph that already guarantees correctness on its own."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "The graph doesn’t need AI to be useful. The wizard doesn’t need AI to be better than what most teams ship today. AI’s job, when it shows up, is to make an already-correct system easier to use — not to make an uncertain one <em>feel</em> correct."
+    }
+  ]
+}

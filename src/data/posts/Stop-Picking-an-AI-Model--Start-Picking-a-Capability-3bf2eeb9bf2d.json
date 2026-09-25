@@ -1,0 +1,194 @@
+{
+  "slug": "Stop-Picking-an-AI-Model--Start-Picking-a-Capability-3bf2eeb9bf2d",
+  "title": "Stop Picking an AI Model. Start Picking a Capability.",
+  "subtitle": "Why I built a gateway that routes coding agents by job, not by vendor",
+  "excerpt": "Why I built a gateway that routes coding agents by job, not by vendor",
+  "date": "2026-08-26",
+  "tags": [
+    "AI",
+    "AI Agents",
+    "Architecture",
+    "DevOps",
+    "Integration"
+  ],
+  "readingTime": "5 min",
+  "url": "https://medium.datadriveninvestor.com/stop-picking-an-ai-model-start-picking-a-capability-3bf2eeb9bf2d",
+  "hero": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*firdfOv0cTN-Os3tvVT7AA.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "Why I built a gateway that routes coding agents by job, not by vendor"
+    },
+    {
+      "type": "paragraph",
+      "html": "There’s a question every engineering team keeps asking in 2026, and it’s the wrong question:"
+    },
+    {
+      "type": "quote",
+      "html": "“Which model should we use for coding?”"
+    },
+    {
+      "type": "paragraph",
+      "html": "That framing made sense when there was basically one usable option. It doesn’t make sense anymore. We now have a whole spectrum of capable models — some absurdly cheap and good enough for 80% of what a coding agent does, some tuned for long-horizon terminal work, and a couple of true frontier models that are worth their price only when the cost of being wrong is high."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*firdfOv0cTN-Os3tvVT7AA.png",
+      "alt": "AI model capability tiers",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "html": "Picking one model for everything is like standardizing your entire engineering org on a single EC2 instance type. Technically it works. It’s just not how you’d design the system if you actually thought about it as a system."
+    },
+    {
+      "type": "paragraph",
+      "html": "So instead of picking a model, I built something that picks for me: an AI gateway that exposes capability tiers instead of vendor names, with automatic fallback and — eventually — automatic escalation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The real cost isn’t the token price"
+    },
+    {
+      "type": "paragraph",
+      "html": "Here’s the trap. If you route every request to the cheapest model, you save money per call and lose it right back in engineering time. A weak model asked to fix a subtle concurrency bug will inspect the wrong files, make a bad assumption, edit three files it shouldn’t have touched, fail the tests, retry, fail again, and eventually hand you a mess to clean up by hand."
+    },
+    {
+      "type": "paragraph",
+      "html": "If you route everything to the frontier model, you’re paying premium prices to generate a DTO or rename a field — work that a cheap, fast model handles just as well."
+    },
+    {
+      "type": "paragraph",
+      "html": "The metric that actually matters isn’t token cost. It’s closer to:"
+    },
+    {
+      "type": "code",
+      "lang": "text",
+      "code": "Engineering Value = (Success Probability × Output Quality) / (API Cost + Retry Cost + Developer Time)"
+    },
+    {
+      "type": "paragraph",
+      "html": "A frontier model with a higher sticker price and a first-try success often beats a cheap model that needed seven attempts and thirty minutes of your afternoon to untangle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The fix: virtual models instead of vendor models"
+    },
+    {
+      "type": "paragraph",
+      "html": "Rather than pointing Cline, Codex, or any other agent at a specific provider, I expose four virtual models behind one OpenAI-compatible endpoint:"
+    },
+    {
+      "type": "paragraph",
+      "html": "For my current coding stack, this is the exact mapping I run. GPT-5.6 Luna is cheap but not cramped — a 1.05M context window means “cheap” doesn’t mean “toy.” GLM-5.3 earns the daily-driver slot on the strength of its long-horizon agent benchmarks (Terminal-Bench, DeepSWE, AutomationBench), with Claude Sonnet 5 as a same-tier fallback rather than a downgrade. GPT-5.6 Sol sits at the top for architectural and high-stakes reasoning, backed by Claude Opus or Fable."
+    },
+    {
+      "type": "paragraph",
+      "html": "And Gemini 3.7 Flash’s 1M-token window makes it the natural choice for repository-scale context synthesis before handing the real work to <code>code-balanced</code>."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*XYDaSrro1TLMoH6JBdEM-g.png",
+      "alt": "Capability-based AI model routing",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "html": "The agent never asks for a specific vendor. It asks for a class of capability:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<code>code-cheap</code> — boilerplate, DTOs, simple SQL, docs, mechanical refactors, unit-test scaffolding. High volume, low stakes, fast and disposable.",
+        "<code>code-balanced</code> — the daily driver. Multi-file features, failing integration tests, terminal-heavy agent work, understanding an unfamiliar module. This is where most real engineering happens.",
+        "<code>code-frontier</code> — escalation only. Distributed-systems bugs, production incidents, ambiguous requirements, architectural refactors, anything where a wrong first attempt is expensive. Frontier models aren’t your default; they’re your insurance policy.",
+        "<code>code-huge-context</code> — repository-scale exploration. Feed it 150 files, schemas, manifests, and logs, and let it produce a synthesis — an architecture summary and a shortlist of relevant files — before handing the actual fix to <code>code-balanced</code>."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "The gateway (I’m using a small local router, but any OpenAI-compatible proxy works) owns the provider decision. My tooling only ever sees one base URL, one API key, and a handful of model names that describe what I need done, not who’s doing it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Two different routing problems, easy to conflate"
+    },
+    {
+      "type": "paragraph",
+      "html": "It’s worth separating two things that look similar but aren’t:"
+    },
+    {
+      "type": "paragraph",
+      "html": "Availability routing answers “is my preferred model up right now?” — a 429 or an outage triggers a same-tier fallback."
+    },
+    {
+      "type": "paragraph",
+      "html": "Capability routing answers “which class of model should even attempt this task?” — that’s a design-time decision based on what the task looks like, not a runtime decision based on error codes."
+    },
+    {
+      "type": "paragraph",
+      "html": "Conflating the two is how teams end up round-robining requests across models mid-conversation, which is a bad idea for agentic coding work specifically. An agent that’s spent twenty turns building context about a repository with one model doesn’t transfer that context cleanly to a different model with different reasoning habits just because both speak the same API dialect."
+    },
+    {
+      "type": "paragraph",
+      "html": "Fallbacks should stay within the same capability class — a mid-tier model falling back to another mid-tier model — not degrade three tiers down just because it was available."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Escalation, not just fallback"
+    },
+    {
+      "type": "paragraph",
+      "html": "Fallback handles unavailability. What’s more interesting is escalation based on signal:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "tests failed repeatedly",
+        "the agent already attempted multiple patches",
+        "the task got classified as architectural",
+        "the change touches more modules than expected"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Under those conditions, the gateway bumps the request up a tier automatically — cheap → balanced → frontier — instead of waiting for a human to notice the agent is flailing."
+    },
+    {
+      "type": "paragraph",
+      "html": "Taken further, this becomes a subagent pattern: a frontier model acts as orchestrator, delegating file search, test inspection, and repo-wide context gathering to cheap models running in parallel, then reasoning over the synthesized results itself. Frontier intelligence as coordinator, cheap intelligence as compute — which is a much better use of an expensive model than having it grep through files."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why this is worth the extra layer"
+    },
+    {
+      "type": "paragraph",
+      "html": "The payoff isn’t really about saving money on any single request, though it does that too. It’s the abstraction boundary:"
+    },
+    {
+      "type": "code",
+      "lang": "text",
+      "code": "Application → Capability → Routing → Provider → Model"
+    },
+    {
+      "type": "paragraph",
+      "html": "Today <code>code-frontier</code> maps to one model. In six months it’ll map to a different one, because it always will — that’s the one constant in this space right now. With a capability-aware gateway, that’s a config change. Without one, it’s a migration across every tool, every prompt, and every hardcoded model string in your stack."
+    },
+    {
+      "type": "paragraph",
+      "html": "Model rankings will keep shuffling every few months for the foreseeable future. Coupling your tooling to today’s best model guarantees you’ll be doing this migration on a recurring basis. Coupling it to a capability means the churn stays where it belongs — in the routing config, not in your codebase."
+    },
+    {
+      "type": "paragraph",
+      "html": "Don’t build your workflow around a model. Build it around what the model needs to be capable of."
+    }
+  ]
+}

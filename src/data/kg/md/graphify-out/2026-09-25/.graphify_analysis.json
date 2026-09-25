@@ -1,0 +1,1876 @@
+{
+  "communities": {
+    "0": [
+      "api",
+      "architecture",
+      "clickhouse",
+      "data_engineering",
+      "devops",
+      "docker",
+      "gitlab_ci_cd",
+      "go",
+      "graphql",
+      "kafka",
+      "kubernetes",
+      "linux",
+      "machine_learning",
+      "materialized_view",
+      "microservices",
+      "node_js",
+      "performance",
+      "post_architectural_optimization_of_shared_sandbox_deployments_in_gitlab_ci_cd_47ccce21fa9d",
+      "post_atomic_deployment_of_go_binaries_on_ubuntu_with_cron_dd7cf94cd8ab",
+      "post_common_bug_closure_captures_a_variable_from_the_outer_scope_a5ab7bed750b",
+      "post_index_a_classic_east_west_traffic_blind_spot___65",
+      "post_index_a_comprehensive_guide_for_backend_develo_88",
+      "post_index_absolutely___and_you_re_spot_on__go_gene_44",
+      "post_index_add_sonarqube_to_the_golang_project_74",
+      "post_index_add_swagger_to_a_golang_gin_project_76",
+      "post_index_adding_clickhouse_to_a_go_project__a_pra_39",
+      "post_index_adding_zap_logger_to_your_go_project__a__63",
+      "post_index_although_all_the_points_that_are_mention_100",
+      "post_index_architectural_optimization_of_shared_san_9",
+      "post_index_atomic_deployment_of_go_binaries_on_ubun_48",
+      "post_index_authentication_and_authorization_in_nest_131",
+      "post_index_best_list_of_vscode_plugin_as_golang_dev_210",
+      "post_index_best_practices_for_developing__deploying_129",
+      "post_index_blockchain_for_beginner_182",
+      "post_index_breaking_free_from_the__i_m_good__you_re_111",
+      "post_index_bridging_networks__using_nginx_as_a_reve_23",
+      "post_index_build_a_rag_with_llama_140",
+      "post_index_building_a_category__config___product_ma_21",
+      "post_index_building_a_clean__secure__and_scalable_g_75",
+      "post_index_building_a_complete_kafka___clickhouse_s_41",
+      "post_index_building_a_go_microservice_to_crawl_wooc_31",
+      "post_index_building_a_graphql_api_in_go_with_custom_35",
+      "post_index_building_a_high_throughput_kpi_pipeline__12",
+      "post_index_building_a_redis_backed_cache_layer_in_g_59",
+      "post_make_swagger_from_your_http_rest_full_in_golang_4dc9088f5292",
+      "post_me_against_myself_from_rebellious_idealism_to_pragmatic_systems_thinking_bzrae",
+      "post_preventing_race_conditions_in_kubernetes_applications_with_redis_locks",
+      "post_real_time_data_ingestion_connecting_distributed_kafka_to_clickhouse_in_docker",
+      "post_running_multi_port_forward_with_tmux_ed5a23bc063a",
+      "post_running_multi_port_forward_with_tmux_ed5a23bc063a_kubectl",
+      "post_running_multi_port_forward_with_tmux_ed5a23bc063a_tmux",
+      "redis",
+      "redlock_algorithm",
+      "security",
+      "swaggo"
+    ],
+    "1": [
+      "concept_clickhouse",
+      "concept_colly",
+      "concept_fx_framework",
+      "concept_go_language",
+      "concept_go_wordpress",
+      "concept_kafka",
+      "concept_kpi_optimization",
+      "concept_kubernetes",
+      "concept_medium",
+      "concept_persian_normalization",
+      "concept_redis",
+      "post_49_second_kpi",
+      "post_a_microservice_that_teaches_everything_not_to_do_article",
+      "post_a_microservice_that_teaches_everything_not_to_do_distributed_coordination",
+      "post_a_microservice_that_teaches_everything_not_to_do_in_memory_lookup",
+      "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c",
+      "post_building_a_complete_kafka_clickhouse_streaming_stack_with_docker_compose_98cbfc4bbf0c_kafka",
+      "post_clickhouse_tiered_storage_volumes_storage_policies_and_ttl_from_scratch_to_production_8758d8f3f066_tiered_storage",
+      "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7",
+      "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17",
+      "post_index_Integrating_Kafka_with_ClickHouse_using__8",
+      "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6",
+      "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13",
+      "post_index_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_30",
+      "post_index_i_struggle_to_read_and_write_100k_reques_220",
+      "post_index_i_use_kafka_insert_data__and_i_use_redis_216",
+      "post_index_i_want_to_know__what_is_your_solution__w_206",
+      "post_index_if_my_service_or_database_is_down_the_c_208",
+      "post_index_preventing_race_conditions_in_kubernetes_42",
+      "post_index_using_redis_and_nginx_cache_are_very_goo_234",
+      "post_index_you_re_absolutely_welcome__46_post",
+      "post_one_pipeline_three_ways",
+      "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f",
+      "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_json_each_row",
+      "post_solving_the_nan_deadlock_streaming_kafka_to_clickhouse_with_data_sanitization_530ff573762f_kafka",
+      "post_when_mediums_bots_fear_your_writing_why_im_leaving_after_6_years_and_200_articles_anlqe",
+      "youtube_video_scraper_12"
+    ],
+    "2": [
+      "beautifulsoup",
+      "chroma",
+      "concept_customer_support",
+      "concept_rag",
+      "freshdesk_api",
+      "knowledge_graph",
+      "langchain",
+      "neo4j",
+      "openai_api",
+      "pinecone",
+      "post_find_a_list_of_tickets_for_the_customers_in_freshdesk_f4bf843c55ff",
+      "post_get_data_from_fresh_desk_with_api_key_and_write_notes_with_open_ai_5eee50365cbb",
+      "post_get_data_from_medium_and_make_an_ai_model_e2eda73f62cb",
+      "post_index_Crawler_YouTube_subtitle_For_making_an_a_155",
+      "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153",
+      "post_index_Implementation_Experience__Retrieval_Aug_132",
+      "post_index_Leveraging_RAG_for_Continuously_Updated__143",
+      "post_index_Neo4j_Knowledge_Graph_87",
+      "post_index_RAG_System___Knowledge_Graph__the_system_135",
+      "post_index_RAG_retrieval_augmented_generation_158",
+      "post_leveraging_rag_for_continuously_updated_faq_datasets_to_enhance_client_support_1d4dd8c9460a_article",
+      "post_making_docker_for_llama3_rag_system_a3943f972711_ollama",
+      "post_making_docker_for_llama3_rag_system_a3943f972711_rag_system",
+      "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba",
+      "post_my_experience_in_using_rag_and_fine_tuning_in_chatgpt_3_5_3b9e584059ba_fine_tuning",
+      "post_open_ai_tutorial",
+      "post_rag_retrieval_augmented_generation",
+      "post_rag_system_knowledge_graph_the_system_for_finding_the_best_answer_in_the_tickets_management",
+      "retrieval_augmented_generation"
+    ],
+    "3": [
+      "foreign_data_wrappers",
+      "go_rest_api_testing",
+      "golang",
+      "liquibase_migrations",
+      "post_how_to_increase_the_size_of_the_swap_in_ubuntu_6fdeeef9851b",
+      "post_how_to_make_several_ssh_keys_in_ubuntu_for_manage_different_repositories_in_github_e224a5156752",
+      "post_how_to_write_effective_test_files_in_go_for_rest_apis_577e01cdfe36",
+      "post_hugo_static_website_builder_4e28457adc49",
+      "post_i_struggle_to_read_and_write_100k_requests_in_postgres_db_and_my_aggressive_solution_with_redis_91461a8316a1",
+      "post_impelient_bank_mellat_payment_gateway_in_nestjs_71f67308fa3a",
+      "post_improve_speed_of_machine_learning_api_engine_from_3_requests_per_second_to_10000_requests_per_4d649d246a99",
+      "post_install_cakephp_application_on_server_with_the_traditional_way_on_ubuntu_22_0_server_3228ae49c3c1",
+      "post_installing_application_for_golang_developer_after_installing_ubuntu_22_04_lts_5d5570a78340",
+      "post_installing_application_for_golang_developer_after_installing_ubuntu_24_04_lts_0444c87d7f9d",
+      "post_installing_application_for_web_developer_after_installing_ubuntu_20_04_lts_e8114c21044c",
+      "post_introduction_to_ubuntu_22_04_system_setup_and_environment_configuration_for_a_golang_developer_c0979cb9e68d",
+      "post_liquibase_hello_world_1d792968962f",
+      "post_make_crowdfunding_smart_contract_using_solidity_and_golang_language_bd5dc7c8f84f",
+      "post_postgresql_concurrency_locking_and_isolation_levels",
+      "post_postgresql_foreign_data_wrappers_for_data_federation",
+      "postgres_fdw",
+      "postgresql",
+      "redis_caching",
+      "serializable_snapshot_isolation",
+      "smart_contracts",
+      "solid_queue",
+      "ubuntu",
+      "youtube_video_postgresql_foreign_data_wrappers_and_postgres_fdw_15"
+    ],
+    "4": [
+      "concept_adamic_adar",
+      "concept_avalai",
+      "concept_bfs_retrieval",
+      "concept_fastapi",
+      "concept_graphify",
+      "concept_graphrag",
+      "concept_kafka_streaming",
+      "concept_keycloak",
+      "concept_knowledge_graph",
+      "concept_neo4j",
+      "concept_openai_api",
+      "concept_openfga",
+      "concept_pgvector",
+      "concept_swagger",
+      "concept_tanstack_router",
+      "concept_turnstile",
+      "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_article",
+      "post_authentication_authorization_rbac_rebac_abac_and_pbac_explained_casl",
+      "post_graphrag_chatbot",
+      "post_guided_wizard_flow_graph",
+      "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_article",
+      "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_authguard",
+      "post_keycloak_openfga_a_practical_integration_guide_a9ed984ee205_permissionsyncservice",
+      "post_mobinai_build",
+      "youtube_video_graphrag_1"
+    ],
+    "5": [
+      "concept_graphql",
+      "concept_jwt",
+      "concept_nestjs",
+      "concept_payments",
+      "concept_postgresql",
+      "concept_query_federation",
+      "concept_security",
+      "docker_compose",
+      "post_docker_compose_setup_for_mongodb_redis_and_minio_f364e79162ea",
+      "post_essential_vs_code_extensions_for_go_developers_my_daily_toolkit_5604c0bbaf85",
+      "post_getting_started_with_docker_files_a_complete_guide_d1d5b2d44d1b",
+      "post_index_impelient_bank_mellat_payment_gateway_in_86",
+      "post_index_implementing_ownership_and_authentication_130",
+      "post_index_integrating_sqlc_and_graphql_in_go_a_pr_33",
+      "post_index_integrating_zarinpal_payment_gateway_in_125",
+      "post_index_mongodb_and_graphql_in_the_nestjs_127",
+      "post_index_ory_kratos_hello_world_197",
+      "post_index_ory_oathkeeper_hello_world_198",
+      "post_index_securing_the_admin_layer_in_go_with_jwt_61",
+      "post_index_when_authentication_grows_without_a_plan_27_post",
+      "post_jwt_nestjs_migration",
+      "post_nestjs_postgresql_database_with_docker_compose_and_liquibase_faec0b09d944",
+      "post_query_federation",
+      "post_resolving_sql_scan_error_when_handling_null_strings_in_go_and_postgresql_762bdf5a66b2"
+    ],
+    "6": [
+      "aparat_video_linux_first_session",
+      "aparat_video_linux_vs_windows_ubuntu",
+      "aparat_video_linux_vs_windows_webindows",
+      "concept_docker",
+      "concept_iptables",
+      "concept_linux",
+      "concept_mongodb",
+      "post_docker_daemon_fix",
+      "post_images_seo",
+      "post_increase_hard_disk_linux",
+      "post_index_e_appears_instead_of_suggestions_137",
+      "post_index_how_to_fix__cannot_connect_to_docker_dae_71",
+      "post_index_how_to_increase_the_size_of_the_swap_in__85",
+      "post_index_how_to_make_several_ssh_keys_in_ubuntu_f_185",
+      "post_index_increase_hard_disk_of_linux_os___stressf_251",
+      "post_index_installing_application_for_web_developer_248",
+      "post_index_making_docker_for_llama3_rag_system_139",
+      "post_index_nestjs_postgresql_database_with_docker_133",
+      "post_index_use_gpu_in_tensorflow_on_ubuntu_22_04_149_post",
+      "post_mongodb_ubuntu_2204",
+      "post_redirect_port_iptables",
+      "post_run_cronjob_python"
+    ],
+    "7": [
+      "database_migrations",
+      "dependency_injection",
+      "gin",
+      "lifecycle_management",
+      "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814",
+      "post_building_a_category_config_product_management_system_in_go_a_deep_dive_5100ef95f814_redis_cache",
+      "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721",
+      "post_building_modular_go_services_with_uber_fx_and_sqlc_b8feb4b37721_sqlc",
+      "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249",
+      "post_combining_sqlc_and_graphql_in_go_for_type_safe_apis_0b77c1ae0249_sqlc_graphql_integration",
+      "post_index_building_modular_go_services_with_ube_69",
+      "post_refactoring_a_go_web_service_with_uber_fx_from_monolith_to_modular_elegance",
+      "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7",
+      "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7_productservice",
+      "post_step_by_step_guide_to_adding_grpc_to_go_simple_628bc37143b7_protocol_buffers",
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99",
+      "post_the_clear_as_you_go_pattern_solving_memory_spikes_in_high_volume_go_data_pipelines_b40b3f7ce2d2",
+      "sqlc",
+      "uber_fx",
+      "youtube_video_database_refactors_1",
+      "youtube_video_go_web_service_refactoring_with_uber_fx_17",
+      "youtube_video_idempotent_database_seeder_8"
+    ],
+    "8": [
+      "concept_ai",
+      "concept_api",
+      "concept_nodejs",
+      "concept_performance",
+      "concept_testing",
+      "post_index_caching_machine_learning_engine_is_not_e_232",
+      "post_index_handling_high_tps_applications_will_affe_98",
+      "post_index_how_do_you_write_tests_in_nestjs__128",
+      "post_index_how_to_design_a_high_tps_inventory__hand_94",
+      "post_index_how_to_port_forward_traffic_to_a_remote__26",
+      "post_index_how_to_write_effective_test_files_in_go__64",
+      "post_index_how_write_a_unit_test__integration_test__194",
+      "post_index_i_have_seen_the_various_personalities_of_191",
+      "post_index_i_want_to_test_cqrd__i_will_write_my_res_215",
+      "post_index_improve_speed_of_machine_learning_api_e_233",
+      "post_index_introduction_to_the_parsian_bank_gateway_117",
+      "post_index_make_simple_crud_requests_with_nestjs_136",
+      "post_index_run_test_case_in_golnag_with_env_file_200",
+      "post_index_we_can_use_ai_tools_like_the_copilot_to_178",
+      "post_index_you_can_add_it____203_post"
+    ],
+    "9": [
+      "concept_mysql",
+      "post_index_after_discussion_about_this_article_i_am_235",
+      "post_index_i_m_fixing_this_problem_with_added_index_242",
+      "post_index_just_i_want_to_know_167",
+      "profile",
+      "virgool_article_apple",
+      "virgool_article_black_friday",
+      "virgool_article_canola_sesame",
+      "virgool_article_clinical_immunologic",
+      "virgool_article_cold_flu_allergy",
+      "virgool_article_human_side_bugfix",
+      "virgool_article_our_voice",
+      "virgool_article_pain_pleasure",
+      "virgool_article_rentier_economy",
+      "virgool_article_sleepless_nights",
+      "virgool_article_sonny_hayes",
+      "virgool_article_team_morale",
+      "virgool_article_ups_guide",
+      "virgool_article_white_lotus",
+      "virgool_article_workplace_challenges"
+    ],
+    "10": [
+      "concept_clean_architecture",
+      "concept_clickhouse_columnar_storage",
+      "concept_poller_dispatcher_worker",
+      "concept_uber_fx",
+      "post_building_a_go_microservice_to_crawl_woocommerce_products_3910d3b99f1d_cleanup",
+      "post_building_a_go_microservice_to_crawl_woocommerce_products_3910d3b99f1d_listproducts",
+      "post_building_a_go_microservice_to_crawl_woocommerce_products_3910d3b99f1d_newapp",
+      "project_project_1_0_go_clickhouse",
+      "project_project_1_0_go_graphql",
+      "project_project_1_0_go_simple",
+      "project_project_1_0_go_wordpress",
+      "project_project_1_0_go_worker",
+      "youtube_video_building_a_better_scraper_10",
+      "youtube_video_how_do_you_process_10_billion_records_pe_7",
+      "youtube_video_the_go_wordpress_blueprint_9",
+      "youtube_video_the_scalable_go_worker_12",
+      "youtube_video_\u0627\u0632_\u0627\u0633\u06a9\u0631\u06cc\u067e\u062a_\u062a\u0627_\u0633\u0631\u0648\u06cc\u0633_\u0637\u0631\u062d_\u0627\u0648\u0644\u06cc\u0647_golang_14",
+      "youtube_video_\u0645\u0639\u0645\u0627\u0631\u06cc_poller_dispatcher_worker_13"
+    ],
+    "11": [
+      "concept_elasticsearch",
+      "concept_laravel",
+      "concept_machine_learning",
+      "post_index_Topic_Modeling_with_TF_IDF_and_k_means_a_157",
+      "post_index_Topic_Modeling_with_Word2vec_and_k_means_156",
+      "post_index__the__problem__how_elasticsearch_s_stop__73_post",
+      "post_index_harnessing_ai_agents_to_revolutionize_pr_95",
+      "post_index_how_to_fine_tune_chatgpt_151",
+      "post_index_images_seo_optimization_when_the_quality_245",
+      "post_index_macd_or_moving_average_convergence_diver_187",
+      "post_index_troubles_update_composer_in_laravel_when_250_post",
+      "post_index_tunneling_tcp_connections_over_ssh_using_5_post",
+      "post_index_using_restfull_api_of_farsava_deep_learn_246_post",
+      "post_index_what_will_happen_if_a_big_tech_based_com_113_post",
+      "post_index_why_does_every_developer_need_to_have_kn_190_post",
+      "post_index_workplace_consumerism_culture__a_deep_di_96_post",
+      "post_index_you_are_right__i_change_the_title_of_art_240_post",
+      "post_index_you_re_right_that_shared_databases_aren__51_post"
+    ],
+    "12": [
+      "concept_go",
+      "concept_opentelemetry",
+      "post_index___building_modular_product_management_in_68_post",
+      "post_index___common_bug__closure_captures_a_variabl_84_post",
+      "post_index___common_bug_in_calculate__understanding_83_post",
+      "post_index___refactoring_a_go_web_service_with_uber_70_post",
+      "post_index_hugo_static_website_builder_147",
+      "post_index_i_have_using_this_package_119",
+      "post_index_implementing_a_custom_json_unmarshaller_77",
+      "post_index_installing_application_for_golang_develo_115",
+      "post_index_installing_application_for_golang_develo_225",
+      "post_index_introduction_to_aws_dynamodb_for_golang_120",
+      "post_index_introduction_to_ubuntu_22_04_system_setu_58",
+      "post_index_make_crowdfunding_smart_contract_using_s_166",
+      "post_index_tracking_system_request_with_open_teleme_193",
+      "post_index_using_open_telemetry_in_golang_179"
+    ],
+    "13": [
+      "aparat_video_free_software_seminar",
+      "aparat_video_web_freedom_jadi",
+      "concept_alaatv",
+      "concept_golang",
+      "concept_open_source",
+      "concept_php_and_laravel",
+      "concept_vscode",
+      "post_best_vscode_plugins",
+      "post_common_bug_omitempty",
+      "post_debug_golang_vscode",
+      "post_developer_motivation",
+      "post_my_experience_after_four_years_of_migration_from_php_to_golang_language_554643db5b8e",
+      "post_my_experience_after_three_years_of_migration_from_php_to_golang_language_df3fb8f466ee",
+      "post_my_first_application_development_with_golang_as_a_php_developer_9c31e37903b8",
+      "post_run_test_golang_env"
+    ],
+    "14": [
+      "concept_architecture",
+      "concept_data_engineering",
+      "concept_microservices",
+      "post_index_actully_in_our_plan_changeing_architectu_241",
+      "post_index_hello_world_in_go_micro_as_the_base_of_g_189",
+      "post_index_how_we_rebuilt_a_telecom_kpi_platform_to_10",
+      "post_index_i_agree_with_your_perspective__37",
+      "post_index_install_cakephp_application_on_server_wi_205",
+      "post_index_integrating_multiple_databases_inmon_vs_50",
+      "post_index_my_experience_to_build_a_cqrs_system_wit_195",
+      "post_index_my_solution_for_designing_a_resilient_sy_209",
+      "post_index_the_best_design_pattern_for_query_based_60",
+      "post_index_the_hidden_costs_of_shared_databases_in_52",
+      "post_index_transform_database_bottleneck_in_softwar_184",
+      "post_index_using_tmux_to_startup_command_run_when_d_224_post"
+    ],
+    "15": [
+      "concept_career",
+      "concept_php",
+      "concept_python",
+      "post_index______________236_post",
+      "post_index_how_does_a_software_engineer_avoid_a_lou_211",
+      "post_index_how_to_make_python_telegram_bot_for_conv_138",
+      "post_index_i_am_not_rich__but_when_i_switched_from__168",
+      "post_index_i_don_t_want_to_convince_you_to_migrate__169",
+      "post_index_i_m_just_writing_my_experience__and_i_be_231",
+      "post_index_i_m_using_php_go_python_vuejs_in_one_pro_227",
+      "post_index_make_pdf_in_cakephp_with_utf_8_for_print_249",
+      "post_index_using_php_for_handling_admin_panel_230",
+      "post_index_what_happens_when_you_hire_a_junior_who__1_post",
+      "post_index_when_medium_s_bots_fear_your_writing__wh_0_post"
+    ],
+    "16": [
+      "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_article",
+      "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_graphqlfiltertosqlcparams",
+      "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_listproductswithfilters",
+      "post_integrating_sqlc_and_graphql_in_go_a_practical_example_with_product_filtering_4722e0a53179_sqlc",
+      "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41",
+      "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_graphql",
+      "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_mongodb",
+      "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_nestjs",
+      "post_mongodb_and_graphql_in_the_nestjs_08b0f6ff5c41_typeorm",
+      "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087",
+      "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gin",
+      "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_gqlgen",
+      "post_serving_an_offline_graphql_playground_in_go_avoiding_the_gin_static_file_pitfalls_dd907b2ab087_viper"
+    ],
+    "17": [
+      "aparat_video_expert_military_exemption_2",
+      "aparat_video_expert_military_exemption_4",
+      "aparat_video_military_service_exemption",
+      "concept_disc_personality",
+      "concept_inflation_iran",
+      "concept_military_service",
+      "concept_workplace_culture",
+      "post_breaking_cycle_overwhelm",
+      "post_breaking_free_mindset",
+      "post_disc_developer_personalities",
+      "post_effect_inflation_iran",
+      "post_engineer_lifestyle_diet"
+    ],
+    "18": [
+      "apache_iceberg",
+      "change_data_capture",
+      "concept_bi_temporal_versioning",
+      "concept_change_data_capture",
+      "concept_cqrs",
+      "concept_lakehouse",
+      "post_rebuilding_the_time_machine_designing_a_dual_purpose_data_versioning_system_for_modern_backends",
+      "youtube_video_architectural_blueprint_bi_temporal_dat_6",
+      "youtube_video_bitemporal_8",
+      "youtube_video_hybrid_stateful_polling_16",
+      "youtube_video_mysql_to_mongodb_building_high_performa_3"
+    ],
+    "19": [
+      "gin_framework",
+      "opentelemetry",
+      "post_exclude_endpoints_with_sample_rate_in_opentelemetry_in_the_golang_language_969da599af82",
+      "post_gin_framework_in_golang_c453436c8c07",
+      "post_successfully_migrating_from_a_monolith_to_microservices_with_a_technical_debt_approach_aa08d713deec_article",
+      "post_the_art_and_science_of_technical_hiring_a_comprehensive_guide_158ca954f2c7_article",
+      "post_the_hidden_challenges_of_system_teams_in_software_companies_balancing_people_process_and_cfc16a6e1790_article",
+      "post_tracking_system_request_with_open_telemetry_sentry_and_go_in_golang_language_b77c9cc4fb5a_article",
+      "post_using_open_telemetry_in_golang_ef282c236e77_article",
+      "prometheus",
+      "sentry"
+    ],
+    "20": [
+      "concept_chatgpt_3_5",
+      "concept_pandas",
+      "concept_scikit_learn",
+      "concept_tf_idf",
+      "k_means_clustering",
+      "post_index_ai_powered_paraphrasing_for_seo_optimiz_72_article",
+      "post_topic_modeling_with_tf_idf_and_k_means_and_chat_gpt_3_5_4d03fc92a8aa",
+      "post_topic_modeling_with_word2vec_and_k_means_and_chatgpt_3_5_a1214d9d08d0_article",
+      "word2vec"
+    ],
+    "21": [
+      "concept_postgres",
+      "post_index___resolving_sql__scan_error_when_handlin_81_post",
+      "post_index_hello_kamath__i_know_cassandra_s_request_217",
+      "post_index_in_the_previous_version__if_we_had_probl_207",
+      "post_index_in_the_previous_version__we_used_only_pg_212",
+      "post_index_liquibase_hello_world_196",
+      "post_index_postgresql_concurrency_locking_and_iso_116",
+      "post_index_postgresql_foreign_data_wrappers_for_dat_49"
+    ],
+    "22": [
+      "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_article",
+      "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_mongodb_mongoose",
+      "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_opentransaction",
+      "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_verifytransaction",
+      "post_integrating_zarinpal_payment_gateway_in_nestjs_12017908490d_zarinpal",
+      "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_article",
+      "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_soap"
+    ],
+    "23": [
+      "algolia",
+      "lmdb",
+      "meilisearch",
+      "post_architecting_search_engines_a_deep_dive_into_meilisearch_internals_vector_retrieval_and_algolia_92779f29488e",
+      "vector_search",
+      "youtube_video_deep_dive_meilisearch_4"
+    ],
+    "24": [
+      "api_gateway_authentication",
+      "multi_factor_authentication",
+      "ory_kratos",
+      "ory_oathkeeper",
+      "post_ory_kratos_hello_world",
+      "post_ory_oathkeeper_hello_world"
+    ],
+    "25": [
+      "bitcoin_whitepaper",
+      "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial",
+      "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_addperson",
+      "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_retrieve",
+      "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_simplestorage",
+      "post_notes_for_solidity_blockchain_and_smart_contract_course_beginner_to_expert_python_tutorial_store"
+    ],
+    "26": [
+      "concept_ai_gateway",
+      "concept_availability_routing",
+      "concept_capability_routing",
+      "concept_engineering_value",
+      "concept_escalation",
+      "post_stop_picking_an_ai_model_start_picking_a_capability_3bf2eeb9bf2d"
+    ],
+    "27": [
+      "concept_bug_attribution",
+      "concept_psychological_safety",
+      "concept_workplace_toxicity",
+      "post_index_effect_of_inflation_on_it_company_cultur_192",
+      "post_the_high_cost_of_toxicity_why_insults_humiliation_and_blame_are_killing_your_workplace_culture_e3fe8e3645f7",
+      "post_the_human_side_of_bug_fixing_in_software_development_tell_me_you_re_good_enough_so_i_can_fix_the_d9510fb6dfce"
+    ],
+    "28": [
+      "jwt_authentication",
+      "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3",
+      "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_gin",
+      "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_go",
+      "post_securing_the_admin_layer_in_go_with_jwt_a_step_by_step_integration_guide_cf5bcced97e3_viper",
+      "youtube_video_migrating_from_database_backed_sessions_2"
+    ],
+    "29": [
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc",
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc_debezium",
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc_qdrant",
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc_redpanda",
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc_rrf",
+      "post_architecting_an_open_source_search_engine_from_algolia_internals_to_vector_similarity_and_qdrant_0423dad529fc_typesense"
+    ],
+    "30": [
+      "post_index_my_experience_after_four_years_of_migrat_104",
+      "post_index_my_experience_after_three_years_of_migra_170",
+      "post_index_my_first_application_development_with_go_237",
+      "post_index_php_fpm___i_hate_you_243",
+      "post_index_running_zarinpal_gateway_on_laravel_fram_247",
+      "post_index_tips__i_changing_the_title_of_an_article_228"
+    ],
+    "31": [
+      "post_index_nestjs__data_validation_and_transformati_134",
+      "post_index_nodejs_with_smart_contract_for_beginner__173",
+      "post_index_notes_for_solidity__blockchain__and_smar_176",
+      "post_index_small_example_of_solidity_project_172",
+      "post_index_solidity_principle_163",
+      "post_index_solve_problem_to_install_nodejs20_on_ubu_175"
+    ],
+    "32": [
+      "concept_franz_kafka",
+      "concept_gregor_samsa",
+      "concept_metamorphosis",
+      "virgool_article_mask_kafka_va_tele_isar_3",
+      "virgool_article_mask_kafka_va_tele_isar_5"
+    ],
+    "33": [
+      "concept_grpc",
+      "concept_protobuf",
+      "post_index_incredible_futures_of_buf_to_generate_pr_121",
+      "post_index_introducing_buf_for_protobuf_122",
+      "post_index_step_by_step_guide_to_adding_grpc_to_go_62"
+    ],
+    "34": [
+      "ethereum",
+      "go_ethereum",
+      "post_deploy_smart_contract_and_connect_with_go_ethereum_935f4290249f",
+      "post_ethereum_for_beginner_aa9bd2e85ee6",
+      "solidity_smart_contracts"
+    ],
+    "35": [
+      "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_clean",
+      "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_discover",
+      "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_list",
+      "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_processbatches",
+      "post_go_wordpress_a_robust_web_scraping_architecture_for_product_aggregation_e99de3f91bd5_service"
+    ],
+    "36": [
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_cleanup",
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_crawler_run",
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_fetchdescriptions",
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_listproducts",
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0_testbadomjip"
+    ],
+    "37": [
+      "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_article",
+      "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_gomock",
+      "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_integration_testing",
+      "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_performance_testing",
+      "post_how_write_a_unit_test_integration_test_and_performance_test_for_the_golang_language_a25ccef115f4_unit_testing"
+    ],
+    "38": [
+      "post_index_make_swagger_from_your_http_rest_full_in_186",
+      "post_index_ory_hydra_hello_world_199",
+      "post_index_pretty_print_array_in_golang__221",
+      "post_index_serving_an_offline_graphql_playground_in_4",
+      "post_index_simple_golang_http_server_79"
+    ],
+    "39": [
+      "post_index_my_experience_in_using_rag_and_fine_tuni_145",
+      "post_index_nlp_tutorial_160",
+      "post_index_open_ai_tutorial_162",
+      "post_index_reading_matlab__mat_format_dataset_in_py_244",
+      "post_index_tensorflow_tutorial__basic_operations_on_150"
+    ],
+    "40": [
+      "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_article",
+      "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_createtable",
+      "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_dynamodb",
+      "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbytgid",
+      "post_introduction_to_aws_dynamodb_for_golang_developers_4425a02f318f_getbyuserid"
+    ],
+    "41": [
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_abi",
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_compile",
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_deploy",
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_inbox",
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_web3"
+    ],
+    "42": [
+      "post_simple_golang_http_server_fe7a88ef221e_hellohandler",
+      "post_simple_golang_http_server_fe7a88ef221e_main",
+      "post_simple_golang_http_server_fe7a88ef221e_new",
+      "post_simple_golang_http_server_fe7a88ef221e_startserver",
+      "post_simple_golang_http_server_fe7a88ef221e_testhelloworldendpoint"
+    ],
+    "43": [
+      "aggregate_boundary",
+      "post_one_door_two_mechanisms_when_your_domain_model_quietly_forks_itself",
+      "structural_fork",
+      "ubiquitous_language"
+    ],
+    "44": [
+      "avalai_api",
+      "git_reset",
+      "post_ai_powered_paraphrasing_for_seo_optimizing_product_descriptions_with_avalai_api_26caab0f1a23",
+      "post_git_reset_recovering_from_unstable_ai_code_contributions_tt4ze"
+    ],
+    "45": [
+      "chronic_rhinosinusitis_with_nasal_polyps",
+      "ige",
+      "omalizumab",
+      "post_the_role_of_ige_in_allergic_and_chronic_sinusitis_mechanisms_treatments_and_impact_on_5578822607ff_article"
+    ],
+    "46": [
+      "concept_database_optimization",
+      "concept_microservices_architecture",
+      "post_navigating_the_complexities_of_system_design_a_deep_dive_into_scalability_microservices_and_ef3c948873eb",
+      "post_php_fpm_i_hate_you_1d17bb8a577b"
+    ],
+    "47": [
+      "concept_eden_film",
+      "concept_ron_howard",
+      "virgool_article_eden_12",
+      "virgool_article_eden_14"
+    ],
+    "48": [
+      "concept_rent_seeking",
+      "virgool_article_ma_az_an_donya_sib_nadzdidim_7",
+      "virgool_article_rente_pedar_1",
+      "virgool_article_rente_pedar_3"
+    ],
+    "49": [
+      "ddd",
+      "post_what_happens_when_you_hire_a_junior_who_vibe_codes_as_a_senior_engineer_a047146d9ae9_article",
+      "post_when_your_domain_talks_to_stripe_a_ddd_cautionary_tale_9b498a851a7d_article",
+      "stripe"
+    ],
+    "50": [
+      "github_actions",
+      "post_improving_team_morale_and_efficiency_in_software_development_projects_d5f3da0b2137",
+      "post_incredible_futures_of_buf_to_generate_protobuf_github_action_871f0d4f2339",
+      "protobuf_grpc"
+    ],
+    "51": [
+      "oauth2_authorization_code_grant",
+      "oauth2_client_credentials_grant",
+      "ory_hydra",
+      "post_ory_hydra_hello_world"
+    ],
+    "52": [
+      "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_article",
+      "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_parameterized_queries",
+      "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_ssr",
+      "post_a_classic_east_west_traffic_blind_spot_sql_injection_through_trusted_internal_flows_waf"
+    ],
+    "53": [
+      "post_a_comprehensive_guide_for_backend_developers_aiming_to_build_secure_applications_7f8ebff2cb9c",
+      "post_add_sonarqube_to_the_golang_project_article",
+      "post_add_sonarqube_to_the_golang_project_sonarscanner",
+      "sonarqube"
+    ],
+    "54": [
+      "post_adding_zap_logger_to_your_go_project_a_practical_guide_52091fc2db7d_module",
+      "post_adding_zap_logger_to_your_go_project_a_practical_guide_52091fc2db7d_newlogger",
+      "post_adding_zap_logger_to_your_go_project_a_practical_guide_52091fc2db7d_registerloggerlifecycle",
+      "post_building_modular_product_management_in_go_with_sqlc_uber_fx_and_gin_bfb6dfaada6b_jsonerror"
+    ],
+    "55": [
+      "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_article",
+      "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_authservice",
+      "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_jwtstrategy",
+      "post_authentication_and_authorization_in_nestjs_a_comprehensive_overview_usersrepository"
+    ],
+    "56": [
+      "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520",
+      "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_customer_behavior_data",
+      "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_ethical_compliance",
+      "post_harnessing_ai_agents_to_revolutionize_pricing_strategies_through_customer_behavior_and_8ba2b1eb1520_supply_demand_monitoring"
+    ],
+    "57": [
+      "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_article",
+      "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_galleries",
+      "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_mydata",
+      "post_implementing_a_custom_json_unmarshaller_in_go_to_prevent_nil_exceptions_87c414fbf835_unmarshaljson"
+    ],
+    "58": [
+      "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_article",
+      "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_getuser",
+      "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_transformerinterceptor",
+      "post_implementing_ownership_and_authentication_in_nestjs_a_comprehensive_approach_9d027f58faf2_user_task_ownership"
+    ],
+    "59": [
+      "post_index_breaking_the_cycle_of_workplace_overwhelm_90",
+      "productivity",
+      "team_management",
+      "workplace_culture"
+    ],
+    "60": [
+      "post_index_navigating_the_complexities_of_system_de_103",
+      "post_index_rebuilding_the_time_machine__designing_a_2",
+      "post_index_successfully_migrating_from_a_monolith_t_38",
+      "post_index_system_design__a_comprehensive_explorati_102"
+    ],
+    "61": [
+      "post_index_the__clear_as_you_go__pattern__solving_m_18_post",
+      "post_index_the__phantom__403__solving_django_csrf_f_24_post",
+      "post_index_the_art_and_science_of_technical_hiring__108_post",
+      "post_index_the_hidden_challenges_of_system_teams_in_112_post"
+    ],
+    "62": [
+      "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_article",
+      "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_clickhouse",
+      "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_kafka",
+      "post_integrating_kafka_with_clickhouse_using_ssl_sasl_a_technical_retrospective_be9d75864340_server_side_ssl_configuration"
+    ],
+    "63": [
+      "post_introducing_buf_for_protobuf_06ebc98710c6_article",
+      "post_introducing_buf_for_protobuf_06ebc98710c6_buf_cli",
+      "post_introducing_buf_for_protobuf_06ebc98710c6_buf_schema_registry",
+      "post_introducing_buf_for_protobuf_06ebc98710c6_connect"
+    ],
+    "64": [
+      "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee",
+      "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_finite_state_machine",
+      "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_state_pattern",
+      "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_vending_machine"
+    ],
+    "65": [
+      "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d",
+      "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_cqrs",
+      "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_payment_pod",
+      "post_my_experience_to_build_a_cqrs_system_with_microservices_architecture_in_a_financial_system_to_1deeead8db9d_settlement_pod"
+    ],
+    "66": [
+      "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6",
+      "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_laravel",
+      "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_shetabit_payment",
+      "post_running_zarinpal_gateway_on_laravel_framework_ac9d84674ec6_zarinpal"
+    ],
+    "67": [
+      "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31",
+      "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cap_theorem",
+      "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_cassandra",
+      "post_system_design_a_comprehensive_exploration_based_on_practical_discussion_c55a288eda31_redis"
+    ],
+    "68": [
+      "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_e2e_flow",
+      "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_getlastotp",
+      "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_state_store",
+      "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859_testbackdoorcontroller"
+    ],
+    "69": [
+      "aparat_video_binayar_face_compare",
+      "aparat_video_binayar_panel",
+      "concept_face_recognition"
+    ],
+    "70": [
+      "concept_cakephp",
+      "concept_tcpdf",
+      "post_cakephp_pdf_utf8"
+    ],
+    "71": [
+      "concept_fight_club_film",
+      "virgool_article_fight_club_11",
+      "virgool_article_fight_club_9"
+    ],
+    "72": [
+      "concept_migration_isolation",
+      "post_index_database_migration_mismatch_the_hash_c_36",
+      "post_why_large_database_refactors_need_isolated_development_databases_b2584413a5f5"
+    ],
+    "73": [
+      "concept_soft_skills",
+      "virgool_article_soft_skills_dev_18",
+      "virgool_article_soft_skills_dev_20"
+    ],
+    "74": [
+      "concept_technical_hiring",
+      "virgool_article_technical_hiring_17",
+      "virgool_article_technical_hiring_19"
+    ],
+    "75": [
+      "concept_the_wife_film",
+      "virgool_article_the_wife_10",
+      "virgool_article_the_wife_8"
+    ],
+    "76": [
+      "go_micro",
+      "jaeger",
+      "post_hello_world_in_go_micro_as_the_base_of_golang_in_a_microservice_architecture_5f6fa75af724"
+    ],
+    "77": [
+      "post_add_swagger_to_a_golang_gin_project_article",
+      "post_add_swagger_to_a_golang_gin_project_gin",
+      "post_add_swagger_to_a_golang_gin_project_swagger"
+    ],
+    "78": [
+      "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_article",
+      "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_clickhouse_storage_module",
+      "post_adding_clickhouse_to_a_go_project_a_practical_guide_inspired_by_go_simple_product_repository"
+    ],
+    "79": [
+      "post_b_tree_indexing",
+      "post_database_deep_dive_exploring_storage_engines_and_indexing_strategies_lsm_trees_vs_b_trees_268ac1d24056",
+      "post_lsm_tree_indexing"
+    ],
+    "80": [
+      "post_build_a_rag_with_llama_a24e88e1a399",
+      "post_build_a_rag_with_llama_a24e88e1a399_llama",
+      "post_build_a_rag_with_llama_a24e88e1a399_rag_pipeline"
+    ],
+    "81": [
+      "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d",
+      "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_clean_architecture",
+      "post_building_a_clean_secure_and_scalable_go_web_api_a_layered_architecture_guide_ee3afe4aa58d_product_model"
+    ],
+    "82": [
+      "post_complete_technical_migration_strategy_migrating_legacy_django_auth_to_keycloak_openfga_via_etl_bbf22fd59cf2",
+      "post_database_migration_mismatch_the_hash_client_secret_error_in_django_oauth_db8fc9a511c7",
+      "post_keycloak_openfga_concepts"
+    ],
+    "83": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_defaulttick",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatch",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_run"
+    ],
+    "84": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_handlejob",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_job",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_start"
+    ],
+    "85": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_register",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_simpleworker",
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_worker"
+    ],
+    "86": [
+      "post_eliminating_code_duplication_in_go_with_go_generate_a_practical_guide_13d40dfa6df1_fieldmapping",
+      "post_eliminating_code_duplication_in_go_with_go_generate_a_practical_guide_13d40dfa6df1_generator",
+      "post_eliminating_code_duplication_in_go_with_go_generate_a_practical_guide_13d40dfa6df1_gogenerate"
+    ],
+    "87": [
+      "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_buildconfig",
+      "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_newconfig",
+      "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_validateconfig"
+    ],
+    "88": [
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_debezium",
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_kafka",
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mysql"
+    ],
+    "89": [
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_meilisearch",
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_mongodb",
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_projectionservice"
+    ],
+    "90": [
+      "post_golang_gin_middleware_and_health_controller_fe53ce9d9754_healthhandler",
+      "post_golang_gin_middleware_and_health_controller_fe53ce9d9754_slowhandler",
+      "post_golang_gin_middleware_and_health_controller_fe53ce9d9754_timeoutmiddleware"
+    ],
+    "91": [
+      "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadlifecycle_service",
+      "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_leadservice",
+      "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1_projectservice"
+    ],
+    "92": [
+      "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_gqlgen",
+      "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_graphql_vertical_slice",
+      "post_how_i_use_ai_to_build_production_ready_graphql_resources_faster_baf5d5123477_sqlc"
+    ],
+    "93": [
+      "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_checkavailability",
+      "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_pessimistic_locking",
+      "post_how_to_design_a_high_tps_inventory_handle_10k_requests_per_second_92e3c765226d_processorder"
+    ],
+    "94": [
+      "post_how_we_rebuilt_a_telecom_kpi_platform_to_handle_billions_of_records_from_json_blobs_to_flat_1a4eb6b27574_airflow_kpi_dags",
+      "post_how_we_rebuilt_a_telecom_kpi_platform_to_handle_billions_of_records_from_json_blobs_to_flat_1a4eb6b27574_flat_columnar_architecture",
+      "post_how_we_rebuilt_a_telecom_kpi_platform_to_handle_billions_of_records_from_json_blobs_to_flat_1a4eb6b27574_kafka"
+    ],
+    "95": [
+      "post_index_a_microservice_that_teaches_everything_n_16_article",
+      "post_transform_database_bottleneck_in_software_into_the_cpu_problem_21859f9cafa0_article",
+      "post_using_tmux_to_startup_command_run_when_development_software_e63a5f106805_article"
+    ],
+    "96": [
+      "post_index_code_refactoring_eliminating_duplicatio_66",
+      "post_index_eliminating_code_duplication_in_go_with_45",
+      "post_index_factory_design_patterns_and_solid_princi_124"
+    ],
+    "97": [
+      "post_index_database_seeder_implementation_in_the_go_20",
+      "post_index_go_wordpress_a_robust_web_scraping_arch_22",
+      "post_index_go_wordpress_crawler_advanced_structura_25"
+    ],
+    "98": [
+      "post_index_docker_compose_setup_for_mongodb_redis_126",
+      "post_index_environment_configuration_in_go_managin_55",
+      "post_index_getting_started_with_docker_files_a_com_47"
+    ],
+    "99": [
+      "post_index_python_selenium_for_crawler_data_from_we_159",
+      "post_index_read_data_from_json_and_normalize_then_w_161",
+      "post_index_run_cronjob_in_python_152"
+    ],
+    "100": [
+      "post_index_redirect_port_from_one_server_to_port_of_201",
+      "post_index_rsync_from_one_origin_to_multiple_destin_43",
+      "post_index_running_multi_port_forward_with_tmux_114"
+    ],
+    "101": [
+      "post_index_thank_you_for_the_thorough_and_highly_ac_14",
+      "post_index_thank_you_so_much_29",
+      "post_index_thanks__214"
+    ],
+    "102": [
+      "post_index_the_high_cost_of_toxicity__why_insults___99_post",
+      "post_index_the_human_side_of_bug_fixing_in_software_106_post",
+      "post_index_title__setting_boundaries_with_clients___101_post"
+    ],
+    "103": [
+      "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_article",
+      "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_etl_microservice",
+      "post_integrating_multiple_databases_inmon_vs_kimball_and_a_microservice_etl_solution_5e78abb77e28_postgresql_warehouse"
+    ],
+    "104": [
+      "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_paymentparsianservice",
+      "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_sendrequestconfirm",
+      "post_introduction_to_the_parsian_bank_gateway_implementation_in_nestjs_9077a5441b5a_sendrequestinitial"
+    ],
+    "105": [
+      "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_createtaskdto",
+      "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_taskscontroller",
+      "post_make_simple_crud_requests_with_nestjs_366f6cbfff6d_tasksservice"
+    ],
+    "106": [
+      "post_mastering_the_manual_a_guide_to_manually_installing_postgresql_jdbc_drivers_in_dbeaver_ac5c1507c94b",
+      "post_mastering_the_manual_a_guide_to_manually_installing_postgresql_jdbc_drivers_in_dbeaver_ac5c1507c94b_dbeaver_driver_manager",
+      "post_mastering_the_manual_a_guide_to_manually_installing_postgresql_jdbc_drivers_in_dbeaver_ac5c1507c94b_postgresql_jdbc_driver"
+    ],
+    "107": [
+      "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423",
+      "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_kafka",
+      "post_my_solution_for_designing_a_resilient_system_in_an_event_driven_pipeline_d1396711d423_outbox_pattern"
+    ],
+    "108": [
+      "post_neo4j_knowledge_graph_a4a11a46f7b8",
+      "post_neo4j_knowledge_graph_a4a11a46f7b8_neo4j",
+      "post_neo4j_knowledge_graph_a4a11a46f7b8_titles_and_skills_dataset"
+    ],
+    "109": [
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_bootstrap",
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_createtaskdto",
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_validationpipe"
+    ],
+    "110": [
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_deletetask",
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_gettaskbyid",
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_updatetaskstatus"
+    ],
+    "111": [
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_poll",
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_pollingservice",
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_start"
+    ],
+    "112": [
+      "post_understanding_server_sent_events_sse_architecture_authentication_and_testing_in_nestjs_oc5uf_article",
+      "server_sent_events",
+      "websockets"
+    ],
+    "113": [
+      "chatgpt_fine_tuning",
+      "post_how_to_fine_tune_chatgpt_305606a02605"
+    ],
+    "114": [
+      "cloudflare_workers",
+      "post_why_does_every_developer_need_to_have_knowledge_about_workers_in_cloudflare_9f8728a6e243_article"
+    ],
+    "115": [
+      "concept_clean_code",
+      "post_the_devil_is_in_the_details_meaning_in_software_development_9349cd490122"
+    ],
+    "116": [
+      "concept_client_boundaries",
+      "post_title_setting_boundaries_with_clients_a_guide_to_professional_and_effective_communication_040db339cd83"
+    ],
+    "117": [
+      "concept_data_synchronization_consistency",
+      "post_rsync_from_one_origin_to_multiple_destinations_30fb79b4164d"
+    ],
+    "118": [
+      "concept_hybrid_search",
+      "youtube_video_vector_database_similarity_5"
+    ],
+    "119": [
+      "concept_macd",
+      "post_macd_trading"
+    ],
+    "120": [
+      "concept_python_data_processing",
+      "post_read_data_from_json_and_normalize_then_write_into_excel_cb7c29d1268b"
+    ],
+    "121": [
+      "concept_vibe_coding",
+      "post_vibe_coding_your_everyday_math_turning_personal_questions_into_small_trustworthy_tools_85d5e6454303"
+    ],
+    "122": [
+      "configuration_driven_architecture",
+      "youtube_video_go_s_unbreakable_scraper_11"
+    ],
+    "123": [
+      "iptables_nat",
+      "post_how_to_port_forward_traffic_to_a_remote_ip_using_iptables_c3a8c10a6228"
+    ],
+    "124": [
+      "jest_testing",
+      "post_how_do_you_write_tests_in_nestjs_03149ebeb372"
+    ],
+    "125": [
+      "metadata_driven_etl",
+      "post_how_an_ai_prompt_turned_a_complex_multi_database_etl_project_into_hours_of_work_bjw7e"
+    ],
+    "126": [
+      "oracle_instant_client",
+      "post_connect_to_a_remote_oracle_database_with_ubuntu_22_04_b1e2d803d6ec"
+    ],
+    "127": [
+      "post_bridging_networks_using_nginx_as_a_reverse_proxy_for_port_redirection_b8e1f515b549",
+      "post_bridging_networks_using_nginx_as_a_reverse_proxy_for_port_redirection_b8e1f515b549_nginx_reverse_proxy"
+    ],
+    "128": [
+      "post_building_a_graphql_api_in_go_with_custom_scalars_0b1a1b3e52f9_productservice_getproductbyid",
+      "post_building_a_graphql_api_in_go_with_custom_scalars_0b1a1b3e52f9_queryresolver_product"
+    ],
+    "129": [
+      "post_building_a_graphql_api_in_go_with_custom_scalars_0b1a1b3e52f9_productservice_listproducts",
+      "post_building_a_graphql_api_in_go_with_custom_scalars_0b1a1b3e52f9_queryresolver_products"
+    ],
+    "130": [
+      "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83",
+      "post_building_a_high_throughput_kpi_pipeline_on_clickhouse_partitioning_idempotent_recalculation_and_3302a12ddf83_kpi_pipeline"
+    ],
+    "131": [
+      "post_building_a_redis_backed_cache_layer_in_go_with_uber_fx_c10052c9b9ca_key",
+      "post_building_a_redis_backed_cache_layer_in_go_with_uber_fx_c10052c9b9ca_store_get"
+    ],
+    "132": [
+      "post_building_a_redis_backed_cache_layer_in_go_with_uber_fx_c10052c9b9ca_newclient",
+      "post_building_a_redis_backed_cache_layer_in_go_with_uber_fx_c10052c9b9ca_newstore"
+    ],
+    "133": [
+      "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16",
+      "post_building_a_safe_parallel_woocommerce_crawler_in_go_with_colly_8786353b4b16_colly_crawler"
+    ],
+    "134": [
+      "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296",
+      "post_code_refactoring_eliminating_duplication_with_function_injection_in_go_0de231011296_function_injection"
+    ],
+    "135": [
+      "post_complete_guide_migrating_from_rest_grpc_to_graphql_in_go_96c53025d9dc",
+      "post_rest_graphql_concepts"
+    ],
+    "136": [
+      "post_comprehensive_overview_of_microsoft_sql_server_business_intelligence_bi_stack_62383118c5f8",
+      "post_ssis_ssas_ssrs_pipeline"
+    ],
+    "137": [
+      "post_connecting_kafka_to_clickhouse_with_ssl_a_complete_integration_guide_e5a0a5957de3",
+      "post_kafka_clickhouse_ingestion_pipeline"
+    ],
+    "138": [
+      "post_data_driven_approach_to_building_an_effective_knowledge_base_based_on_artificial_intelligence_ef3ef169f138",
+      "post_design_daily_faq_maker_with_ai_25db05f8881e"
+    ],
+    "139": [
+      "post_database_seeder_implementation_in_the_go_wordpress_project_b09ce0a4728d",
+      "post_idempotent_database_seeding"
+    ],
+    "140": [
+      "post_deploying_a_lovable_tanstack_start_app_with_github_actions_the_real_story_272he",
+      "post_static_prerendered_deployment"
+    ],
+    "141": [
+      "post_design_specifications_for_a_click_based_application_resembling_a_hamster_themed_for_10_million_111775da0a5e",
+      "post_redis_async_database_updates"
+    ],
+    "142": [
+      "post_e_appears_instead_of_suggestions_with_ctrl_in_gnome_editor_ubutnu_4f1eeb11e94e_article",
+      "post_use_gpu_in_tensorflow_on_ubuntu_22_04_f033e59cf5cb_article"
+    ],
+    "143": [
+      "post_how_to_make_python_telegram_bot_for_conversational_ai_370d8e2c82bf",
+      "telegram_bot_api"
+    ],
+    "144": [
+      "post_index_combining_sqlc_and_graphql_in_go_for_typ_34",
+      "post_index_complete_guide_migrating_from_rest_gr_40"
+    ],
+    "145": [
+      "post_index_configuration_prometheus_for_golang_lang_188",
+      "post_index_exclude_endpoints_with_sample_rate_in_op_177"
+    ],
+    "146": [
+      "post_index_convenience_apps_a_double_edged_sword_f_91",
+      "post_index_get_data_from_medium_and_make_an_ai_mode_154"
+    ],
+    "147": [
+      "post_index_database_deep_dive_exploring_storage_en_105",
+      "post_index_dear_silvio_the_problem_is_solved_by_ad_239"
+    ],
+    "148": [
+      "post_index_deploy_smart_contract_and_connect_with_g_171",
+      "post_index_ethereum_for_beginner_174"
+    ],
+    "149": [
+      "post_index_design_specifications_for_a_click_based_123",
+      "post_index_designing_a_scalable_poller_dispatcher_w_32"
+    ],
+    "150": [
+      "post_index_gin_framework_in_golang_181",
+      "post_index_golang_gin_middleware_and_health_control_78"
+    ],
+    "151": [
+      "post_index_mastering_state_patterns_in_golang__over_82",
+      "post_index_refactoring_if_strategies__transforming__109"
+    ],
+    "152": [
+      "post_index_mastering_the_manual__a_guide_to_manuall_15",
+      "post_index_redis_helps_db_in_many_cases__213"
+    ],
+    "153": [
+      "post_index_problem_with_installing_mongodb_on_ubunt_223",
+      "post_index_struggle_with_export_and_import_in_mongo_222"
+    ],
+    "154": [
+      "post_index_the_devil_is_in_the_details__meaning_in__80_post",
+      "post_index_toxic_mistake_to_use_the_function_option_180_post"
+    ],
+    "155": [
+      "post_index_the_new_generation_of_e2e_test_automatio_3_post",
+      "post_index_the_test_backdoor_pattern__safe_e2e_auto_11_post"
+    ],
+    "156": [
+      "post_nats_jet_strem_hello_world_d909099c88e4_jetstream",
+      "post_nats_jet_strem_hello_world_d909099c88e4_nats_server_run"
+    ],
+    "157": [
+      "post_nats_jet_strem_hello_world_d909099c88e4_nats_pub",
+      "post_nats_jet_strem_hello_world_d909099c88e4_nats_sub"
+    ],
+    "158": [
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_article",
+      "post_nestjs_data_validation_and_transformation_ce99115c760d_class_validator"
+    ],
+    "159": [
+      "post_nlp_tutorial_cf3f48ed14fb_plot_cloud",
+      "post_nlp_tutorial_cf3f48ed14fb_wordcloud"
+    ],
+    "160": [
+      "post_pretty_print_array_in_golang_4c184f4517f6_json",
+      "post_pretty_print_array_in_golang_4c184f4517f6_prettyprint"
+    ],
+    "161": [
+      "post_refactoring_if_strategies_transforming_legacy_code_for_modern_e_commerce_platforms",
+      "strategy_design_pattern"
+    ],
+    "162": [
+      "post_simple_golang_http_server_fe7a88ef221e_article",
+      "post_simple_golang_http_server_fe7a88ef221e_net_http"
+    ],
+    "163": [
+      "post_solidity_principle_06faaeb07b57_mycontract",
+      "post_solidity_principle_06faaeb07b57_mytoken"
+    ],
+    "164": [
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_backoffpoller",
+      "post_the_best_design_pattern_for_query_based_change_data_capture_hybrid_stateful_polling_with_offset_95856947ef99_newbackoffpoller"
+    ],
+    "165": [
+      "post_the_clear_as_you_go_pattern_solving_memory_spikes_in_high_volume_go_data_pipelines_b40b3f7ce2d2_applytransformations",
+      "post_the_clear_as_you_go_pattern_solving_memory_spikes_in_high_volume_go_data_pipelines_b40b3f7ce2d2_transformsinglerow"
+    ],
+    "166": [
+      "post_the_future_of_hospitality_how_hotels_can_transform_with_web3_and_erc_20_tokens_796bde294021_article",
+      "post_the_future_of_hospitality_how_hotels_can_transform_with_web3_and_erc_20_tokens_796bde294021_hoteltoken"
+    ],
+    "167": [
+      "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3",
+      "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_database_per_service"
+    ],
+    "168": [
+      "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_kafka",
+      "post_the_hidden_costs_of_shared_databases_in_microservices_architecture_bbdaecceacb3_order_service"
+    ],
+    "169": [
+      "post_the_phantom_403_solving_django_csrf_failures_in_golang_clients_83906f4770e8",
+      "post_the_phantom_403_solving_django_csrf_failures_in_golang_clients_83906f4770e8_cookiejar"
+    ],
+    "170": [
+      "post_the_phantom_403_solving_django_csrf_failures_in_golang_clients_83906f4770e8_csrf_exempt",
+      "post_the_phantom_403_solving_django_csrf_failures_in_golang_clients_83906f4770e8_loginview"
+    ],
+    "171": [
+      "post_unified_ai_orchestration_setting_up_9router_model_combos_and_cline_in_vs_code_116d0453da6a_article",
+      "post_what_will_happen_if_a_big_tech_based_company_hires_a_senior_software_developer_using_llm_and_ai_in_0e10e42d0229_article"
+    ],
+    "172": [
+      "post_workplace_consumerism_culture_a_deep_dive_into_causes_consequences_and_solutions_e549d309a403_article",
+      "self_determination_theory"
+    ],
+    "173": [
+      "aparat_video_chess_manch"
+    ],
+    "174": [
+      "aparat_video_java_forever_6"
+    ],
+    "175": [
+      "aparat_video_linux_windows_error_13"
+    ],
+    "176": [
+      "aparat_video_low_rank_employee"
+    ],
+    "177": [
+      "blockchain"
+    ],
+    "178": [
+      "post_adding_zap_logger_to_your_go_project_a_practical_guide_52091fc2db7d"
+    ],
+    "179": [
+      "post_best_practices_for_developing_deploying_and_managing_nestjs_applications_cef0edc4681f_nestjs_deployment"
+    ],
+    "180": [
+      "post_blockchain_for_beginner_6d55bb535ef0"
+    ],
+    "181": [
+      "post_building_a_go_microservice_to_crawl_woocommerce_products_3910d3b99f1d"
+    ],
+    "182": [
+      "post_building_a_graphql_api_in_go_with_custom_scalars_0b1a1b3e52f9"
+    ],
+    "183": [
+      "post_building_a_redis_backed_cache_layer_in_go_with_uber_fx_c10052c9b9ca"
+    ],
+    "184": [
+      "post_building_modular_product_management_in_go_with_sqlc_uber_fx_and_gin_bfb6dfaada6b"
+    ],
+    "185": [
+      "post_configuration_prometheus_for_golang_language_with_go_micro_framework_in_micro_service_architecture_f4c128ad836"
+    ],
+    "186": [
+      "post_connect_to_google_cloud_object_storage_with_golang_language_a30a24e84601"
+    ],
+    "187": [
+      "post_convenience_apps_a_double_edged_sword_for_humanity_1a81bd3e988e"
+    ],
+    "188": [
+      "post_crawler_youtube_subtitle_for_making_an_auto_response_ai_bot_59ea68f3fdbb"
+    ],
+    "189": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_article"
+    ],
+    "190": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_dispatcher"
+    ],
+    "191": [
+      "post_designing_a_scalable_poller_dispatcher_worker_architecture_in_go_eb5576116190_poller"
+    ],
+    "192": [
+      "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_config"
+    ],
+    "193": [
+      "post_environment_configuration_in_go_managing_dev_test_production_environments_9b333c6d1868_loadenv"
+    ],
+    "194": [
+      "post_factory_design_patterns_and_solid_principles_in_golang_6aa6a60cc543"
+    ],
+    "195": [
+      "post_fixing_blocked_subdomain_dns_with_dnsmasq_on_ubuntu_b25cc19e9877"
+    ],
+    "196": [
+      "post_from_3nf_mysql_to_fast_search_building_a_cdc_powered_read_model_7bfd2300c3c4_article"
+    ],
+    "197": [
+      "post_go_wordpress_crawler_advanced_structural_improvements_ec460d05c4f0"
+    ],
+    "198": [
+      "post_how_domain_boundary_violations_slowly_destroy_your_codebase_9cef4b11f8f1"
+    ],
+    "199": [
+      "post_implementation_experience_retrieval_augmented_generation_rag_system_for_ai_powered_customer_1268ac4b4f8b"
+    ],
+    "200": [
+      "post_index_can_you_say_what_is_the_usual_size_of_do_164"
+    ],
+    "201": [
+      "post_index_comprehensive_overview_of_microsoft_sql_53"
+    ],
+    "202": [
+      "post_index_connect_to_a_remote_oracle_database_with_54"
+    ],
+    "203": [
+      "post_index_connect_to_google_cloud_object_storage_w_183"
+    ],
+    "204": [
+      "post_index_data_driven_approach_to_building_an_effe_146"
+    ],
+    "205": [
+      "post_index_debug_golang_with_vscode_202"
+    ],
+    "206": [
+      "post_index_design_daily_faq_maker_with_ai_141"
+    ],
+    "207": [
+      "post_index_essential_vs_code_extensions_for_go_deve_57"
+    ],
+    "208": [
+      "post_index_exactly_this_is_only_simple_step_for_cr_28"
+    ],
+    "209": [
+      "post_index_find_a_list_of_tickets_for_the_customers_144"
+    ],
+    "210": [
+      "post_index_fixing_blocked_subdomain_dns_with_dnsmas_56"
+    ],
+    "211": [
+      "post_index_i_don_t_expect_these_reactions__but_i_am_165"
+    ],
+    "212": [
+      "post_index_i_have_used_ai_for_mo_details__which_par_93"
+    ],
+    "213": [
+      "post_index_i_m_adding_your_example_in_my_artile__226"
+    ],
+    "214": [
+      "post_index_improving_team_morale_and_efficiency_in__107"
+    ],
+    "215": [
+      "post_index_it_works_for__i_found_all_the_solution_f_118"
+    ],
+    "216": [
+      "post_index_my_motivation_for_becoming_a_developer_89"
+    ],
+    "217": [
+      "post_index_nats_jet_strem_hello_world_204"
+    ],
+    "218": [
+      "post_index_thanks__bill__such_a_beautiful_solution__218_post"
+    ],
+    "219": [
+      "post_index_thanks__i_have_never_used_questdb_io_219_post"
+    ],
+    "220": [
+      "post_index_thanks_for_summarize_article__97_post"
+    ],
+    "221": [
+      "post_index_thanks_for_the_analysis__i_will_apply_yo_19_post"
+    ],
+    "222": [
+      "post_index_thanks_for_your_feedback__148_post"
+    ],
+    "223": [
+      "post_index_thanks_for_your_information__110_post"
+    ],
+    "224": [
+      "post_index_the_future_of_hospitality__how_hotels_ca_67_post"
+    ],
+    "225": [
+      "post_index_the_name_of_the_article_is__php_fpm___229_post"
+    ],
+    "226": [
+      "post_index_the_role_of_ige_in_allergic_and_chronic__92_post"
+    ],
+    "227": [
+      "post_index_this_question_is_a_very_fundamental_one__142_post"
+    ],
+    "228": [
+      "post_index_when_using_php_for_handle_lot_s_of_user__238"
+    ],
+    "229": [
+      "post_mastering_state_patterns_in_golang_overcoming_conditional_statement_limitations_ffc32b9b71ee_order_state_workflow"
+    ],
+    "230": [
+      "post_nats_jet_strem_hello_world_d909099c88e4_article"
+    ],
+    "231": [
+      "post_nlp_tutorial_cf3f48ed14fb_article"
+    ],
+    "232": [
+      "post_nodejs_with_smart_contract_for_beginner_version_0_4_17_59ee1d46aced_article"
+    ],
+    "233": [
+      "post_python_selenium_for_crawler_data_from_website_4e45d3cc517b"
+    ],
+    "234": [
+      "post_reading_matlab_mat_format_dataset_in_python_f19c024bdb83"
+    ],
+    "235": [
+      "post_small_example_of_solidity_project_41cb5f9f801d"
+    ],
+    "236": [
+      "post_solidity_principle_06faaeb07b57_article"
+    ],
+    "237": [
+      "post_solidity_principle_06faaeb07b57_coffeetoken"
+    ],
+    "238": [
+      "post_solidity_principle_06faaeb07b57_mobin"
+    ],
+    "239": [
+      "post_solve_problem_to_install_nodejs20_on_ubuntu_22_04_feacc6684a5b_article"
+    ],
+    "240": [
+      "post_struggle_with_export_and_import_in_mongodb_via_mongo_express_c64c0154937_article"
+    ],
+    "241": [
+      "post_tensorflow_tutorial_basic_operations_on_tensors_fca6c839ca08_article"
+    ],
+    "242": [
+      "post_the_clear_as_you_go_pattern_solving_memory_spikes_in_high_volume_go_data_pipelines_b40b3f7ce2d2_gomemlimit"
+    ],
+    "243": [
+      "post_the_entity_you_modeled_isn_t_the_entity_that_persists_vtwge_article"
+    ],
+    "244": [
+      "post_the_new_generation_of_e2e_test_automation_capturing_traffic_and_bypassing_auth_with_postman_and_16f167e37950_article"
+    ],
+    "245": [
+      "post_the_problem_how_elasticsearch_s_stop_word_filtering_broke_our_product_search_ff2973455d45_article"
+    ],
+    "246": [
+      "post_the_test_backdoor_pattern_safe_e2e_automation_for_hard_to_test_flows_8e5e234dc859"
+    ],
+    "247": [
+      "post_toxic_mistake_to_use_the_function_option_pattern_instead_of_the_builder_pattern_5b363508ad73_article"
+    ],
+    "248": [
+      "post_troubles_update_composer_in_laravel_when_develop_in_docker_17e3abeef50d_article"
+    ],
+    "249": [
+      "post_tunneling_tcp_connections_over_ssh_using_socat_and_nc_fb142a2d6034_article"
+    ],
+    "250": [
+      "post_using_restfull_api_of_farsava_deep_learning_automatic_speech_recognition_to_convert_persian_speech_1ba75d232212_article"
+    ],
+    "251": [
+      "post_when_authentication_grows_without_a_plan_a_hidden_security_risk_in_legacy_django_and_spa_systems_eeb172bc92a8_article"
+    ],
+    "252": [
+      "project_project_1_0_mobinshaterian_com"
+    ],
+    "253": [
+      "youtube_video_the_unbounded_process_0"
+    ]
+  },
+  "cohesion": {
+    "0": 0.050505050505050504,
+    "1": 0.07657657657657657,
+    "2": 0.07142857142857142,
+    "3": 0.07936507936507936,
+    "4": 0.12333333333333334,
+    "5": 0.08695652173913043,
+    "6": 0.1038961038961039,
+    "7": 0.09090909090909091,
+    "8": 0.12105263157894737,
+    "9": 0.1368421052631579,
+    "10": 0.12418300653594772,
+    "11": 0.11764705882352941,
+    "12": 0.16666666666666666,
+    "13": 0.19047619047619047,
+    "14": 0.2,
+    "15": 0.16483516483516483,
+    "16": 0.16666666666666666,
+    "17": 0.18181818181818182,
+    "18": 0.23636363636363636,
+    "19": 0.21818181818181817,
+    "20": 0.2222222222222222,
+    "21": 0.25,
+    "22": 0.2857142857142857,
+    "23": 0.4,
+    "24": 0.3333333333333333,
+    "25": 0.3333333333333333,
+    "26": 0.6,
+    "27": 0.4666666666666667,
+    "28": 0.3333333333333333,
+    "29": 0.4666666666666667,
+    "30": 0.5333333333333333,
+    "31": 0.5333333333333333,
+    "32": 0.4,
+    "33": 0.4,
+    "34": 0.4,
+    "35": 0.4,
+    "36": 0.4,
+    "37": 0.4,
+    "38": 0.5,
+    "39": 0.4,
+    "40": 0.4,
+    "41": 0.4,
+    "42": 0.5,
+    "43": 0.5,
+    "44": 0.5,
+    "45": 0.5,
+    "46": 0.5,
+    "47": 0.5,
+    "48": 0.5,
+    "49": 0.5,
+    "50": 0.5,
+    "51": 0.5,
+    "52": 0.5,
+    "53": 0.5,
+    "54": 0.5,
+    "55": 0.5,
+    "56": 0.5,
+    "57": 0.5,
+    "58": 0.5,
+    "59": 0.5,
+    "60": 0.6666666666666666,
+    "61": 0.6666666666666666,
+    "62": 0.5,
+    "63": 0.5,
+    "64": 0.5,
+    "65": 0.5,
+    "66": 0.5,
+    "67": 0.5,
+    "68": 0.6666666666666666,
+    "69": 0.6666666666666666,
+    "70": 0.6666666666666666,
+    "71": 0.6666666666666666,
+    "72": 0.6666666666666666,
+    "73": 0.6666666666666666,
+    "74": 0.6666666666666666,
+    "75": 0.6666666666666666,
+    "76": 0.6666666666666666,
+    "77": 0.6666666666666666,
+    "78": 0.6666666666666666,
+    "79": 0.6666666666666666,
+    "80": 0.6666666666666666,
+    "81": 0.6666666666666666,
+    "82": 0.6666666666666666,
+    "83": 0.6666666666666666,
+    "84": 0.6666666666666666,
+    "85": 0.6666666666666666,
+    "86": 0.6666666666666666,
+    "87": 0.6666666666666666,
+    "88": 0.6666666666666666,
+    "89": 0.6666666666666666,
+    "90": 0.6666666666666666,
+    "91": 1.0,
+    "92": 0.6666666666666666,
+    "93": 0.6666666666666666,
+    "94": 0.6666666666666666,
+    "95": 0.6666666666666666,
+    "96": 0.6666666666666666,
+    "97": 0.6666666666666666,
+    "98": 0.6666666666666666,
+    "99": 0.6666666666666666,
+    "100": 0.6666666666666666,
+    "101": 1.0,
+    "102": 0.6666666666666666,
+    "103": 0.6666666666666666,
+    "104": 0.6666666666666666,
+    "105": 1.0,
+    "106": 0.6666666666666666,
+    "107": 0.6666666666666666,
+    "108": 0.6666666666666666,
+    "109": 0.6666666666666666,
+    "110": 0.6666666666666666,
+    "111": 0.6666666666666666,
+    "112": 0.6666666666666666,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0,
+    "176": 1.0,
+    "177": 1.0,
+    "178": 1.0,
+    "179": 1.0,
+    "180": 1.0,
+    "181": 1.0,
+    "182": 1.0,
+    "183": 1.0,
+    "184": 1.0,
+    "185": 1.0,
+    "186": 1.0,
+    "187": 1.0,
+    "188": 1.0,
+    "189": 1.0,
+    "190": 1.0,
+    "191": 1.0,
+    "192": 1.0,
+    "193": 1.0,
+    "194": 1.0,
+    "195": 1.0,
+    "196": 1.0,
+    "197": 1.0,
+    "198": 1.0,
+    "199": 1.0,
+    "200": 1.0,
+    "201": 1.0,
+    "202": 1.0,
+    "203": 1.0,
+    "204": 1.0,
+    "205": 1.0,
+    "206": 1.0,
+    "207": 1.0,
+    "208": 1.0,
+    "209": 1.0,
+    "210": 1.0,
+    "211": 1.0,
+    "212": 1.0,
+    "213": 1.0,
+    "214": 1.0,
+    "215": 1.0,
+    "216": 1.0,
+    "217": 1.0,
+    "218": 1.0,
+    "219": 1.0,
+    "220": 1.0,
+    "221": 1.0,
+    "222": 1.0,
+    "223": 1.0,
+    "224": 1.0,
+    "225": 1.0,
+    "226": 1.0,
+    "227": 1.0,
+    "228": 1.0,
+    "229": 1.0,
+    "230": 1.0,
+    "231": 1.0,
+    "232": 1.0,
+    "233": 1.0,
+    "234": 1.0,
+    "235": 1.0,
+    "236": 1.0,
+    "237": 1.0,
+    "238": 1.0,
+    "239": 1.0,
+    "240": 1.0,
+    "241": 1.0,
+    "242": 1.0,
+    "243": 1.0,
+    "244": 1.0,
+    "245": 1.0,
+    "246": 1.0,
+    "247": 1.0,
+    "248": 1.0,
+    "249": 1.0,
+    "250": 1.0,
+    "251": 1.0,
+    "252": 1.0,
+    "253": 1.0
+  },
+  "gods": [
+    {
+      "id": "profile",
+      "label": "Mobin Shaterian",
+      "degree": 23
+    },
+    {
+      "id": "youtube_video_graphrag_1",
+      "label": "Build your own GraphRAG Assistant",
+      "degree": 13
+    },
+    {
+      "id": "concept_golang",
+      "label": "Golang",
+      "degree": 10
+    },
+    {
+      "id": "uber_fx",
+      "label": "Uber FX",
+      "degree": 8
+    },
+    {
+      "id": "post_graphrag_chatbot",
+      "label": "How I Made a Chatbot With My Knowledge: Turning My Technical Articles into a GraphRAG Assistant",
+      "degree": 8
+    },
+    {
+      "id": "post_mobinai_build",
+      "label": "How I Would Build MobinAI: A GraphRAG Chatbot for 200+ Technical Articles",
+      "degree": 8
+    },
+    {
+      "id": "retrieval_augmented_generation",
+      "label": "Retrieval-Augmented Generation",
+      "degree": 7
+    },
+    {
+      "id": "concept_openfga",
+      "label": "OpenFGA",
+      "degree": 7
+    },
+    {
+      "id": "concept_rag",
+      "label": "Retrieval-Augmented Generation (RAG)",
+      "degree": 6
+    },
+    {
+      "id": "concept_uber_fx",
+      "label": "Uber FX Dependency Injection",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Connecting Kafka to ClickHouse with SSL: A Complete Integration Guide",
+      "target": "Integrating Kafka with ClickHouse using SSL/SASL: A Technical Retrospective",
+      "source_files": [
+        "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17.md",
+        "post_index_Integrating_Kafka_with_ClickHouse_using__8.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Real-Time Data Ingestion: Connecting Distributed Kafka to ClickHouse in Docker",
+      "target": "Solving the NaN Deadlock: Streaming Kafka to ClickHouse with Data Sanitization",
+      "source_files": [
+        "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6.md",
+        "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Integrating Zarinpal Payment Gateway in NestJS",
+      "target": "Parsian Bank Gateway Implementation in NestJS",
+      "source_files": [
+        "post_Integrating-Zarinpal-Payment-Gateway-in-NestJS-12017908490d.md",
+        "post_Introduction-to-the-Parsian-Bank-Gateway-Implementation-in-NestJS-9077a5441b5a.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "My Experience After Four Years of Migration from PHP to Golang Language",
+      "target": "My Experience After Three Years of Migration from PHP to Golang Language",
+      "source_files": [
+        "post_My-Experience-After-Four-Years-of-Migration-from-PHP-to-Golang-Language-554643db5b8e.md",
+        "post_My-Experience-After-Three-Years-of-Migration-from-PHP-to-Golang-Language---df3fb8f466ee.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "My Experience After Four Years of Migration from PHP to Golang Language",
+      "target": "My First Application Development with Golang as a PHP Developer",
+      "source_files": [
+        "post_My-Experience-After-Four-Years-of-Migration-from-PHP-to-Golang-Language-554643db5b8e.md",
+        "post_My-first-application-development-with-Golang-as-a-PHP-developer--9c31e37903b8.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "tokens": {
+    "input": 179543,
+    "output": 127977
+  }
+}

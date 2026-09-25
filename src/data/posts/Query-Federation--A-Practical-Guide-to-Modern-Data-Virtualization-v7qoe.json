@@ -1,0 +1,219 @@
+{
+  "slug": "Query-Federation--A-Practical-Guide-to-Modern-Data-Virtualization-v7qoe",
+  "title": "Query Federation: A Practical Guide to Modern Data Virtualization",
+  "subtitle": "",
+  "excerpt": "How to query everything without moving anything Why This Matters Every growing engineering org eventually hits the same wall: data ends up scattered across a relational database here, a warehouse there, a pile of Parque…",
+  "date": "2026-08-28",
+  "tags": [
+    "Data Engineering",
+    "Architecture",
+    "SQL",
+    "System Design"
+  ],
+  "readingTime": "6 min",
+  "url": "https://www.linkedin.com/pulse/query-federation-practical-guide-modern-data-mobin-shaterian-v7qoe",
+  "hero": "https://media.licdn.com/dms/image/v2/D4E12AQE2VDXGBp7xKw/article-cover_image-shrink_600_2000/B4EaBHYXdTHYAM-/0/1787903965247?e=2147483647&v=beta&t=Aa36Mp_WGcjKBhW7s8LmT3Vc67mP5aSwH1A5kZdGf2I",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "How to query everything without moving anything"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Why This Matters"
+    },
+    {
+      "type": "paragraph",
+      "html": "Every growing engineering org eventually hits the same wall: data ends up scattered across a relational database here, a warehouse there, a pile of Parquet files in object storage, and a REST API somewhere else. The classical fix — ETL everything into one place — is slow, costly to maintain, and guarantees that whatever you're looking at is already stale by the time you look at it."
+    },
+    {
+      "type": "paragraph",
+      "html": "Query federation is the alternative. Rather than physically consolidating data, it builds a logical layer over all of your sources so a single query can reach across them in real time, leaving the underlying rows exactly where they are."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What Query Federation Actually Is"
+    },
+    {
+      "type": "paragraph",
+      "html": "At its core, query federation lets you issue one query that pulls and joins data from multiple, unrelated systems without copying that data anywhere. Say customer records live in MySQL, orders sit in PostgreSQL, and inventory is stored as Parquet on S3. A federation engine lets you write something like:"
+    },
+    {
+      "type": "code",
+      "lang": "text",
+      "code": "SELECT customers.name, orders.amount, inventory.status\nFROM customers\nJOIN orders ON customers.id = orders.customer_id\nJOIN inventory ON orders.product_id = inventory.product_id"
+    },
+    {
+      "type": "paragraph",
+      "html": "Behind the scenes, the engine parses the query, figures out which fragments belong to which backend, pushes filters down to each source wherever possible, opens parallel connections, and merges everything into a single result set. No row physically moves — the sources stay authoritative, and the engine just orchestrates."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foreign Data Wrappers vs. Query Federation"
+    },
+    {
+      "type": "paragraph",
+      "html": "These two terms get conflated often enough that it's worth separating them clearly."
+    },
+    {
+      "type": "paragraph",
+      "html": "A <strong>Foreign Data Wrapper (FDW)</strong> is a specific, low-level mechanism — PostgreSQL's postgres_fdw being the canonical example — that exposes a remote table as if it were local. It's an implementation detail scoped to a single ecosystem."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Query federation</strong> is the broader capability that FDWs are one way of achieving. It's the functional goal — query across systems — rather than the mechanism. Put simply: FDW answers how (wrap remote data as local tables), federation answers what (give me one answer spanning several systems)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The Ten Things a Real Federation Engine Needs"
+    },
+    {
+      "type": "paragraph",
+      "html": "Reviewing the current generation of tools, a few capabilities separate a genuinely useful federation layer from a toy:"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>1. A unified query interface.</strong> Users shouldn't have to think about which backend they're hitting. Trino, DuckDB, and FDW implementations expose this through SQL; Hasura does it through GraphQL; Dremio and Denodo layer a semantic model on top of SQL."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>2. Broad source connectivity.</strong> Trino ships 50+ connectors out of the box. DuckDB leans on extensions plus native support for Parquet, CSV, and JSON. Hasura covers PostgreSQL, SQL Server, MySQL, and REST/GraphQL APIs. Denodo generally has the deepest enterprise connector catalog of the group."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>3. Pushdown optimization.</strong> This is the difference between transferring 100 million rows and transferring the 10,000 that actually match your filter. Trino's pushdown is advanced; DuckDB does well against files but is more limited against remote databases; Hasura compiles GraphQL down into optimized SQL before it ever hits a source."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>4. Live, fresh data.</strong> All of the modern engines query sources directly rather than working off a snapshot — Trino, DuckDB, and FDW are real-time by default, while Hasura and Dremio add optional caching on top."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>5. Scalability that matches the workload.</strong> Trino is built for distributed, petabyte-scale querying. DuckDB is single-machine, tuned for gigabytes to low terabytes. Dremio distributes execution using Arrow. Denodo runs clustered with an MPP model."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>6. Solid cross-source joins.</strong> Trino and Dremio both handle this well, with multiple join strategies and strong optimizers. DuckDB supports it across sources; Hasura expresses it as relationships spanning different backends."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>7. Real security, not an afterthought.</strong> Trino supports LDAP, Kerberos, OAuth, and fine-grained access control. Hasura offers RBAC with JWT and row/column-level permissions. Dremio and Denodo both bring enterprise-grade auth, with Denodo adding data masking and row-level security."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>8. Schema abstraction.</strong> Users should see one coherent schema, not the seams between systems. Trino organizes this as catalog → schema → table; Hasura unifies everything into a single GraphQL schema; Dremio and Denodo both offer semantic-layer/catalog abstractions over the raw sources."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>9. Versioning and time-travel.</strong> This one is handled at the storage-format layer, not by the engine itself — Trino and Dremio get it through Delta Lake or Iceberg's AS OF syntax, DuckDB and DataFusion via extensions. Hasura and plain FDW don't offer it natively."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>10. API/gateway exposure.</strong> Hasura's native strength is GraphQL generation. Trino and DuckDB can get there via wrappers (often Hasura itself sitting in front). Dremio exposes REST and community-driven GraphQL tooling; Denodo offers RESTful services and GraphQL via extensions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Matching the Tool to the Job"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Trino</strong> — petabyte-scale federated analytics, 50+ heterogeneous sources, enterprise workloads.",
+        "<strong>DuckDB</strong> — a lightweight, zero-config engine for Parquet/CSV/JSON-heavy work, especially on a single machine.",
+        "<strong>Apache DataFusion</strong> — building a custom platform in Rust where you want an embeddable engine rather than a standalone service.",
+        "<strong>PostgreSQL FDW</strong> — you're already committed to Postgres and your federation needs are modest.",
+        "<strong>Hasura</strong> — you need an instant GraphQL API over your databases with fine-grained permissions.",
+        "<strong>Dremio</strong> — a lakehouse-native platform with a semantic layer for BI, especially on Iceberg/Delta.",
+        "<strong>Denodo</strong> — heavy enterprise governance and security requirements, often as part of a broader data-fabric strategy."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common Architecture Patterns"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Single engine as central hub</strong> — one federation engine (Trino, DuckDB, FDW) talks to every source directly. Simple to reason about, but it becomes a single point of failure."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>GraphQL gateway in front of a federation engine</strong> — e.g., Hasura sitting on top of Trino, PostgreSQL, and assorted REST APIs. Good for API-first teams, at the cost of an extra layer of complexity."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Embedded engine inside a custom application</strong> — DataFusion compiled directly into your app, talking to sources itself. Maximum flexibility, but you own all the plumbing."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Semantic layer over a federation engine</strong> — a business-facing semantic model sits above the raw federation layer. Gives you a consistent, governed view of the data, but it's usually the most expensive pattern to stand up, largely due to tooling costs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Where This Is Heading"
+    },
+    {
+      "type": "paragraph",
+      "html": "A few trends are worth watching:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Deeper lakehouse integration.</strong> Native support for Delta Lake and Iceberg is becoming table stakes, bringing time-travel and ACID guarantees into the federation layer itself.",
+        "<strong>GraphQL as a first-class interface.</strong> Tools like Hasura are narrowing the gap between analytics engines and application developers.",
+        "<strong>Embeddable, lightweight engines.</strong> DuckDB, DataFusion, and newer entrants like <a href=\"https://www.linkedin.com/redir/redirect?url=http%3A%2F%2FSpice%2Eai&amp;urlhash=dgTP&amp;trk=article-ssr-frontend-pulse_little-text-block\" target=\"_blank\" rel=\"noreferrer noopener\">Spice.ai</a> point toward federation running at the edge and inside applications, not just as a standalone service.",
+        "<strong>ML-assisted query optimization.</strong> Engines increasingly learn from historical query patterns to improve plans automatically.",
+        "<strong>Data mesh and decentralization.</strong> Ownership is shifting toward domain teams, with federation providing the connective tissue between independently owned datasets.",
+        "<strong>Governance as a built-in, not a bolt-on.</strong> Enterprise platforms are converging federation with lineage, security, and compliance into a single control plane."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Closing Thought"
+    },
+    {
+      "type": "paragraph",
+      "html": "Query federation is a genuine shift in how we think about data architecture: instead of centralizing everything, you virtualize it — querying data in place, in real time, without the overhead of duplication. No single tool wins across every axis; the right pick depends on your scale, source diversity, performance needs, governance requirements, and preferred interface."
+    },
+    {
+      "type": "paragraph",
+      "html": "Category Representative Tools Best Fit Enterprise virtualization Denodo, TIBCO, IBM Complex governance requirements Lakehouse federation Trino, Dremio Petabyte-scale analytics GraphQL federation Hasura, Apollo Modern application backends Lightweight/embeddable DuckDB, DataFusion Edge and zero-config use cases Database-native PostgreSQL FDW Postgres-centric shops"
+    },
+    {
+      "type": "paragraph",
+      "html": "The underlying promise, regardless of which engine you choose, stays the same: break down the silos, query across everything, and stop copying data you don't need to copy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Closing Thought"
+    },
+    {
+      "type": "paragraph",
+      "html": "Query federation is a genuine shift in how we think about data architecture: instead of centralizing everything, you virtualize it — querying data in place, in real time, without the overhead of duplication. No single tool wins across every axis; the right pick depends on your scale, source diversity, performance needs, governance requirements, and preferred interface."
+    },
+    {
+      "type": "paragraph",
+      "html": "Broadly, the landscape sorts itself into a handful of categories. For complex governance requirements, enterprise virtualization platforms like Denodo, TIBCO, and IBM's offerings are the natural fit. For petabyte-scale analytics, lakehouse federation tools such as Trino and Dremio lead the pack. Teams building modern application backends tend to reach for GraphQL federation tools like Hasura and Apollo. For edge and zero-config use cases, lightweight, embeddable engines like DuckDB and DataFusion are the better match. And for Postgres-centric shops, database-native federation through PostgreSQL FDW is usually the simplest, most direct option."
+    },
+    {
+      "type": "paragraph",
+      "html": "The underlying promise, regardless of which engine you choose, stays the same: break down the silos, query across everything, and stop copying data you don't need to copy.Quick Reference: Feature Comparison"
+    },
+    {
+      "type": "image",
+      "src": "https://media.licdn.com/dms/image/v2/D4E12AQGf6tVIAki2Kg/article-inline_image-shrink_1500_2232/B4EaBHVpvQJ0AU-/0/1787903253726?e=2147483647&v=beta&t=8QhQh9GY2H6a6hhHpXMc7t0P01FkSf2PJAyOG3-27ic",
+      "alt": "Article content",
+      "caption": ""
+    }
+  ]
+}

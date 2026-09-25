@@ -1,0 +1,141 @@
+{
+  "slug": "Vibe-Coding-Your-Everyday-Math--Turning-Personal-Questions-into-Small--Trustworthy-Tools-85d5e6454303",
+  "title": "Vibe Coding Your Everyday Math: Turning Personal Questions into Small, Trustworthy Tools",
+  "subtitle": "Most of the decisions we agonize over in daily life are really just messy calculations wearing a disguise. Should I rent or buy? Which grocery run actually costs less per meal? Is this loan offer better than that one? Is my monthly budget on track? Underneath the anxiety, these are all arithmetic problems — the trouble is that the inputs are scattered, the assumptions are invisible, and by the time you’ve built a spreadsheet to answer one question, the situation has already changed.",
+  "excerpt": "Most of the decisions we agonize over in daily life are really just messy calculations wearing a disguise. Should I rent or buy? Which grocery run actually costs less per meal? Is this loan offer better than that one?…",
+  "date": "2026-09-02",
+  "tags": [
+    "Vibe Coding",
+    "Small Tool",
+    "Software Development",
+    "Excel"
+  ],
+  "readingTime": "5 min",
+  "url": "https://medium.datadriveninvestor.com/vibe-coding-your-everyday-math-turning-personal-questions-into-small-trustworthy-tools-85d5e6454303",
+  "hero": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*IoZm7yIXPyEbHh2Vm5U8iQ.jpeg",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "Most of the decisions we agonize over in daily life are really just messy calculations wearing a disguise. Should I rent or buy? Which grocery run actually costs less per meal? Is this loan offer better than that one? Is my monthly budget on track? Underneath the anxiety, these are all arithmetic problems — the trouble is that the inputs are scattered, the assumptions are invisible, and by the time you’ve built a spreadsheet to answer one question, the situation has already changed."
+    },
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*IoZm7yIXPyEbHh2Vm5U8iQ.jpeg",
+      "alt": "Vibe Coding Your Everyday Math",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "html": "This is exactly the gap vibe coding is good at closing. Not by building software in the traditional sense, but by using short, conversational feedback loops with an AI assistant to turn a fuzzy personal question into a small working tool — one you can read, question, and rerun whenever life updates."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Start with the decision, not the dataset"
+    },
+    {
+      "type": "paragraph",
+      "html": "The instinct when facing a calculation-heavy decision is to start collecting data. A better starting point is the decision itself. What are you actually choosing between, and what output would make that choice easier?"
+    },
+    {
+      "type": "paragraph",
+      "html": "If you’re deciding whether to switch phone plans, the decision isn’t “how much data do carriers offer” — it’s “which plan costs less for how I actually use my phone.” If you’re deciding whether to keep driving to work or switch to transit, the decision isn’t “what are gas prices” — it’s “what does a month of my actual commute cost each way, including the stuff I usually forget, like parking or wear and tear.”"
+    },
+    {
+      "type": "paragraph",
+      "html": "Naming the decision up front keeps the tool narrow. It tells you which fields matter, what units they need to be in, and what the final output should look like — a single comparison number, a small table, a chart you can glance at. Everything else is noise you don’t need to collect."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Find where the real numbers already live"
+    },
+    {
+      "type": "paragraph",
+      "html": "Before designing anything, look for where the numbers you need already exist. Bank and card exports, utility bills, a fitness app’s history, a grocery receipt scanned into your notes app, a public transit fare page — most everyday calculations don’t require you to invent data collection from scratch. They require noticing that the data is already sitting somewhere in a slightly inconvenient format, and asking an assistant to help you pull it into something structured."
+    },
+    {
+      "type": "paragraph",
+      "html": "This matters because it keeps the tool honest. A calculator built on numbers you half-remember drifts from reality within a week. A calculator built on an actual CSV of your last three months of spending stays useful for as long as you keep feeding it real exports."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Build the smallest pipeline that answers the question"
+    },
+    {
+      "type": "paragraph",
+      "html": "A good everyday-calculation tool usually has a shape like this:"
+    },
+    {
+      "type": "code",
+      "lang": "text",
+      "code": "raw inputs (receipts, exports, quick manual entries)\n  → normalized table (consistent units, one row per item/event)\n  → calculation step (the actual comparison or estimate)\n  → readable output (a number, a small table, or a short chart)"
+    },
+    {
+      "type": "paragraph",
+      "html": "Keep collection and calculation separate. If your rent-vs-buy assumptions change — a different mortgage rate, a different expected rent increase — you shouldn’t have to touch the part of the tool that reads your bank export. Separating the two means you can revise your thinking without re-plumbing your data source, and it means the normalized table becomes a checkpoint you can actually open and sanity-check before trusting the number that comes out of it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Put your assumptions where you can see them"
+    },
+    {
+      "type": "paragraph",
+      "html": "Every everyday calculation hides a set of judgment calls. A “cost per meal” comparison depends on whether you count your time cooking. A “should I buy this appliance” comparison depends on how many years you expect to keep it. A commute comparison depends on whether you value your time at all, and if so, at what rate."
+    },
+    {
+      "type": "paragraph",
+      "html": "None of these judgment calls are wrong to make — they’re wrong to hide. The fix is simple: keep every assumption as a clearly named, adjustable value near the top of whatever the assistant builds for you, rather than buried inside a formula. If you value your commute time at $20/hour, that number should be sitting in plain view, not folded silently into a larger equation. That way, when a friend disagrees with your assumption, or when your own situation changes, you can change one line instead of re-deriving the whole thing."
+    },
+    {
+      "type": "paragraph",
+      "html": "The same discipline applies to units. Mixing “dollars per month” with “dollars per year,” or “price per pound” with “price per package,” is the single most common way a personal calculator quietly produces a wrong answer. Make the unit of every number obvious, even if that means being slightly verbose about labeling."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Use the tool as its own feedback loop"
+    },
+    {
+      "type": "paragraph",
+      "html": "The rhythm that makes vibe coding work is small and repeatable: make one narrow change, run it against real numbers, look at the actual output, and adjust. For an everyday tool this might mean: confirm one grocery receipt produces one correct row, confirm a second receipt appends rather than duplicates, confirm the totals match what you’d get doing it by hand for a small sample, and only then trust it for the full dataset."
+    },
+    {
+      "type": "paragraph",
+      "html": "The output itself — a CSV, a small table, a simple chart — becomes part of that feedback loop. You don’t need to read code to notice that a number looks wrong. A readable checkpoint lets you, or anyone you show it to, catch a mistake in ten seconds rather than by auditing a script."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Handle anything sensitive like it has a lifecycle"
+    },
+    {
+      "type": "paragraph",
+      "html": "Everyday tools often touch things worth being careful with — bank exports, account numbers, login sessions for a service you’re pulling data from. Treat these as data with a lifecycle rather than as convenient shortcuts: keep them out of anything you’d share or commit anywhere, expect access to expire, and design the tool so that a missing or expired credential fails quietly — an empty field and a clear note — rather than by working around the restriction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Make it something you’ll actually rerun"
+    },
+    {
+      "type": "paragraph",
+      "html": "The real payoff of a vibe-coded everyday calculator isn’t the first answer it gives you — it’s that rerunning it next month costs almost nothing. A budget check, a subscription audit, a “is it time to renegotiate this bill” comparison: these are only useful if you actually repeat them. Structuring the tool as dated snapshots, rather than a single overwritten answer, lets you compare this month to last month instead of just knowing where you stand right now."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What makes the number trustworthy"
+    },
+    {
+      "type": "paragraph",
+      "html": "At the end of it, what makes a personal calculation worth trusting isn’t sophistication — it’s transparency. Where did each number come from? When was it last updated? What did you assume, and is that assumption still true? A vibe-coded tool that shows its work, in units you can check and assumptions you can see, will earn more trust from you — and from anyone you show it to — than a polished-looking number with no visible reasoning behind it."
+    },
+    {
+      "type": "paragraph",
+      "html": "That’s the real use of vibe coding for everyday life: not building software, but building a small, honest, rerunnable answer to a question you were going to have to answer anyway."
+    }
+  ]
+}

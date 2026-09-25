@@ -1,0 +1,5 @@
+# Hybrid Stateful Polling
+
+**Type:** YouTube Video
+
+The source primarily focuses on the optimal design pattern for Query-Based Change Data Capture (CDC), a method used when access to database transaction logs (the preferred CDC method) is restricted. It advocates for a Hybrid Stateful Polling with Offset Tracking + Adaptive Backoff pattern as the superior solution for achieving near-real-time data synchronization reliably and efficiently. The article contrasts this hybrid approach with Simple Polling (fixed intervals) and Backoff Polling (adaptive retries), explaining that the hybrid pattern combines predictable Cron-driven scheduling, resourceful Exponential Backoff within cycles, and robust Stateful Offset Tracking to ensure data is processed exactly once, even during failures. The text includes detailed explanations and code examples for implementing both simple polling and adaptive backoff polling services, highlighting the utility of the hybrid pattern for cloud databases, read-only connections, and ETL pipelines that tolerate latencies of a few minutes.

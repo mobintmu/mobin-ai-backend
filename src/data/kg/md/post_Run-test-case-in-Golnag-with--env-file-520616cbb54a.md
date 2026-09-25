@@ -1,0 +1,6 @@
+# Run test case in Golnag with .env file
+
+**Type:** Article
+**Tags:** Go, Testing, Unit
+
+[{'type': 'heading', 'level': 2, 'text': 'Run test case in Golnag with\xa0.env\xa0file'}, {'type': 'paragraph', 'html': 'You can add following snippets to VSCode <code>settings.json</code> to specify environment variables just for <code>go test</code> runs:'}, {'type': 'code', 'lang': 'json', 'code': '{\n  "go.testEnvVars": {\n    "MY_VAR": "my value"\n  }\n}'}, {'type': 'paragraph', 'html': 'Or using dedicated file (in my example called&nbsp;<code>.env</code> in root of project workspace) containing the environment variables in <code>MY_VAR="my value"</code> format with one variable per line:'}, {'type': 'code', 'lang': 'json', 'code': '{\n  "go.testEnvFile": "${workspaceFolder}/.env"\n}'}, {'type': 'code', 'lang': 'json', 'code': '{\n  "go.testEnvFile": "${workspaceFolder}/.env",\n  "go.testTimeout": "300s",\n  "go.testFlags": [\n    "-count=1"\n  ]\n}'}, {'type': 'paragraph', 'html': '<a href="https://stackoverflow.com/questions/52948250/how-do-i-automatically-clean-the-go-cache-in-visual-code-before-running-tests" target="_blank" rel="noreferrer noopener">https://stackoverflow.com/questions/52948250/how-do-i-automatically-clean-the-go-cache-in-visual-code-before-running-tests</a>'}]

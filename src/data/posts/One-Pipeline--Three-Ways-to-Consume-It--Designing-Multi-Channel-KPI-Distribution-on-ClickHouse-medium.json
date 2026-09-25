@@ -1,0 +1,159 @@
+{
+  "slug": "One-Pipeline--Three-Ways-to-Consume-It--Designing-Multi-Channel-KPI-Distribution-on-ClickHouse-medium",
+  "title": "One Pipeline, Three Ways to Consume It: Designing Multi-Channel KPI Distribution on ClickHouse",
+  "subtitle": "Every hour, our pipeline turns 15 million raw measurement rows into hundreds of per-cell, per-technology KPIs and writes them to ClickHouse. I’ve written before about how we keep that calculation correct — partitioned deletes instead of updates, flat columns instead of EAV, set-based rebuilds instead of row-by-row patches. That part of the story is solved.",
+  "excerpt": "Every hour, our pipeline turns 15 million raw measurement rows into hundreds of per-cell, per-technology KPIs and writes them to ClickHouse. I’ve written before about how we keep that calculation correct — partitioned…",
+  "date": "2026-09-13",
+  "tags": [
+    "ClickHouse",
+    "Kafka",
+    "Data Engineering",
+    "Distributed Systems",
+    "System Design"
+  ],
+  "readingTime": "6 min",
+  "url": "https://medium.com/stackademic/85857cb960e4",
+  "hero": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*2gwLATsUvvktem7DNPQ7Mw.png",
+  "content": [
+    {
+      "type": "image",
+      "src": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*2gwLATsUvvktem7DNPQ7Mw.png",
+      "alt": "One Pipeline, Three Ways to Consume It: Designing Multi-Channel KPI Distribution on ClickHouse",
+      "caption": ""
+    },
+    {
+      "type": "paragraph",
+      "html": "Every hour, our pipeline turns 15 million raw measurement rows into hundreds of per-cell, per-technology KPIs and writes them to ClickHouse. I’ve written before about how we keep that calculation correct — partitioned deletes instead of updates, flat columns instead of EAV, set-based rebuilds instead of row-by-row patches. That part of the story is solved."
+    },
+    {
+      "type": "paragraph",
+      "html": "This article was written based on Mohsentalebi’s research and the advice shared by Hossein Banad."
+    },
+    {
+      "type": "paragraph",
+      "html": "This article is about the part that comes after: once the numbers are correct, how do you actually get them out to everyone who needs them?"
+    },
+    {
+      "type": "paragraph",
+      "html": "It sounds like it shouldn’t be a hard question. It turned out to need its own design because “everyone who needs them” isn&#39;t a single audience — it’s three, with three different tolerances for latency, three different relationships to trust, and three very different failure modes if you get it wrong."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The trap: one mechanism for three audiences"
+    },
+    {
+      "type": "paragraph",
+      "html": "The instinct is to pick one distribution mechanism and make everyone use it. Usually that means either “everything goes through Kafka” or “everything reads the database directly.” Both break down fast once you look at who’s actually asking for the data:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "External and partner systems want the entire corrected dataset; they want it to be replayable, and they’re fine with being hours behind. They’re building their own warehouse copy, not watching a live feed.",
+        "Integrators building event-driven pipelines want to know the moment a new result — or a correction — is available, without polling on a fixed schedule that’s either too slow to be useful or too frequent to be cheap.",
+        "Internal users and dashboards don’t want a copy of anything. They want to ask ClickHouse “what’s the current value” and get an answer."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Route the first group through a live query endpoint, and you’ve built an API that has to hold state and replay history it was never designed for. Route the third group through a full snapshot-and-consumer-agent pipeline, and you’ve made someone deploy infrastructure to render a dashboard. Route everyone through Kafka, and you’ve signed up to stream individual KPI rows through a system whose delivery model — recalculation replaces a whole time window; it never patches a row — doesn’t map cleanly onto an append-only log at all."
+    },
+    {
+      "type": "paragraph",
+      "html": "That last one is the trap that matters most, and it’s worth explaining why."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why you can’t just put the rows on Kafka"
+    },
+    {
+      "type": "paragraph",
+      "html": "Our recalculation model is simple to state and easy to get wrong in a streaming context: when a vendor feed goes silent and comes back, we run <code>ALTER TABLE … DELETE</code> scoped to the affected time window, rebuild it with <code>INSERT … SELECT</code>, and <code>REPLACE PARTITION</code>. A correction is never &quot;here are three updated rows&quot; — it&#39;s &quot;the entire 14:00–17:00 window is now this.&quot;"
+    },
+    {
+      "type": "paragraph",
+      "html": "Put that on Kafka as row-level events, and you inherit a pile of problems that have nothing to do with your actual business logic: you need stable per-row keys, versioned upserts or ReplacingMergeTree-style dedup logic on every consumer, tombstones for rows that no longer exist after a rebuild, and a schema registry to keep it all honest. All of that exists to simulate, on a log, something your source system already does natively and correctly: a partition replace."
+    },
+    {
+      "type": "paragraph",
+      "html": "So the rule I settled on is: Kafka carries pointers, not data. A message says “generation 20260912T111500Z-b72e of dataset kpi/lmbb/huawei/cell/hourly is ready, here&#39;s where the manifest lives, and here&#39;s why it was published.&quot; It does not say what any KPI value is. The actual data — the thing that has to be correct and complete — still moves as an immutable Parquet snapshot. Kafka just removes the need to poll for it."
+    },
+    {
+      "type": "code",
+      "lang": "json",
+      "code": "{\n  \"dataset_id\": \"kpi/lmbb/huawei/cell/hourly\",\n  \"partition_date\": \"2026-09-12\",\n  \"generation\": \"20260912T111500Z-b72e\",\n  \"operation\": \"REPLACE\",\n  \"manifest_uri\": \"s3://calculated-data/.../manifest.json\",\n  \"reason\": \"recalculation\",\n  \"affected_window\": {\"from\": \"2026-09-12T14:00:00Z\", \"to\": \"2026-09-12T17:00:00Z\"}\n}"
+    },
+    {
+      "type": "paragraph",
+      "html": "That reason field matters more than it looks. It costs nothing to add, and it means a consumer can log and alert on corrections differently from first-time publications, even though the action they take — replace the local partition — is identical either way."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The three channels"
+    },
+    {
+      "type": "paragraph",
+      "html": "With that constraint in place, the design falls out naturally into three independent, composable pieces."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Channel A — immutable snapshots in object storage"
+    },
+    {
+      "type": "paragraph",
+      "html": "Every committed partition gets exported as versioned Parquet under a generation ID, with a manifest describing row count, checksum, and schema version, and a <code>_SUCCESS</code> marker written last. Nothing is ever edited in place; a correction is a new generation, and consumers replace their copy of the partition rather than merge into it. This is the foundation everything else sits on top of, and it&#39;s the one piece that has to be bulletproof, because it&#39;s the only channel guaranteed to have the complete, authoritative data at any point in time."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Channel B — a Kafka notification topic"
+    },
+    {
+      "type": "paragraph",
+      "html": "One topic, keyed by dataset ID so ordering is preserved per dataset, publishing the pointer message above after the snapshot’s <code>_SUCCESS</code> state exists — never before. That ordering is the whole safety property of this channel: Kafka can be completely down, and no data becomes unreachable, because the snapshot was already durable before anyone tried to announce it. Consumers still validate against the manifest checksum before applying anything; the Kafka message tells them when to look, not what to trust blindly."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Channel C — a direct ClickHouse query API"
+    },
+    {
+      "type": "paragraph",
+      "html": "For everyone who just wants a current number, skip replication entirely. A thin, rate-limited, read-only API in front of the authoritative tables, reusing the same metric/vendor-aware node routing the publisher already has. No lag, no manifest, no consumer agent — and no state to keep consistent, because there isn’t a copy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What it buys you — and what it costs"
+    },
+    {
+      "type": "paragraph",
+      "html": "The honest case for this architecture rests on one idea: isolate the primary calculation path from every consumer’s problems. A partner cluster being offline, a Kafka partition outage, a runaway dashboard query — none of it should be able to touch the Airflow DAGs or the target tables. Each channel is also sized for how it’s actually used instead of forcing one cost model onto everyone: bulk consumers pay for storage and bandwidth on their schedule, latency-sensitive consumers pay a small, cheap message instead of a polling loop, and internal users pay nothing extra at all."
+    },
+    {
+      "type": "paragraph",
+      "html": "But three channels is three operational surfaces, permanently. Three things to monitor, three access-control systems to keep in sync, three places a schema change has to be coordinated. And it introduces a subtlety worth saying out loud: the channels are consistent with each other only eventually. Channel C answers with whatever’s committed right now; Channels A and B reflect it a little later, bounded by publish latency. Two people comparing numbers through different channels minutes after a recalculation can legitimately see different values, and somebody will file that as a bug before they realize it’s the design working as intended."
+    },
+    {
+      "type": "paragraph",
+      "html": "There’s also a trap specific to Channel C that’s worth watching for: because it’s the easiest one to use, it’s the easiest one to quietly depend on. Direct database access has a way of becoming a de facto API with no versioning and no deprecation policy, which means the one channel you built to be “just for internal convenience” is often the one that ends up coupling the most unrelated systems to your table layout. If you build it, govern it like an API from day one, not an escape hatch."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The lesson"
+    },
+    {
+      "type": "paragraph",
+      "html": "The interesting design decision here wasn’t picking a distribution technology. It was refusing to let one technology answer three different questions. A snapshot answers “give me the correct, complete dataset.” A notification answers “tell me the moment it changes.” A query answers “what is it right now.” Trying to make any one of them answer all three questions is where the complexity — and the correctness bugs — actually come from."
+    },
+    {
+      "type": "paragraph",
+      "html": "If there’s a general principle worth taking out of this, it’s that distribution architecture should mirror your consistency model, not fight it. Ours is “a window is either fully correct or it doesn’t exist yet.” Every channel we built just finds a different way to say that same thing, at a different latency, to a different audience."
+    }
+  ]
+}

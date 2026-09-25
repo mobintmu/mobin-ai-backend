@@ -1,0 +1,415 @@
+{
+  "slug": "Blockchain-for-beginner-6d55bb535ef0",
+  "title": "Blockchain for beginner",
+  "subtitle": "Write data in blockchain is immutable.",
+  "excerpt": "Write data in blockchain is immutable.",
+  "date": "2023-10-05",
+  "tags": [],
+  "readingTime": "1 min",
+  "url": "https://medium.com/@mobinshaterian/blockchain-for-beginner-6d55bb535ef0",
+  "hero": "https://cdn-images-1.medium.com/max/800/1*kGyT_TGAX2zKUS9m25WZvg.png",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Blockchain for beginner"
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/SSo_EIwHSd4?feature=oembed"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*kGyT_TGAX2zKUS9m25WZvg.png",
+      "alt": "bitcoin introduce in 2009",
+      "caption": "bitcoin introduce in 2009",
+      "width": 928,
+      "height": 440
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Write data in blockchain is immutable."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*2mru-b7asd4vDy22okrwLw.png",
+      "alt": "Each block has a Data and Hash and Hash of previous block",
+      "caption": "Each block has a Data and Hash and Hash of previous block",
+      "width": 872,
+      "height": 511
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*M8eZ-nGZZH3TVslWneCCtA.png",
+      "alt": "Store data from transaction",
+      "caption": "Store data from transaction",
+      "width": 1040,
+      "height": 512
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*TxYZcvtbn_tLF3X5034-VA.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1040,
+      "height": 512
+    },
+    {
+      "type": "paragraph",
+      "html": "It has a unique hash-like finger print. If anything changes in the block Hash will have a different value."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*VmhvbJeY-3TFiX1Zkisf0Q.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1038,
+      "height": 455
+    },
+    {
+      "type": "paragraph",
+      "html": "They capture previous blocks to protect the chain and make it secure."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*nDaI6fRfcZrw-AMW6Nl85Q.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1061,
+      "height": 486
+    },
+    {
+      "type": "paragraph",
+      "html": "They call the previous block."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*aiyMnT2dUtvPS4oBKLi7Rg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1007,
+      "height": 448
+    },
+    {
+      "type": "paragraph",
+      "html": "In blockchain, it took 10 minutes to make a new block for proof of work."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*KoCpoUrWz7bVEF3QegbVRA.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1054,
+      "height": 439
+    },
+    {
+      "type": "paragraph",
+      "html": "In blockchain, they use peer 2 peer connection and it has a distributed system."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*q5m7g-Ht9BLP0JeSMOai5w.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 924,
+      "height": 572
+    },
+    {
+      "type": "paragraph",
+      "html": "All he consensus about the new node. If you want to hack the systems, it means that you have to control more than 50 percent of the network."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*wynAXP-RteM3oqLEIwPWzQ.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 904,
+      "height": 321
+    },
+    {
+      "type": "paragraph",
+      "html": "Blockchain technologies can use in different fields."
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/ZE2HxTmxfrI?feature=oembed"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*xKBnk5k-1yqzrw_tTYLAZg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 995,
+      "height": 515
+    },
+    {
+      "type": "paragraph",
+      "html": "Smart contracts look like the Kickstarter website. but they don’t need a third party. and everything will be distributed. They are stored in blockchain and they are distributed and immutable."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*7IUkfKJ_KY_VL_SQsK_BlQ.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 522,
+      "height": 349
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/kNAC7CXFOTw?feature=oembed"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*FVji53KpJ9UnjUeuGon7Xw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 385,
+      "height": 166
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*hHLL-RIygRp9VyVC0zgyxQ.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 597,
+      "height": 564
+    },
+    {
+      "type": "paragraph",
+      "html": "Tokens are hosted on crypto coins."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*fpqt8bBsSl3NLWVxEOUTWg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 596,
+      "height": 333
+    },
+    {
+      "type": "paragraph",
+      "html": "Tokens are children of their parents."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*lrAxgnqT2HCgqXL4IVDVyw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 911,
+      "height": 552
+    },
+    {
+      "type": "paragraph",
+      "html": "developer make tokens is maid by the coin for lunch their programs"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*zqL9nDcvt1QH584liV2z_g.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 983,
+      "height": 559
+    },
+    {
+      "type": "paragraph",
+      "html": "‌Bitcoin can only be used as a coin but Ethereum Binance and Tron can use as a token for any purpose."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*L34pnmbyoO4Qxr-EjYya9g.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 500,
+      "height": 255
+    },
+    {
+      "type": "paragraph",
+      "html": "Shiba is made by Ethereum contract."
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/mh1ouonPl5o?feature=oembed"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*IjbMi9vIGI9AfhOEFnD9ag.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 548,
+      "height": 609
+    },
+    {
+      "type": "paragraph",
+      "html": "ERC-20 is fungible standard."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*z-PpuD-iI8ejtHNKL4Ef-A.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1030,
+      "height": 540
+    },
+    {
+      "type": "paragraph",
+      "html": "ERC-721 is non-fungible and used in NFT and every coin is unique."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*f0QFJ0DsC6LeK-iCV9rdJg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 860,
+      "height": 451
+    },
+    {
+      "type": "paragraph",
+      "html": "ERC-721 is usually used for assets and ERC-20 is used for coins or tokens."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*Xmwx4u-D2J2z_aRlfItSDg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 897,
+      "height": 463
+    },
+    {
+      "type": "paragraph",
+      "html": "ERC-1155 is used by gamers. it can handle fungible and non fungible or semi fungible assets."
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/SQyg9pyJ1Ac?feature=oembed"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*DPN1jDPHjnkMBsO6FFSQdQ.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1080,
+      "height": 509
+    },
+    {
+      "type": "paragraph",
+      "html": "Wallet is program that keep public and private key."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*kpQBP-EC8TwiiKJEH0u7ww.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 591,
+      "height": 442
+    },
+    {
+      "type": "embed",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/byWul4xOBx0?feature=oembed"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dapp"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*-eHUqUhFESezn4R_4iDGTg.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 461,
+      "height": 501
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*jcJ3QVpXIcYXob32eQJNJw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1225,
+      "height": 674
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*jtU7oL7BOLDJFZ9y2W2K7g.png",
+      "alt": "https://etherscan.io/",
+      "caption": "https://etherscan.io/",
+      "width": 1470,
+      "height": 467
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*AGFbh8RH0Wyd1hZeUo3WQw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 943,
+      "height": 411
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*EHXOGzjvnobuf6oKxLAu4A.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 969,
+      "height": 246
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*aAtEMnRN-mRP5oDqloWAJw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1041,
+      "height": 287
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*tcK69kL9SvyRvVcamslHuA.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 528,
+      "height": 314
+    },
+    {
+      "type": "image",
+      "src": "https://cdn-images-1.medium.com/max/800/1*aolXTPstats9o6YlQgflSw.png",
+      "alt": "Blockchain for beginner",
+      "caption": "",
+      "width": 1030,
+      "height": 344
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ganache"
+    },
+    {
+      "type": "paragraph",
+      "html": "Subscribe to DDIntel <a href=\"https://www.ddintel.com/\" target=\"_blank\" rel=\"noreferrer noopener\">Here</a>."
+    },
+    {
+      "type": "paragraph",
+      "html": "Have a unique story to share? Submit to DDIntel <a href=\"https://datadriveninvestor.com/ddintelsubmission\" target=\"_blank\" rel=\"noreferrer noopener\">here</a>."
+    },
+    {
+      "type": "paragraph",
+      "html": "Join our creator ecosystem <a href=\"https://join.datadriveninvestor.com/\" target=\"_blank\" rel=\"noreferrer noopener\">here</a>."
+    },
+    {
+      "type": "paragraph",
+      "html": "<a href=\"https://ddintel.datadriveninvestor.com/\" target=\"_blank\" rel=\"noreferrer noopener\"><em>DDIntel</em> </a>captures the more notable pieces from our <a href=\"https://www.datadriveninvestor.com/\" target=\"_blank\" rel=\"noreferrer noopener\"><em>main site</em></a> and our popular <a href=\"https://medium.datadriveninvestor.com/\" target=\"_blank\" rel=\"noreferrer noopener\"><em>DDI Medium publication</em></a>. Check us out for more insightful work from our community."
+    },
+    {
+      "type": "paragraph",
+      "html": "DDI Official Telegram Channel: <a href=\"https://t.me/+tafUp6ecEys4YjQ1\" target=\"_blank\" rel=\"noreferrer noopener\">https://t.me/+tafUp6ecEys4YjQ1</a>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Follow us on <a href=\"https://www.linkedin.com/company/data-driven-investor\" target=\"_blank\" rel=\"noreferrer noopener\"><em>LinkedIn</em></a>, <a href=\"https://twitter.com/@DDInvestorHQ\" target=\"_blank\" rel=\"noreferrer noopener\"><em>Twitter</em></a>, <a href=\"https://www.youtube.com/c/datadriveninvestor\" target=\"_blank\" rel=\"noreferrer noopener\"><em>YouTube</em></a>, and <a href=\"https://www.facebook.com/datadriveninvestor\" target=\"_blank\" rel=\"noreferrer noopener\"><em>Facebook</em></a>."
+    }
+  ]
+}

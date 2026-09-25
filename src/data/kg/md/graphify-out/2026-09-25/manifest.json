@@ -1,0 +1,3290 @@
+{
+  "post_A-Microservice-That-Teaches-Everything-Not-to-Do-e055f7480424.md": {
+    "mtime": 1787268861.6110928,
+    "seen": 1787269695.1746914,
+    "ast_hash": "da58b5972e3f8eeee5c9f812c22cfc42",
+    "semantic_hash": "da58b5972e3f8eeee5c9f812c22cfc42"
+  },
+  "post_A-classic-east-west-traffic-blind-spot--SQL-Injection-Through-Trusted-Internal-Flows-38049dfe4127.md": {
+    "mtime": 1787268861.6597795,
+    "seen": 1787269695.1746957,
+    "ast_hash": "a2d985f3443181e6388d66bbfc9e0979",
+    "semantic_hash": "a2d985f3443181e6388d66bbfc9e0979"
+  },
+  "post_Add-SonarQube-to-the-Golang-project-28da80b3ee95.md": {
+    "mtime": 1787268861.660674,
+    "seen": 1787269695.1746976,
+    "ast_hash": "132d83e6e15daf95c2baed8924946211",
+    "semantic_hash": "132d83e6e15daf95c2baed8924946211"
+  },
+  "post_Add-Swagger-to-a-Golang-Gin-Project-0cad93295e0e.md": {
+    "mtime": 1787268861.6989455,
+    "seen": 1787269695.174699,
+    "ast_hash": "025405bcdaf67980678d2b5b3525bbc9",
+    "semantic_hash": "025405bcdaf67980678d2b5b3525bbc9"
+  },
+  "post_Adding-ClickHouse-to-a-Go-Project--A-Practical-Guide-Inspired-by-go-simple-5a4cfef93e41.md": {
+    "mtime": 1787268861.6929877,
+    "seen": 1787269695.1747,
+    "ast_hash": "12f72b444bf1b4fdc7848fcc83350da0",
+    "semantic_hash": "12f72b444bf1b4fdc7848fcc83350da0"
+  },
+  "post_Authentication---Authorization--RBAC--ReBAC--ABAC--and-PBAC-Explained-f3c6b95ad394.md": {
+    "mtime": 1787268861.6368287,
+    "seen": 1787269695.174701,
+    "ast_hash": "3a4ba9a1e9b849a1c03a184bdca72ce5",
+    "semantic_hash": "3a4ba9a1e9b849a1c03a184bdca72ce5"
+  },
+  "post_Authentication-and-Authorization-in-NestJS---A-Comprehensive-Overview-66495810c5b4.md": {
+    "mtime": 1787268861.6202762,
+    "seen": 1787269695.1747024,
+    "ast_hash": "d10e42a5b70cd3c07df833f3aa77a1b0",
+    "semantic_hash": "d10e42a5b70cd3c07df833f3aa77a1b0"
+  },
+  "post_Best-Practices-for-Developing--Deploying--and-Managing-NestJS-Applications-cef0edc4681f.md": {
+    "mtime": 1787268861.684078,
+    "seen": 1787269695.1747034,
+    "ast_hash": "a701b236972b370d99f991980778d6b0",
+    "semantic_hash": "a701b236972b370d99f991980778d6b0"
+  },
+  "post_Bridging-Networks--Using-Nginx-as-a-Reverse-Proxy-for-Port-Redirection-b8e1f515b549.md": {
+    "mtime": 1787268861.6499074,
+    "seen": 1787269695.174704,
+    "ast_hash": "f08c642ae3b76f37466ebec8bd3e6829",
+    "semantic_hash": "f08c642ae3b76f37466ebec8bd3e6829"
+  },
+  "post_Build-a-RAG-with-llama-a24e88e1a399.md": {
+    "mtime": 1787268861.7038102,
+    "seen": 1787269695.1747053,
+    "ast_hash": "3da8ef8f557a3a95e8e30b08fa1605d8",
+    "semantic_hash": "3da8ef8f557a3a95e8e30b08fa1605d8"
+  },
+  "post_Building-Modular-Go-Services-with-Uber-FX-and-SQLC-b8feb4b37721.md": {
+    "mtime": 1787268861.6184523,
+    "seen": 1787269695.1747062,
+    "ast_hash": "a2731b8147817a776b8b5cb5378d8cea",
+    "semantic_hash": "a2731b8147817a776b8b5cb5378d8cea"
+  },
+  "post_Building-a-Category--Config---Product-Management-System-in-Go--A-Deep-Dive-5100ef95f814.md": {
+    "mtime": 1787268861.6473777,
+    "seen": 1787269695.1747074,
+    "ast_hash": "9e0fdd22a68883d149c3447f70dcecd0",
+    "semantic_hash": "9e0fdd22a68883d149c3447f70dcecd0"
+  },
+  "post_Building-a-Clean--Secure--and-Scalable-Go-Web-API--A-Layered-Architecture-Guide-ee3afe4aa58d.md": {
+    "mtime": 1787268861.6221242,
+    "seen": 1787269695.1747084,
+    "ast_hash": "f4b102787e25675b67395ca93d6350fc",
+    "semantic_hash": "f4b102787e25675b67395ca93d6350fc"
+  },
+  "post_Building-a-Complete-Kafka---ClickHouse-Streaming-Stack-with-Docker-Compose-98cbfc4bbf0c.md": {
+    "mtime": 1787268861.6730256,
+    "seen": 1787269695.1747096,
+    "ast_hash": "8c1f6193796b1050eebc21d969298c28",
+    "semantic_hash": "8c1f6193796b1050eebc21d969298c28"
+  },
+  "post_Building-a-High-Throughput-KPI-Pipeline-on-ClickHouse--Partitioning--Idempotent-Recalculation--and--3302a12ddf83.md": {
+    "mtime": 1787268861.6182034,
+    "seen": 1787269695.1747105,
+    "ast_hash": "461bb56978b26c34f2222e8afda63379",
+    "semantic_hash": "461bb56978b26c34f2222e8afda63379"
+  },
+  "post_Building-a-Safe--Parallel-WooCommerce-Crawler-in-Go-with-Colly-8786353b4b16.md": {
+    "mtime": 1787268861.6741717,
+    "seen": 1787269695.1747115,
+    "ast_hash": "1fd8ef8ac2ceb0ad8c25f05796b10a02",
+    "semantic_hash": "1fd8ef8ac2ceb0ad8c25f05796b10a02"
+  },
+  "post_ClickHouse-Tiered-Storage--Volumes--Storage-Policies--and-TTL-from-Scratch-to-Production-8758d8f3f066.md": {
+    "mtime": 1787268861.6124506,
+    "seen": 1787269695.1747127,
+    "ast_hash": "e677c224f96252d6713d5916b01b7435",
+    "semantic_hash": "e677c224f96252d6713d5916b01b7435"
+  },
+  "post_Code-Refactoring--Eliminating-Duplication-with-Function-Injection-in-Go-0de231011296.md": {
+    "mtime": 1787268861.633878,
+    "seen": 1787269695.1747136,
+    "ast_hash": "0101c797c744fe0e64077e9c885d9b84",
+    "semantic_hash": "0101c797c744fe0e64077e9c885d9b84"
+  },
+  "post_Combining-SQLC-and-GraphQL-in-Go-for-Type-Safe-APIs-0b77c1ae0249.md": {
+    "mtime": 1787268861.6145082,
+    "seen": 1787269695.1747146,
+    "ast_hash": "5443e0baf009cce72bfcc6f75ff575fb",
+    "semantic_hash": "5443e0baf009cce72bfcc6f75ff575fb"
+  },
+  "post_Complete-Guide--Migrating-from-REST---gRPC-to-GraphQL-in-Go-96c53025d9dc.md": {
+    "mtime": 1787268861.6299064,
+    "seen": 1787269695.1747158,
+    "ast_hash": "3d104603be35fed21c2241a1f28d8e96",
+    "semantic_hash": "3d104603be35fed21c2241a1f28d8e96"
+  },
+  "post_Complete-Technical-Migration-Strategy--Migrating-Legacy-Django-Auth-to-Keycloak---OpenFGA-via-ETL-bbf22fd59cf2.md": {
+    "mtime": 1787268861.6326752,
+    "seen": 1787269695.1747165,
+    "ast_hash": "6601dc017990e8363f2eae20ef8709b8",
+    "semantic_hash": "6601dc017990e8363f2eae20ef8709b8"
+  },
+  "post_Comprehensive-Overview-of-Microsoft-SQL-Server-Business-Intelligence--BI--Stack-62383118c5f8.md": {
+    "mtime": 1787268861.6625092,
+    "seen": 1787269695.1747174,
+    "ast_hash": "e5196a1aa9d2b0c4cbc0983462545267",
+    "semantic_hash": "e5196a1aa9d2b0c4cbc0983462545267"
+  },
+  "post_Configuration-Prometheus-for-Golang-language-with-Go-micro-framework-in-micro-service-architecture--f4c128ad836.md": {
+    "mtime": 1787268861.6514356,
+    "seen": 1787269695.1747186,
+    "ast_hash": "9149e0b05ff30bf8c7a71aa51ddecb6c",
+    "semantic_hash": "9149e0b05ff30bf8c7a71aa51ddecb6c"
+  },
+  "post_Connect-to-google-cloud-object-storage-with-Golang-Language-a30a24e84601.md": {
+    "mtime": 1787268861.6858265,
+    "seen": 1787269695.1747198,
+    "ast_hash": "87ffe07bb926e8da940a719436c0553c",
+    "semantic_hash": "87ffe07bb926e8da940a719436c0553c"
+  },
+  "post_Connecting-Kafka-to-ClickHouse-with-SSL--A-Complete-Integration-Guide-e5a0a5957de3.md": {
+    "mtime": 1787268861.6610298,
+    "seen": 1787269695.1747208,
+    "ast_hash": "aa747951608b55b68538e1c6f970ef07",
+    "semantic_hash": "aa747951608b55b68538e1c6f970ef07"
+  },
+  "post_Crawler-YouTube-subtitle-For-making-an-auto-response-AI-bot-59ea68f3fdbb.md": {
+    "mtime": 1787268861.6761358,
+    "seen": 1787269695.1747215,
+    "ast_hash": "79ba90f9d2b8c1af86257b5f48d33b45",
+    "semantic_hash": "79ba90f9d2b8c1af86257b5f48d33b45"
+  },
+  "post_Data-Driven-Approach-to-Building-an-Effective-Knowledge-Base-based-on-Artificial-Intelligence-ef3ef169f138.md": {
+    "mtime": 1787268861.68686,
+    "seen": 1787269695.1747227,
+    "ast_hash": "c0df77a4503231a86af9d9dd7b936b87",
+    "semantic_hash": "c0df77a4503231a86af9d9dd7b936b87"
+  },
+  "post_Database-Deep-Dive--Exploring-Storage-Engines-and-Indexing-Strategies-LSM-Trees-vs--B-Trees-268ac1d24056.md": {
+    "mtime": 1787268861.6815097,
+    "seen": 1787269695.1747236,
+    "ast_hash": "1dfe7d4d24bf1cd5e15f9f635a3abdeb",
+    "semantic_hash": "1dfe7d4d24bf1cd5e15f9f635a3abdeb"
+  },
+  "post_Database-Migration-Mismatch--The--Hash-Client-Secret--Error-in-Django-OAuth---db8fc9a511c7.md": {
+    "mtime": 1787268861.7014127,
+    "seen": 1787269695.1747248,
+    "ast_hash": "aaa45e92f19c0d97303a264a0059f3e4",
+    "semantic_hash": "aaa45e92f19c0d97303a264a0059f3e4"
+  },
+  "post_Database-Seeder-Implementation-in-the-Go-Wordpress-project-b09ce0a4728d.md": {
+    "mtime": 1787268861.682897,
+    "seen": 1787269695.1747265,
+    "ast_hash": "752d96d098429746ccec435f7b14dff9",
+    "semantic_hash": "752d96d098429746ccec435f7b14dff9"
+  },
+  "post_Deploying-a-Lovable--TanStack-Start--App-with-GitHub-Actions---the-Real-Story-272he.md": {
+    "mtime": 1787268861.709003,
+    "seen": 1787269695.1747272,
+    "ast_hash": "a5333a1d7d099c7b5dbbea1639de9b8b",
+    "semantic_hash": "a5333a1d7d099c7b5dbbea1639de9b8b"
+  },
+  "post_Design-daily-FAQ-maker-with-AI--25db05f8881e.md": {
+    "mtime": 1787268861.7105281,
+    "seen": 1787269695.1747282,
+    "ast_hash": "9d899ac3d036df618c03dc9dd40b2df6",
+    "semantic_hash": "9d899ac3d036df618c03dc9dd40b2df6"
+  },
+  "post_Design-specifications-for-a-click-based-application-resembling-a-hamster-themed-for-10-million--111775da0a5e.md": {
+    "mtime": 1787268861.6154642,
+    "seen": 1787269695.174729,
+    "ast_hash": "5ad5324851f41603be729168a9efcca7",
+    "semantic_hash": "5ad5324851f41603be729168a9efcca7"
+  },
+  "post_Designing-a-Scalable-Poller-Dispatcher-Worker-Architecture-in-Go-eb5576116190.md": {
+    "mtime": 1787268861.6936677,
+    "seen": 1787269695.1747303,
+    "ast_hash": "322a860efd2a87c5d09504dc523e531f",
+    "semantic_hash": "322a860efd2a87c5d09504dc523e531f"
+  },
+  "post_Eliminating-Code-Duplication-in-Go-with-go-generate--A-Practical-Guide-13d40dfa6df1.md": {
+    "mtime": 1787268861.605296,
+    "seen": 1787269695.1747313,
+    "ast_hash": "70f73127193b4c0678b9afecd1da5183",
+    "semantic_hash": "70f73127193b4c0678b9afecd1da5183"
+  },
+  "post_Environment-Configuration-in-Go--Managing-Dev--Test---Production-Environments-9b333c6d1868.md": {
+    "mtime": 1787268861.6866422,
+    "seen": 1787269695.1747322,
+    "ast_hash": "335fbe7ff797093b8d76a5d2bf381e46",
+    "semantic_hash": "335fbe7ff797093b8d76a5d2bf381e46"
+  },
+  "post_From-3NF-MySQL-to-Fast-Search--Building-a-CDC-Powered-Read-Model-7bfd2300c3c4.md": {
+    "mtime": 1787268861.6912265,
+    "seen": 1787269695.1747332,
+    "ast_hash": "2935b6e0d2cc23e9d41198a099b0ca57",
+    "semantic_hash": "2935b6e0d2cc23e9d41198a099b0ca57"
+  },
+  "post_Go-WordPress--A-Robust-Web-Scraping-Architecture-for-Product-Aggregation-e99de3f91bd5.md": {
+    "mtime": 1787268861.6228497,
+    "seen": 1787269695.174734,
+    "ast_hash": "fa4232c0649dc05d4280341e27705e25",
+    "semantic_hash": "fa4232c0649dc05d4280341e27705e25"
+  },
+  "post_Go-WordPress-Crawler--Advanced-Structural-Improvements-ec460d05c4f0.md": {
+    "mtime": 1787268861.651035,
+    "seen": 1787269695.174735,
+    "ast_hash": "45d84f7dded25b39516b33d5e3c92491",
+    "semantic_hash": "45d84f7dded25b39516b33d5e3c92491"
+  },
+  "post_Golang-Gin-Middleware-and-Health-Controller-fe53ce9d9754.md": {
+    "mtime": 1787268861.7075102,
+    "seen": 1787269695.174736,
+    "ast_hash": "dabb790395cb1296fdfa7537fe7ad654",
+    "semantic_hash": "dabb790395cb1296fdfa7537fe7ad654"
+  },
+  "post_Harnessing-AI-Agents-to-Revolutionize-Pricing-Strategies-Through-Customer-Behavior-and--8ba2b1eb1520.md": {
+    "mtime": 1787268861.6194518,
+    "seen": 1787269695.174737,
+    "ast_hash": "351032b9742c329f843edeba307be74f",
+    "semantic_hash": "351032b9742c329f843edeba307be74f"
+  },
+  "post_How-Domain-Boundary-Violations-Slowly-Destroy-Your-Codebase-9cef4b11f8f1.md": {
+    "mtime": 1787268861.6824121,
+    "seen": 1787269695.174738,
+    "ast_hash": "a6facb3dd9d1f8e3e922fb503901f0f3",
+    "semantic_hash": "a6facb3dd9d1f8e3e922fb503901f0f3"
+  },
+  "post_How-I-Use-AI-to-Build-Production-Ready-GraphQL-Resources-Faster-baf5d5123477.md": {
+    "mtime": 1787268861.7023222,
+    "seen": 1787269695.174739,
+    "ast_hash": "31fd27d79ab66df69b88f7faa4ffe7b7",
+    "semantic_hash": "31fd27d79ab66df69b88f7faa4ffe7b7"
+  },
+  "post_How-We-Rebuilt-a-Telecom-KPI-Platform-to-Handle-Billions-of-Records--From-JSON-Blobs-to-Flat--1a4eb6b27574.md": {
+    "mtime": 1787268861.6278276,
+    "seen": 1787269695.1747437,
+    "ast_hash": "95224b94de8f103f473ce66f64f25103",
+    "semantic_hash": "95224b94de8f103f473ce66f64f25103"
+  },
+  "post_How-to-design-a-high-TPS-Inventory--Handle-10K-requests-per-second-92e3c765226d.md": {
+    "mtime": 1787268861.7028968,
+    "seen": 1787269695.1747446,
+    "ast_hash": "83434727a2f3634e53022ded0a8b9afb",
+    "semantic_hash": "83434727a2f3634e53022ded0a8b9afb"
+  },
+  "post_How-write-a-Unit-test--Integration-test--and-Performance-test-for-the-Golang-language--a25ccef115f4.md": {
+    "mtime": 1787268861.6795356,
+    "seen": 1787269695.1747456,
+    "ast_hash": "fa67f224f9cab0bbb83d999944f628c0",
+    "semantic_hash": "fa67f224f9cab0bbb83d999944f628c0"
+  },
+  "post_Implementing-Ownership-and-Authentication-in-NestJS--A-Comprehensive-Approach-9d027f58faf2.md": {
+    "mtime": 1787268861.69651,
+    "seen": 1787269695.1747463,
+    "ast_hash": "8af483f1a86120f852d7b8da79e4d10c",
+    "semantic_hash": "8af483f1a86120f852d7b8da79e4d10c"
+  },
+  "post_Implementing-a-Custom-JSON-Unmarshaller-in-Go-to-Prevent-Nil-Exceptions-87c414fbf835.md": {
+    "mtime": 1787268861.6345086,
+    "seen": 1787269695.1747475,
+    "ast_hash": "97cd65c616498a8705b06087e6d86056",
+    "semantic_hash": "97cd65c616498a8705b06087e6d86056"
+  },
+  "post_Integrating-Kafka-with-ClickHouse-using-SSL-SASL--A-Technical-Retrospective-be9d75864340.md": {
+    "mtime": 1787268861.6311612,
+    "seen": 1787269695.1747484,
+    "ast_hash": "8e3c4aa20b1999a200c34c5b0ef41e3d",
+    "semantic_hash": "8e3c4aa20b1999a200c34c5b0ef41e3d"
+  },
+  "post_Integrating-Multiple-Databases--Inmon-vs--Kimball-and-a-Microservice-ETL-Solution-5e78abb77e28.md": {
+    "mtime": 1787268861.6980648,
+    "seen": 1787269695.1747491,
+    "ast_hash": "1cad83956bed268aef9769d2221d605f",
+    "semantic_hash": "1cad83956bed268aef9769d2221d605f"
+  },
+  "post_Integrating-SQLC-and-GraphQL-in-Go--A-Practical-Example-with-Product-Filtering-4722e0a53179.md": {
+    "mtime": 1787268861.7031798,
+    "seen": 1787269695.1747506,
+    "ast_hash": "13a60793b4a948a50cf13f666fe22409",
+    "semantic_hash": "13a60793b4a948a50cf13f666fe22409"
+  },
+  "post_Integrating-Zarinpal-Payment-Gateway-in-NestJS-12017908490d.md": {
+    "mtime": 1787268861.6717026,
+    "seen": 1787269695.1747513,
+    "ast_hash": "35c74467dc1b6510638a1d02d308e48b",
+    "semantic_hash": "35c74467dc1b6510638a1d02d308e48b"
+  },
+  "post_Introducing-Buf-for-Protobuf-06ebc98710c6.md": {
+    "mtime": 1787268861.608508,
+    "seen": 1787269695.1747522,
+    "ast_hash": "6d4cfd45688385732762d91b04ffdb9c",
+    "semantic_hash": "6d4cfd45688385732762d91b04ffdb9c"
+  },
+  "post_Introduction-to-AWS-DynamoDB-for-Golang-Developers-4425a02f318f.md": {
+    "mtime": 1787268861.696042,
+    "seen": 1787269695.174753,
+    "ast_hash": "737894a8513a01c4c2bf7f19d267d3a0",
+    "semantic_hash": "737894a8513a01c4c2bf7f19d267d3a0"
+  },
+  "post_Introduction-to-the-Parsian-Bank-Gateway-Implementation-in-NestJS-9077a5441b5a.md": {
+    "mtime": 1787268861.6133897,
+    "seen": 1787269695.1747541,
+    "ast_hash": "4c6608f45f51035511e55ea5d34f9290",
+    "semantic_hash": "4c6608f45f51035511e55ea5d34f9290"
+  },
+  "post_Keycloak---OpenFGA--A-Practical-Integration-Guide-a9ed984ee205.md": {
+    "mtime": 1787268861.6258066,
+    "seen": 1787269695.174755,
+    "ast_hash": "77324988809faca0b270e13ed5155273",
+    "semantic_hash": "77324988809faca0b270e13ed5155273"
+  },
+  "post_Leveraging-RAG-for-Continuously-Updated-FAQ-Datasets-to-Enhance-Client-Support-1d4dd8c9460a.md": {
+    "mtime": 1787268861.6944385,
+    "seen": 1787269695.174756,
+    "ast_hash": "9447aaab40e2c2ae16e4e3569065d882",
+    "semantic_hash": "9447aaab40e2c2ae16e4e3569065d882"
+  },
+  "post_Make-simple-CRUD-requests-with-NestJS-366f6cbfff6d.md": {
+    "mtime": 1787268861.6974034,
+    "seen": 1787269695.174757,
+    "ast_hash": "215f03d22d63eb804a73add4f79c1999",
+    "semantic_hash": "215f03d22d63eb804a73add4f79c1999"
+  },
+  "post_Making-docker-for-llama3-RAG-system-a3943f972711.md": {
+    "mtime": 1787268861.699614,
+    "seen": 1787269695.1747582,
+    "ast_hash": "5943918ad7a086aa3716ec4ad41c20cb",
+    "semantic_hash": "5943918ad7a086aa3716ec4ad41c20cb"
+  },
+  "post_Mastering-State-Patterns-in-Golang--Overcoming-Conditional-Statement-Limitations-ffc32b9b71ee.md": {
+    "mtime": 1787268861.6378224,
+    "seen": 1787269695.1747591,
+    "ast_hash": "0cfe9825c5b6e73b846e3a1f00934a94",
+    "semantic_hash": "0cfe9825c5b6e73b846e3a1f00934a94"
+  },
+  "post_Mastering-the-Manual--A-Guide-to-Manually-Installing-PostgreSQL-JDBC-Drivers-in-DBeaver-ac5c1507c94b.md": {
+    "mtime": 1787268861.689062,
+    "seen": 1787269695.1747599,
+    "ast_hash": "148540efc74fffd3e9352af5e35ace40",
+    "semantic_hash": "148540efc74fffd3e9352af5e35ace40"
+  },
+  "post_MongoDB-and-GraphQL-in-the-Nestjs-08b0f6ff5c41.md": {
+    "mtime": 1787268861.6464205,
+    "seen": 1787269695.174761,
+    "ast_hash": "0391436c065ad849f2affad86295b827",
+    "semantic_hash": "0391436c065ad849f2affad86295b827"
+  },
+  "post_My-Experience-in-Using-RAG-and-Fine-Tuning-in-ChatGPT-3-5-3b9e584059ba.md": {
+    "mtime": 1787268861.6165082,
+    "seen": 1787269695.1747618,
+    "ast_hash": "4d0a0955e51cb22ff9d241693164e2ad",
+    "semantic_hash": "4d0a0955e51cb22ff9d241693164e2ad"
+  },
+  "post_My-experience-to-build-a-CQRS-system-with-microservices-architecture-in-a-financial-system-to--1deeead8db9d.md": {
+    "mtime": 1787268861.7123692,
+    "seen": 1787269695.1747627,
+    "ast_hash": "a3fccd1e6c42272e1a6a3c38ebebfbb6",
+    "semantic_hash": "a3fccd1e6c42272e1a6a3c38ebebfbb6"
+  },
+  "post_My-solution-for-designing-a-resilient-system-in-an-event-driven-pipeline-d1396711d423.md": {
+    "mtime": 1787268861.6321025,
+    "seen": 1787269695.174764,
+    "ast_hash": "df2f9e4d9e63d5f9c384dad9ae53a2f8",
+    "semantic_hash": "df2f9e4d9e63d5f9c384dad9ae53a2f8"
+  },
+  "post_Neo4j-Knowledge-Graph-a4a11a46f7b8.md": {
+    "mtime": 1787268861.635759,
+    "seen": 1787269695.1747649,
+    "ast_hash": "23075f47bc732eb60cc09af2e2530d92",
+    "semantic_hash": "23075f47bc732eb60cc09af2e2530d92"
+  },
+  "post_Notes-for-Solidity--Blockchain--and-Smart-Contract-Course---Beginner-to-Expert-Python-Tutorial--f39a7fda9e82.md": {
+    "mtime": 1787268861.6334546,
+    "seen": 1787269695.1747658,
+    "ast_hash": "58395842cef708b09c24cf91d0b59361",
+    "semantic_hash": "58395842cef708b09c24cf91d0b59361"
+  },
+  "post_One-Door--Two-Mechanisms--When-Your-Domain-Model-Quietly-Forks-Itself-oewde.md": {
+    "mtime": 1787268861.7034874,
+    "seen": 1787269695.1747668,
+    "ast_hash": "a6c4650a8b83a7fcf5947707274da26f",
+    "semantic_hash": "a6c4650a8b83a7fcf5947707274da26f"
+  },
+  "post_Open-AI-tutorial-bbd89b9bd242.md": {
+    "mtime": 1787268861.6453044,
+    "seen": 1787269695.174768,
+    "ast_hash": "4fbd9260f75ffeca31321892c236312c",
+    "semantic_hash": "4fbd9260f75ffeca31321892c236312c"
+  },
+  "post_Ory-Hydra-Hello-world-581ee5c1f023.md": {
+    "mtime": 1787268861.6698067,
+    "seen": 1787269695.174769,
+    "ast_hash": "4989a3bc2d885cb0cb77c6c9f7ed1d8f",
+    "semantic_hash": "4989a3bc2d885cb0cb77c6c9f7ed1d8f"
+  },
+  "post_Ory-Kratos-Hello-world-807d55e9e489.md": {
+    "mtime": 1787268861.6314952,
+    "seen": 1787269695.1747699,
+    "ast_hash": "d304c1ce7c83fbe61079b53348ff87ac",
+    "semantic_hash": "d304c1ce7c83fbe61079b53348ff87ac"
+  },
+  "post_Ory-Oathkeeper-Hello-world-8069a1e48d3e.md": {
+    "mtime": 1787268861.631934,
+    "seen": 1787269695.1747708,
+    "ast_hash": "85586d6f95f9da2abfba71aa322774d3",
+    "semantic_hash": "85586d6f95f9da2abfba71aa322774d3"
+  },
+  "post_PostgreSQL-Concurrency--Locking--and-Isolation-Levels-9fde2d582668.md": {
+    "mtime": 1787268861.647907,
+    "seen": 1787269695.174772,
+    "ast_hash": "8fbeee390aad0cf51cbbdb19a0df135b",
+    "semantic_hash": "8fbeee390aad0cf51cbbdb19a0df135b"
+  },
+  "post_PostgreSQL-Foreign-Data-Wrappers-for-Data-Federation-7043c561f218.md": {
+    "mtime": 1787268861.6520748,
+    "seen": 1787269695.174773,
+    "ast_hash": "6e741727ddcc959b8d9263eca24b105c",
+    "semantic_hash": "6e741727ddcc959b8d9263eca24b105c"
+  },
+  "post_Preventing-Race-Conditions-in-Kubernetes-Applications-with-Redis-Locks-7da00ec8c8dd.md": {
+    "mtime": 1787268861.6949744,
+    "seen": 1787269695.174774,
+    "ast_hash": "c63ec393391e7013ff6938d827040816",
+    "semantic_hash": "c63ec393391e7013ff6938d827040816"
+  },
+  "post_RAG-System---Knowledge-Graph--the-system-for-finding-the-best-answer-in-the-tickets-management--e2ae2692c7c6.md": {
+    "mtime": 1787268861.6854656,
+    "seen": 1787269695.174775,
+    "ast_hash": "2ce1def4c5f3af7958b7c8be0c98de1f",
+    "semantic_hash": "2ce1def4c5f3af7958b7c8be0c98de1f"
+  },
+  "post_RAG-retrieval-augmented-generation-a93e1a3bf531.md": {
+    "mtime": 1787268861.6213934,
+    "seen": 1787269695.1747758,
+    "ast_hash": "c399040e7bf97c4575eff420d227f095",
+    "semantic_hash": "c399040e7bf97c4575eff420d227f095"
+  },
+  "post_Real-Time-Data-Ingestion--Connecting-Distributed-Kafka-to-ClickHouse-in-Docker-1e29e0b0f665.md": {
+    "mtime": 1787268861.7018626,
+    "seen": 1787269695.1747768,
+    "ast_hash": "4157ce2748f96ac82f307caffcb12eca",
+    "semantic_hash": "4157ce2748f96ac82f307caffcb12eca"
+  },
+  "post_Rebuilding-the-Time-Machine--Designing-a-Dual-Purpose-Data-Versioning-System-for-Modern-Backends--c00ddf54bf53.md": {
+    "mtime": 1787268861.6157954,
+    "seen": 1787269695.1747777,
+    "ast_hash": "0b253da5e25b1c8d874814045e8d5045",
+    "semantic_hash": "0b253da5e25b1c8d874814045e8d5045"
+  },
+  "post_Refactoring-a-Go-Web-Service-with-Uber-FX--From-Monolith-to-Modular-Elegance-2789a9ac8ec5.md": {
+    "mtime": 1787268861.6780524,
+    "seen": 1787269695.174779,
+    "ast_hash": "f20a0ebd82bdb275013a7b1c0b6c8656",
+    "semantic_hash": "f20a0ebd82bdb275013a7b1c0b6c8656"
+  },
+  "post_Refactoring-if-Strategies--Transforming-Legacy-Code-for-Modern-E-Commerce-Platforms-3be0717570b4.md": {
+    "mtime": 1787268861.6293733,
+    "seen": 1787269695.17478,
+    "ast_hash": "2615978f1adec109b7ac8cf5bb1eb43d",
+    "semantic_hash": "2615978f1adec109b7ac8cf5bb1eb43d"
+  },
+  "post_Running-Zarinpal-Gateway-on-Laravel-framework-ac9d84674ec6.md": {
+    "mtime": 1787268861.6546164,
+    "seen": 1787269695.1747806,
+    "ast_hash": "0ca28b38bee7fa53429f4d093d5e1c4c",
+    "semantic_hash": "0ca28b38bee7fa53429f4d093d5e1c4c"
+  },
+  "post_Running-multi-Port-forward-with-tmux-ed5a23bc063a.md": {
+    "mtime": 1787268861.6860414,
+    "seen": 1787269695.174782,
+    "ast_hash": "b070cc7ee4654eba9d1bc4f110e4606e",
+    "semantic_hash": "b070cc7ee4654eba9d1bc4f110e4606e"
+  },
+  "post_Securing-the-Admin-Layer-in-Go-with-JWT--A-Step-by-Step-Integration-Guide----cf5bcced97e3.md": {
+    "mtime": 1787268861.6643944,
+    "seen": 1787269695.174783,
+    "ast_hash": "8885e5393db77da9741cd3fe28baa8c6",
+    "semantic_hash": "8885e5393db77da9741cd3fe28baa8c6"
+  },
+  "post_Serving-an-Offline-GraphQL-Playground-in-Go--Avoiding-the-Gin-Static-File-Pitfalls-dd907b2ab087.md": {
+    "mtime": 1787268861.6850913,
+    "seen": 1787269695.174784,
+    "ast_hash": "b0c43a0ae6f0092bf16d01354f668993",
+    "semantic_hash": "b0c43a0ae6f0092bf16d01354f668993"
+  },
+  "post_Solving-the--NaN--Deadlock--Streaming-Kafka-to-ClickHouse-with-Data-Sanitization-530ff573762f.md": {
+    "mtime": 1787268861.615996,
+    "seen": 1787269695.1747847,
+    "ast_hash": "0449eb2e2e2cd21c92f73d500b823bc1",
+    "semantic_hash": "0449eb2e2e2cd21c92f73d500b823bc1"
+  },
+  "post_Step-by-Step-Guide-to-Adding-gRPC-to-go-simple----628bc37143b7.md": {
+    "mtime": 1787268861.6549556,
+    "seen": 1787269695.174787,
+    "ast_hash": "58bcd8828ad84b8e7818e33aa0788cac",
+    "semantic_hash": "58bcd8828ad84b8e7818e33aa0788cac"
+  },
+  "post_System-Design--A-Comprehensive-Exploration-Based-on-Practical-Discussion-c55a288eda31.md": {
+    "mtime": 1787268861.6565206,
+    "seen": 1787269695.174788,
+    "ast_hash": "83f135e9fa0cf2d64c99c67a6039becf",
+    "semantic_hash": "83f135e9fa0cf2d64c99c67a6039becf"
+  },
+  "post_The--Clear-as-you-go--Pattern--Solving-Memory-Spikes-in-High-Volume-Go-Data-Pipelines-b40b3f7ce2d2.md": {
+    "mtime": 1787268861.621036,
+    "seen": 1787269695.1747892,
+    "ast_hash": "0254e56c9bd84d8557e7466935058198",
+    "semantic_hash": "0254e56c9bd84d8557e7466935058198"
+  },
+  "post_The--Phantom--403--Solving-Django-CSRF-Failures-in-Golang-Clients-83906f4770e8.md": {
+    "mtime": 1787268861.635475,
+    "seen": 1787269695.1747901,
+    "ast_hash": "0bdb2e474172fa0e8430155d1993b7ec",
+    "semantic_hash": "0bdb2e474172fa0e8430155d1993b7ec"
+  },
+  "post_The-Best-Design-Pattern-for-Query-Based-Change-Data-Capture--Hybrid-Stateful-Polling-with-Offset--95856947ef99.md": {
+    "mtime": 1787268861.6245084,
+    "seen": 1787269695.174791,
+    "ast_hash": "424627c7460e70de4e4416795eae4851",
+    "semantic_hash": "424627c7460e70de4e4416795eae4851"
+  },
+  "post_The-Hidden-Costs-of-Shared-Databases-in-Microservices-Architecture-bbdaecceacb3.md": {
+    "mtime": 1787268861.6685092,
+    "seen": 1787269695.1747923,
+    "ast_hash": "6c665d71418240886939aed0e1a90afb",
+    "semantic_hash": "6c665d71418240886939aed0e1a90afb"
+  },
+  "post_The-Test-Backdoor-Pattern--Safe-E2E-Automation-for-Hard-to-Test-Flows-8e5e234dc859.md": {
+    "mtime": 1787268861.7006392,
+    "seen": 1787269695.174793,
+    "ast_hash": "5fa49141d98d56816a1672f76e805789",
+    "semantic_hash": "5fa49141d98d56816a1672f76e805789"
+  },
+  "post_Topic-Modeling-with-Word2vec-and-k-means-and-ChatGPT-3-5-a1214d9d08d0.md": {
+    "mtime": 1787268861.6905098,
+    "seen": 1787269695.174794,
+    "ast_hash": "9882fe193c658fbb103e93de935ae452",
+    "semantic_hash": "9882fe193c658fbb103e93de935ae452"
+  },
+  "post_Toxic-mistake-to-use-the-Function-option-pattern-instead-of-the-Builder-pattern-5b363508ad73.md": {
+    "mtime": 1787268861.6291482,
+    "seen": 1787269695.174795,
+    "ast_hash": "485bdbc08d1b87982983dda1b4938610",
+    "semantic_hash": "485bdbc08d1b87982983dda1b4938610"
+  },
+  "post_Tracking-system-request-with-Open-telemetry--sentry-and-Go-in-Golang-language-b77c9cc4fb5a.md": {
+    "mtime": 1787268861.7001152,
+    "seen": 1787269695.1747963,
+    "ast_hash": "fed14a063968843a4420d8bce0365973",
+    "semantic_hash": "fed14a063968843a4420d8bce0365973"
+  },
+  "post_Transform-database-bottleneck-in-software-into-the-CPU-problem-21859f9cafa0.md": {
+    "mtime": 1787268861.6754727,
+    "seen": 1787269695.1747973,
+    "ast_hash": "f38869b918bac26aba9b01a8b48fd9aa",
+    "semantic_hash": "f38869b918bac26aba9b01a8b48fd9aa"
+  },
+  "post_Troubles-update-composer-in-Laravel-when-develop-in-docker-17e3abeef50d.md": {
+    "mtime": 1787268861.6308188,
+    "seen": 1787269695.1747983,
+    "ast_hash": "83ba520a511a2e024e4a3a97c0206cbb",
+    "semantic_hash": "83ba520a511a2e024e4a3a97c0206cbb"
+  },
+  "post_Tunneling-TCP-Connections-Over-SSH-Using-socat-and-nc-fb142a2d6034.md": {
+    "mtime": 1787268861.6328807,
+    "seen": 1787269695.1747994,
+    "ast_hash": "d19e8e6624b866e0d556e65029c8d427",
+    "semantic_hash": "d19e8e6624b866e0d556e65029c8d427"
+  },
+  "post_Understanding-Server-Sent-Events--SSE---Architecture--Authentication--and-Testing-in-NestJS-oc5uf.md": {
+    "mtime": 1787268861.6070077,
+    "seen": 1787269695.1748006,
+    "ast_hash": "53a01e14afe1583ca9c89faeabf1a03b",
+    "semantic_hash": "53a01e14afe1583ca9c89faeabf1a03b"
+  },
+  "post_Unified-AI-Orchestration--Setting-Up-9router--Model-Combos--and-Cline-in-VS-Code-116d0453da6a.md": {
+    "mtime": 1787268861.6806245,
+    "seen": 1787269695.1748016,
+    "ast_hash": "68e50ab8250130e148da292f5c53d974",
+    "semantic_hash": "68e50ab8250130e148da292f5c53d974"
+  },
+  "post_Use-GPU-in-Tensorflow-on-Ubuntu-22-04-f033e59cf5cb.md": {
+    "mtime": 1787268861.6701546,
+    "seen": 1787269695.1748028,
+    "ast_hash": "7da5b3f815d7c68adb79f3de817a8590",
+    "semantic_hash": "7da5b3f815d7c68adb79f3de817a8590"
+  },
+  "post_Using-Restfull-API-of-Farsava-Deep-learning-Automatic-Speech-Recognition-to-convert-Persian-Speech--1ba75d232212.md": {
+    "mtime": 1787268861.6501005,
+    "seen": 1787269695.1748037,
+    "ast_hash": "770f63fad42e23c803890975d863f014",
+    "semantic_hash": "770f63fad42e23c803890975d863f014"
+  },
+  "post_Using-Tmux-to-startup-command-run-when-development-software-e63a5f106805.md": {
+    "mtime": 1787268861.653893,
+    "seen": 1787269695.1748047,
+    "ast_hash": "ce9cb639711a2706d78cf1b23f9974c7",
+    "semantic_hash": "ce9cb639711a2706d78cf1b23f9974c7"
+  },
+  "post_Using-open-telemetry-in-Golang-ef282c236e77.md": {
+    "mtime": 1787268861.6385176,
+    "seen": 1787269695.1748056,
+    "ast_hash": "148fad26706ecb35e273aeb3cb96e2dd",
+    "semantic_hash": "148fad26706ecb35e273aeb3cb96e2dd"
+  },
+  "post_What-Happens-When-You-Hire-a-Junior-Who-Vibe-Codes-as-a-Senior-Engineer-a047146d9ae9.md": {
+    "mtime": 1787268861.663211,
+    "seen": 1787269695.1748068,
+    "ast_hash": "4fc5600e5a582493262b07837ea8ae9d",
+    "semantic_hash": "4fc5600e5a582493262b07837ea8ae9d"
+  },
+  "post_What-will-happen-if-a-big-tech-based-company-hires-a-senior-software-developer-using-LLM-and-AI-in--0e10e42d0229.md": {
+    "mtime": 1787268861.7093878,
+    "seen": 1787269695.1748078,
+    "ast_hash": "714bf5037a7ce6e4a4fc7801aaf62c29",
+    "semantic_hash": "714bf5037a7ce6e4a4fc7801aaf62c29"
+  },
+  "post_When-Authentication-Grows-Without-a-Plan--A-Hidden-Security-Risk-in-Legacy-Django-and-SPA-Systems-eeb172bc92a8.md": {
+    "mtime": 1787268861.665233,
+    "seen": 1787269695.174809,
+    "ast_hash": "44be391077f2aac844dac24282a405de",
+    "semantic_hash": "44be391077f2aac844dac24282a405de"
+  },
+  "post_When-Your-Domain-Talks-to-Stripe--A-DDD-Cautionary-Tale-9b498a851a7d.md": {
+    "mtime": 1787268861.6872923,
+    "seen": 1787269695.1748102,
+    "ast_hash": "aceb7bb47e0e4718d11cd5f5f64a8249",
+    "semantic_hash": "aceb7bb47e0e4718d11cd5f5f64a8249"
+  },
+  "post_Why-does-every-developer-need-to-have-knowledge-about-Workers-in-Cloudflare--9f8728a6e243.md": {
+    "mtime": 1787268861.6709661,
+    "seen": 1787269695.174811,
+    "ast_hash": "d89805a810811f278a051b861d33cf27",
+    "semantic_hash": "d89805a810811f278a051b861d33cf27"
+  },
+  "post_Workplace-Consumerism-Culture--A-Deep-Dive-into-Causes--Consequences--and-Solutions-e549d309a403.md": {
+    "mtime": 1787268861.6488905,
+    "seen": 1787269695.174812,
+    "ast_hash": "3ddf61675985901d4ed8890b630ff298",
+    "semantic_hash": "3ddf61675985901d4ed8890b630ff298"
+  },
+  "post_e--appears-instead-of-suggestions-with-Ctrl---in-Gnome-editor-Ubutnu--4f1eeb11e94e.md": {
+    "mtime": 1787268861.6309733,
+    "seen": 1787269695.1748133,
+    "ast_hash": "4bf00ff55178c3a4ae718399d3076547",
+    "semantic_hash": "4bf00ff55178c3a4ae718399d3076547"
+  },
+  "post_index_AI_Powered_Paraphrasing_for_SEO__Optimiz_72.md": {
+    "mtime": 1787268861.7283726,
+    "seen": 1787269695.1748142,
+    "ast_hash": "88a33f4e226202f8a9a8a6392c82fb49",
+    "semantic_hash": "88a33f4e226202f8a9a8a6392c82fb49"
+  },
+  "post_index_A_Microservice_That_Teaches_Everything_N_16.md": {
+    "mtime": 1787268861.7233162,
+    "seen": 1787269695.1748152,
+    "ast_hash": "aa5503881abbf9908e304266445cd523",
+    "semantic_hash": "aa5503881abbf9908e304266445cd523"
+  },
+  "post_index_A_classic_east_west_traffic_blind_spot___65.md": {
+    "mtime": 1787268861.7276695,
+    "seen": 1787269695.1748164,
+    "ast_hash": "b76106bdd74139f6c313aeaf1399b2fb",
+    "semantic_hash": "b76106bdd74139f6c313aeaf1399b2fb"
+  },
+  "post_index_A_comprehensive_guide_for_backend_develo_88.md": {
+    "mtime": 1787268861.729673,
+    "seen": 1787269695.1748173,
+    "ast_hash": "5c1ca9f91ca112a147ea8973d9d561a2",
+    "semantic_hash": "5c1ca9f91ca112a147ea8973d9d561a2"
+  },
+  "post_index_Absolutely___and_you_re_spot_on__go_gene_44.md": {
+    "mtime": 1787268861.7258837,
+    "seen": 1787269695.1748183,
+    "ast_hash": "d56d2fa2da9dcf861e14fa3ec0eba27e",
+    "semantic_hash": "d56d2fa2da9dcf861e14fa3ec0eba27e"
+  },
+  "post_index_Add_SonarQube_to_the_Golang_project_74.md": {
+    "mtime": 1787268861.7285385,
+    "seen": 1787269695.174819,
+    "ast_hash": "e976cc5074a2362d8394cfb1e123d9ec",
+    "semantic_hash": "e976cc5074a2362d8394cfb1e123d9ec"
+  },
+  "post_index_Add_Swagger_to_a_Golang_Gin_Project_76.md": {
+    "mtime": 1787268861.7287393,
+    "seen": 1787269695.1748202,
+    "ast_hash": "37bbe2b6b653080eb451cc41edd3e06b",
+    "semantic_hash": "37bbe2b6b653080eb451cc41edd3e06b"
+  },
+  "post_index_Adding_ClickHouse_to_a_Go_Project__A_Pra_39.md": {
+    "mtime": 1787268861.7254386,
+    "seen": 1787269695.1748211,
+    "ast_hash": "a1e1b970e1b2708a1bd6886ea769c794",
+    "semantic_hash": "a1e1b970e1b2708a1bd6886ea769c794"
+  },
+  "post_index_Adding_Zap_Logger_to_Your_Go_Project__A__63.md": {
+    "mtime": 1787268861.7275023,
+    "seen": 1787269695.174822,
+    "ast_hash": "ecce1e4aa78637e606384428da26ce05",
+    "semantic_hash": "ecce1e4aa78637e606384428da26ce05"
+  },
+  "post_index_Although_all_the_points_that_are_mention_100.md": {
+    "mtime": 1787268861.7307537,
+    "seen": 1787269695.1748233,
+    "ast_hash": "a6e24a04f6dbfc1e6e2414a670f93495",
+    "semantic_hash": "a6e24a04f6dbfc1e6e2414a670f93495"
+  },
+  "post_index_Architectural_Optimization_of_Shared_San_9.md": {
+    "mtime": 1787268861.7225487,
+    "seen": 1787269695.1748242,
+    "ast_hash": "1a7df506b68ec85c53f77f7beef34fe3",
+    "semantic_hash": "1a7df506b68ec85c53f77f7beef34fe3"
+  },
+  "post_index_Atomic_Deployment_of_Go_Binaries_on_Ubun_48.md": {
+    "mtime": 1787268861.726319,
+    "seen": 1787269695.1748252,
+    "ast_hash": "3446526132ad58cd5845391b0771ab4a",
+    "semantic_hash": "3446526132ad58cd5845391b0771ab4a"
+  },
+  "post_index_Authentication_and_Authorization_in_Nest_131.md": {
+    "mtime": 1787268861.7333891,
+    "seen": 1787269695.1748261,
+    "ast_hash": "eac9d7f266d8e7b6dc249b8bc23948d3",
+    "semantic_hash": "eac9d7f266d8e7b6dc249b8bc23948d3"
+  },
+  "post_index_Best_List_of_Vscode_Plugin_as_Golang_dev_210.md": {
+    "mtime": 1787268861.740472,
+    "seen": 1787269695.174827,
+    "ast_hash": "e9fcf73ba09f3c8adeda42401523fc61",
+    "semantic_hash": "e9fcf73ba09f3c8adeda42401523fc61"
+  },
+  "post_index_Best_Practices_for_Developing__Deploying_129.md": {
+    "mtime": 1787268861.733237,
+    "seen": 1787269695.174828,
+    "ast_hash": "5214428e7b5096872c6c7f7ab5f04100",
+    "semantic_hash": "5214428e7b5096872c6c7f7ab5f04100"
+  },
+  "post_index_Blockchain_for_beginner_182.md": {
+    "mtime": 1787268861.7377985,
+    "seen": 1787269695.174829,
+    "ast_hash": "662af4ec8eb3a3c5eb5b8a23d5531aab",
+    "semantic_hash": "662af4ec8eb3a3c5eb5b8a23d5531aab"
+  },
+  "post_index_Breaking_Free_from_the__I_m_Good__You_re_111.md": {
+    "mtime": 1787268861.7316537,
+    "seen": 1787269695.1748302,
+    "ast_hash": "c613f70236f17f90d193efd047391e1d",
+    "semantic_hash": "c613f70236f17f90d193efd047391e1d"
+  },
+  "post_index_Breaking_the_Cycle_of_Workplace_Overwhel_90.md": {
+    "mtime": 1787268861.7298303,
+    "seen": 1787269695.1748312,
+    "ast_hash": "3a07d8f400fb4569300c5e572a51959f",
+    "semantic_hash": "3a07d8f400fb4569300c5e572a51959f"
+  },
+  "post_index_Bridging_Networks__Using_Nginx_as_a_Reve_23.md": {
+    "mtime": 1787268861.7240076,
+    "seen": 1787269695.174832,
+    "ast_hash": "3ca166a4ff3b067e7b9b7c48b4400b87",
+    "semantic_hash": "3ca166a4ff3b067e7b9b7c48b4400b87"
+  },
+  "post_index_Build_a_RAG_with_llama_140.md": {
+    "mtime": 1787268861.73412,
+    "seen": 1787269695.174833,
+    "ast_hash": "a6c9b88527f03dd905b87b37e1ee12f8",
+    "semantic_hash": "a6c9b88527f03dd905b87b37e1ee12f8"
+  },
+  "post_index_Building_a_Category__Config___Product_Ma_21.md": {
+    "mtime": 1787268861.7237513,
+    "seen": 1787269695.1748343,
+    "ast_hash": "b77c41d6709f2fda26a0249f1c852355",
+    "semantic_hash": "b77c41d6709f2fda26a0249f1c852355"
+  },
+  "post_index_Building_a_Clean__Secure__and_Scalable_G_75.md": {
+    "mtime": 1787268861.7286367,
+    "seen": 1787269695.1748352,
+    "ast_hash": "6d77f0232f7a12b2e62ed15333a61e61",
+    "semantic_hash": "6d77f0232f7a12b2e62ed15333a61e61"
+  },
+  "post_index_Building_a_Complete_Kafka___ClickHouse_S_41.md": {
+    "mtime": 1787268861.7256534,
+    "seen": 1787269695.1748362,
+    "ast_hash": "04d454787a572082e54737fdb6710569",
+    "semantic_hash": "04d454787a572082e54737fdb6710569"
+  },
+  "post_index_Building_a_Go_Microservice_to_Crawl_WooC_31.md": {
+    "mtime": 1787268861.724717,
+    "seen": 1787269695.1748374,
+    "ast_hash": "c92647b475a2d9aadb38fff678ace0fc",
+    "semantic_hash": "c92647b475a2d9aadb38fff678ace0fc"
+  },
+  "post_index_Building_a_GraphQL_API_in_Go_with_Custom_35.md": {
+    "mtime": 1787268861.725077,
+    "seen": 1787269695.1748383,
+    "ast_hash": "49a627877551e80165d9f719cb539cda",
+    "semantic_hash": "49a627877551e80165d9f719cb539cda"
+  },
+  "post_index_Building_a_High_Throughput_KPI_Pipeline__12.md": {
+    "mtime": 1787268861.722883,
+    "seen": 1787269695.174839,
+    "ast_hash": "d89e63fc55d83cfa3ff540d1de78472a",
+    "semantic_hash": "d89e63fc55d83cfa3ff540d1de78472a"
+  },
+  "post_index_Building_a_Redis_Backed_Cache_Layer_in_G_59.md": {
+    "mtime": 1787268861.7271905,
+    "seen": 1787269695.17484,
+    "ast_hash": "92f144b4021115ada5e9111ba5e173ae",
+    "semantic_hash": "92f144b4021115ada5e9111ba5e173ae"
+  },
+  "post_index_ClickHouse_Tiered_Storage__Volumes__Stor_7.md": {
+    "mtime": 1787268861.7223063,
+    "seen": 1787269695.1748412,
+    "ast_hash": "18933d7fc71b595f8f313ae2699910c2",
+    "semantic_hash": "18933d7fc71b595f8f313ae2699910c2"
+  },
+  "post_index_Connecting_Kafka_to_ClickHouse_with_SSL__17.md": {
+    "mtime": 1787268861.723406,
+    "seen": 1787269695.1748421,
+    "ast_hash": "fb6a77a46a1f5f04bcc8134762fe181c",
+    "semantic_hash": "fb6a77a46a1f5f04bcc8134762fe181c"
+  },
+  "post_index_Crawler_YouTube_subtitle_For_making_an_a_155.md": {
+    "mtime": 1787268861.7354934,
+    "seen": 1787269695.174843,
+    "ast_hash": "e0e6e2465db4fad6fceebe84c9c7a812",
+    "semantic_hash": "e0e6e2465db4fad6fceebe84c9c7a812"
+  },
+  "post_index_Get_Data_from_Fresh_Desk_with_API_Key_an_153.md": {
+    "mtime": 1787268861.7353065,
+    "seen": 1787269695.1748443,
+    "ast_hash": "1268274c14aa9094108f91328d1ffeb0",
+    "semantic_hash": "1268274c14aa9094108f91328d1ffeb0"
+  },
+  "post_index_Implementation_Experience__Retrieval_Aug_132.md": {
+    "mtime": 1787268861.733469,
+    "seen": 1787269695.1748452,
+    "ast_hash": "b405181643ccbe5c7bd243468ca5fbe0",
+    "semantic_hash": "b405181643ccbe5c7bd243468ca5fbe0"
+  },
+  "post_index_Integrating_Kafka_with_ClickHouse_using__8.md": {
+    "mtime": 1787268861.7224367,
+    "seen": 1787269695.174846,
+    "ast_hash": "b9c467891848dfe5582ce7b5c5f76df9",
+    "semantic_hash": "b9c467891848dfe5582ce7b5c5f76df9"
+  },
+  "post_index_Leveraging_RAG_for_Continuously_Updated__143.md": {
+    "mtime": 1787268861.7344494,
+    "seen": 1787269695.174847,
+    "ast_hash": "c7d291e06fbb94292d2b96122de2405f",
+    "semantic_hash": "c7d291e06fbb94292d2b96122de2405f"
+  },
+  "post_index_Neo4j_Knowledge_Graph_87.md": {
+    "mtime": 1787268861.7295928,
+    "seen": 1787269695.174848,
+    "ast_hash": "f2b9a154d7666e030876990c22fe8a02",
+    "semantic_hash": "f2b9a154d7666e030876990c22fe8a02"
+  },
+  "post_index_RAG_System___Knowledge_Graph__the_system_135.md": {
+    "mtime": 1787268861.7336962,
+    "seen": 1787269695.174849,
+    "ast_hash": "2d7c4229cf2bab29c22a7b66e8c09a51",
+    "semantic_hash": "2d7c4229cf2bab29c22a7b66e8c09a51"
+  },
+  "post_index_RAG_retrieval_augmented_generation_158.md": {
+    "mtime": 1787268861.7358048,
+    "seen": 1787269695.1748497,
+    "ast_hash": "178ac01d56f04605e15c227c8ba6920e",
+    "semantic_hash": "178ac01d56f04605e15c227c8ba6920e"
+  },
+  "post_index_Real_Time_Data_Ingestion__Connecting_Dis_6.md": {
+    "mtime": 1787268861.722181,
+    "seen": 1787269695.1748507,
+    "ast_hash": "b96279437bf55654f4af65d1abe4b637",
+    "semantic_hash": "b96279437bf55654f4af65d1abe4b637"
+  },
+  "post_index_Solving_the__NaN__Deadlock__Streaming_Ka_13.md": {
+    "mtime": 1787268861.7229836,
+    "seen": 1787269695.174852,
+    "ast_hash": "c7ac101aedb269cd6d45645de39f909a",
+    "semantic_hash": "c7ac101aedb269cd6d45645de39f909a"
+  },
+  "post_index_Topic_Modeling_with_TF_IDF_and_k_means_a_157.md": {
+    "mtime": 1787268861.7357094,
+    "seen": 1787269695.1748526,
+    "ast_hash": "c0fd8d1bbb4caceaa026fb4c9d8a6601",
+    "semantic_hash": "c0fd8d1bbb4caceaa026fb4c9d8a6601"
+  },
+  "post_index_Topic_Modeling_with_Word2vec_and_k_means_156.md": {
+    "mtime": 1787268861.7356024,
+    "seen": 1787269695.1748536,
+    "ast_hash": "9af3225576b6fc31e9098d479dccdfd7",
+    "semantic_hash": "9af3225576b6fc31e9098d479dccdfd7"
+  },
+  "post_index_when_using_php_for_handle_lot_s_of_user__238.md": {
+    "mtime": 1787268861.7465227,
+    "seen": 1787269695.1748548,
+    "ast_hash": "41f78bebf453c1c8f25cfaca31c701e5",
+    "semantic_hash": "41f78bebf453c1c8f25cfaca31c701e5"
+  },
+  "profile.md": {
+    "mtime": 1790344141.0443506,
+    "seen": 1790345139.0355577,
+    "ast_hash": "7740687f4d85ebb5bdfd5efc4b578eb3",
+    "semantic_hash": "7740687f4d85ebb5bdfd5efc4b578eb3"
+  },
+  "project_Project_1_0.md": {
+    "mtime": 1787268861.7139833,
+    "seen": 1787269695.1748567,
+    "ast_hash": "68474703e7ac9fbffefe021df67ce624",
+    "semantic_hash": "68474703e7ac9fbffefe021df67ce624"
+  },
+  "youtube_video_Architectural_Blueprint__Bi_Temporal_Dat_6.md": {
+    "mtime": 1787268861.7148576,
+    "seen": 1787269695.1748576,
+    "ast_hash": "526681f25efbdbc9c3fb25fa18e13aa4",
+    "semantic_hash": "526681f25efbdbc9c3fb25fa18e13aa4"
+  },
+  "youtube_video_Building_a_Better_Scraper_10.md": {
+    "mtime": 1787268861.7150598,
+    "seen": 1787269695.1748588,
+    "ast_hash": "071864bd347e9f7455204609692ac0f6",
+    "semantic_hash": "071864bd347e9f7455204609692ac0f6"
+  },
+  "youtube_video_How_do_you_process_10_billion_records_pe_7.md": {
+    "mtime": 1787268861.714922,
+    "seen": 1787269695.1748598,
+    "ast_hash": "d14e0ea30245c4d76cb60969717d2922",
+    "semantic_hash": "d14e0ea30245c4d76cb60969717d2922"
+  },
+  "youtube_video_Hybrid_Stateful_Polling_16.md": {
+    "mtime": 1787268861.7155132,
+    "seen": 1787269695.1748607,
+    "ast_hash": "5013ff2261f888574dae598ad2146750",
+    "semantic_hash": "5013ff2261f888574dae598ad2146750"
+  },
+  "youtube_video_MySQL_to_MongoDB__Building_High_Performa_3.md": {
+    "mtime": 1787268861.7146635,
+    "seen": 1787269695.174862,
+    "ast_hash": "cd6b6d112d4349d060dcc223439ace7e",
+    "semantic_hash": "cd6b6d112d4349d060dcc223439ace7e"
+  },
+  "youtube_video_The_Go_WordPress_Blueprint_9.md": {
+    "mtime": 1787268861.7150126,
+    "seen": 1787269695.1748629,
+    "ast_hash": "d6084d06ee549f3a1215f0fb276f5233",
+    "semantic_hash": "d6084d06ee549f3a1215f0fb276f5233"
+  },
+  "youtube_video_The_Scalable_Go_Worker_12.md": {
+    "mtime": 1787268861.7151697,
+    "seen": 1787269695.1748638,
+    "ast_hash": "976b72d64803154661ac608833a80d55",
+    "semantic_hash": "976b72d64803154661ac608833a80d55"
+  },
+  "youtube_video_Vector_Database_Similarity_5.md": {
+    "mtime": 1787268861.7147982,
+    "seen": 1787269695.174865,
+    "ast_hash": "614eab0053a633e299d3a581d498b5f0",
+    "semantic_hash": "614eab0053a633e299d3a581d498b5f0"
+  },
+  "youtube_video_\u0627\u0632_\u0627\u0633\u06a9\u0631\u06cc\u067e\u062a_\u062a\u0627_\u0633\u0631\u0648\u06cc\u0633__\u0637\u0631\u062d_\u0627\u0648\u0644\u06cc\u0647_Golang_14.md": {
+    "mtime": 1787268861.7153854,
+    "seen": 1787269695.1748667,
+    "ast_hash": "5bf6eed21eeff8fe218b014f134b638a",
+    "semantic_hash": "5bf6eed21eeff8fe218b014f134b638a"
+  },
+  "youtube_video_\u0645\u0639\u0645\u0627\u0631\u06cc_Poller_Dispatcher_Worker_13.md": {
+    "mtime": 1787268861.7152588,
+    "seen": 1787269695.174868,
+    "ast_hash": "6ec6ba3cee2798f2917ed6d274bb30c5",
+    "semantic_hash": "6ec6ba3cee2798f2917ed6d274bb30c5"
+  },
+  "post_Adding-Zap-Logger-to-Your-Go-Project--A-Practical-Guide----52091fc2db7d.md": {
+    "mtime": 1787268861.6968813,
+    "seen": 1787305477.0424924,
+    "ast_hash": "eafae165e79fb5432b73a0a2afaf0cf9",
+    "semantic_hash": "eafae165e79fb5432b73a0a2afaf0cf9"
+  },
+  "post_Architecting-an-Open-Source-Search-Engine--From-Algolia-Internals-to-Vector-Similarity-and-Qdrant-0423dad529fc.md": {
+    "mtime": 1787268861.6616642,
+    "seen": 1787305477.0425014,
+    "ast_hash": "3dee128733d79249ba2a29a16d8daaf5",
+    "semantic_hash": "3dee128733d79249ba2a29a16d8daaf5"
+  },
+  "post_Building-Modular-Product-Management-in-Go-with-SQLC--Uber-FX--and-Gin-bfb6dfaada6b.md": {
+    "mtime": 1787268861.6648018,
+    "seen": 1787305477.042507,
+    "ast_hash": "8a943be732a02380caa13ae363b70aa2",
+    "semantic_hash": "8a943be732a02380caa13ae363b70aa2"
+  },
+  "post_Building-a-Go-Microservice-to-Crawl-WooCommerce-Products-3910d3b99f1d.md": {
+    "mtime": 1787268861.7003672,
+    "seen": 1787305477.0425093,
+    "ast_hash": "e4e48281398ef00f781167cbe0cd2df4",
+    "semantic_hash": "e4e48281398ef00f781167cbe0cd2df4"
+  },
+  "post_Building-a-GraphQL-API-in-Go-with-Custom-Scalars-0b1a1b3e52f9.md": {
+    "mtime": 1787268861.7059488,
+    "seen": 1787305477.0425122,
+    "ast_hash": "a2ff6dc059d91428cc53c5bc7de3f9e0",
+    "semantic_hash": "a2ff6dc059d91428cc53c5bc7de3f9e0"
+  },
+  "post_Building-a-Redis-Backed-Cache-Layer-in-Go-with-Uber-FX----c10052c9b9ca.md": {
+    "mtime": 1787268861.6058078,
+    "seen": 1787305477.0425332,
+    "ast_hash": "3bf1c692dfc0737afc4a894308c1f2e7",
+    "semantic_hash": "3bf1c692dfc0737afc4a894308c1f2e7"
+  },
+  "post_Deploy-smart-contract-and-connect-with-go-Ethereum-935f4290249f.md": {
+    "mtime": 1787268861.6175082,
+    "seen": 1787305477.042535,
+    "ast_hash": "ebbae6dabe1098c360d2d017c606f9f1",
+    "semantic_hash": "ebbae6dabe1098c360d2d017c606f9f1"
+  },
+  "post_Docker-Compose-Setup-for-MongoDB--Redis--and-Minio-f364e79162ea.md": {
+    "mtime": 1787268861.6494236,
+    "seen": 1787305477.0425375,
+    "ast_hash": "05dae936fd4562816b7bcc1653da9c81",
+    "semantic_hash": "05dae936fd4562816b7bcc1653da9c81"
+  },
+  "post_Essential-VS-Code-Extensions-for-Go-Developers--My-Daily-Toolkit-5604c0bbaf85.md": {
+    "mtime": 1787268861.6419897,
+    "seen": 1787305477.0425391,
+    "ast_hash": "84255daa0d9b709f3efc0cff7b5270d2",
+    "semantic_hash": "84255daa0d9b709f3efc0cff7b5270d2"
+  },
+  "post_Ethereum-for-beginner-aa9bd2e85ee6.md": {
+    "mtime": 1787268861.6342013,
+    "seen": 1787305477.0425408,
+    "ast_hash": "209ffd5cbee06f0c6892eb6629baaa33",
+    "semantic_hash": "209ffd5cbee06f0c6892eb6629baaa33"
+  },
+  "post_Exclude-Endpoints-with-Sample-Rate-in-OpenTelemetry-in-the-Golang-Language-969da599af82.md": {
+    "mtime": 1787268861.7043593,
+    "seen": 1787305477.0425434,
+    "ast_hash": "ef64a17eeef83716b54303a7de6685fb",
+    "semantic_hash": "ef64a17eeef83716b54303a7de6685fb"
+  },
+  "post_Factory-Design-Patterns-and-SOLID-Principles-in-Golang-6aa6a60cc543.md": {
+    "mtime": 1787268861.711991,
+    "seen": 1787305477.0425456,
+    "ast_hash": "1a9eba62d7f250111326f671de72f3ad",
+    "semantic_hash": "1a9eba62d7f250111326f671de72f3ad"
+  },
+  "post_Find-a-list-of-tickets-for-the-customers-in-FreshDesk-f4bf843c55ff.md": {
+    "mtime": 1787268861.6313136,
+    "seen": 1787305477.0425482,
+    "ast_hash": "c75c8e0fe16e61c67d5331a9e5a387cb",
+    "semantic_hash": "c75c8e0fe16e61c67d5331a9e5a387cb"
+  },
+  "post_Fixing-Blocked-Subdomain-DNS-with-Dnsmasq-on-Ubuntu----b25cc19e9877.md": {
+    "mtime": 1787268861.612794,
+    "seen": 1787305477.0425503,
+    "ast_hash": "ebd55ff8b860b07a835d5999286abb53",
+    "semantic_hash": "ebd55ff8b860b07a835d5999286abb53"
+  },
+  "post_Get-Data-from-Fresh-Desk-with-API-Key-and-Write-Notes-with-Open-AI-5eee50365cbb.md": {
+    "mtime": 1787268861.618665,
+    "seen": 1787305477.0425532,
+    "ast_hash": "1e0fe463f7c1f048c4b7f41ac3e7d2fb",
+    "semantic_hash": "1e0fe463f7c1f048c4b7f41ac3e7d2fb"
+  },
+  "post_Get-Data-from-medium-and-make-an-AI-model-e2eda73f62cb.md": {
+    "mtime": 1787268861.6877787,
+    "seen": 1787305477.042556,
+    "ast_hash": "0e2e3fc99829bca2e5903ed040a1e413",
+    "semantic_hash": "0e2e3fc99829bca2e5903ed040a1e413"
+  },
+  "post_Getting-Started-with-Docker-files--A-Complete-Guide-d1d5b2d44d1b.md": {
+    "mtime": 1787268861.6620662,
+    "seen": 1787305477.0425575,
+    "ast_hash": "cefd59f691d27673d9e0082fc3b45958",
+    "semantic_hash": "cefd59f691d27673d9e0082fc3b45958"
+  },
+  "post_Gin-framework-in-Golang-c453436c8c07.md": {
+    "mtime": 1787268861.6719532,
+    "seen": 1787305477.0425851,
+    "ast_hash": "c17be120ebce10284eac471845150043",
+    "semantic_hash": "c17be120ebce10284eac471845150043"
+  },
+  "post_Hello-world-in-go-micro-as-the-base-of-GoLang-in-a-microservice-architecture-5f6fa75af724.md": {
+    "mtime": 1787268861.6844149,
+    "seen": 1787305477.042587,
+    "ast_hash": "7e29245b02563bc59fd51072ddc3b123",
+    "semantic_hash": "7e29245b02563bc59fd51072ddc3b123"
+  },
+  "post_How-an-AI-Prompt-Turned-a-Complex-Multi-Database-ETL-Project-Into-Hours-of-Work-bjw7e.md": {
+    "mtime": 1787268861.699907,
+    "seen": 1787305477.0425885,
+    "ast_hash": "05484002286d770a83f65fef9464a407",
+    "semantic_hash": "05484002286d770a83f65fef9464a407"
+  },
+  "post_How-do-you-write-tests-in-Nestjs--03149ebeb372.md": {
+    "mtime": 1787268861.7051165,
+    "seen": 1787305477.042599,
+    "ast_hash": "70669c25ee9e02a22c6079221313337e",
+    "semantic_hash": "70669c25ee9e02a22c6079221313337e"
+  },
+  "post_How-to-Fine-tune-ChatGPT-305606a02605.md": {
+    "mtime": 1787268861.6269228,
+    "seen": 1787305477.0426059,
+    "ast_hash": "43a7f32d9afb183d18cb5093139c796f",
+    "semantic_hash": "43a7f32d9afb183d18cb5093139c796f"
+  },
+  "post_How-to-Make-Python-Telegram-Bot-for-Conversational-AI-370d8e2c82bf.md": {
+    "mtime": 1787268861.6552012,
+    "seen": 1787305477.0426114,
+    "ast_hash": "028446c17e2b9407374cd6185cf402c1",
+    "semantic_hash": "028446c17e2b9407374cd6185cf402c1"
+  },
+  "post_How-to-Port-Forward-Traffic-to-a-Remote-IP-Using-Iptables-c3a8c10a6228.md": {
+    "mtime": 1787268861.684687,
+    "seen": 1787305477.0426126,
+    "ast_hash": "173c9340d271e74c00f507cc87ebe322",
+    "semantic_hash": "173c9340d271e74c00f507cc87ebe322"
+  },
+  "post_How-to-Write-Effective-Test-Files-in-Go-for-REST-APIs---577e01cdfe36.md": {
+    "mtime": 1787268861.7048478,
+    "seen": 1787305477.0426147,
+    "ast_hash": "feba54e41a7a3968573d28bd0e34e6e4",
+    "semantic_hash": "feba54e41a7a3968573d28bd0e34e6e4"
+  },
+  "post_How-to-increase-the-size-of-the-swap-in-Ubuntu-6fdeeef9851b.md": {
+    "mtime": 1787268861.6818416,
+    "seen": 1787305477.0426168,
+    "ast_hash": "4c1dbd234b919838e8125be6a911932d",
+    "semantic_hash": "4c1dbd234b919838e8125be6a911932d"
+  },
+  "post_How-to-make-several-ssh-keys-in-Ubuntu-for-manage-different-repositories-in-GitHub-e224a5156752.md": {
+    "mtime": 1787268861.616384,
+    "seen": 1787305477.042619,
+    "ast_hash": "e10b4ed66f272d76571aa7e8d221b81a",
+    "semantic_hash": "e10b4ed66f272d76571aa7e8d221b81a"
+  },
+  "post_Hugo-Static-website-builder-4e28457adc49.md": {
+    "mtime": 1787268861.6712723,
+    "seen": 1787305477.0426204,
+    "ast_hash": "968c8b0e0cf4bc1ce11373a706e62ab2",
+    "semantic_hash": "968c8b0e0cf4bc1ce11373a706e62ab2"
+  },
+  "post_I-struggle-to-read-and-write-100K-requests-in-Postgres-DB--and-my-aggressive-solution-with-Redis--91461a8316a1.md": {
+    "mtime": 1787268861.6467025,
+    "seen": 1787305477.042622,
+    "ast_hash": "9dd07b2916a3c57820ff02cdef9ae2a1",
+    "semantic_hash": "9dd07b2916a3c57820ff02cdef9ae2a1"
+  },
+  "post_Impelient-Bank-Mellat-Payment-Gateway-in-Nestjs-71f67308fa3a.md": {
+    "mtime": 1787268861.621705,
+    "seen": 1787305477.0426245,
+    "ast_hash": "79e7ed38d3ad4574cc3c2b6ff2471883",
+    "semantic_hash": "79e7ed38d3ad4574cc3c2b6ff2471883"
+  },
+  "post_Implementation-Experience--Retrieval-Augmented-Generation--RAG--System-for-AI-powered-Customer--1268ac4b4f8b.md": {
+    "mtime": 1787268861.6952918,
+    "seen": 1787305477.0426266,
+    "ast_hash": "73508c975c4b8a70fce4257ba5adaea7",
+    "semantic_hash": "73508c975c4b8a70fce4257ba5adaea7"
+  },
+  "post_Improve-speed-of-Machine-Learning-API--Engine--from-3-requests-per-second-to-10000-requests-per--4d649d246a99.md": {
+    "mtime": 1787268861.682089,
+    "seen": 1787305477.0426283,
+    "ast_hash": "1758170a03d4569ab460dd9fe1ff9dd2",
+    "semantic_hash": "1758170a03d4569ab460dd9fe1ff9dd2"
+  },
+  "post_Improving-Team-Morale-and-Efficiency-in-Software-Development-Projects-d5f3da0b2137.md": {
+    "mtime": 1787268861.683711,
+    "seen": 1787305477.042631,
+    "ast_hash": "ee47cdd3688806ed332bc44b0c9d037a",
+    "semantic_hash": "ee47cdd3688806ed332bc44b0c9d037a"
+  },
+  "post_Incredible-futures-of--buf-to-generate-Protobuf--GitHub-action-871f0d4f2339.md": {
+    "mtime": 1787268861.7098873,
+    "seen": 1787305477.0426335,
+    "ast_hash": "46d45355fca995fd920e7f40c212dbcf",
+    "semantic_hash": "46d45355fca995fd920e7f40c212dbcf"
+  },
+  "post_Install-CakePHP-application-on-server-with-the-traditional-way-on-Ubuntu-22-0-server-3228ae49c3c1.md": {
+    "mtime": 1787268861.6536934,
+    "seen": 1787305477.042635,
+    "ast_hash": "014b8134832a4e789fe83e901f05701d",
+    "semantic_hash": "014b8134832a4e789fe83e901f05701d"
+  },
+  "post_Installing-Application-for-Golang-developer-After-installing-Ubuntu-22-04-LTS-5d5570a78340.md": {
+    "mtime": 1787268861.701152,
+    "seen": 1787305477.0426369,
+    "ast_hash": "f7b1267a364b88e2665521f4be4bf02a",
+    "semantic_hash": "f7b1267a364b88e2665521f4be4bf02a"
+  },
+  "post_Installing-Application-for-Golang-developer-After-installing-Ubuntu-24-04-LTS-0444c87d7f9d.md": {
+    "mtime": 1787268861.6724215,
+    "seen": 1787305477.0426383,
+    "ast_hash": "24ee92faceba713433847bcb1ad71059",
+    "semantic_hash": "24ee92faceba713433847bcb1ad71059"
+  },
+  "post_Installing-Application-for-web-developer-After-installing-Ubuntu-20-04-LTS-e8114c21044c.md": {
+    "mtime": 1787268861.6289747,
+    "seen": 1787305477.0426402,
+    "ast_hash": "6c5bf9ff2c9925dbd61afcaeb71e37bf",
+    "semantic_hash": "6c5bf9ff2c9925dbd61afcaeb71e37bf"
+  },
+  "post_Introduction-to-Ubuntu-22-04-System-Setup-and-Environment-Configuration-for-a-Golang-developer-c0979cb9e68d.md": {
+    "mtime": 1787268861.640064,
+    "seen": 1787305477.0426419,
+    "ast_hash": "2374bc3141bdc63b1618994aaacc624f",
+    "semantic_hash": "2374bc3141bdc63b1618994aaacc624f"
+  },
+  "post_Liquibase-Hello-world-1d792968962f.md": {
+    "mtime": 1787268861.626549,
+    "seen": 1787305477.0426445,
+    "ast_hash": "c857b4031171785fe3ac37796f60e9e4",
+    "semantic_hash": "c857b4031171785fe3ac37796f60e9e4"
+  },
+  "post_Make-Crowdfunding-Smart-Contract-using-Solidity-and-Golang-Language-bd5dc7c8f84f.md": {
+    "mtime": 1787268861.669447,
+    "seen": 1787305477.0426462,
+    "ast_hash": "0a653e00a5ee37dbaa04d69a6fb41510",
+    "semantic_hash": "0a653e00a5ee37dbaa04d69a6fb41510"
+  },
+  "post_NLP-tutorial-cf3f48ed14fb.md": {
+    "mtime": 1787268861.6569312,
+    "seen": 1787305477.0426483,
+    "ast_hash": "bf0ac66e6683fe681ccb4ae913c0dcb4",
+    "semantic_hash": "bf0ac66e6683fe681ccb4ae913c0dcb4"
+  },
+  "post_Nats-Jet-Strem--Hello-World-d909099c88e4.md": {
+    "mtime": 1787268861.6306489,
+    "seen": 1787305477.042651,
+    "ast_hash": "368d465ac4cddd121334503f464d7e86",
+    "semantic_hash": "368d465ac4cddd121334503f464d7e86"
+  },
+  "post_NestJS--Data-Validation-and-Transformation-ce99115c760d.md": {
+    "mtime": 1787268861.6115081,
+    "seen": 1787305477.0426521,
+    "ast_hash": "efb2627d95e2542851f6058050970ac0",
+    "semantic_hash": "efb2627d95e2542851f6058050970ac0"
+  },
+  "post_Nodejs-with-Smart-contract-for-beginner-version-0-4-17-59ee1d46aced.md": {
+    "mtime": 1787268861.6679091,
+    "seen": 1787305477.0426538,
+    "ast_hash": "1f9b89977df4ea7474f5a2999710f045",
+    "semantic_hash": "1f9b89977df4ea7474f5a2999710f045"
+  },
+  "post_Pretty-print-array-in-Golang--4c184f4517f6.md": {
+    "mtime": 1787268861.712528,
+    "seen": 1787305477.0426552,
+    "ast_hash": "69c05c896b7593643d78cf86e55fcee4",
+    "semantic_hash": "69c05c896b7593643d78cf86e55fcee4"
+  },
+  "post_Simple-Golang-HTTP-server-fe7a88ef221e.md": {
+    "mtime": 1787268861.6882865,
+    "seen": 1787305477.0426564,
+    "ast_hash": "1e668a89d4ce5bf0f10655b5777a1c62",
+    "semantic_hash": "1e668a89d4ce5bf0f10655b5777a1c62"
+  },
+  "post_Solidity-principle-06faaeb07b57.md": {
+    "mtime": 1787268861.6530385,
+    "seen": 1787305477.0426579,
+    "ast_hash": "a9540b316cf70d709e993127c4e93219",
+    "semantic_hash": "a9540b316cf70d709e993127c4e93219"
+  },
+  "post_Solve-problem-to-Install-Nodejs20-on-Ubuntu-22-04-feacc6684a5b.md": {
+    "mtime": 1787268861.6208265,
+    "seen": 1787305477.042659,
+    "ast_hash": "e98ad8fb45be1ef4f89a4924e52225a9",
+    "semantic_hash": "e98ad8fb45be1ef4f89a4924e52225a9"
+  },
+  "post_Struggle-with-export-and-import-in-MongoDB-via-mongo-express-c64c0154937.md": {
+    "mtime": 1787268861.6100578,
+    "seen": 1787305477.0426607,
+    "ast_hash": "1731324e9b77d15e892469340afbecd1",
+    "semantic_hash": "1731324e9b77d15e892469340afbecd1"
+  },
+  "post_Successfully-Migrating-from-a-Monolith-to-Microservices-with-a-Technical-Debt-Approach-aa08d713deec.md": {
+    "mtime": 1787268861.6768525,
+    "seen": 1787305477.042662,
+    "ast_hash": "b3b027fe839fb8f313af703923028e0f",
+    "semantic_hash": "b3b027fe839fb8f313af703923028e0f"
+  },
+  "post_Tensorflow-tutorial--Basic-operations-on-tensors-fca6c839ca08.md": {
+    "mtime": 1787268861.6986878,
+    "seen": 1787305477.042663,
+    "ast_hash": "845db52c247b85634322ede2e4bf03c8",
+    "semantic_hash": "845db52c247b85634322ede2e4bf03c8"
+  },
+  "post_The--Problem--How-Elasticsearch-s-Stop-Word-Filtering-Broke-Our-Product-Search---ff2973455d45.md": {
+    "mtime": 1787268861.6471016,
+    "seen": 1787305477.0426643,
+    "ast_hash": "2cd7adf4dcc6d04247188b19847d0eb6",
+    "semantic_hash": "2cd7adf4dcc6d04247188b19847d0eb6"
+  },
+  "post_The-Art-and-Science-of-Technical-Hiring--A-Comprehensive-Guide-158ca954f2c7.md": {
+    "mtime": 1787268861.6670878,
+    "seen": 1787305477.0426655,
+    "ast_hash": "c55c54f3f78d8e2f14abfd7bdaeda7f1",
+    "semantic_hash": "c55c54f3f78d8e2f14abfd7bdaeda7f1"
+  },
+  "post_The-Entity-You-Modeled-Isn-t-the-Entity-That-Persists-vtwge.md": {
+    "mtime": 1787268861.6302342,
+    "seen": 1787305477.0426667,
+    "ast_hash": "36d7b056416d934764740ca9ebbb0525",
+    "semantic_hash": "36d7b056416d934764740ca9ebbb0525"
+  },
+  "post_The-Future-of-Hospitality--How-Hotels-Can-Transform-with-Web3-and-ERC-20-Tokens-796bde294021.md": {
+    "mtime": 1787268861.699304,
+    "seen": 1787305477.042668,
+    "ast_hash": "196b7283ce457efc6a1193dd6fd62375",
+    "semantic_hash": "196b7283ce457efc6a1193dd6fd62375"
+  },
+  "post_The-Hidden-Challenges-of-System-Teams-in-Software-Companies--Balancing-People--Process--and--cfc16a6e1790.md": {
+    "mtime": 1787268861.6162267,
+    "seen": 1787305477.0426695,
+    "ast_hash": "65462a9e6764c94d9b27fed596200697",
+    "semantic_hash": "65462a9e6764c94d9b27fed596200697"
+  },
+  "post_The-New-Generation-of-E2E-Test-Automation--Capturing-Traffic-and-Bypassing-Auth-with-Postman-and--16f167e37950.md": {
+    "mtime": 1787268861.6799488,
+    "seen": 1787305477.0426705,
+    "ast_hash": "861ef336a1a9af7a813f1cf5b303043a",
+    "semantic_hash": "861ef336a1a9af7a813f1cf5b303043a"
+  },
+  "post_The-Role-of-IgE-in-Allergic-and-Chronic-Sinusitis--Mechanisms--Treatments--and-Impact-on--5578822607ff.md": {
+    "mtime": 1787268861.670626,
+    "seen": 1787305477.0426722,
+    "ast_hash": "25475bac906f74f18a9eee3a690c0930",
+    "semantic_hash": "25475bac906f74f18a9eee3a690c0930"
+  },
+  "post_Title--Setting-Boundaries-with-Clients--A-Guide-to-Professional-and-Effective-Communication-040db339cd83.md": {
+    "mtime": 1787268861.7041442,
+    "seen": 1787305477.0426733,
+    "ast_hash": "71655120128bfb5dcb12cfa7e0f8ac01",
+    "semantic_hash": "71655120128bfb5dcb12cfa7e0f8ac01"
+  },
+  "post_Topic-Modeling-with-TF-IDF-and-k-means-and-Chat-GPT-3-5-4d03fc92a8aa.md": {
+    "mtime": 1787268861.6899323,
+    "seen": 1787305477.0426748,
+    "ast_hash": "aa838afd5959ec01693070abd4bbc75f",
+    "semantic_hash": "aa838afd5959ec01693070abd4bbc75f"
+  },
+  "post_When-Mediums-Bots-Fear-Your-Writing--Why-Im-Leaving-After-6-Years-and-200-Articles-anlqe.md": {
+    "mtime": 1787268861.6664226,
+    "seen": 1787305477.042676,
+    "ast_hash": "e73547160241e2a6242f38f62e418c1a",
+    "semantic_hash": "e73547160241e2a6242f38f62e418c1a"
+  },
+  "post_index_Building_a_Safe__Parallel_WooCommerce_Cr_30.md": {
+    "mtime": 1787268861.724627,
+    "seen": 1787305477.0426774,
+    "ast_hash": "dee1bbfe2a50cb64d377bffea14b4230",
+    "semantic_hash": "dee1bbfe2a50cb64d377bffea14b4230"
+  },
+  "post_index____Building_Modular_Go_Services_with_Ube_69.md": {
+    "mtime": 1787268861.728121,
+    "seen": 1787305477.0426786,
+    "ast_hash": "16676f857ad3d14c58acdd7813fb4a75",
+    "semantic_hash": "16676f857ad3d14c58acdd7813fb4a75"
+  },
+  "youtube_video_Database_Refactors_1.md": {
+    "mtime": 1787268861.7145193,
+    "seen": 1787305477.0426798,
+    "ast_hash": "182b30873f15bb64728cc6c80d1645e9",
+    "semantic_hash": "182b30873f15bb64728cc6c80d1645e9"
+  },
+  "youtube_video_Deep_Dive_Meilisearch_4.md": {
+    "mtime": 1787268861.7147264,
+    "seen": 1787305477.0426807,
+    "ast_hash": "db5e1854eef5e728b1157f9e72ece378",
+    "semantic_hash": "db5e1854eef5e728b1157f9e72ece378"
+  },
+  "youtube_video_Go_Web_Service_Refactoring_with_Uber_FX_17.md": {
+    "mtime": 1787268861.7155957,
+    "seen": 1787305477.0426822,
+    "ast_hash": "037312ad2aa05e86887d23e65855b588",
+    "semantic_hash": "037312ad2aa05e86887d23e65855b588"
+  },
+  "youtube_video_Go_s_Unbreakable_Scraper_11.md": {
+    "mtime": 1787268861.7151067,
+    "seen": 1787305477.0426836,
+    "ast_hash": "0523262b62c77d9b1d305994624a7e07",
+    "semantic_hash": "0523262b62c77d9b1d305994624a7e07"
+  },
+  "youtube_video_Idempotent_Database_Seeder_8.md": {
+    "mtime": 1787268861.7149677,
+    "seen": 1787305477.0426853,
+    "ast_hash": "c9cffe1de6b26ad13561422136da1872",
+    "semantic_hash": "c9cffe1de6b26ad13561422136da1872"
+  },
+  "youtube_video_Migrating_from_database_backed_sessions__2.md": {
+    "mtime": 1787268861.7145963,
+    "seen": 1787305477.0426865,
+    "ast_hash": "0493aeffca82c1b1f82f8077b0e07bae",
+    "semantic_hash": "0493aeffca82c1b1f82f8077b0e07bae"
+  },
+  "youtube_video_PostgreSQL_Foreign_Data_Wrappers_and__po_15.md": {
+    "mtime": 1787268861.7154493,
+    "seen": 1787305477.0426877,
+    "ast_hash": "e5e5263905ef1cbbb2564203e4042f3f",
+    "semantic_hash": "e5e5263905ef1cbbb2564203e4042f3f"
+  },
+  "youtube_video_The_Unbounded_Process_0.md": {
+    "mtime": 1787268861.7144628,
+    "seen": 1787305477.0426893,
+    "ast_hash": "8936c7d050a4ab1b116cc3ba04964f09",
+    "semantic_hash": "8936c7d050a4ab1b116cc3ba04964f09"
+  },
+  "aparat_video_Java_forever_6.md": {
+    "mtime": 1787268861.7165058,
+    "seen": 1787305801.4950428,
+    "ast_hash": "506983ac8132feb45a4c0b144dc2edc2",
+    "semantic_hash": "506983ac8132feb45a4c0b144dc2edc2"
+  },
+  "aparat_video_\u0627\u0646\u06cc\u0645\u06cc\u0634\u0646_\u0645\u0642\u0627\u0628\u0644\u0647_\u0644\u06cc\u0646\u0648\u06a9\u0633_\u0628\u0627_\u0648\u06cc\u0646\u062f\u0648\u0632__\u0627\u0631\u0648\u0631_\u0635\u0641_13.md": {
+    "mtime": 1787268861.7170434,
+    "seen": 1787305801.4950638,
+    "ast_hash": "0a5bc629436bea3f5b979f338507cb25",
+    "semantic_hash": "0a5bc629436bea3f5b979f338507cb25"
+  },
+  "post_A-comprehensive-guide-for-backend-developers-aiming-to-build-secure-applications-7f8ebff2cb9c.md": {
+    "mtime": 1787268861.658509,
+    "seen": 1787305801.4950728,
+    "ast_hash": "0ddd2c00e8d203b533eec595769b97c0",
+    "semantic_hash": "0ddd2c00e8d203b533eec595769b97c0"
+  },
+  "post_AI-Powered-Paraphrasing-for-SEO--Optimizing-Product-Descriptions-with-AvalAI-API-26caab0f1a23.md": {
+    "mtime": 1787268861.6803305,
+    "seen": 1787305801.4950798,
+    "ast_hash": "92059f1acd306c3deaf57ddbcac79ab6",
+    "semantic_hash": "92059f1acd306c3deaf57ddbcac79ab6"
+  },
+  "post_Architecting-Search-Engines--A-Deep-Dive-into-Meilisearch-Internals--Vector-Retrieval--and-Algolia-92779f29488e.md": {
+    "mtime": 1787268861.6438186,
+    "seen": 1787305801.4950852,
+    "ast_hash": "1d491a076e01501d020c29479eb2ee41",
+    "semantic_hash": "1d491a076e01501d020c29479eb2ee41"
+  },
+  "post_Architectural-Optimization-of-Shared-Sandbox-Deployments-in-GitLab-CI-CD-47ccce21fa9d.md": {
+    "mtime": 1787268861.6574771,
+    "seen": 1787305801.495093,
+    "ast_hash": "5ddeb2276952c39bf08df805281a0778",
+    "semantic_hash": "5ddeb2276952c39bf08df805281a0778"
+  },
+  "post_Atomic-Deployment-of-Go-Binaries-on-Ubuntu-with-Cron-dd7cf94cd8ab.md": {
+    "mtime": 1787268861.6284711,
+    "seen": 1787305801.495098,
+    "ast_hash": "611f61e0822e9ca7e9ad6594802faf27",
+    "semantic_hash": "611f61e0822e9ca7e9ad6594802faf27"
+  },
+  "post_Blockchain-for-beginner-6d55bb535ef0.md": {
+    "mtime": 1787268861.6492462,
+    "seen": 1787305801.4951031,
+    "ast_hash": "94d037a1f1d3acd412e90b3358e6b3f0",
+    "semantic_hash": "94d037a1f1d3acd412e90b3358e6b3f0"
+  },
+  "post_Common-Bug--Closure-Captures-a-Variable-from-the-Outer-Scope-a5ab7bed750b.md": {
+    "mtime": 1787268861.692088,
+    "seen": 1787305801.495108,
+    "ast_hash": "450b87edbf5de9fa1908d1541eba7eaf",
+    "semantic_hash": "450b87edbf5de9fa1908d1541eba7eaf"
+  },
+  "post_Connect-to-a-remote-Oracle-Database-with-Ubuntu-22-04-b1e2d803d6ec.md": {
+    "mtime": 1787268861.6178477,
+    "seen": 1787305801.4951124,
+    "ast_hash": "881e887e92e03c399ea40d059cd22a4f",
+    "semantic_hash": "881e887e92e03c399ea40d059cd22a4f"
+  },
+  "post_Convenience-Apps--A-Double-Edged-Sword-for-Humanity-1a81bd3e988e.md": {
+    "mtime": 1787268861.7111292,
+    "seen": 1787305801.4951167,
+    "ast_hash": "21d70379096673ce5c309ac01d46fdeb",
+    "semantic_hash": "21d70379096673ce5c309ac01d46fdeb"
+  },
+  "post_Git-Reset--Recovering-From-Unstable-AI-Code-Contributions-tt4ze.md": {
+    "mtime": 1787268861.663527,
+    "seen": 1787305801.495121,
+    "ast_hash": "6d7562a821158035878f5477101aac67",
+    "semantic_hash": "6d7562a821158035878f5477101aac67"
+  },
+  "post_Make-swagger-from-your-HTTP-Rest-full-in-Golang-4dc9088f5292.md": {
+    "mtime": 1787268861.609424,
+    "seen": 1787305801.4951255,
+    "ast_hash": "be68ea7df4b9fddb4f30419b488807b7",
+    "semantic_hash": "be68ea7df4b9fddb4f30419b488807b7"
+  },
+  "post_Me-Against-Myself--From-Rebellious-Idealism-to-Pragmatic-Systems-Thinking-bzrae.md": {
+    "mtime": 1787268861.616867,
+    "seen": 1787305801.4951303,
+    "ast_hash": "d92f23ba7278f70d23081177c797f4ac",
+    "semantic_hash": "d92f23ba7278f70d23081177c797f4ac"
+  },
+  "post_My-Experience-After-Four-Years-of-Migration-from-PHP-to-Golang-Language-554643db5b8e.md": {
+    "mtime": 1787268861.6138103,
+    "seen": 1787305801.4951353,
+    "ast_hash": "0b60c3102979ca7ec658fc9c5bba926b",
+    "semantic_hash": "0b60c3102979ca7ec658fc9c5bba926b"
+  },
+  "post_My-Experience-After-Three-Years-of-Migration-from-PHP-to-Golang-Language---df3fb8f466ee.md": {
+    "mtime": 1787268861.70151,
+    "seen": 1787305801.4951406,
+    "ast_hash": "2466a7d9454a35ea47678a342a4c4868",
+    "semantic_hash": "2466a7d9454a35ea47678a342a4c4868"
+  },
+  "post_My-first-application-development-with-Golang-as-a-PHP-developer--9c31e37903b8.md": {
+    "mtime": 1787268861.7065325,
+    "seen": 1787305801.4951446,
+    "ast_hash": "987701a191855ed4ed4888e3b58b89b8",
+    "semantic_hash": "987701a191855ed4ed4888e3b58b89b8"
+  },
+  "post_Navigating-the-Complexities-of-System-Design--A-Deep-Dive-into-Scalability--Microservices--and--ef3c948873eb.md": {
+    "mtime": 1787268861.6140754,
+    "seen": 1787305801.4951499,
+    "ast_hash": "dfe56f2618b054d2483567bd9dbf55bc",
+    "semantic_hash": "dfe56f2618b054d2483567bd9dbf55bc"
+  },
+  "post_Nestjs---PostgreSQL-database-with-docker-compose-and-Liquibase-faec0b09d944.md": {
+    "mtime": 1787268861.6274498,
+    "seen": 1787305801.4951577,
+    "ast_hash": "c3de39696878b31cb532826572950222",
+    "semantic_hash": "c3de39696878b31cb532826572950222"
+  },
+  "post_PHP-fpm---I-hate-you-1d17bb8a577b.md": {
+    "mtime": 1787268861.6261914,
+    "seen": 1787305801.4951665,
+    "ast_hash": "14daedfa38c143f983ef02b3151480f6",
+    "semantic_hash": "14daedfa38c143f983ef02b3151480f6"
+  },
+  "post_Python-selenium-for-crawler-data-from-website-4e45d3cc517b.md": {
+    "mtime": 1787268861.612994,
+    "seen": 1787305801.4951704,
+    "ast_hash": "e9cdc1ce64b40d9fac571e418fb91bdd",
+    "semantic_hash": "e9cdc1ce64b40d9fac571e418fb91bdd"
+  },
+  "post_Read-data-from-JSON-and-normalize-then-write-into-excel-cb7c29d1268b.md": {
+    "mtime": 1787268861.6197433,
+    "seen": 1787305801.495174,
+    "ast_hash": "03d5e1c3fe5c784ccf887f8052d9284d",
+    "semantic_hash": "03d5e1c3fe5c784ccf887f8052d9284d"
+  },
+  "post_Reading-Matlab--mat-format-Dataset-in-Python-f19c024bdb83.md": {
+    "mtime": 1787268861.7054896,
+    "seen": 1787305801.4951782,
+    "ast_hash": "25cb5e1995fdd94a2d6941ed1efbad92",
+    "semantic_hash": "25cb5e1995fdd94a2d6941ed1efbad92"
+  },
+  "post_Resolving-sql--Scan-error-When-Handling-NULL-Strings-in-Go-and-PostgreSQL-762bdf5a66b2.md": {
+    "mtime": 1787268861.6601765,
+    "seen": 1787305801.4951825,
+    "ast_hash": "625fb8fcf8d7994188bd5be810f2f25f",
+    "semantic_hash": "625fb8fcf8d7994188bd5be810f2f25f"
+  },
+  "post_Rsync-from-One-Origin-to-Multiple-Destinations--Strategies-and-Solutions----30fb79b4164d.md": {
+    "mtime": 1787268861.6190057,
+    "seen": 1787305801.4951873,
+    "ast_hash": "848ed20d54add61ecbd65b466177d0c3",
+    "semantic_hash": "848ed20d54add61ecbd65b466177d0c3"
+  },
+  "post_Small-Example-of-Solidity-Project-41cb5f9f801d.md": {
+    "mtime": 1787268861.6660738,
+    "seen": 1787305801.4951913,
+    "ast_hash": "2b210891d924c1674ee6e41b6f6fcd6e",
+    "semantic_hash": "2b210891d924c1674ee6e41b6f6fcd6e"
+  },
+  "post_index_If_my_service_or_database_is_down__the_c_208.md": {
+    "mtime": 1787268861.7402656,
+    "seen": 1787305801.4951963,
+    "ast_hash": "0d8e6ea3883f10452a34298873acaec9",
+    "semantic_hash": "0d8e6ea3883f10452a34298873acaec9"
+  },
+  "post_index_Images_SEO_Optimization_when_the_quality_245.md": {
+    "mtime": 1787268861.7472427,
+    "seen": 1787305801.4952013,
+    "ast_hash": "548eb39794b07b591dfe2a650cd63582",
+    "semantic_hash": "548eb39794b07b591dfe2a650cd63582"
+  },
+  "post_index_Impelient_Bank_Mellat_Payment_Gateway_in_86.md": {
+    "mtime": 1787268861.7295153,
+    "seen": 1787305801.4952059,
+    "ast_hash": "52e92d489671449baf5782cd2c90a35c",
+    "semantic_hash": "52e92d489671449baf5782cd2c90a35c"
+  },
+  "post_index_Implementing_Ownership_and_Authenticatio_130.md": {
+    "mtime": 1787268861.7333152,
+    "seen": 1787305801.4952106,
+    "ast_hash": "c87483c8a16ab20e03307360546ce0f2",
+    "semantic_hash": "c87483c8a16ab20e03307360546ce0f2"
+  },
+  "post_index_Implementing_a_Custom_JSON_Unmarshaller__77.md": {
+    "mtime": 1787268861.7288396,
+    "seen": 1787305801.4952173,
+    "ast_hash": "89cd757e8620afb34cac6fbab849d187",
+    "semantic_hash": "89cd757e8620afb34cac6fbab849d187"
+  },
+  "post_index_Improve_speed_of_Machine_Learning_API__E_233.md": {
+    "mtime": 1787268861.7458768,
+    "seen": 1787305801.4952211,
+    "ast_hash": "65246ffd3a082c10d7fb417278f1d106",
+    "semantic_hash": "65246ffd3a082c10d7fb417278f1d106"
+  },
+  "post_index_Incredible_futures_of_buf_to_generate_Pr_121.md": {
+    "mtime": 1787268861.7326272,
+    "seen": 1787305801.495226,
+    "ast_hash": "cca2eaf3a394f077c5b467c71e78f4a2",
+    "semantic_hash": "cca2eaf3a394f077c5b467c71e78f4a2"
+  },
+  "post_index_Install_CakePHP_application_on_server_wi_205.md": {
+    "mtime": 1787268861.739891,
+    "seen": 1787305801.4952302,
+    "ast_hash": "bd057de6d6bdfb090954e6a1a618cb24",
+    "semantic_hash": "bd057de6d6bdfb090954e6a1a618cb24"
+  },
+  "post_index_Integrating_Multiple_Databases__Inmon_vs_50.md": {
+    "mtime": 1787268861.7264915,
+    "seen": 1787305801.4952354,
+    "ast_hash": "a14b79e60ec641a16deed41b9e0bfc00",
+    "semantic_hash": "a14b79e60ec641a16deed41b9e0bfc00"
+  },
+  "post_index_Integrating_SQLC_and_GraphQL_in_Go__A_Pr_33.md": {
+    "mtime": 1787268861.7248924,
+    "seen": 1787305801.4952402,
+    "ast_hash": "df0a270378ca2cc38213bd3efce8bde3",
+    "semantic_hash": "df0a270378ca2cc38213bd3efce8bde3"
+  },
+  "post_index_Integrating_Zarinpal_Payment_Gateway_in__125.md": {
+    "mtime": 1787268861.7329211,
+    "seen": 1787305801.4952464,
+    "ast_hash": "aad6b7132f4c7b7ca74952f74337ae90",
+    "semantic_hash": "aad6b7132f4c7b7ca74952f74337ae90"
+  },
+  "post_index_Introducing_Buf_for_Protobuf_122.md": {
+    "mtime": 1787268861.7326975,
+    "seen": 1787305801.4952507,
+    "ast_hash": "ecc18f6d28510d5e54e3a3c642f28ca0",
+    "semantic_hash": "ecc18f6d28510d5e54e3a3c642f28ca0"
+  },
+  "post_index_Introduction_to_AWS_DynamoDB_for_Golang__120.md": {
+    "mtime": 1787268861.7325318,
+    "seen": 1787305801.495256,
+    "ast_hash": "0f04f1b85683d0df8262e69bd4c3838d",
+    "semantic_hash": "0f04f1b85683d0df8262e69bd4c3838d"
+  },
+  "post_index_Liquibase_Hello_world_196.md": {
+    "mtime": 1787268861.7390015,
+    "seen": 1787305801.4952614,
+    "ast_hash": "924004829a5e1b189eb4d25e40252954",
+    "semantic_hash": "924004829a5e1b189eb4d25e40252954"
+  },
+  "post_index_Make_Crowdfunding_Smart_Contract_using_S_166.md": {
+    "mtime": 1787268861.7366312,
+    "seen": 1787305801.4952662,
+    "ast_hash": "bfed296113fbfac0e799ca463806ff8b",
+    "semantic_hash": "bfed296113fbfac0e799ca463806ff8b"
+  },
+  "post_index_Make_simple_CRUD_requests_with_NestJS_136.md": {
+    "mtime": 1787268861.7337675,
+    "seen": 1787305801.4952714,
+    "ast_hash": "aa246a216a217604f888034cc42f2f23",
+    "semantic_hash": "aa246a216a217604f888034cc42f2f23"
+  },
+  "post_index_Making_docker_for_llama3_RAG_system_139.md": {
+    "mtime": 1787268861.7340496,
+    "seen": 1787305801.4952762,
+    "ast_hash": "782c79708ab757b1e1e17fc319493175",
+    "semantic_hash": "782c79708ab757b1e1e17fc319493175"
+  },
+  "post_index_MongoDB_and_GraphQL_in_the_Nestjs_127.md": {
+    "mtime": 1787268861.7330804,
+    "seen": 1787305801.4952812,
+    "ast_hash": "dc426c77e3456fafc230a1bcd2ffabc4",
+    "semantic_hash": "dc426c77e3456fafc230a1bcd2ffabc4"
+  },
+  "post_index_My_experience_to_build_a_CQRS_system_wit_195.md": {
+    "mtime": 1787268861.7389357,
+    "seen": 1787305801.4952862,
+    "ast_hash": "33057844aa4fda2e5e7099bb0599a55a",
+    "semantic_hash": "33057844aa4fda2e5e7099bb0599a55a"
+  },
+  "post_index_My_solution_for_designing_a_resilient_sy_209.md": {
+    "mtime": 1787268861.7403688,
+    "seen": 1787305801.495292,
+    "ast_hash": "9dd1c71066b060f720ad191c509222e1",
+    "semantic_hash": "9dd1c71066b060f720ad191c509222e1"
+  },
+  "post_index_Nats_Jet_Strem__Hello_World_204.md": {
+    "mtime": 1787268861.7397785,
+    "seen": 1787305801.495297,
+    "ast_hash": "497b6c02c54a5ea9133e61f021669d82",
+    "semantic_hash": "497b6c02c54a5ea9133e61f021669d82"
+  },
+  "post_index_Nestjs___PostgreSQL_database_with_docker_133.md": {
+    "mtime": 1787268861.73354,
+    "seen": 1787305801.4953022,
+    "ast_hash": "23323dee27831964ea4cff25348ed3b4",
+    "semantic_hash": "23323dee27831964ea4cff25348ed3b4"
+  },
+  "post_index_Ory_Kratos_Hello_world_197.md": {
+    "mtime": 1787268861.7390711,
+    "seen": 1787305801.4953067,
+    "ast_hash": "aad79bd255e7f36faa5913458e12c813",
+    "semantic_hash": "aad79bd255e7f36faa5913458e12c813"
+  },
+  "post_index_Ory_Oathkeeper_Hello_world_198.md": {
+    "mtime": 1787268861.7391386,
+    "seen": 1787305801.4953122,
+    "ast_hash": "c9a6a445f086c73a0271b6116dabd201",
+    "semantic_hash": "c9a6a445f086c73a0271b6116dabd201"
+  },
+  "post_index_PostgreSQL_Concurrency__Locking__and_Iso_116.md": {
+    "mtime": 1787268861.732048,
+    "seen": 1787305801.4953227,
+    "ast_hash": "d3ce044f2bdcc2664ff4a3e914274ef2",
+    "semantic_hash": "d3ce044f2bdcc2664ff4a3e914274ef2"
+  },
+  "post_index_PostgreSQL_Foreign_Data_Wrappers_for_Dat_49.md": {
+    "mtime": 1787268861.7264018,
+    "seen": 1787305801.4953272,
+    "ast_hash": "d6c20772c249bd6e37ed3ecce7d5a460",
+    "semantic_hash": "d6c20772c249bd6e37ed3ecce7d5a460"
+  },
+  "post_index_Preventing_Race_Conditions_in_Kubernetes_42.md": {
+    "mtime": 1787268861.725728,
+    "seen": 1787305801.4953313,
+    "ast_hash": "1e26991d3efb5335a0f5392d66094da5",
+    "semantic_hash": "1e26991d3efb5335a0f5392d66094da5"
+  },
+  "post_index_Run_test_case_in_Golnag_with__env_file_200.md": {
+    "mtime": 1787268861.7393153,
+    "seen": 1787305801.4953356,
+    "ast_hash": "d1d671efb57799c2c80d5552660ab539",
+    "semantic_hash": "d1d671efb57799c2c80d5552660ab539"
+  },
+  "post_index_Securing_the_Admin_Layer_in_Go_with_JWT__61.md": {
+    "mtime": 1787268861.7273507,
+    "seen": 1787305801.49534,
+    "ast_hash": "186de0e6381c5c4d1e67941db77205b2",
+    "semantic_hash": "186de0e6381c5c4d1e67941db77205b2"
+  },
+  "post_index_Step_by_Step_Guide_to_Adding_gRPC_to_go__62.md": {
+    "mtime": 1787268861.727428,
+    "seen": 1787305801.4953444,
+    "ast_hash": "916561c39b5d906396968f2defcdf49b",
+    "semantic_hash": "916561c39b5d906396968f2defcdf49b"
+  },
+  "post_index_The_Best_Design_Pattern_for_Query_Based__60.md": {
+    "mtime": 1787268861.7272732,
+    "seen": 1787305801.4953504,
+    "ast_hash": "0d4c068d8277e3dd57bbd02e7702cc08",
+    "semantic_hash": "0d4c068d8277e3dd57bbd02e7702cc08"
+  },
+  "post_index_The_Hidden_Costs_of_Shared_Databases_in__52.md": {
+    "mtime": 1787268861.7266688,
+    "seen": 1787305801.4953554,
+    "ast_hash": "98880e473c5cd8923c6e95adc0574026",
+    "semantic_hash": "98880e473c5cd8923c6e95adc0574026"
+  },
+  "post_index_Tracking_system_request_with_Open_teleme_193.md": {
+    "mtime": 1787268861.7387767,
+    "seen": 1787305801.495361,
+    "ast_hash": "a3ed21763df0b8de701bfc3663728e3a",
+    "semantic_hash": "a3ed21763df0b8de701bfc3663728e3a"
+  },
+  "post_index_Transform_database_bottleneck_in_softwar_184.md": {
+    "mtime": 1787268861.737943,
+    "seen": 1787305801.4953659,
+    "ast_hash": "ac6e62358478f4fb14167b3395cca871",
+    "semantic_hash": "ac6e62358478f4fb14167b3395cca871"
+  },
+  "post_index_Using_open_telemetry_in_Golang_179.md": {
+    "mtime": 1787268861.7375944,
+    "seen": 1787305801.4953697,
+    "ast_hash": "3fed289d68840c42bda817690f023575",
+    "semantic_hash": "3fed289d68840c42bda817690f023575"
+  },
+  "post_index_using_redis_and_nginx_cache_are_very_goo_234.md": {
+    "mtime": 1787268861.7459965,
+    "seen": 1787305801.4953747,
+    "ast_hash": "f300466cb3af65879eff1376e03a847f",
+    "semantic_hash": "f300466cb3af65879eff1376e03a847f"
+  },
+  "aparat_video_\u0628\u0627\u0632\u06cc_\u0634\u0637\u0631\u0646\u062c_\u0628\u0627_\u0642\u0648\u0627\u0639\u062f_\u0645\u0646\u0686_8.md": {
+    "mtime": 1790344141.0057268,
+    "seen": 1790345139.0353086,
+    "ast_hash": "b2fe8e33947db47fbfc48b7d273259ef",
+    "semantic_hash": "b2fe8e33947db47fbfc48b7d273259ef"
+  },
+  "aparat_video_\u0628\u06cc\u0646\u0627\u06cc\u0627\u0631_\u0648\u0631\u0698\u0646_\u06f1_\u06f1\u06f1_\u0645\u0642\u0627\u06cc\u0633\u0647_\u0686\u0647\u0631\u0647_\u0647\u0627\u06cc_\u0648\u0631\u0648\u062f\u06cc__0.md": {
+    "mtime": 1790344141.004701,
+    "seen": 1790345139.0353131,
+    "ast_hash": "654937e662a8245c1a6dacfa37f87362",
+    "semantic_hash": "654937e662a8245c1a6dacfa37f87362"
+  },
+  "aparat_video_\u062a\u0648\u0636\u06cc\u062d\u0627\u062a_\u0641\u0646\u06cc_\u067e\u0646\u0644_\u0628\u06cc\u0646\u0627\u06cc\u0627\u0631_1.md": {
+    "mtime": 1790344141.0048647,
+    "seen": 1790345139.0353155,
+    "ast_hash": "9ff980e526577b0840747cecae197967",
+    "semantic_hash": "9ff980e526577b0840747cecae197967"
+  },
+  "aparat_video_\u062c\u0644\u0633\u0647_\u0627\u0648\u0644_\u0644\u06cc\u0646\u0648\u06a9\u0633_\u0628\u0631\u0627\u06cc_\u0647\u0645\u0647_9.md": {
+    "mtime": 1790344141.00585,
+    "seen": 1790345139.0353172,
+    "ast_hash": "f3a436ed0f3d58e9907a573e1c814cb6",
+    "semantic_hash": "f3a436ed0f3d58e9907a573e1c814cb6"
+  },
+  "aparat_video_\u0633\u0645\u06cc\u0646\u0627\u0631_\u0646\u0631\u0645_\u0627\u0641\u0632\u0627\u0631_\u0647\u0627\u06cc_\u0622\u0632\u0627\u062f_10.md": {
+    "mtime": 1790344141.0059655,
+    "seen": 1790345139.0353189,
+    "ast_hash": "2e620f44b023ce1df478209c7412df9e",
+    "semantic_hash": "2e620f44b023ce1df478209c7412df9e"
+  },
+  "aparat_video_\u0686\u0631\u0627_\u0622\u0632\u0627\u062f\u06cc_\u0628\u062e\u0634_\u0645\u0647\u0645\u06cc_\u0627\u0632_\u0622\u06cc\u0646\u062f\u0647_\u0648\u0628_\u0627\u0633\u062a__\u0641\u06cc\u0644\u0645_7.md": {
+    "mtime": 1790344141.0056028,
+    "seen": 1790345139.0353203,
+    "ast_hash": "d2430b5c464d4e0504d0ec258a0ff1fb",
+    "semantic_hash": "d2430b5c464d4e0504d0ec258a0ff1fb"
+  },
+  "aparat_video_\u0686\u0631\u0627_\u0644\u06cc\u0646\u0648\u06a9\u0633_\u0628\u0647\u062a\u0631_\u0627\u0632_\u0648\u06cc\u0646\u062f\u0648\u0632_\u0627\u0633\u062a____\u0627\u0648\u0628\u0648\u0646\u062a\u0648_12.md": {
+    "mtime": 1790344141.0062354,
+    "seen": 1790345139.0353222,
+    "ast_hash": "1db95ce85a12b0e9f58cead49d16e195",
+    "semantic_hash": "1db95ce85a12b0e9f58cead49d16e195"
+  },
+  "aparat_video_\u0686\u0631\u0627_\u0644\u06cc\u0646\u0648\u06a9\u0633_\u0628\u0647\u062a\u0631_\u0627\u0632_\u0648\u06cc\u0646\u062f\u0648\u0632_\u0627\u0633\u062a___\u0648\u0628\u0646\u062f\u0648\u0632__11.md": {
+    "mtime": 1790344141.0060785,
+    "seen": 1790345139.0353236,
+    "ast_hash": "6b6d710146e50978120d4c42558b14ae",
+    "semantic_hash": "6b6d710146e50978120d4c42558b14ae"
+  },
+  "aparat_video_\u0686\u06af\u0648\u0646\u0647_\u06a9\u0633\u0631_\u062e\u062f\u0645\u062a_\u0646\u062e\u0628\u06af\u0627\u0646_\u0628\u06af\u06cc\u0631\u06cc\u0645__2.md": {
+    "mtime": 1790344141.0049894,
+    "seen": 1790345139.0353248,
+    "ast_hash": "74016ec41e02313d4c319d1c46e1212b",
+    "semantic_hash": "74016ec41e02313d4c319d1c46e1212b"
+  },
+  "aparat_video_\u0686\u06af\u0648\u0646\u0647_\u06a9\u0633\u0631_\u062e\u062f\u0645\u062a_\u0646\u062e\u0628\u06af\u0627\u0646_\u0628\u06af\u06cc\u0631\u06cc\u0645__4.md": {
+    "mtime": 1790344141.005231,
+    "seen": 1790345139.0353262,
+    "ast_hash": "d9f0984db87d935ca6aa1266d87b77f8",
+    "semantic_hash": "d9f0984db87d935ca6aa1266d87b77f8"
+  },
+  "aparat_video_\u06a9\u0627\u0631\u0645\u0646\u062f_\u062f\u0648\u0646_\u067e\u0627\u06cc\u0647_5.md": {
+    "mtime": 1790344141.005345,
+    "seen": 1790345139.0353277,
+    "ast_hash": "3674292518d5c91966aa71b249cfc85b",
+    "semantic_hash": "3674292518d5c91966aa71b249cfc85b"
+  },
+  "aparat_video_\u06a9\u0633\u0631_\u062e\u062f\u0645\u062a_\u0633\u0631\u0628\u0627\u0632\u06cc_3.md": {
+    "mtime": 1790344141.0051048,
+    "seen": 1790345139.035329,
+    "ast_hash": "07c0d459adc4d81fc04e39cbfc35259d",
+    "semantic_hash": "07c0d459adc4d81fc04e39cbfc35259d"
+  },
+  "post_Best-List-of-Vscode-Plugin-as-Golang-developer-in-Backend-position-4c3c945a903c.md": {
+    "mtime": 1790344140.909611,
+    "seen": 1790345139.0353305,
+    "ast_hash": "4af958394014430d1b2edc1c2a53c6bd",
+    "semantic_hash": "4af958394014430d1b2edc1c2a53c6bd"
+  },
+  "post_Breaking-Free-from-the--I-m-Good--You-re-Bad--Mindset--Transforming-Competitive-Culture-into--cc5a64a3bfc6.md": {
+    "mtime": 1790344140.912295,
+    "seen": 1790345139.0353315,
+    "ast_hash": "257cf0d3fed719464f9b33fc50cee531",
+    "semantic_hash": "257cf0d3fed719464f9b33fc50cee531"
+  },
+  "post_Breaking-the-Cycle-of-Workplace-Overwhelm--Strategies-for-Healthier--More-Productive-Teams-5a00f94922ee.md": {
+    "mtime": 1790344140.890363,
+    "seen": 1790345139.0353327,
+    "ast_hash": "461e89c6cd08576beb14967def996552",
+    "semantic_hash": "461e89c6cd08576beb14967def996552"
+  },
+  "post_Common-Bug-in-Calculate--Understanding-omitempty-and-Integer-Division-in-Go-d8c5b8da86a1.md": {
+    "mtime": 1790344140.9561956,
+    "seen": 1790345139.0353339,
+    "ast_hash": "b2ee4f4cdd437710a77100f6cf5ba7ae",
+    "semantic_hash": "b2ee4f4cdd437710a77100f6cf5ba7ae"
+  },
+  "post_Debug-Golang-with-vscode-e749e9c0c94e.md": {
+    "mtime": 1790344140.9267635,
+    "seen": 1790345139.0353348,
+    "ast_hash": "0058f216bbc3c01f899d595ca55af3c7",
+    "semantic_hash": "0058f216bbc3c01f899d595ca55af3c7"
+  },
+  "post_Effect-of-Inflation-on-IT-company-culture-in-Iran-dd1a5ade1605.md": {
+    "mtime": 1790344140.8623703,
+    "seen": 1790345139.035336,
+    "ast_hash": "288c5de783baa36d32bb69d4d223343d",
+    "semantic_hash": "288c5de783baa36d32bb69d4d223343d"
+  },
+  "post_From-Database-Backed-Sessions-to-JWT-Authorization-in-NestJS-dcbfb6929d40.md": {
+    "mtime": 1790344140.8802302,
+    "seen": 1790345139.035337,
+    "ast_hash": "dc6844eab5e0c32de4997deadf703d0d",
+    "semantic_hash": "dc6844eab5e0c32de4997deadf703d0d"
+  },
+  "post_From-a-49-Second-KPI-Request-to-an-840-Millisecond-Response-eqtce.md": {
+    "mtime": 1790344140.9552205,
+    "seen": 1790345139.035338,
+    "ast_hash": "f036cc4b6b9a5da0337962318359d58f",
+    "semantic_hash": "f036cc4b6b9a5da0337962318359d58f"
+  },
+  "post_Generate-a-Guided-Wizard-for-End-Users-from-the-Derived-Flow-Graph-1fd65e7916ff.md": {
+    "mtime": 1790344140.87307,
+    "seen": 1790345139.035339,
+    "ast_hash": "8982f5d3fafb83221607192d845adfc6",
+    "semantic_hash": "8982f5d3fafb83221607192d845adfc6"
+  },
+  "post_How-I-Made-a-Chatbot-With-My-Knowledge--Turning-My-Technical-Articles-into-a-GraphRAG-Assistant-d3d95c3c8e52.md": {
+    "mtime": 1790344140.9528306,
+    "seen": 1790345139.03534,
+    "ast_hash": "c46c8e81460c613cb6d6f845fbb204a4",
+    "semantic_hash": "c46c8e81460c613cb6d6f845fbb204a4"
+  },
+  "post_How-I-Would-Build-MobinAI--A-GraphRAG-Chatbot-for-200-Technical-Articles-dez6e.md": {
+    "mtime": 1790344140.871975,
+    "seen": 1790345139.035341,
+    "ast_hash": "1e38c546a95338cfc5211001abfeb8b6",
+    "semantic_hash": "1e38c546a95338cfc5211001abfeb8b6"
+  },
+  "post_How-does-a-software-Engineer-avoid-a-lousy-lifestyle-and-a-bad-diet--37742278fbb5.md": {
+    "mtime": 1790344140.964083,
+    "seen": 1790345139.035342,
+    "ast_hash": "3b0e91819329bf7ca403887882ab6cd0",
+    "semantic_hash": "3b0e91819329bf7ca403887882ab6cd0"
+  },
+  "post_How-to-Fix--Cannot-Connect-to-Docker-Daemon--Error-on-Ubuntu-Linux-a2f25a79d786.md": {
+    "mtime": 1790344140.9426785,
+    "seen": 1790345139.0353434,
+    "ast_hash": "c1034521ac12963ca71cc5191f9dc7a0",
+    "semantic_hash": "c1034521ac12963ca71cc5191f9dc7a0"
+  },
+  "post_I-have-seen-the-various-personalities-of-developers--based-on-the-DISC-personality-Test-288dfec6b3fa.md": {
+    "mtime": 1790344140.9843848,
+    "seen": 1790345139.0353444,
+    "ast_hash": "401bb57d35e8f3d7478cc8395ff0d40c",
+    "semantic_hash": "401bb57d35e8f3d7478cc8395ff0d40c"
+  },
+  "post_Images-SEO-Optimization-when-the-quality-of-images-is-very-important-for-customers-or-designers-c1165d184e30.md": {
+    "mtime": 1790344140.9752333,
+    "seen": 1790345139.0353453,
+    "ast_hash": "ced53681812460ea72d3afd849e942e3",
+    "semantic_hash": "ced53681812460ea72d3afd849e942e3"
+  },
+  "post_Increase-hard-disk-of-linux-os---stressful-working-d2dfcc1f208b.md": {
+    "mtime": 1790344140.9261212,
+    "seen": 1790345139.0353465,
+    "ast_hash": "a80ea669000d6c555e66aaad82fac5bb",
+    "semantic_hash": "a80ea669000d6c555e66aaad82fac5bb"
+  },
+  "post_MACD-or-Moving-average-convergence-divergence-traditional-way-for-trading-d671108e3e9a.md": {
+    "mtime": 1790344140.9278274,
+    "seen": 1790345139.0353477,
+    "ast_hash": "5a7b14a986fe4077fa5c49fcdbeb27e8",
+    "semantic_hash": "5a7b14a986fe4077fa5c49fcdbeb27e8"
+  },
+  "post_Make-Pdf-in-Cakephp-with-UTF-8-for-print-in-label-printer-f6d172423eff.md": {
+    "mtime": 1790344140.935153,
+    "seen": 1790345139.035349,
+    "ast_hash": "1fa91ec970620aa97a9caf7903c090fd",
+    "semantic_hash": "1fa91ec970620aa97a9caf7903c090fd"
+  },
+  "post_My-Motivation-for-Becoming-a-Developer-568e6a7774ab.md": {
+    "mtime": 1790344140.898424,
+    "seen": 1790345139.03535,
+    "ast_hash": "183d0c4d5114c641512870e824a76c90",
+    "semantic_hash": "183d0c4d5114c641512870e824a76c90"
+  },
+  "post_One-Pipeline--Three-Ways-to-Consume-It--Designing-Multi-Channel-KPI-Distribution-on-ClickHouse-medium.md": {
+    "mtime": 1790344140.9448612,
+    "seen": 1790345139.035351,
+    "ast_hash": "8e074e273feec78a0f374a1c07c50789",
+    "semantic_hash": "8e074e273feec78a0f374a1c07c50789"
+  },
+  "post_Problem-with-installing-MongoDB-on-Ubuntu-22-04--and-Mongo-express-is-an-immediate-solution--9b070ba244e.md": {
+    "mtime": 1790344140.9056664,
+    "seen": 1790345139.035352,
+    "ast_hash": "e37af2fce46bf87e26a4129bcefe43ba",
+    "semantic_hash": "e37af2fce46bf87e26a4129bcefe43ba"
+  },
+  "post_Query-Federation--A-Practical-Guide-to-Modern-Data-Virtualization-v7qoe.md": {
+    "mtime": 1790344140.9086318,
+    "seen": 1790345139.0353534,
+    "ast_hash": "ca80c8eae33acee9b06bf44ea2f21106",
+    "semantic_hash": "ca80c8eae33acee9b06bf44ea2f21106"
+  },
+  "post_Redirect-port-from-one-server-to-port-of-another-server-via-Iptables-7d77f37d7fa0.md": {
+    "mtime": 1790344140.9282312,
+    "seen": 1790345139.0353544,
+    "ast_hash": "3495833031da04861e3de961e95511ea",
+    "semantic_hash": "3495833031da04861e3de961e95511ea"
+  },
+  "post_Run-Cronjob-in-python-1d0616113a77.md": {
+    "mtime": 1790344140.905441,
+    "seen": 1790345139.0353556,
+    "ast_hash": "c2fa247da1f144816cfb4c7c9c422a92",
+    "semantic_hash": "c2fa247da1f144816cfb4c7c9c422a92"
+  },
+  "post_Run-test-case-in-Golnag-with--env-file-520616cbb54a.md": {
+    "mtime": 1790344140.8861094,
+    "seen": 1790345139.0353568,
+    "ast_hash": "bfbaedcf46b2a8fe72cc61a64d1b8cbf",
+    "semantic_hash": "bfbaedcf46b2a8fe72cc61a64d1b8cbf"
+  },
+  "post_Stop-Picking-an-AI-Model--Start-Picking-a-Capability-3bf2eeb9bf2d.md": {
+    "mtime": 1790344140.9061515,
+    "seen": 1790345139.0353577,
+    "ast_hash": "0b7c9c5835e4ee25dc7f267056af4a51",
+    "semantic_hash": "0b7c9c5835e4ee25dc7f267056af4a51"
+  },
+  "post_The-High-Cost-of-Toxicity--Why-Insults--Humiliation--and-Blame-Are-Killing-Your-Workplace-Culture-e3fe8e3645f7.md": {
+    "mtime": 1790344140.876054,
+    "seen": 1790345139.0353587,
+    "ast_hash": "af4c5817e114ed48c4f780ac0f253274",
+    "semantic_hash": "af4c5817e114ed48c4f780ac0f253274"
+  },
+  "post_The-Human-Side-of-Bug-Fixing-in-Software-Development---Tell-me-you-re-good-enough-so-I-can-fix-the--d9510fb6dfce.md": {
+    "mtime": 1790344140.9066916,
+    "seen": 1790345139.0353608,
+    "ast_hash": "dd974e75c296539965b3d4dfaaa2c42c",
+    "semantic_hash": "dd974e75c296539965b3d4dfaaa2c42c"
+  },
+  "post_The-devil-is-in-the-details--meaning-in-software-development-9349cd490122.md": {
+    "mtime": 1790344140.9194005,
+    "seen": 1790345139.0353622,
+    "ast_hash": "a82f2877abf8ede40c12e6b2f01b2396",
+    "semantic_hash": "a82f2877abf8ede40c12e6b2f01b2396"
+  },
+  "post_Vibe-Coding-Your-Everyday-Math--Turning-Personal-Questions-into-Small--Trustworthy-Tools-85d5e6454303.md": {
+    "mtime": 1790344140.878518,
+    "seen": 1790345139.0353646,
+    "ast_hash": "fa9dfd9fe1ee933e906e895abe79ca7b",
+    "semantic_hash": "fa9dfd9fe1ee933e906e895abe79ca7b"
+  },
+  "post_Why-Large-Database-Refactors-Need-Isolated-Development-Databases-b2584413a5f5.md": {
+    "mtime": 1790344140.8700583,
+    "seen": 1790345139.035373,
+    "ast_hash": "b7aa96e9de5a1951e9c6d5dc5ccb14f1",
+    "semantic_hash": "b7aa96e9de5a1951e9c6d5dc5ccb14f1"
+  },
+  "post_index_Can_you_say_what_is_the_usual_size_of_do_164.md": {
+    "mtime": 1790344141.0350013,
+    "seen": 1790345139.0353742,
+    "ast_hash": "2785f369d7396d7a98e9e6fd9ec3899e",
+    "semantic_hash": "2785f369d7396d7a98e9e6fd9ec3899e"
+  },
+  "post_index_Code_Refactoring__Eliminating_Duplicatio_66.md": {
+    "mtime": 1790344141.021769,
+    "seen": 1790345139.0353754,
+    "ast_hash": "f15f498f3574e0b72e5018e4ae037203",
+    "semantic_hash": "f15f498f3574e0b72e5018e4ae037203"
+  },
+  "post_index_Combining_SQLC_and_GraphQL_in_Go_for_Typ_34.md": {
+    "mtime": 1790344141.0170646,
+    "seen": 1790345139.0353765,
+    "ast_hash": "6375e0a0ea6c8fb93a4f0d51c5e2f0c3",
+    "semantic_hash": "6375e0a0ea6c8fb93a4f0d51c5e2f0c3"
+  },
+  "post_index_Complete_Guide__Migrating_from_REST___gR_40.md": {
+    "mtime": 1790344141.0181453,
+    "seen": 1790345139.0353777,
+    "ast_hash": "1a0201450bd5983e782a7953375ce0a0",
+    "semantic_hash": "1a0201450bd5983e782a7953375ce0a0"
+  },
+  "post_index_Comprehensive_Overview_of_Microsoft_SQL__53.md": {
+    "mtime": 1790344141.0202334,
+    "seen": 1790345139.0353787,
+    "ast_hash": "76699bb2f411fbce014aab35416bec8d",
+    "semantic_hash": "76699bb2f411fbce014aab35416bec8d"
+  },
+  "post_index_Configuration_Prometheus_for_Golang_lang_188.md": {
+    "mtime": 1790344141.0372577,
+    "seen": 1790345139.0353796,
+    "ast_hash": "32001eacad4fc03e469ead065aff808b",
+    "semantic_hash": "32001eacad4fc03e469ead065aff808b"
+  },
+  "post_index_Connect_to_a_remote_Oracle_Database_with_54.md": {
+    "mtime": 1790344141.0203323,
+    "seen": 1790345139.0353808,
+    "ast_hash": "1f5ca03542f5ff86352103b3a7d5d848",
+    "semantic_hash": "1f5ca03542f5ff86352103b3a7d5d848"
+  },
+  "post_index_Connect_to_google_cloud_object_storage_w_183.md": {
+    "mtime": 1790344141.0368118,
+    "seen": 1790345139.0353818,
+    "ast_hash": "fde56c99a4d5aba562f6a3250e0477d5",
+    "semantic_hash": "fde56c99a4d5aba562f6a3250e0477d5"
+  },
+  "post_index_Convenience_Apps__A_Double_Edged_Sword_f_91.md": {
+    "mtime": 1790344141.0245497,
+    "seen": 1790345139.0353827,
+    "ast_hash": "f78873a42cafa885eac73cc51d2da2a8",
+    "semantic_hash": "f78873a42cafa885eac73cc51d2da2a8"
+  },
+  "post_index_Data_Driven_Approach_to_Building_an_Effe_146.md": {
+    "mtime": 1790344141.0326343,
+    "seen": 1790345139.0353842,
+    "ast_hash": "3a69de2baa968b213de4b95bb2620425",
+    "semantic_hash": "3a69de2baa968b213de4b95bb2620425"
+  },
+  "post_index_Database_Deep_Dive__Exploring_Storage_En_105.md": {
+    "mtime": 1790344141.0271816,
+    "seen": 1790345139.0353851,
+    "ast_hash": "9ad8e92f0a0fbcfe9cb60036db29b64c",
+    "semantic_hash": "9ad8e92f0a0fbcfe9cb60036db29b64c"
+  },
+  "post_index_Database_Migration_Mismatch__The__Hash_C_36.md": {
+    "mtime": 1790344141.0174458,
+    "seen": 1790345139.035386,
+    "ast_hash": "dd5aa8463802bdeb65f34c9ef0b55e50",
+    "semantic_hash": "dd5aa8463802bdeb65f34c9ef0b55e50"
+  },
+  "post_index_Database_Seeder_Implementation_in_the_Go_20.md": {
+    "mtime": 1790344141.0148964,
+    "seen": 1790345139.0353873,
+    "ast_hash": "e648c98357fedda7d445f969940fd05a",
+    "semantic_hash": "e648c98357fedda7d445f969940fd05a"
+  },
+  "post_index_Dear_Silvio__the_problem_is_solved_by_ad_239.md": {
+    "mtime": 1790344141.0425992,
+    "seen": 1790345139.0353885,
+    "ast_hash": "c71160d983b9af42d9a7c058a66bbe8a",
+    "semantic_hash": "c71160d983b9af42d9a7c058a66bbe8a"
+  },
+  "post_index_Debug_Golang_with_vscode_202.md": {
+    "mtime": 1790344141.0387,
+    "seen": 1790345139.03539,
+    "ast_hash": "04840a1957dc63584b7ad7612b5edb32",
+    "semantic_hash": "04840a1957dc63584b7ad7612b5edb32"
+  },
+  "post_index_Deploy_smart_contract_and_connect_with_g_171.md": {
+    "mtime": 1790344141.0357578,
+    "seen": 1790345139.035391,
+    "ast_hash": "8ba64e1f2ab68c042e32f2bb2f5e3655",
+    "semantic_hash": "8ba64e1f2ab68c042e32f2bb2f5e3655"
+  },
+  "post_index_Design_daily_FAQ_maker_with_AI__141.md": {
+    "mtime": 1790344141.032008,
+    "seen": 1790345139.0353923,
+    "ast_hash": "2e7d6e71b56600d4286c37d2f9d05200",
+    "semantic_hash": "2e7d6e71b56600d4286c37d2f9d05200"
+  },
+  "post_index_Design_specifications_for_a_click_based__123.md": {
+    "mtime": 1790344141.0290263,
+    "seen": 1790345139.0353932,
+    "ast_hash": "bff8f95be7b6da5484b29ab92b40c239",
+    "semantic_hash": "bff8f95be7b6da5484b29ab92b40c239"
+  },
+  "post_index_Designing_a_Scalable_Poller_Dispatcher_W_32.md": {
+    "mtime": 1790344141.0166998,
+    "seen": 1790345139.0353947,
+    "ast_hash": "1d074cc5e6d9bad4239ef9a2dce610f2",
+    "semantic_hash": "1d074cc5e6d9bad4239ef9a2dce610f2"
+  },
+  "post_index_Docker_Compose_Setup_for_MongoDB__Redis__126.md": {
+    "mtime": 1790344141.0293105,
+    "seen": 1790345139.0353956,
+    "ast_hash": "4cc5cf95a22f155e448185180bb6e725",
+    "semantic_hash": "4cc5cf95a22f155e448185180bb6e725"
+  },
+  "post_index_Effect_of_Inflation_on_IT_company_cultur_192.md": {
+    "mtime": 1790344141.0377455,
+    "seen": 1790345139.0353966,
+    "ast_hash": "6f40163b74d8f9a3f2d67c31077da4d1",
+    "semantic_hash": "6f40163b74d8f9a3f2d67c31077da4d1"
+  },
+  "post_index_Eliminating_Code_Duplication_in_Go_with__45.md": {
+    "mtime": 1790344141.018972,
+    "seen": 1790345139.035398,
+    "ast_hash": "2f3331d356cd0fd938279f64ef46c76f",
+    "semantic_hash": "2f3331d356cd0fd938279f64ef46c76f"
+  },
+  "post_index_Environment_Configuration_in_Go__Managin_55.md": {
+    "mtime": 1790344141.020428,
+    "seen": 1790345139.035399,
+    "ast_hash": "ff4d790d829ac0ca1403b0a0700408e6",
+    "semantic_hash": "ff4d790d829ac0ca1403b0a0700408e6"
+  },
+  "post_index_Essential_VS_Code_Extensions_for_Go_Deve_57.md": {
+    "mtime": 1790344141.0206544,
+    "seen": 1790345139.0354,
+    "ast_hash": "1525974fc8ef7ae4ff93b368e806ac63",
+    "semantic_hash": "1525974fc8ef7ae4ff93b368e806ac63"
+  },
+  "post_index_Ethereum_for_beginner_174.md": {
+    "mtime": 1790344141.0360155,
+    "seen": 1790345139.0354009,
+    "ast_hash": "07622da35add62c142c98ea8cca708ea",
+    "semantic_hash": "07622da35add62c142c98ea8cca708ea"
+  },
+  "post_index_Exactly__this_is_only_simple_step_for_cr_28.md": {
+    "mtime": 1790344141.0158968,
+    "seen": 1790345139.035402,
+    "ast_hash": "5ba3e6a0ac85a78de5dc94ff4b982c3e",
+    "semantic_hash": "5ba3e6a0ac85a78de5dc94ff4b982c3e"
+  },
+  "post_index_Exclude_Endpoints_with_Sample_Rate_in_Op_177.md": {
+    "mtime": 1790344141.0362806,
+    "seen": 1790345139.035403,
+    "ast_hash": "7f0ba730a504c2d77b5fcc4c6b81fc60",
+    "semantic_hash": "7f0ba730a504c2d77b5fcc4c6b81fc60"
+  },
+  "post_index_Factory_Design_Patterns_and_SOLID_Princi_124.md": {
+    "mtime": 1790344141.029123,
+    "seen": 1790345139.035404,
+    "ast_hash": "278ea7834ea05c66272e1e76188515d6",
+    "semantic_hash": "278ea7834ea05c66272e1e76188515d6"
+  },
+  "post_index_Find_a_list_of_tickets_for_the_customers_144.md": {
+    "mtime": 1790344141.0323632,
+    "seen": 1790345139.0354054,
+    "ast_hash": "b5832d710d07ca6905c9af548ecbef78",
+    "semantic_hash": "b5832d710d07ca6905c9af548ecbef78"
+  },
+  "post_index_Fixing_Blocked_Subdomain_DNS_with_Dnsmas_56.md": {
+    "mtime": 1790344141.0205274,
+    "seen": 1790345139.0354064,
+    "ast_hash": "622bf9cf59e5b5397d534ef983c8345c",
+    "semantic_hash": "622bf9cf59e5b5397d534ef983c8345c"
+  },
+  "post_index_Get_Data_from_medium_and_make_an_AI_mode_154.md": {
+    "mtime": 1790344141.0338814,
+    "seen": 1790345139.0354073,
+    "ast_hash": "0dbd5f5491ab115abd6485ba865d2b8a",
+    "semantic_hash": "0dbd5f5491ab115abd6485ba865d2b8a"
+  },
+  "post_index_Getting_Started_with_Docker_files__A_Com_47.md": {
+    "mtime": 1790344141.019611,
+    "seen": 1790345139.0354085,
+    "ast_hash": "a4075e98ace973af7b1b5e1e6da21cd7",
+    "semantic_hash": "a4075e98ace973af7b1b5e1e6da21cd7"
+  },
+  "post_index_Gin_framework_in_Golang_181.md": {
+    "mtime": 1790344141.0366395,
+    "seen": 1790345139.0354095,
+    "ast_hash": "ad0e2195090a552ebec4afc5ab6c4b36",
+    "semantic_hash": "ad0e2195090a552ebec4afc5ab6c4b36"
+  },
+  "post_index_Go_WordPress_Crawler__Advanced_Structura_25.md": {
+    "mtime": 1790344141.0155349,
+    "seen": 1790345139.0354104,
+    "ast_hash": "6a5688b3b0fdf519eee400d862fd59ac",
+    "semantic_hash": "6a5688b3b0fdf519eee400d862fd59ac"
+  },
+  "post_index_Go_WordPress__A_Robust_Web_Scraping_Arch_22.md": {
+    "mtime": 1790344141.015204,
+    "seen": 1790345139.0354114,
+    "ast_hash": "4672e0ecb6d84736d13f0b7e12c40f95",
+    "semantic_hash": "4672e0ecb6d84736d13f0b7e12c40f95"
+  },
+  "post_index_Golang_Gin_Middleware_and_Health_Control_78.md": {
+    "mtime": 1790344141.02313,
+    "seen": 1790345139.0354128,
+    "ast_hash": "326076574b469a8fff86c1bc5c34792d",
+    "semantic_hash": "326076574b469a8fff86c1bc5c34792d"
+  },
+  "post_index_Handling_high_TPS_applications_will_affe_98.md": {
+    "mtime": 1790344141.0262313,
+    "seen": 1790345139.0354137,
+    "ast_hash": "b1abbbee26fdb845fec009cd228558b2",
+    "semantic_hash": "b1abbbee26fdb845fec009cd228558b2"
+  },
+  "post_index_Harnessing_AI_Agents_to_Revolutionize_Pr_95.md": {
+    "mtime": 1790344141.0258038,
+    "seen": 1790345139.0354147,
+    "ast_hash": "1f80fa21f64f83123f57d0565682f8d2",
+    "semantic_hash": "1f80fa21f64f83123f57d0565682f8d2"
+  },
+  "post_index_Hello_Kamath__I_know_Cassandra_s_request_217.md": {
+    "mtime": 1790344141.0402844,
+    "seen": 1790345139.035416,
+    "ast_hash": "55c28352bed4e32ebadb3670cc322ffe",
+    "semantic_hash": "55c28352bed4e32ebadb3670cc322ffe"
+  },
+  "post_index_Hello_world_in_go_micro_as_the_base_of_G_189.md": {
+    "mtime": 1790344141.0374503,
+    "seen": 1790345139.0354168,
+    "ast_hash": "9df6ddea0b5110c33d139f8e620ed7ba",
+    "semantic_hash": "9df6ddea0b5110c33d139f8e620ed7ba"
+  },
+  "post_index_How_We_Rebuilt_a_Telecom_KPI_Platform_to_10.md": {
+    "mtime": 1790344141.0129938,
+    "seen": 1790345139.0354178,
+    "ast_hash": "6494309ffef43791d34c6b18d2a0a48c",
+    "semantic_hash": "6494309ffef43791d34c6b18d2a0a48c"
+  },
+  "post_index_How_do_you_write_tests_in_Nestjs__128.md": {
+    "mtime": 1790344141.0295057,
+    "seen": 1790345139.0354192,
+    "ast_hash": "9e27c93682b514b5b197f0064bc06e68",
+    "semantic_hash": "9e27c93682b514b5b197f0064bc06e68"
+  },
+  "post_index_How_does_a_software_Engineer_avoid_a_lou_211.md": {
+    "mtime": 1790344141.0396144,
+    "seen": 1790345139.0354202,
+    "ast_hash": "8a5116f2169cb3317bf2119f161b713a",
+    "semantic_hash": "8a5116f2169cb3317bf2119f161b713a"
+  },
+  "post_index_How_to_Fine_tune_ChatGPT_151.md": {
+    "mtime": 1790344141.0332668,
+    "seen": 1790345139.0354211,
+    "ast_hash": "fc47eff973b043c8b63f55cddc46a53d",
+    "semantic_hash": "fc47eff973b043c8b63f55cddc46a53d"
+  },
+  "post_index_How_to_Fix__Cannot_Connect_to_Docker_Dae_71.md": {
+    "mtime": 1790344141.0224137,
+    "seen": 1790345139.0354223,
+    "ast_hash": "6f97415f35625eb6e30d0e361bc91fcf",
+    "semantic_hash": "6f97415f35625eb6e30d0e361bc91fcf"
+  },
+  "post_index_How_to_Make_Python_Telegram_Bot_for_Conv_138.md": {
+    "mtime": 1790344141.0310693,
+    "seen": 1790345139.0354235,
+    "ast_hash": "dbe75fdce45d10d6656f0667e842dd87",
+    "semantic_hash": "dbe75fdce45d10d6656f0667e842dd87"
+  },
+  "post_index_How_to_Port_Forward_Traffic_to_a_Remote__26.md": {
+    "mtime": 1790344141.0156624,
+    "seen": 1790345139.0354245,
+    "ast_hash": "af81b2571e2745b54113e2e38f9f9432",
+    "semantic_hash": "af81b2571e2745b54113e2e38f9f9432"
+  },
+  "post_index_How_to_Write_Effective_Test_Files_in_Go__64.md": {
+    "mtime": 1790344141.0214674,
+    "seen": 1790345139.0354254,
+    "ast_hash": "82365403e57237dcbb06b46be9552f7b",
+    "semantic_hash": "82365403e57237dcbb06b46be9552f7b"
+  },
+  "post_index_How_to_design_a_high_TPS_Inventory__Hand_94.md": {
+    "mtime": 1790344141.0256443,
+    "seen": 1790345139.0354266,
+    "ast_hash": "fa981cd25101294329985785e3ac1d24",
+    "semantic_hash": "fa981cd25101294329985785e3ac1d24"
+  },
+  "post_index_How_to_increase_the_size_of_the_swap_in__85.md": {
+    "mtime": 1790344141.0238602,
+    "seen": 1790345139.0354276,
+    "ast_hash": "814f9f61e1aca9913a0681885645f102",
+    "semantic_hash": "814f9f61e1aca9913a0681885645f102"
+  },
+  "post_index_How_to_make_several_ssh_keys_in_Ubuntu_f_185.md": {
+    "mtime": 1790344141.036993,
+    "seen": 1790345139.0354285,
+    "ast_hash": "ba741b473db9f524cd6e08f02f71841a",
+    "semantic_hash": "ba741b473db9f524cd6e08f02f71841a"
+  },
+  "post_index_How_write_a_Unit_test__Integration_test__194.md": {
+    "mtime": 1790344141.0379388,
+    "seen": 1790345139.0354297,
+    "ast_hash": "5500027eb661b10a359cc0b723f4e6e8",
+    "semantic_hash": "5500027eb661b10a359cc0b723f4e6e8"
+  },
+  "post_index_Hugo_Static_website_builder_147.md": {
+    "mtime": 1790344141.032766,
+    "seen": 1790345139.0354307,
+    "ast_hash": "54a88ec9bc035d2ed64a885d84e4d6c9",
+    "semantic_hash": "54a88ec9bc035d2ed64a885d84e4d6c9"
+  },
+  "post_index_I_agree_with_your_perspective__37.md": {
+    "mtime": 1790344141.017674,
+    "seen": 1790345139.0354316,
+    "ast_hash": "e9c6ef2c839461f8d318b79922905ec6",
+    "semantic_hash": "e9c6ef2c839461f8d318b79922905ec6"
+  },
+  "post_index_I_am_not_rich__but_when_I_switched_from__168.md": {
+    "mtime": 1790344141.035465,
+    "seen": 1790345139.0354328,
+    "ast_hash": "c086ae1d3697eb2b76d06b22ee81cf0f",
+    "semantic_hash": "c086ae1d3697eb2b76d06b22ee81cf0f"
+  },
+  "post_index_I_don_t_expect_these_reactions__but_I_am_165.md": {
+    "mtime": 1790344141.0351977,
+    "seen": 1790345139.0354338,
+    "ast_hash": "5a2a6e5573f4f5665c6968355bff0000",
+    "semantic_hash": "5a2a6e5573f4f5665c6968355bff0000"
+  },
+  "post_index_I_don_t_want_to_convince_you_to_migrate__169.md": {
+    "mtime": 1790344141.0355556,
+    "seen": 1790345139.0354347,
+    "ast_hash": "0270d216a3acdd24219978dcf2ed8d9a",
+    "semantic_hash": "0270d216a3acdd24219978dcf2ed8d9a"
+  },
+  "post_index_I_have_seen_the_various_personalities_of_191.md": {
+    "mtime": 1790344141.0376518,
+    "seen": 1790345139.0354357,
+    "ast_hash": "c2f9a1d2ea1cd3c1b7febf13518e90e2",
+    "semantic_hash": "c2f9a1d2ea1cd3c1b7febf13518e90e2"
+  },
+  "post_index_I_have_used_AI_for_mo_details__which_par_93.md": {
+    "mtime": 1790344141.0254042,
+    "seen": 1790345139.0354369,
+    "ast_hash": "ad7064f173c7df31d3a7008b5aa011d8",
+    "semantic_hash": "ad7064f173c7df31d3a7008b5aa011d8"
+  },
+  "post_index_I_have_using_this_package_119.md": {
+    "mtime": 1790344141.028631,
+    "seen": 1790345139.0354378,
+    "ast_hash": "df701cce228a3168f7abd602a0dfd97e",
+    "semantic_hash": "df701cce228a3168f7abd602a0dfd97e"
+  },
+  "post_index_I_m_adding_your_example_in_my_artile__226.md": {
+    "mtime": 1790344141.0411131,
+    "seen": 1790345139.0354388,
+    "ast_hash": "a56b4cfb5bad6e7193e3d0d74457b080",
+    "semantic_hash": "a56b4cfb5bad6e7193e3d0d74457b080"
+  },
+  "post_index_I_m_just_writing_my_experience__and_I_be_231.md": {
+    "mtime": 1790344141.0416007,
+    "seen": 1790345139.03544,
+    "ast_hash": "32271d8a1156f01dbf90c78ef69f2ed2",
+    "semantic_hash": "32271d8a1156f01dbf90c78ef69f2ed2"
+  },
+  "post_index_I_m_using_PHP_GO_Python_Vuejs_in_one_pro_227.md": {
+    "mtime": 1790344141.0412023,
+    "seen": 1790345139.035441,
+    "ast_hash": "91546fb2a980fa1fa4e84d949cae2b18",
+    "semantic_hash": "91546fb2a980fa1fa4e84d949cae2b18"
+  },
+  "post_index_I_struggle_to_read_and_write_100K_reques_220.md": {
+    "mtime": 1790344141.0405526,
+    "seen": 1790345139.0354419,
+    "ast_hash": "238c8be816f5794a5b0e71005ba3778b",
+    "semantic_hash": "238c8be816f5794a5b0e71005ba3778b"
+  },
+  "post_index_I_use_Kafka_insert_data__and_I_use_Redis_216.md": {
+    "mtime": 1790344141.0401871,
+    "seen": 1790345139.0354428,
+    "ast_hash": "4ea76ac8baca1e198d964e66e7d24c42",
+    "semantic_hash": "4ea76ac8baca1e198d964e66e7d24c42"
+  },
+  "post_index_I_want_to_know__what_is_your_solution__W_206.md": {
+    "mtime": 1790344141.0390916,
+    "seen": 1790345139.035444,
+    "ast_hash": "b4431d6dcfd1fe41656aa8c17f252444",
+    "semantic_hash": "b4431d6dcfd1fe41656aa8c17f252444"
+  },
+  "post_index_I_want_to_test_CQRD__I_will_write_my_res_215.md": {
+    "mtime": 1790344141.0400953,
+    "seen": 1790345139.035445,
+    "ast_hash": "9a5e2db51a3ffea077b7cc231ac75fa4",
+    "semantic_hash": "9a5e2db51a3ffea077b7cc231ac75fa4"
+  },
+  "post_index_Improving_Team_Morale_and_Efficiency_in__107.md": {
+    "mtime": 1790344141.0273674,
+    "seen": 1790345139.035446,
+    "ast_hash": "6d7eecba857c3561178673e9308cacdc",
+    "semantic_hash": "6d7eecba857c3561178673e9308cacdc"
+  },
+  "post_index_In_the_previous_version__If_we_had_probl_207.md": {
+    "mtime": 1790344141.0392017,
+    "seen": 1790345139.0354471,
+    "ast_hash": "85c22e49901599592ee68d695e9009ee",
+    "semantic_hash": "85c22e49901599592ee68d695e9009ee"
+  },
+  "post_index_In_the_previous_version__we_used_only_PG_212.md": {
+    "mtime": 1790344141.0397139,
+    "seen": 1790345139.035448,
+    "ast_hash": "c301b43b6a501f6602378614fc0ab195",
+    "semantic_hash": "c301b43b6a501f6602378614fc0ab195"
+  },
+  "post_index_Increase_hard_disk_of_linux_os___stressf_251.md": {
+    "mtime": 1790344141.04367,
+    "seen": 1790345139.035449,
+    "ast_hash": "81f7bfa9bf55887249c629b36c8eb3a3",
+    "semantic_hash": "81f7bfa9bf55887249c629b36c8eb3a3"
+  },
+  "post_index_Installing_Application_for_Golang_develo_115.md": {
+    "mtime": 1790344141.0281384,
+    "seen": 1790345139.0354505,
+    "ast_hash": "b7d163164ed7e2fa598280102cbc4165",
+    "semantic_hash": "b7d163164ed7e2fa598280102cbc4165"
+  },
+  "post_index_Installing_Application_for_Golang_develo_225.md": {
+    "mtime": 1790344141.041019,
+    "seen": 1790345139.0354512,
+    "ast_hash": "2745d5bd45fa82ecef18f3c10f4d52a9",
+    "semantic_hash": "2745d5bd45fa82ecef18f3c10f4d52a9"
+  },
+  "post_index_Installing_Application_for_web_developer_248.md": {
+    "mtime": 1790344141.0433984,
+    "seen": 1790345139.0354521,
+    "ast_hash": "2bccde2578b5ddc4405d887a3d57281d",
+    "semantic_hash": "2bccde2578b5ddc4405d887a3d57281d"
+  },
+  "post_index_Introduction_to_Ubuntu_22_04_System_Setu_58.md": {
+    "mtime": 1790344141.0207982,
+    "seen": 1790345139.035453,
+    "ast_hash": "38e365a22906ba093cec35af521115bf",
+    "semantic_hash": "38e365a22906ba093cec35af521115bf"
+  },
+  "post_index_Introduction_to_the_Parsian_Bank_Gateway_117.md": {
+    "mtime": 1790344141.0284352,
+    "seen": 1790345139.0354545,
+    "ast_hash": "8da486f13d155d80041cdc9e0758dd59",
+    "semantic_hash": "8da486f13d155d80041cdc9e0758dd59"
+  },
+  "post_index_It_works_for__I_found_all_the_solution_f_118.md": {
+    "mtime": 1790344141.02853,
+    "seen": 1790345139.0354555,
+    "ast_hash": "46ca18c8e8cd8231979e5d0b906972e0",
+    "semantic_hash": "46ca18c8e8cd8231979e5d0b906972e0"
+  },
+  "post_index_MACD_or_Moving_average_convergence_diver_187.md": {
+    "mtime": 1790344141.0371644,
+    "seen": 1790345139.0354564,
+    "ast_hash": "714dbd084a473e01de51261760dd4d7f",
+    "semantic_hash": "714dbd084a473e01de51261760dd4d7f"
+  },
+  "post_index_Make_Pdf_in_Cakephp_with_UTF_8_for_print_249.md": {
+    "mtime": 1790344141.0434895,
+    "seen": 1790345139.0354576,
+    "ast_hash": "9dbf4bc7392f40860bef52861f0c0c4b",
+    "semantic_hash": "9dbf4bc7392f40860bef52861f0c0c4b"
+  },
+  "post_index_Make_swagger_from_your_HTTP_Rest_full_in_186.md": {
+    "mtime": 1790344141.0370798,
+    "seen": 1790345139.0354586,
+    "ast_hash": "79d0a32e58808b199f30a55dbf101ceb",
+    "semantic_hash": "79d0a32e58808b199f30a55dbf101ceb"
+  },
+  "post_index_Mastering_State_Patterns_in_Golang__Over_82.md": {
+    "mtime": 1790344141.0235136,
+    "seen": 1790345139.0354595,
+    "ast_hash": "46608a0a2a05c0dada5df0c56cd4ad67",
+    "semantic_hash": "46608a0a2a05c0dada5df0c56cd4ad67"
+  },
+  "post_index_Mastering_the_Manual__A_Guide_to_Manuall_15.md": {
+    "mtime": 1790344141.013943,
+    "seen": 1790345139.0354607,
+    "ast_hash": "c1eb10d681576d1dcf90473c206b30d3",
+    "semantic_hash": "c1eb10d681576d1dcf90473c206b30d3"
+  },
+  "post_index_My_Experience_After_Four_Years_of_Migrat_104.md": {
+    "mtime": 1790344141.0270488,
+    "seen": 1790345139.0354614,
+    "ast_hash": "c12408ddb48213307c13b872ecb1123d",
+    "semantic_hash": "c12408ddb48213307c13b872ecb1123d"
+  },
+  "post_index_My_Experience_After_Three_Years_of_Migra_170.md": {
+    "mtime": 1790344141.035672,
+    "seen": 1790345139.0354624,
+    "ast_hash": "69b77fd8e952e0a2cc96cf8b64ff443a",
+    "semantic_hash": "69b77fd8e952e0a2cc96cf8b64ff443a"
+  },
+  "post_index_My_Experience_in_Using_RAG_and_Fine_Tuni_145.md": {
+    "mtime": 1790344141.0324898,
+    "seen": 1790345139.0354633,
+    "ast_hash": "a21bd3a8c737dcd4953ef859026342dd",
+    "semantic_hash": "a21bd3a8c737dcd4953ef859026342dd"
+  },
+  "post_index_My_Motivation_for_Becoming_a_Developer_89.md": {
+    "mtime": 1790344141.0243194,
+    "seen": 1790345139.0354645,
+    "ast_hash": "35277c791ae4f894bb6572b687027dea",
+    "semantic_hash": "35277c791ae4f894bb6572b687027dea"
+  },
+  "post_index_My_first_application_development_with_Go_237.md": {
+    "mtime": 1790344141.0423803,
+    "seen": 1790345139.0354655,
+    "ast_hash": "4baac4a4f050b2d1deef5a43b68fe525",
+    "semantic_hash": "4baac4a4f050b2d1deef5a43b68fe525"
+  },
+  "post_index_NLP_tutorial_160.md": {
+    "mtime": 1790344141.034662,
+    "seen": 1790345139.0354664,
+    "ast_hash": "7234d4196755da5c04ae76f67e96d0f5",
+    "semantic_hash": "7234d4196755da5c04ae76f67e96d0f5"
+  },
+  "post_index_Navigating_the_Complexities_of_System_De_103.md": {
+    "mtime": 1790344141.0269465,
+    "seen": 1790345139.0354676,
+    "ast_hash": "1a564f30b5760ed3d12a1609135ec102",
+    "semantic_hash": "1a564f30b5760ed3d12a1609135ec102"
+  },
+  "post_index_NestJS__Data_Validation_and_Transformati_134.md": {
+    "mtime": 1790344141.0303345,
+    "seen": 1790345139.0354686,
+    "ast_hash": "61a00fd6cd223db09213c6cda666ea1f",
+    "semantic_hash": "61a00fd6cd223db09213c6cda666ea1f"
+  },
+  "post_index_Nodejs_with_Smart_contract_for_beginner__173.md": {
+    "mtime": 1790344141.0359337,
+    "seen": 1790345139.0354695,
+    "ast_hash": "a8fbf8aca33fbd3168316878a21c0049",
+    "semantic_hash": "a8fbf8aca33fbd3168316878a21c0049"
+  },
+  "post_index_Notes_for_Solidity__Blockchain__and_Smar_176.md": {
+    "mtime": 1790344141.0361917,
+    "seen": 1790345139.0354705,
+    "ast_hash": "f57b044039a9d5cb99c09f6aaa2199e8",
+    "semantic_hash": "f57b044039a9d5cb99c09f6aaa2199e8"
+  },
+  "post_index_Open_AI_tutorial_162.md": {
+    "mtime": 1790344141.034829,
+    "seen": 1790345139.035472,
+    "ast_hash": "e60745a9989e125033c64bca8323f641",
+    "semantic_hash": "e60745a9989e125033c64bca8323f641"
+  },
+  "post_index_Ory_Hydra_Hello_world_199.md": {
+    "mtime": 1790344141.0384002,
+    "seen": 1790345139.0354729,
+    "ast_hash": "9d6f900436aae07d70d98a19e7088a4c",
+    "semantic_hash": "9d6f900436aae07d70d98a19e7088a4c"
+  },
+  "post_index_PHP_fpm___I_hate_you_243.md": {
+    "mtime": 1790344141.0429597,
+    "seen": 1790345139.0354738,
+    "ast_hash": "750cf59b3b08abbf5fd849c186901738",
+    "semantic_hash": "750cf59b3b08abbf5fd849c186901738"
+  },
+  "post_index_Pretty_print_array_in_Golang__221.md": {
+    "mtime": 1790344141.0406559,
+    "seen": 1790345139.035475,
+    "ast_hash": "52e9f274e9446306d52822560a4ebfba",
+    "semantic_hash": "52e9f274e9446306d52822560a4ebfba"
+  },
+  "post_index_Problem_with_installing_MongoDB_on_Ubunt_223.md": {
+    "mtime": 1790344141.040838,
+    "seen": 1790345139.035476,
+    "ast_hash": "f9381cbcce7d69bb05ef24a25c06401b",
+    "semantic_hash": "f9381cbcce7d69bb05ef24a25c06401b"
+  },
+  "post_index_Python_selenium_for_crawler_data_from_we_159.md": {
+    "mtime": 1790344141.0345674,
+    "seen": 1790345139.035477,
+    "ast_hash": "8387fda4fa096e62d1ed014900b6619c",
+    "semantic_hash": "8387fda4fa096e62d1ed014900b6619c"
+  },
+  "post_index_Read_data_from_JSON_and_normalize_then_w_161.md": {
+    "mtime": 1790344141.0347483,
+    "seen": 1790345139.035478,
+    "ast_hash": "dd4530609ecebe7057a88ae4bff6c7bb",
+    "semantic_hash": "dd4530609ecebe7057a88ae4bff6c7bb"
+  },
+  "post_index_Reading_Matlab__mat_format_Dataset_in_Py_244.md": {
+    "mtime": 1790344141.0430453,
+    "seen": 1790345139.0354788,
+    "ast_hash": "0ed39904a844451bb284f0d644230559",
+    "semantic_hash": "0ed39904a844451bb284f0d644230559"
+  },
+  "post_index_Rebuilding_the_Time_Machine__Designing_a_2.md": {
+    "mtime": 1790344141.0120366,
+    "seen": 1790345139.03548,
+    "ast_hash": "aa933450bdafd17178dc8507f19543a1",
+    "semantic_hash": "aa933450bdafd17178dc8507f19543a1"
+  },
+  "post_index_Redirect_port_from_one_server_to_port_of_201.md": {
+    "mtime": 1790344141.0385768,
+    "seen": 1790345139.035481,
+    "ast_hash": "98da614fac85cad5fa8000757a0c08a4",
+    "semantic_hash": "98da614fac85cad5fa8000757a0c08a4"
+  },
+  "post_index_Redis_helps_DB_in_many_cases__213.md": {
+    "mtime": 1790344141.0399075,
+    "seen": 1790345139.0354822,
+    "ast_hash": "fb808fe7ac0fe9e48f774f11599f1e6d",
+    "semantic_hash": "fb808fe7ac0fe9e48f774f11599f1e6d"
+  },
+  "post_index_Refactoring_if_Strategies__Transforming__109.md": {
+    "mtime": 1790344141.027541,
+    "seen": 1790345139.0354831,
+    "ast_hash": "b0f26143849acc61d8c35eccb7b0fca0",
+    "semantic_hash": "b0f26143849acc61d8c35eccb7b0fca0"
+  },
+  "post_index_Rsync_from_One_Origin_to_Multiple_Destin_43.md": {
+    "mtime": 1790344141.0185742,
+    "seen": 1790345139.035484,
+    "ast_hash": "b66e7f643b0617d3db8a78e9c225a805",
+    "semantic_hash": "b66e7f643b0617d3db8a78e9c225a805"
+  },
+  "post_index_Run_Cronjob_in_python_152.md": {
+    "mtime": 1790344141.0334032,
+    "seen": 1790345139.0354853,
+    "ast_hash": "e39d3ae93a2dc1701b0e627827f75cba",
+    "semantic_hash": "e39d3ae93a2dc1701b0e627827f75cba"
+  },
+  "post_index_Running_Zarinpal_Gateway_on_Laravel_fram_247.md": {
+    "mtime": 1790344141.0433092,
+    "seen": 1790345139.0354862,
+    "ast_hash": "0f5117092e5d7d660ae1e07451acf051",
+    "semantic_hash": "0f5117092e5d7d660ae1e07451acf051"
+  },
+  "post_index_Running_multi_Port_forward_with_tmux_114.md": {
+    "mtime": 1790344141.0280423,
+    "seen": 1790345139.0354874,
+    "ast_hash": "68b13a44b09c3055ad8b6dd37918f4e3",
+    "semantic_hash": "68b13a44b09c3055ad8b6dd37918f4e3"
+  },
+  "post_index_Serving_an_Offline_GraphQL_Playground_in_4.md": {
+    "mtime": 1790344141.012299,
+    "seen": 1790345139.0354886,
+    "ast_hash": "11e7022a3ed59652dfd36c3512998e2e",
+    "semantic_hash": "11e7022a3ed59652dfd36c3512998e2e"
+  },
+  "post_index_Simple_Golang_HTTP_server_79.md": {
+    "mtime": 1790344141.0232227,
+    "seen": 1790345139.0354898,
+    "ast_hash": "1e91864aaca376337b60f4dc1cbd67f2",
+    "semantic_hash": "1e91864aaca376337b60f4dc1cbd67f2"
+  },
+  "post_index_Small_Example_of_Solidity_Project_172.md": {
+    "mtime": 1790344141.0358434,
+    "seen": 1790345139.0354908,
+    "ast_hash": "1f0e6d7f4436616edeea1ab9031f3f17",
+    "semantic_hash": "1f0e6d7f4436616edeea1ab9031f3f17"
+  },
+  "post_index_Solidity_principle_163.md": {
+    "mtime": 1790344141.0349097,
+    "seen": 1790345139.035492,
+    "ast_hash": "09edfe22b50b1b3c47aa32ccea333930",
+    "semantic_hash": "09edfe22b50b1b3c47aa32ccea333930"
+  },
+  "post_index_Solve_problem_to_Install_Nodejs20_on_Ubu_175.md": {
+    "mtime": 1790344141.0360992,
+    "seen": 1790345139.035493,
+    "ast_hash": "06adcb163281ba956f95fdb7acfd34f8",
+    "semantic_hash": "06adcb163281ba956f95fdb7acfd34f8"
+  },
+  "post_index_Struggle_with_export_and_import_in_Mongo_222.md": {
+    "mtime": 1790344141.0407462,
+    "seen": 1790345139.0354939,
+    "ast_hash": "91b7ced43ff3307bc50a82743e2da268",
+    "semantic_hash": "91b7ced43ff3307bc50a82743e2da268"
+  },
+  "post_index_Successfully_Migrating_from_a_Monolith_t_38.md": {
+    "mtime": 1790344141.0178227,
+    "seen": 1790345139.0354948,
+    "ast_hash": "d786cf592cdfe63344d835f0565a7521",
+    "semantic_hash": "d786cf592cdfe63344d835f0565a7521"
+  },
+  "post_index_System_Design__A_Comprehensive_Explorati_102.md": {
+    "mtime": 1790344141.0268402,
+    "seen": 1790345139.0354962,
+    "ast_hash": "3f6e8a4f9c4ac9d17632a0675cdf31bd",
+    "semantic_hash": "3f6e8a4f9c4ac9d17632a0675cdf31bd"
+  },
+  "post_index_TIPS__I_changing_the_title_of_an_article_228.md": {
+    "mtime": 1790344141.0412903,
+    "seen": 1790345139.0354972,
+    "ast_hash": "0ac5ee566e990096500f7bdf99409293",
+    "semantic_hash": "0ac5ee566e990096500f7bdf99409293"
+  },
+  "post_index_Tensorflow_tutorial__Basic_operations_on_150.md": {
+    "mtime": 1790344141.033151,
+    "seen": 1790345139.0354981,
+    "ast_hash": "a1a4f086219c122f7bc2e358436ee6b0",
+    "semantic_hash": "a1a4f086219c122f7bc2e358436ee6b0"
+  },
+  "post_index_Thank_you_for_the_thorough_and_highly_ac_14.md": {
+    "mtime": 1790344141.013737,
+    "seen": 1790345139.0354993,
+    "ast_hash": "8e3ce6a431973483ada7ca55ff6a367f",
+    "semantic_hash": "8e3ce6a431973483ada7ca55ff6a367f"
+  },
+  "post_index_Thank_you_so_much_29.md": {
+    "mtime": 1790344141.0160165,
+    "seen": 1790345139.0355003,
+    "ast_hash": "f43d35ab5475ce4f0e0a9f2c4e3486c4",
+    "semantic_hash": "f43d35ab5475ce4f0e0a9f2c4e3486c4"
+  },
+  "post_index_Thanks__214.md": {
+    "mtime": 1790344141.0400052,
+    "seen": 1790345139.0355012,
+    "ast_hash": "fe28b2a2bd89c78cd81f0daf8e39dcd9",
+    "semantic_hash": "fe28b2a2bd89c78cd81f0daf8e39dcd9"
+  },
+  "post_index_Thanks__Bill__Such_a_beautiful_solution__218.md": {
+    "mtime": 1790344141.0403736,
+    "seen": 1790345139.0355024,
+    "ast_hash": "6e62dcf9c17e8f5bd586fe36b58086ae",
+    "semantic_hash": "6e62dcf9c17e8f5bd586fe36b58086ae"
+  },
+  "post_index_Thanks__I_have_never_used_QuestDB_io_219.md": {
+    "mtime": 1790344141.04046,
+    "seen": 1790345139.0355034,
+    "ast_hash": "3c4c458d21220fedf232cf943431beac",
+    "semantic_hash": "3c4c458d21220fedf232cf943431beac"
+  },
+  "post_index_Thanks_for_summarize_article__97.md": {
+    "mtime": 1790344141.02609,
+    "seen": 1790345139.0355043,
+    "ast_hash": "1f16dcb127a30d635ebb5185f5bd91af",
+    "semantic_hash": "1f16dcb127a30d635ebb5185f5bd91af"
+  },
+  "post_index_Thanks_for_the_analysis__I_will_apply_yo_19.md": {
+    "mtime": 1790344141.014731,
+    "seen": 1790345139.0355053,
+    "ast_hash": "a4ae390bfe58a91f36b0040e9d8c2d47",
+    "semantic_hash": "a4ae390bfe58a91f36b0040e9d8c2d47"
+  },
+  "post_index_Thanks_for_your_feedback__148.md": {
+    "mtime": 1790344141.032897,
+    "seen": 1790345139.0355065,
+    "ast_hash": "9571af1d852e4ee02c71790aca29084d",
+    "semantic_hash": "9571af1d852e4ee02c71790aca29084d"
+  },
+  "post_index_Thanks_for_your_information__110.md": {
+    "mtime": 1790344141.0276444,
+    "seen": 1790345139.0355077,
+    "ast_hash": "39a6fb7a2a8911b2dd7834f07b107558",
+    "semantic_hash": "39a6fb7a2a8911b2dd7834f07b107558"
+  },
+  "post_index_The_Art_and_Science_of_Technical_Hiring__108.md": {
+    "mtime": 1790344141.0274532,
+    "seen": 1790345139.0355086,
+    "ast_hash": "4caf8709d31baab55d08193040000a98",
+    "semantic_hash": "4caf8709d31baab55d08193040000a98"
+  },
+  "post_index_The_Future_of_Hospitality__How_Hotels_Ca_67.md": {
+    "mtime": 1790344141.021875,
+    "seen": 1790345139.0355098,
+    "ast_hash": "f529eaa6181f313522b257e786120deb",
+    "semantic_hash": "f529eaa6181f313522b257e786120deb"
+  },
+  "post_index_The_Hidden_Challenges_of_System_Teams_in_112.md": {
+    "mtime": 1790344141.0278492,
+    "seen": 1790345139.0355115,
+    "ast_hash": "a30ec7535368ce28fbd7c984a48e9d50",
+    "semantic_hash": "a30ec7535368ce28fbd7c984a48e9d50"
+  },
+  "post_index_The_High_Cost_of_Toxicity__Why_Insults___99.md": {
+    "mtime": 1790344141.026362,
+    "seen": 1790345139.0355122,
+    "ast_hash": "5a732e708f3e22c1f06095b9845b2cdf",
+    "semantic_hash": "5a732e708f3e22c1f06095b9845b2cdf"
+  },
+  "post_index_The_Human_Side_of_Bug_Fixing_in_Software_106.md": {
+    "mtime": 1790344141.0272791,
+    "seen": 1790345139.0355134,
+    "ast_hash": "928376fdb5cbbffa97794b3b9f556c40",
+    "semantic_hash": "928376fdb5cbbffa97794b3b9f556c40"
+  },
+  "post_index_The_New_Generation_of_E2E_Test_Automatio_3.md": {
+    "mtime": 1790344141.0121791,
+    "seen": 1790345139.0355144,
+    "ast_hash": "cc0ca634a3d02f729902efdc15f683bd",
+    "semantic_hash": "cc0ca634a3d02f729902efdc15f683bd"
+  },
+  "post_index_The_Role_of_IgE_in_Allergic_and_Chronic__92.md": {
+    "mtime": 1790344141.024906,
+    "seen": 1790345139.0355155,
+    "ast_hash": "a7322c135f240699d6581ff59e5b6fe1",
+    "semantic_hash": "a7322c135f240699d6581ff59e5b6fe1"
+  },
+  "post_index_The_Test_Backdoor_Pattern__Safe_E2E_Auto_11.md": {
+    "mtime": 1790344141.0131595,
+    "seen": 1790345139.0355167,
+    "ast_hash": "1ab03c0ae4f932bde46e21e6376c66bf",
+    "semantic_hash": "1ab03c0ae4f932bde46e21e6376c66bf"
+  },
+  "post_index_The__Clear_as_you_go__Pattern__Solving_M_18.md": {
+    "mtime": 1790344141.0145247,
+    "seen": 1790345139.0355177,
+    "ast_hash": "df363f9634a66f4c7a521a5cda921dc9",
+    "semantic_hash": "df363f9634a66f4c7a521a5cda921dc9"
+  },
+  "post_index_The__Phantom__403__Solving_Django_CSRF_F_24.md": {
+    "mtime": 1790344141.0154335,
+    "seen": 1790345139.0355186,
+    "ast_hash": "48267e81a5d5f1dcf534f04cd110254e",
+    "semantic_hash": "48267e81a5d5f1dcf534f04cd110254e"
+  },
+  "post_index_The_devil_is_in_the_details__meaning_in__80.md": {
+    "mtime": 1790344141.0233164,
+    "seen": 1790345139.0355198,
+    "ast_hash": "b65ebceb195fc4bd97943a4a15325ae1",
+    "semantic_hash": "b65ebceb195fc4bd97943a4a15325ae1"
+  },
+  "post_index_The_name_of_the_article_is__PHP_fpm___229.md": {
+    "mtime": 1790344141.0413783,
+    "seen": 1790345139.0355208,
+    "ast_hash": "94102914f576754491a762b6e99e2965",
+    "semantic_hash": "94102914f576754491a762b6e99e2965"
+  },
+  "post_index_This_question_is_a_very_fundamental_one__142.md": {
+    "mtime": 1790344141.0321343,
+    "seen": 1790345139.035522,
+    "ast_hash": "5c33a7dbbf6431ac35e6d2b3b43298d2",
+    "semantic_hash": "5c33a7dbbf6431ac35e6d2b3b43298d2"
+  },
+  "post_index_Title__Setting_Boundaries_with_Clients___101.md": {
+    "mtime": 1790344141.0266755,
+    "seen": 1790345139.0355232,
+    "ast_hash": "3271651ec6b43a951d372ae1eac94962",
+    "semantic_hash": "3271651ec6b43a951d372ae1eac94962"
+  },
+  "post_index_Toxic_mistake_to_use_the_Function_option_180.md": {
+    "mtime": 1790344141.0365431,
+    "seen": 1790345139.0355241,
+    "ast_hash": "9e05e577e8395d7d345853d49fdac202",
+    "semantic_hash": "9e05e577e8395d7d345853d49fdac202"
+  },
+  "post_index_Troubles_update_composer_in_Laravel_when_250.md": {
+    "mtime": 1790344141.0435739,
+    "seen": 1790345139.035525,
+    "ast_hash": "c678e8134d6c77ad6c79d7440b721f48",
+    "semantic_hash": "c678e8134d6c77ad6c79d7440b721f48"
+  },
+  "post_index_Tunneling_TCP_Connections_Over_SSH_Using_5.md": {
+    "mtime": 1790344141.0124023,
+    "seen": 1790345139.035526,
+    "ast_hash": "19a612102e2f3ce87fe7bd08466d7d6e",
+    "semantic_hash": "19a612102e2f3ce87fe7bd08466d7d6e"
+  },
+  "post_index_Use_GPU_in_Tensorflow_on_Ubuntu_22_04_149.md": {
+    "mtime": 1790344141.0330298,
+    "seen": 1790345139.0355272,
+    "ast_hash": "ef94955e7a940bb0ede9169d720ed220",
+    "semantic_hash": "ef94955e7a940bb0ede9169d720ed220"
+  },
+  "post_index_Using_Restfull_API_of_Farsava_Deep_learn_246.md": {
+    "mtime": 1790344141.0432248,
+    "seen": 1790345139.0355282,
+    "ast_hash": "5b43a80903fa274e0461f8c7c19ff123",
+    "semantic_hash": "5b43a80903fa274e0461f8c7c19ff123"
+  },
+  "post_index_Using_Tmux_to_startup_command_run_when_d_224.md": {
+    "mtime": 1790344141.040925,
+    "seen": 1790345139.0355291,
+    "ast_hash": "4f5d11df6882cde368c3eaad75a5ef5a",
+    "semantic_hash": "4f5d11df6882cde368c3eaad75a5ef5a"
+  },
+  "post_index_What_Happens_When_You_Hire_a_Junior_Who__1.md": {
+    "mtime": 1790344141.011908,
+    "seen": 1790345139.0355303,
+    "ast_hash": "580435caf51a108b330fee16bd060860",
+    "semantic_hash": "580435caf51a108b330fee16bd060860"
+  },
+  "post_index_What_will_happen_if_a_big_tech_based_com_113.md": {
+    "mtime": 1790344141.0279489,
+    "seen": 1790345139.0355313,
+    "ast_hash": "aa3b66f082beb7048bba74522d8a815b",
+    "semantic_hash": "aa3b66f082beb7048bba74522d8a815b"
+  },
+  "post_index_When_Authentication_Grows_Without_a_Plan_27.md": {
+    "mtime": 1790344141.0157735,
+    "seen": 1790345139.0355322,
+    "ast_hash": "880f1864449516298b903f9a8c29010f",
+    "semantic_hash": "880f1864449516298b903f9a8c29010f"
+  },
+  "post_index_When_Medium_s_Bots_Fear_Your_Writing__Wh_0.md": {
+    "mtime": 1790344141.0117571,
+    "seen": 1790345139.0355337,
+    "ast_hash": "421c041918d61b1959d031fe1ba3d499",
+    "semantic_hash": "421c041918d61b1959d031fe1ba3d499"
+  },
+  "post_index_Why_does_every_developer_need_to_have_kn_190.md": {
+    "mtime": 1790344141.0375488,
+    "seen": 1790345139.0355346,
+    "ast_hash": "85abdf77080821f41889c3c3dfde4a1b",
+    "semantic_hash": "85abdf77080821f41889c3c3dfde4a1b"
+  },
+  "post_index_Workplace_Consumerism_Culture__A_Deep_Di_96.md": {
+    "mtime": 1790344141.0259552,
+    "seen": 1790345139.0355358,
+    "ast_hash": "1a20ba76c21a2e0c523c80a0ffa5b4bb",
+    "semantic_hash": "1a20ba76c21a2e0c523c80a0ffa5b4bb"
+  },
+  "post_index_You_are_right__I_change_the_title_of_art_240.md": {
+    "mtime": 1790344141.0426989,
+    "seen": 1790345139.035537,
+    "ast_hash": "31c1da015c92c2a9d88f155097ec6eca",
+    "semantic_hash": "31c1da015c92c2a9d88f155097ec6eca"
+  },
+  "post_index_You_can_add_It____203.md": {
+    "mtime": 1790344141.0387914,
+    "seen": 1790345139.035538,
+    "ast_hash": "0baaf9094fbfa81b8873a13495add65a",
+    "semantic_hash": "0baaf9094fbfa81b8873a13495add65a"
+  },
+  "post_index_You_re_absolutely_welcome__46.md": {
+    "mtime": 1790344141.0193918,
+    "seen": 1790345139.035539,
+    "ast_hash": "fdba897c9ecb014167cf38cb5baf1c64",
+    "semantic_hash": "fdba897c9ecb014167cf38cb5baf1c64"
+  },
+  "post_index_You_re_right_that_shared_databases_aren__51.md": {
+    "mtime": 1790344141.02004,
+    "seen": 1790345139.0355399,
+    "ast_hash": "bf3fcc34db0bc5dfa5a2846e03fec7c2",
+    "semantic_hash": "bf3fcc34db0bc5dfa5a2846e03fec7c2"
+  },
+  "post_index__The__Problem__How_Elasticsearch_s_Stop__73.md": {
+    "mtime": 1790344141.0226383,
+    "seen": 1790345139.035541,
+    "ast_hash": "7a6427453deb18e9a92ab1cb19331c78",
+    "semantic_hash": "7a6427453deb18e9a92ab1cb19331c78"
+  },
+  "post_index___Building_Modular_Product_Management_in_68.md": {
+    "mtime": 1790344141.0219808,
+    "seen": 1790345139.035542,
+    "ast_hash": "670545d94b0553427ed08bc1a49a5d27",
+    "semantic_hash": "670545d94b0553427ed08bc1a49a5d27"
+  },
+  "post_index___Common_Bug__Closure_Captures_a_Variabl_84.md": {
+    "mtime": 1790344141.0237641,
+    "seen": 1790345139.035543,
+    "ast_hash": "cb9eb1abe700bb5afdb7be4e9600be85",
+    "semantic_hash": "cb9eb1abe700bb5afdb7be4e9600be85"
+  },
+  "post_index___Common_Bug_in_Calculate__Understanding_83.md": {
+    "mtime": 1790344141.023649,
+    "seen": 1790345139.0355442,
+    "ast_hash": "e142c7d9b564f9368611c571bbac7e11",
+    "semantic_hash": "e142c7d9b564f9368611c571bbac7e11"
+  },
+  "post_index___Refactoring_a_Go_Web_Service_with_Uber_70.md": {
+    "mtime": 1790344141.0223122,
+    "seen": 1790345139.035545,
+    "ast_hash": "6d40e9c366aa2f6030397651ebcdc8c8",
+    "semantic_hash": "6d40e9c366aa2f6030397651ebcdc8c8"
+  },
+  "post_index___Resolving_sql__Scan_error_When_Handlin_81.md": {
+    "mtime": 1790344141.0234172,
+    "seen": 1790345139.035546,
+    "ast_hash": "cc5ba98522e2e33c06e25c320b00c47d",
+    "semantic_hash": "cc5ba98522e2e33c06e25c320b00c47d"
+  },
+  "post_index______________236.md": {
+    "mtime": 1790344141.04208,
+    "seen": 1790345139.0355468,
+    "ast_hash": "83fd532735e3fc170618fcadf1563b72",
+    "semantic_hash": "83fd532735e3fc170618fcadf1563b72"
+  },
+  "post_index__e__appears_instead_of_suggestions_with__137.md": {
+    "mtime": 1790344141.030833,
+    "seen": 1790345139.035548,
+    "ast_hash": "ffeece96659928298a76b3936d08c89b",
+    "semantic_hash": "ffeece96659928298a76b3936d08c89b"
+  },
+  "post_index_actully_in_our_plan_changeing_architectu_241.md": {
+    "mtime": 1790344141.0427876,
+    "seen": 1790345139.035549,
+    "ast_hash": "8a3b62257f8be7285783fdd25adf3870",
+    "semantic_hash": "8a3b62257f8be7285783fdd25adf3870"
+  },
+  "post_index_after_discussion_about_this_article_i_am_235.md": {
+    "mtime": 1790344141.0419948,
+    "seen": 1790345139.03555,
+    "ast_hash": "0c6ee359cb80b1c3197ae6987bc6c758",
+    "semantic_hash": "0c6ee359cb80b1c3197ae6987bc6c758"
+  },
+  "post_index_caching_machine_learning_engine_is_not_e_232.md": {
+    "mtime": 1790344141.0416975,
+    "seen": 1790345139.0355513,
+    "ast_hash": "05e1606963709749bfd392b935110f32",
+    "semantic_hash": "05e1606963709749bfd392b935110f32"
+  },
+  "post_index_i_m_fixing_this_problem_with_added_index_242.md": {
+    "mtime": 1790344141.0428784,
+    "seen": 1790345139.0355523,
+    "ast_hash": "30c585ef3fc4fe237fe979fb64f47a54",
+    "semantic_hash": "30c585ef3fc4fe237fe979fb64f47a54"
+  },
+  "post_index_just_I_want_to_know_167.md": {
+    "mtime": 1790344141.0353737,
+    "seen": 1790345139.0355532,
+    "ast_hash": "0a498fd39f048d8b5280a97c7a8b3446",
+    "semantic_hash": "0a498fd39f048d8b5280a97c7a8b3446"
+  },
+  "post_index_using_PHP_for_handling_admin_panel_230.md": {
+    "mtime": 1790344141.0414822,
+    "seen": 1790345139.0355544,
+    "ast_hash": "56e738dd46a3af1562dfadcf238ac501",
+    "semantic_hash": "56e738dd46a3af1562dfadcf238ac501"
+  },
+  "post_index_we_can_use_AI_tools_like_the_Copilot_to__178.md": {
+    "mtime": 1790344141.0363715,
+    "seen": 1790345139.0355556,
+    "ast_hash": "a42df6e131172bc6e0a86d8e5f39ad62",
+    "semantic_hash": "a42df6e131172bc6e0a86d8e5f39ad62"
+  },
+  "virgool_article___\u0631\u0627\u0647\u0646\u0645\u0627\u06cc_\u0627\u0646\u062a\u062e\u0627\u0628_UPS_\u062f\u0631_\u062d\u062f\u0648\u062f_\u06f1\u06f0_\u0645\u06cc\u0644\u06cc\u0648\u0646_\u062a_10.md": {
+    "mtime": 1787268861.7192547,
+    "seen": 1790345139.0355597,
+    "ast_hash": "50e9de3221997eac858c970411991be8",
+    "semantic_hash": "50e9de3221997eac858c970411991be8"
+  },
+  "virgool_article___\u0633\u0627\u0646\u06cc_\u0647\u06cc\u0632__\u0631\u0627\u0646\u0646\u062f\u0647_\u0627\u06cc_\u0639\u0644\u06cc\u0647_\u0633\u06cc\u0633\u062a\u0645_11.md": {
+    "mtime": 1787268861.7193282,
+    "seen": 1790345139.0355613,
+    "ast_hash": "fdf4f075710855e2dac2359d5d099a18",
+    "semantic_hash": "fdf4f075710855e2dac2359d5d099a18"
+  },
+  "virgool_article_\u0627\u0642\u062a\u0635\u0627\u062f_\u0631\u0627\u0646\u062a\u06cc_\u0648_\u0634\u0648\u06a9_\u0647\u0627\u06cc_\u0628\u06cc\u0631\u0648\u0646\u06cc_2.md": {
+    "mtime": 1787268861.71742,
+    "seen": 1790345139.0355625,
+    "ast_hash": "7687e886f9898bea1ea4c90f729a04c1",
+    "semantic_hash": "7687e886f9898bea1ea4c90f729a04c1"
+  },
+  "virgool_article_\u0628\u0647\u0628\u0648\u062f_\u0631\u0648\u062d\u06cc\u0647_\u0648_\u06a9\u0627\u0631\u0627\u06cc\u06cc_\u062a\u06cc\u0645_\u062f\u0631_\u067e\u0631\u0648\u0698\u0647_\u0647\u0627\u06cc_\u062a\u0648_16.md": {
+    "mtime": 1787268861.7197223,
+    "seen": 1790345139.0355637,
+    "ast_hash": "bccda4d4821eecad12b2dab614deb42e",
+    "semantic_hash": "bccda4d4821eecad12b2dab614deb42e"
+  },
+  "virgool_article_\u062c\u0646\u0628\u0647_\u0627\u0646\u0633\u0627\u0646\u06cc_\u0631\u0641\u0639_\u0628\u0627\u06af_\u062f\u0631_\u062a\u0648\u0633\u0639\u0647_\u0646\u0631\u0645_\u0627\u0641\u0632\u0627\u0631___15.md": {
+    "mtime": 1787268861.71965,
+    "seen": 1790345139.0355654,
+    "ast_hash": "27ef78dc498d8f727ed37a4794ebb6c6",
+    "semantic_hash": "27ef78dc498d8f727ed37a4794ebb6c6"
+  },
+  "virgool_article_\u062f\u0631\u062f__\u0644\u0630\u062a_\u0648_\u062c\u0633\u062a\u062c\u0648\u06cc_\u0628\u06cc_\u067e\u0627\u06cc\u0627\u0646_13.md": {
+    "mtime": 1787268861.7194726,
+    "seen": 1790345139.0355666,
+    "ast_hash": "47a61c8e02b60f621a3d797e2cf16141",
+    "semantic_hash": "47a61c8e02b60f621a3d797e2cf16141"
+  },
+  "virgool_article_\u062f\u06cc\u06af\u0647_\u067e\u0648\u0644\u06cc_\u0628\u0631\u0627\u06cc_\u0628\u0644\u06a9_\u0641\u0631\u0627\u06cc\u062f\u06cc_\u0645\u06cc_\u0645\u0648\u0646\u0647__19.md": {
+    "mtime": 1787268861.7199337,
+    "seen": 1790345139.0355678,
+    "ast_hash": "219f75a407addb69c76bd576071ccf94",
+    "semantic_hash": "219f75a407addb69c76bd576071ccf94"
+  },
+  "virgool_article_\u0631\u0627\u0647\u0646\u0645\u0627\u06cc_\u0633\u0627\u062f\u0647_\u0648_\u06a9\u0627\u0631\u0628\u0631\u062f\u06cc_\u0645\u062f\u06cc\u0631\u06cc\u062a_\u0633\u0631\u0645\u0627\u062e\u0648\u0631\u062f\u06af\u06cc_1.md": {
+    "mtime": 1790344141.0072203,
+    "seen": 1790345139.0355694,
+    "ast_hash": "202e7be16040a46c3de0432853957214",
+    "semantic_hash": "202e7be16040a46c3de0432853957214"
+  },
+  "virgool_article_\u0631\u0648\u063a\u0646_\u06a9\u0627\u0646\u0648\u0644\u0627_\u06cc\u0627_\u06a9\u0646\u062c\u062f__6.md": {
+    "mtime": 1787268861.7189372,
+    "seen": 1790345139.0355706,
+    "ast_hash": "de3c36cf9a9137bd1bd9f49fedff48b9",
+    "semantic_hash": "de3c36cf9a9137bd1bd9f49fedff48b9"
+  },
+  "virgool_article_\u0631\u0648\u06cc\u0627\u0631\u0648\u06cc\u06cc_\u0628\u0627_\u0686\u0627\u0644\u0634_\u0647\u0627\u06cc_\u0645\u062d\u06cc\u0637_\u06a9\u0627\u0631__\u062a\u0639\u06cc\u06cc\u0646_\u0645\u0631\u0632_14.md": {
+    "mtime": 1787268861.7195508,
+    "seen": 1790345139.035572,
+    "ast_hash": "069a21ff4d55cd47e550554a8ed20ead",
+    "semantic_hash": "069a21ff4d55cd47e550554a8ed20ead"
+  },
+  "virgool_article_\u0631\u0648\u06cc\u06a9\u0631\u062f_\u062c\u0627\u0645\u0639_\u0628\u0627\u0644\u06cc\u0646\u06cc_\u0648_\u0627\u06cc\u0645\u0648\u0646\u0648\u0644\u0648\u0698\u06cc\u06a9_\u062f\u0631_\u0645\u062f\u06cc\u0631_0.md": {
+    "mtime": 1790344141.0068786,
+    "seen": 1790345139.0355735,
+    "ast_hash": "a41ae32d7e325950c6e15425a226b104",
+    "semantic_hash": "a41ae32d7e325950c6e15425a226b104"
+  },
+  "virgool_article_\u0633\u0631\u06cc\u0627\u0644_\u0646\u06cc\u0644\u0648\u0641\u0631_\u0633\u0641\u06cc\u062f_The_White_Lotus___\u06cc\u06a9_\u06a9_7.md": {
+    "mtime": 1787268861.719022,
+    "seen": 1790345139.0355747,
+    "ast_hash": "6734069656536cb85c34b055e586ec95",
+    "semantic_hash": "6734069656536cb85c34b055e586ec95"
+  },
+  "virgool_article_\u0634\u0628_\u0647\u0627_\u0628\u06cc\u062f\u0627\u0631\u0645_\u0648_\u0645\u0646_\u0645\u0631\u0627_\u0631\u0647\u0627_\u0646\u0645\u06cc_\u06a9\u0646\u062f_____4.md": {
+    "mtime": 1787268861.7175105,
+    "seen": 1790345139.0355763,
+    "ast_hash": "dc0c99232be697a5deebda5cdc5fc53b",
+    "semantic_hash": "dc0c99232be697a5deebda5cdc5fc53b"
+  },
+  "virgool_article_\u0635\u062f\u0627\u06cc_\u0645\u0627_\u0631\u0633\u0627_\u0647\u0633\u062a__\u0648\u0644\u06cc_\u062a\u0648_\u0628\u0627\u0648\u0631_\u0646\u06a9\u0646_____0.md": {
+    "mtime": 1787268861.717276,
+    "seen": 1790345139.0355775,
+    "ast_hash": "773013f2c6204e51faec9b79380e28dc",
+    "semantic_hash": "773013f2c6204e51faec9b79380e28dc"
+  },
+  "virgool_article_\u0645\u0627_\u0627\u0632_\u0622\u0646_\u062f\u0646\u06cc\u0627_\u0633\u06cc\u0628_\u0646\u062f\u0632\u062f\u06cc\u062f\u06cc\u0645_____5.md": {
+    "mtime": 1787268861.7188396,
+    "seen": 1790345139.035579,
+    "ast_hash": "ce93259cc37624239475024bcc048e59",
+    "semantic_hash": "ce93259cc37624239475024bcc048e59"
+  },
+  "virgool_article_\u0645\u0627_\u0627\u0632_\u0622\u0646_\u062f\u0646\u06cc\u0627_\u0633\u06cc\u0628_\u0646\u062f\u0632\u062f\u06cc\u062f\u06cc\u0645_____7.md": {
+    "mtime": 1790344141.0084546,
+    "seen": 1790345139.0355804,
+    "ast_hash": "ce93259cc37624239475024bcc048e59",
+    "semantic_hash": "ce93259cc37624239475024bcc048e59"
+  },
+  "virgool_article_\u0645\u0633\u062e_\u06a9\u0627\u0641\u06a9\u0627_\u0648_\u062a\u0644\u0647_\u0627\u06cc\u062b\u0627\u0631_3.md": {
+    "mtime": 1787268861.7174892,
+    "seen": 1790345139.0355816,
+    "ast_hash": "7f790bc311871859eaea4e29dec964b7",
+    "semantic_hash": "7f790bc311871859eaea4e29dec964b7"
+  },
+  "virgool_article_\u0645\u0633\u062e_\u06a9\u0627\u0641\u06a9\u0627_\u0648_\u062a\u0644\u0647_\u0627\u06cc\u062b\u0627\u0631_5.md": {
+    "mtime": 1790344141.0081518,
+    "seen": 1790345139.0355892,
+    "ast_hash": "7f790bc311871859eaea4e29dec964b7",
+    "semantic_hash": "7f790bc311871859eaea4e29dec964b7"
+  },
+  "virgool_article_\u0645\u0647\u0627\u0631\u062a_\u0647\u0627\u06cc_\u0646\u0631\u0645_\u0628\u0631\u0627\u06cc_\u062a\u0648\u0633\u0639\u0647_\u062f\u0647\u0646\u062f\u06af\u0627\u0646_\u0646\u0631\u0645_\u0627\u0641\u0632_18.md": {
+    "mtime": 1787268861.7198641,
+    "seen": 1790345139.0355906,
+    "ast_hash": "e861b4629072d8d06d4e8cf66c4785a3",
+    "semantic_hash": "e861b4629072d8d06d4e8cf66c4785a3"
+  },
+  "virgool_article_\u0645\u0647\u0627\u0631\u062a_\u0647\u0627\u06cc_\u0646\u0631\u0645_\u0628\u0631\u0627\u06cc_\u062a\u0648\u0633\u0639\u0647_\u062f\u0647\u0646\u062f\u06af\u0627\u0646_\u0646\u0631\u0645_\u0627\u0641\u0632_20.md": {
+    "mtime": 1790344141.0100193,
+    "seen": 1790345139.035592,
+    "ast_hash": "e861b4629072d8d06d4e8cf66c4785a3",
+    "semantic_hash": "e861b4629072d8d06d4e8cf66c4785a3"
+  },
+  "virgool_article_\u0646\u0628\u0631\u062f_\u0631\u0648\u0627\u0646_\u0647\u0627_\u062f\u0631_\u0628\u0647\u0634\u062a_\u06af\u0645\u0634\u062f\u0647__Eden___12.md": {
+    "mtime": 1787268861.719398,
+    "seen": 1790345139.0355935,
+    "ast_hash": "5745bc3ac514bb0ce21ae7d9ce677619",
+    "semantic_hash": "5745bc3ac514bb0ce21ae7d9ce677619"
+  },
+  "virgool_article_\u0646\u0628\u0631\u062f_\u0631\u0648\u0627\u0646_\u0647\u0627_\u062f\u0631_\u0628\u0647\u0634\u062a_\u06af\u0645\u0634\u062f\u0647__Eden___14.md": {
+    "mtime": 1790344141.0093617,
+    "seen": 1790345139.035595,
+    "ast_hash": "5745bc3ac514bb0ce21ae7d9ce677619",
+    "semantic_hash": "5745bc3ac514bb0ce21ae7d9ce677619"
+  },
+  "virgool_article_\u0647\u0646\u0631_\u0648_\u0639\u0644\u0645_\u0627\u0633\u062a\u062e\u062f\u0627\u0645_\u0641\u0646\u06cc__\u0631\u0627\u0647\u0646\u0645\u0627\u06cc_\u062c\u0627\u0645\u0639_17.md": {
+    "mtime": 1787268861.719791,
+    "seen": 1790345139.0355964,
+    "ast_hash": "0313037fe62860845e0cbff6b34b5d9f",
+    "semantic_hash": "0313037fe62860845e0cbff6b34b5d9f"
+  },
+  "virgool_article_\u0647\u0646\u0631_\u0648_\u0639\u0644\u0645_\u0627\u0633\u062a\u062e\u062f\u0627\u0645_\u0641\u0646\u06cc__\u0631\u0627\u0647\u0646\u0645\u0627\u06cc_\u062c\u0627\u0645\u0639_19.md": {
+    "mtime": 1790344141.0099187,
+    "seen": 1790345139.0355978,
+    "ast_hash": "0313037fe62860845e0cbff6b34b5d9f",
+    "semantic_hash": "0313037fe62860845e0cbff6b34b5d9f"
+  },
+  "virgool_article_\u0648\u0642\u062a\u06cc_\u06cc\u06a9_\u0631\u0626\u06cc\u0633_\u062e\u0648\u062f\u0634\u06cc\u0641\u062a\u0647_\u062a\u0645\u0627\u0645_\u0627\u0639\u062a\u0628\u0627\u0631_\u0634\u0645\u0627_\u0631\u0627_10.md": {
+    "mtime": 1790344141.0088916,
+    "seen": 1790345139.035599,
+    "ast_hash": "72103833e953975ad79d949ff76701b2",
+    "semantic_hash": "72103833e953975ad79d949ff76701b2"
+  },
+  "virgool_article_\u0648\u0642\u062a\u06cc_\u06cc\u06a9_\u0631\u0626\u06cc\u0633_\u062e\u0648\u062f\u0634\u06cc\u0641\u062a\u0647_\u062a\u0645\u0627\u0645_\u0627\u0639\u062a\u0628\u0627\u0631_\u0634\u0645\u0627_\u0631\u0627_8.md": {
+    "mtime": 1787268861.7191007,
+    "seen": 1790345139.0356007,
+    "ast_hash": "72103833e953975ad79d949ff76701b2",
+    "semantic_hash": "72103833e953975ad79d949ff76701b2"
+  },
+  "virgool_article_\u067e\u062f\u0631_\u0631\u0627\u0646\u062a\u06cc_\u0645\u0646_1.md": {
+    "mtime": 1787268861.7173483,
+    "seen": 1790345139.035602,
+    "ast_hash": "93e4dd349cf9d0166d74332d6e6d2e8c",
+    "semantic_hash": "93e4dd349cf9d0166d74332d6e6d2e8c"
+  },
+  "virgool_article_\u067e\u062f\u0631_\u0631\u0627\u0646\u062a\u06cc_\u0645\u0646_3.md": {
+    "mtime": 1790344141.0075412,
+    "seen": 1790345139.0356035,
+    "ast_hash": "93e4dd349cf9d0166d74332d6e6d2e8c",
+    "semantic_hash": "93e4dd349cf9d0166d74332d6e6d2e8c"
+  },
+  "virgool_article_\u06a9\u0627\u0631\u0645\u0646\u062f_\u0645\u0637\u06cc\u0639_\u06cc\u0627_\u06a9\u0627\u0631\u0622\u0641\u0631\u06cc\u0646\u06cc_\u0634\u0648\u0631\u0634\u06cc__\u0646\u0642\u062f_\u0641\u06cc\u0644\u0645_11.md": {
+    "mtime": 1790344141.0090206,
+    "seen": 1790345139.0356047,
+    "ast_hash": "6b64081e7961379c27ecd42608f8c44a",
+    "semantic_hash": "6b64081e7961379c27ecd42608f8c44a"
+  },
+  "virgool_article_\u06a9\u0627\u0631\u0645\u0646\u062f_\u0645\u0637\u06cc\u0639_\u06cc\u0627_\u06a9\u0627\u0631\u0622\u0641\u0631\u06cc\u0646\u06cc_\u0634\u0648\u0631\u0634\u06cc__\u0646\u0642\u062f_\u0641\u06cc\u0644\u0645_9.md": {
+    "mtime": 1787268861.719179,
+    "seen": 1790345139.0356064,
+    "ast_hash": "6b64081e7961379c27ecd42608f8c44a",
+    "semantic_hash": "6b64081e7961379c27ecd42608f8c44a"
+  },
+  "youtube_video_Architectural_Blueprint__Bi_Temporal_Dat_8.md": {
+    "mtime": 1790344141.003565,
+    "seen": 1790345139.0356073,
+    "ast_hash": "526681f25efbdbc9c3fb25fa18e13aa4",
+    "semantic_hash": "526681f25efbdbc9c3fb25fa18e13aa4"
+  },
+  "youtube_video_Build_your_own_GraphRAG_Assistant__githu_1.md": {
+    "mtime": 1790344141.002912,
+    "seen": 1790345139.0356083,
+    "ast_hash": "d71a4f45530fe1d960787f7f5834a71e",
+    "semantic_hash": "d71a4f45530fe1d960787f7f5834a71e"
+  },
+  "youtube_video_Building_a_Better_Scraper_12.md": {
+    "mtime": 1790344141.0039196,
+    "seen": 1790345139.0356095,
+    "ast_hash": "071864bd347e9f7455204609692ac0f6",
+    "semantic_hash": "071864bd347e9f7455204609692ac0f6"
+  }
+}

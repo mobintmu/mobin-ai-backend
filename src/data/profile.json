@@ -1,0 +1,209 @@
+{
+  "name": "Mobin Shaterian",
+  "title": "Senior Software Engineer · Golang Developer",
+  "tagline": "16 years building scalable backend systems.",
+  "location": "Tehran, Iran",
+  "email": "mobinest@gmail.com",
+  "phone": "+98 912 494 7927",
+  "whatsapp": "+374 99 915 813",
+  "links": {
+    "medium": "https://mobinshaterian.medium.com",
+    "github": "https://github.com/mobintmu",
+    "linkedin": "https://www.linkedin.com/in/mobin-shaterian/",
+    "telegram": "https://t.me/mobinshaterian_com",
+    "youtube": "https://www.youtube.com/@mobinshaterian/videos",
+    "virgool": "https://virgool.io/@mobinshaterian",
+    "aparat": "https://www.aparat.com/mobintmu"
+  },
+  "writingSlugs": [
+    "Building-a-High-Throughput-KPI-Pipeline-on-ClickHouse--Partitioning--Idempotent-Recalculation--and--3302a12ddf83",
+    "How-write-a-Unit-test--Integration-test--and-Performance-test-for-the-Golang-language--a25ccef115f4",
+    "My-solution-for-designing-a-resilient-system-in-an-event-driven-pipeline-d1396711d423",
+    "I-struggle-to-read-and-write-100K-requests-in-Postgres-DB--and-my-aggressive-solution-with-Redis--91461a8316a1"
+  ],
+  "features": [
+  {
+    "source": "ClickHouse",
+    "title": "June 2026 Newsletter",
+    "date": "Jun 18, 2026",
+    "url": "https://clickhouse.com/blog/202606-newsletter",
+    "description": "ClickHouse highlighted two of my telecom analytics articles, including a KPI pipeline processing 15 million rows per hour and a platform rebuilt to handle 10 billion records per month."
+  },
+  {
+    "source": "ClickHouse",
+    "title": "May 2026 Newsletter",
+    "date": "May 21, 2026",
+    "url": "https://clickhouse.com/blog/202605-newsletter",
+    "description": "ClickHouse featured my guide to connecting a SASL_SSL-secured Kafka cluster to ClickHouse, covering SSL configuration, a Kafka engine and materialized-view ingestion pipeline, and performance tuning."
+  },
+  {
+    "source": "IRIB News",
+    "title": "رونمایی از ریسک من",
+    "date": "Mar 6, 2021",
+    "url": "https://www.irib-news.ir/fa/news/3041191/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D8%B1%DB%8C%D8%B3%DA%A9-%D9%85%D9%86",
+    "description": "خبرگزاری صدا و سیما گزارش رونمایی از سامانه «ریسک من» را منتشر کرد؛ سامانه‌ای برای ارزیابی ریسک و راهنمایی سلامت در دوران کرونا."
+  },
+  {
+    "source": "Shahid Beheshti University of Medical Sciences",
+    "title": "از سامانه ریسک من رونمایی شد؛ دکتر زالی: با شیوع کرونا شاهد خیزش عظیم پژوهشگران نسل جوان کشور بودیم",
+    "date": "Mar 6, 2021",
+    "url": "https://sbmu.ac.ir/all_news/%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B1%DB%8C%D8%B3%DA%A9-%D9%85%D9%86-%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B4%D8%AF%E2%81%84-%D8%AF%DA%A9%D8%AA%D8%B1-%D8%B2%D8%A7%D9%84%DB%8C:-%D8%A8%D8%A7-%D8%B4%DB%8C%D9%88%D8%B9-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%B4%D8%A7%D9%87%D8%AF-%D8%AE%DB%8C%D8%B2%D8%B4-%D8%B9%D8%B8%DB%8C%D9%85-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%86%D8%B3%D9%84-%D8%AC%D9%88%D8%A7%D9%86-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%88%D8%AF%DB%8C%D9%85",
+    "description": "دانشگاه علوم پزشکی شهید بهشتی خبر رونمایی از سامانه «ریسک من» را پوشش داد؛ سامانه‌ای که برای ارزیابی ریسک و ارائه راهنمایی سلامت در دوران کرونا معرفی شد."
+  },
+  {
+    "source": "Journal of Engineering Management and Soft Computing",
+    "title": "Identifying the Effective Factors on Neuropathic Diseases in Patients with Chronic Pain Using Deep Neural Networks",
+    "date": "Sep 22, 2020",
+    "url": "https://jemsc.qom.ac.ir/article_1276_0c943ca8aa651abebc2d53745c2f0aff.pdf",
+    "pdf": "/data/pdf/JEMSC_Volume%206_Issue%202_Pages%20139-150.pdf",
+    "description": "Published from my master's research, this paper applies deep neural networks and feature-selection methods to identify effective clinical factors for neuropathic pain, achieving 75% precision."
+  },
+  {
+    "source": "Apple Podcasts",
+    "title": "Episode 6: Artificial Intelligence in Medicine (قسمت ششم باهوش: هوش مصنوعی در پزشکی)",
+    "date": "Feb 1, 2020",
+    "url": "https://podcasts.apple.com/it/podcast/%D9%82%D8%B3%D9%85%D8%AA-%D8%B4%D8%B4%D9%85-%D8%A8%D8%A7%D9%87%D9%88%D8%B4-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D8%AF%D8%B1-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C/id1588440347?i=1000537271498",
+    "description": "I joined the Ba Hoosh podcast as an AI-in-healthcare researcher to discuss artificial intelligence in medicine, including software for children with ADHD and systems for detecting diseases associated with chronic pain."
+  },
+  {
+    "source": "Shenoto",
+    "title": "Episode 6: Artificial Intelligence in Medicine (قسمت ششم باهوش)",
+    "date": "Feb 1, 2020",
+    "url": "https://www.shenoto.com/album/podcast/32654/%D9%82%D8%B3%D9%85%D8%AA-%D8%B4%D8%B4%D9%85-%D8%A8%D8%A7%D9%87%D9%88%D8%B4",
+    "description": "The Ba Hoosh podcast featured me in a conversation about artificial intelligence in medicine, its emerging applications, and my research into software for ADHD and chronic-pain diagnosis."
+  },
+  {
+    "source": "YouTube",
+    "title": "Low-Level Employee: Why Free Software Philosophy Improves Employee Performance (کارمند دون‌پایه)",
+    "date": "Sep 29, 2016",
+    "url": "https://www.youtube.com/watch?v=54CsHtQ7NKI",
+    "description": "My presentation at Software Freedom Day Tehran at Sharif University, examining problems in proprietary-company management and how free-software principles can improve employee motivation, fairness, and performance."
+  },
+  {
+    "source": "The Neuroscience Journal of Shefaye Khatam",
+    "title": "The Importance of Automated Systems for Information Gathering and Decision Making Support for The Pain Management in Patient with Spinal Cord Injury",
+    "date": "Sep 10, 2016",
+    "url": "https://shefayekhatam.ir/article-1-968-en.html",
+    "description": "I co-authored this paper on automated information-gathering and clinical decision-support systems for pain management in patients with spinal cord injury, including applications of Bayesian networks, neural networks, decision trees, and fuzzy logic."
+  },
+  {
+    "source": "Ketab-e Sabz",
+    "title": "Chess with Ludo Rules (بازی شطرنج با قواعد منچ)",
+    "date": "Nov 21, 2014",
+    "url": "https://ketabesabz.com/book/18884/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%A7%D8%B2%DB%8C-%D8%B4%D8%B7%D8%B1%D9%86%D8%AC-%D8%A8%D8%A7-%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D9%85%D9%86%DA%86",
+    "pdf": "/data/pdf/shatranj-mench.pdf",
+    "youtube": "https://www.youtube.com/watch?v=wxPnLTMmPE0",
+    "description": "My 20-page Persian-language book about experiences, challenges, and lessons from building open-source software businesses and projects, published as a free PDF."
+  }  ],
+  "skills": {
+    "Languages & APIs": ["Go", "Node.js", "Python", "PHP", "API", "GraphQL", "Gin"],
+    "Architecture": [
+      "Architecture",
+      "Microservices",
+      "Performance",
+      "Security",
+      "Clean Code",
+      "Design Patterns",
+      "DDD"
+    ],
+    "Data & AI": [
+      "Machine Learning",
+      "AI",
+      "Data Engineering",
+      "PostgreSQL",
+      "ClickHouse",
+      "Redis",
+      "Kafka",
+      "RAG",
+      "MongoDB"
+    ],
+    "Delivery & Quality": [
+      "Linux",
+      "DevOps",
+      "Docker",
+      "Testing",
+      "Docker Compose",
+      "Integration",
+      "CI/CD",
+      "Kubernetes",
+      "OpenTelemetry"
+    ]
+  },
+  "experience": [
+    {
+      "company": "MTN Irancell",
+      "role": "Senior Software Engineer · Golang",
+      "location": "Tehran, Iran",
+      "period": "Sep 2025 — Present",
+      "highlights": [
+        "Designing an ETL system integrating Atoll network measurement data, exposed via a high-performance GraphQL API.",
+        "Architecting a KPI pipeline on ClickHouse processing 15M+ rows/hour with date-based partitioning and wide-table storage."
+      ]
+    },
+    {
+      "company": "Snapp Trip",
+      "role": "Golang Developer",
+      "location": "Tehran, Iran",
+      "period": "Dec 2024 — Oct 2025",
+      "highlights": [
+        "Built V2 of a B2B API serving 30+ partners and 400K+ daily requests; redesigned architecture for scale and HA.",
+        "Contributed to the Tour project with performance work, testing discipline, and fault-tolerant design."
+      ]
+    },
+    {
+      "company": "Wall IT s.r.o.",
+      "role": "Golang Developer (Remote)",
+      "location": "Bratislava, Slovakia",
+      "period": "Jan 2023 — Sep 2024",
+      "highlights": [
+        "Led monolith → microservices transformation with clean code and SOLID.",
+        "Integrated Go-micro, Swagger, OpenTelemetry, Prometheus, GCS, Liquibase — 40% better monitoring, 25% faster deploys, 60% fewer post-deploy issues.",
+        "Also worked as a Data Scientist: LLM-driven CRM auto-response and topic modeling for ticket clustering."
+      ]
+    },
+    {
+      "company": "Tehran Internet (*780#)",
+      "role": "Golang Developer",
+      "location": "Tehran, Iran",
+      "period": "Jun 2022 — Feb 2023",
+      "highlights": [
+        "High-TPS microservices with Postgres, MongoDB, Kafka, and NATS.",
+        "Built a CQRS transaction system for payment businesses; Debezium + Kafka replication into MongoDB.",
+        "Handled 100K read/write RPS on Postgres with aggressive Redis strategies."
+      ]
+    },
+    {
+      "company": "Mom Hospital",
+      "role": "Golang Developer",
+      "location": "Tehran, Iran",
+      "period": "Jan 2021 — Jun 2022",
+      "highlights": [
+        "Riskeman: back-end for COVID-19 mortality prediction, scaled to 8M requests/day.",
+        "Optimized ML model serving from 3 TPS → 10,000 TPS.",
+        "Led backend for Crawler News processing 1TB of data per day."
+      ]
+    },
+    {
+      "company": "Elaart",
+      "role": "Technical Project Manager (Contract)",
+      "location": "Karaj, Iran",
+      "period": "Jan 2019 — 2024",
+      "highlights": [
+        "Automated e-commerce workflows; online sales surpassed physical store revenue."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Artificial Intelligence",
+      "school": "Islamic Azad University, Science and Research Branch",
+      "period": "2014 — 2017",
+      "notes": "Intelligent system for chronic pain classification at Khatam Hospital. Published research on neuropathic disease prediction with deep neural networks."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "school": "Kharazmi University",
+      "period": "2010 — 2013"
+    }
+  ]
+}
